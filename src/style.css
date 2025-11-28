@@ -64,12 +64,20 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--header-height);
+  /* Prevent anchor links from being hidden under header */
+}
+
 body {
   font-family: var(--font-sans);
   background-color: var(--background);
   color: var(--text-main);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  padding-top: calc(var(--header-height) + 1rem);
+  /* Reduced spacing */
 }
 
 a {
@@ -186,30 +194,15 @@ img {
 }
 
 /* Hero Section */
-.hero {
-  padding-top: calc(var(--header-height) + 4rem);
-  padding-bottom: 4rem;
-  background: linear-gradient(var(--header-bg), rgba(255, 255, 255, 0.8)), url('/images/hero-bg.png');
-  background-size: cover;
-  background-position: center;
-  min-height: 80vh;
-  display: flex;
-  align-items: center;
-}
-
-@media (prefers-color-scheme: dark) {
-  .hero {
-    background: linear-gradient(rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.85)), url('/images/hero-bg.png');
-    background-size: cover;
-    background-position: center;
-  }
-}
-
+/* Note: Main hero background styles are now handled at the bottom of the file with animations */
 .hero-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
   align-items: center;
+  position: relative;
+  /* Ensure content is above the overlay */
+  z-index: 2;
 }
 
 .hero-text h1 {
@@ -452,14 +445,20 @@ img {
   }
 
   .header-content {
-    flex-direction: column;
-    gap: 1rem;
+    /* Keep row layout but allow wrapping if needed, though we'll hide nav items */
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1rem;
   }
 
+  /* Hide navigation links and button on mobile to clean up header */
   .nav {
-    gap: 1rem;
-    font-size: 0.9rem;
+    display: none;
   }
+
+  /* Optional: If you want to keep just the button but hide links, use this instead:
+  .nav a:not(.btn) { display: none; }
+  */
 
   .footer-content {
     flex-direction: column;
@@ -470,5 +469,81 @@ img {
   .footer-links {
     flex-direction: column;
     gap: 0.5rem;
+  }
+
+  /* Improve mobile spacing */
+  .container {
+    padding: 0 1.5rem;
+    /* Ensure consistent horizontal padding */
+  }
+
+  .section {
+    padding: 3rem 0;
+    /* Reduce vertical padding slightly for mobile but keep it spacious */
+  }
+
+  .feature-detail {
+    padding: 2rem 0;
+    /* Add spacing for feature details */
+    gap: 2rem;
+  }
+}
+
+/* Animated Hero Background */
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.hero {
+  padding-top: 4rem;
+  /* Body padding handles the header offset now */
+  padding-bottom: 4rem;
+  /* Animated Gradient Background */
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient-animation 15s ease infinite;
+
+  /* Overlay to ensure text readability */
+  position: relative;
+  z-index: 1;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+/* Add an overlay pseudo-element for better text contrast */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.85);
+  /* Light mode overlay */
+  z-index: -1;
+}
+
+@media (prefers-color-scheme: dark) {
+  .hero {
+    /* Darker, more premium gradient for dark mode */
+    background: linear-gradient(-45deg, #1a1a2e, #16213e, #0f3460, #533483);
+    background-size: 400% 400%;
+    animation: gradient-animation 15s ease infinite;
+  }
+
+  .hero::before {
+    background: rgba(15, 23, 42, 0.85);
+    /* Dark mode overlay */
   }
 }
