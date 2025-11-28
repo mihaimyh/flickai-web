@@ -2,6 +2,9 @@ import { defineConfig } from 'vite'
 import { resolve } from 'path'
 
 export default defineConfig({
+    // Set base to '/' for custom domain (flickai.net)
+    // If deploying to https://<USERNAME>.github.io/<REPO>/, set base to '/<REPO>/'
+    base: '/',
     build: {
         rollupOptions: {
             input: {
