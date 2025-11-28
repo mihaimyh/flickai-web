@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlickAI - AI-Powered Expense Tracking App | Scan Receipts Instantly</title>
+    <meta name="description"
+        content="Simplify expense tracking with FlickAI's AI-powered receipt scanner. Track finances effortlessly, create budgets, and gain financial insights with our smart, secure app.">
+    <meta name="keywords"
+        content="expense tracker app, receipt scanner, AI finance app, budget management, financial tracking, mobile expense tracker, FlickAI">
+    <meta name="author" content="FlickAI Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://flickai.net/">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/styles.css"> <!-- Include shared styles for consistent header/navbar -->
+    <link rel="stylesheet" href="css/navbar.css"> <!-- Include shared navbar styles -->
+    <link rel="stylesheet" href="css/mobile.css"> <!-- Mobile optimizations -->
+    <link rel="apple-touch-icon" href="https://flickai.net/images/apple-touch-icon.png">
+    <link rel="icon" href="https://flickai.net/favicon.png" type="image/png">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://flickai.net/">
+    <meta property="og:title" content="FlickAI - Intelligent Expense Tracking">
+    <meta property="og:description"
+        content="FlickAI makes expense tracking easy. Join us and take control of your finances.">
+    <meta property="og:image" content="https://flickai.net/images/flickai-social-preview.jpg">
+    <meta property="og:site_name" content="FlickAI"> <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://flickai.net/">
+    <meta name="twitter:title" content="FlickAI - Intelligent Expense Tracking">
+    <meta name="twitter:description" content="Effortless expense tracking with FlickAI. Smart, simple, secure.">
+    <meta name="twitter:image" content="https://flickai.net/images/flickai-twitter-preview.jpg">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "FlickAI",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "iOS, Android",
+      "description": "FlickAI helps you track expenses with AI-powered receipt scanning and budget management tools.",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "1200"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "url": "https://flickai.net",
+      "image": "https://flickai.net/images/flickai-social-preview.jpg",
+      "screenshot": "https://flickai.net/images/flickai-social-preview.jpg",
+      "downloadUrl": "#",
+      "publisher": {
+        "@type": "Organization",
+        "name": "FlickAI",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://flickai.net/images/flickai-logo.jpeg"
+        }
+      }
+    }
+    </script>
+
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "FlickAI",
+      "url": "https://flickai.net",
+      "logo": "https://flickai.net/images/flickai-logo.jpeg",
+      "sameAs": [
+        "#",
+        "#",
+        "#"
+      ]
+    }
+    </script>
+    <style>
+        /* Ensure any SnapSpend specific mentions in comments or class names are also updated if they exist */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-light);
+            color: var(--text-light);
+            /* Changed from --text-primary-light */
+            line-height: 1.6;
+        }
+
+        /* Header styles now in navbar.css for consistency across all pages */
+        .hero {
+            position: relative;
+            color: var(--white);
+            text-align: center;
+            padding: 80px 20px;
+            min-height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to right, rgba(44, 212, 191, 0.85), rgba(124, 58, 237, 0.85));
+            background-size: cover;
+            background-position: center;
+            z-index: -1;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            color: var(--white);
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            max-width: 600px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+            color: var(--white);
+        }
+
+        .welcome-title {
+            position: relative;
+            z-index: 2;
+        }
+
+        .welcome-text {
+            position: relative;
+            z-index: 2;
+        }
+
+        .cta-button {
+            background-color: var(--secondary-light);
+            color: var(--white);
+            /* Changed from --white-light */
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .cta-button:hover {
+            background-color: var(--secondary-light-variant);
+            transform: translateY(-3px);
+        }
+
+        .download-buttons {
+            margin-top: 30px;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .download-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .download-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .google-play {
+            background-color: #4CAF50;
+            /* Google Play Green */
+            color: white;
+        }
+
+        .app-store {
+            background-color: #007AFF;
+            /* Apple Blue */
+            color: white;
+        }
+
+        .download-button svg {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+            fill: white;
+            /* Ensure SVG icon color is white */
+        }
+
+
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            padding: 60px 20px 80px;
+            /* Increased bottom padding for all sections */
+            margin-bottom: 0;
+            /* Removed bottom margin for seamless section flow */
+            border-radius: 8px;
+            /* background-color: var(--surface-light); */
+            /* Optional: if sections need distinct background */
+            /* box-shadow: 0 2px 10px rgba(0,0,0,0.05); */
+            /* Optional: subtle shadow for sections */
+        }
+
+        section:nth-child(even) {
+            background-color: var(--surface-light-variant);
+            /* Alternating background for sections */
+        }
+
+
+        h2.section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            color: var(--primary-light);
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        h2.section-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 4px;
+            background-color: var(--secondary-light);
+            margin: 10px auto 0;
+            border-radius: 2px;
+        }
+
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            text-align: center;
+        }
+
+        .feature-item {
+            background-color: var(--surface-light);
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        section:nth-child(even) .feature-item {
+            background-color: var(--background-light);
+            /* Ensure contrast if parent section has surface-light-variant */
+        }
+
+
+        .feature-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+        }
+
+        .feature-item svg {
+            width: 50px;
+            height: 50px;
+            fill: var(--primary-light);
+            margin-bottom: 15px;
+        }
+
+        .feature-item h3 {
+            font-size: 1.5rem;
+            color: var(--primary-light);
+            margin-bottom: 10px;
+        }
+
+        .testimonial {
+            background-color: var(--secondary-light);
+            color: var(--white);
+            /* Changed from --white-light */
+            padding: 40px;
+            border-radius: 8px;
+            text-align: center;
+            font-style: italic;
+        }
+
+        .testimonial blockquote {
+            margin: 0 0 15px 0;
+            font-size: 1.2rem;
+        }
+
+        .testimonial cite {
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: var(--text-light-secondary);
+            /* Changed from --text-secondary-light */
+        }
+
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid var(--gray-300);
+            /* Changed from --border-light */
+            border-radius: 6px;
+            background-color: var(--surface-light);
+            color: var(--text-light);
+            /* Changed from --text-primary-light */
+            box-sizing: border-box;
+            transition: border-color 0.3s ease;
+        }
+
+        form input[type="text"]:focus,
+        form input[type="email"]:focus,
+        form textarea:focus {
+            border-color: var(--primary-light);
+            outline: none;
+            box-shadow: 0 0 0 2px var(--primary-light-transparent);
+            /* Using a transparent version for focus ring */
+        }
+
+
+        form button {
+            background-color: var(--primary-light);
+            color: var(--white);
+            /* Changed from --white-light */
+            padding: 12px 25px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        form button:hover {
+            background-color: var(--accent-light);
+            /* Darken primary or use accent */
+            transform: translateY(-2px);
+        }
+
+        footer {
+            background-color: var(--gray-900);
+            /* Changed from --neutral-dark-light */
+            color: var(--gray-200);
+            /* Changed from --neutral-light-light */
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 0;
+            /* Removed top margin for seamless flow */
+        }
+
+        .footer-content {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .footer-links {
+            margin-bottom: 20px;
+        }
+
+        .footer-links a {
+            color: var(--gray-200);
+            /* Changed from --neutral-light-light */
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--primary-light);
+            text-decoration: underline;
+        }
+
+        .social-icons {
+            margin-bottom: 20px;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            display: inline-block;
+            /* For proper sizing of SVGs if used directly */
+        }
+
+        .social-icons img,
+        .social-icons svg {
+            /* If using img or inline svg */
+            width: 24px;
+            height: 24px;
+            fill: var(--gray-200);
+            /* Changed from --neutral-light-light */
+            transition: fill 0.3s ease, transform 0.3s ease;
+        }
+
+        .social-icons a:hover img,
+        .social-icons a:hover svg {
+            fill: var(--primary-light);
+            /* For SVGs */
+            transform: scale(1.1);
+        }
+
+        .footer-bottom p {
+            margin: 5px 0;
+            font-size: 0.9rem;
+        }
+
+        .footer-bottom a {
+            color: var(--gray-200);
+            /* Changed from --neutral-light-light */
+            text-decoration: none;
+        }
+
+        .footer-bottom a:hover {
+            text-decoration: underline;
+            color: var(--primary-light);
+        }
+
+        /* Animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Accessibility */
+        .sr-only {
+            /* Screen-reader only text */
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+            }
+
+            nav ul {
+                margin-top: 10px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            nav ul li {
+                margin: 5px 10px;
+            }
+
+            .hero h2 {
+                font-size: 2.5rem;
+            }
+
+            .hero p {
+                font-size: 1.2rem;
+            }
+
+            .download-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .download-button {
+                width: 80%;
+                justify-content: center;
+                margin-bottom: 10px;
+                /* Add space between stacked buttons */
+            }
+
+            h2.section-title {
+                font-size: 2rem;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+                /* Stack features on smaller screens */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page-container">
+        <!-- Header placeholder will be replaced by common-header.js -->
+        <div id="header-placeholder"></div>
+        <main>
+            <section id="home" class="hero">
+                <h2 class="fade-in welcome-title">Welcome to FlickAI</h2>
+                <p class="fade-in welcome-text" style="transition-delay: 0.2s;">The future of effortless expense
+                    management is here. FlickAI uses AI to simplify your finances.</p> <a href="#features"
+                    class="cta-button fade-in" style="transition-delay: 0.4s; position: relative; z-index: 2;">Discover
+                    FlickAI</a>
+                <div class="download-buttons fade-in" style="transition-delay: 0.6s; position: relative; z-index: 2;">
+                    <a href="https://play.google.com/store/apps/details?id=com.snapspendai"
+                        class="download-button google-play" target="_blank" rel="noopener noreferrer"
+                        aria-label="Get FlickAI on Google Play">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M3 20.517V3.483A1.5 1.5 0 0 1 4.054 2.2L14.17 11.11a1.75 1.75 0 0 1 0 2.78L4.055 22.8A1.5 1.5 0 0 1 3 21.517zM15.59 13.5L6.311 19.99A1.514 1.514 0 0 1 5.5 20.517V3.483c0-.511.264-.988.69-1.258L15.59 11.5a.25.25 0 0 1 0 .354v.001l-.001.001zM16.707 14.207l4.717-2.723a1 1 0 0 0 0-1.732l-4.717-2.723a1 1 0 0 0-1.117.146L12.5 9.872v5.256l3.09 2.696a1 1 0 0 0 1.117-.147z" />
+                        </svg>
+                        Get FlickAI on Google Play
+                    </a>
+                    <a href="https://apps.apple.com/app/idYOUR_APP_ID" class="download-button app-store" target="_blank"
+                        rel="noopener noreferrer" aria-label="Download FlickAI on the App Store">
+                        <!-- Replace YOUR_APP_ID -->
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M19.243 12.428c-.082-2.382 1.516-3.46 1.684-3.539a2.95 2.95 0 0 0-2.333-3.805c-.88-.246-1.78.016-2.502.016-.79 0-1.702-.033-2.598-.033-.838 0-1.907.262-2.814.788-.977.575-1.734 1.642-2.235 2.71-.977 2.086-.263 5.155 1.314 6.787.764.788 1.635 1.215 2.739 1.199.96 0 1.33-.246 2.55-.246.994 0 1.603.246 2.566.246.977 0 1.923-.361 2.633-1.018.591-.558.96-1.28.994-2.003zm-4.435-6.77c.608-.74.994-1.757.912-2.759a3.13 3.13 0 0 0-2.284 1.035c-.575.69-1.06.1757-1.01 2.742.115.805.69 1.758 1.33 2.331.657.591 1.445.969 2.052-.349z" />
+                        </svg>
+                        Download on the App Store
+                    </a>
+                </div>
+            </section>
+
+            <section id="features" class="container fade-in" style="padding-bottom: 80px; margin-bottom: 40px;">
+                <!-- Added both padding and margin -->
+                <h2 class="section-title">Why Choose FlickAI?</h2>
+                <div class="features-grid">
+                    <div class="feature-item fade-in">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 18a8 8 0 110-16 8 8 0 010 16zm-1-6h2v2h-2v-2zm0-8h2v6h-2V4z" />
+                        </svg>
+                        <h3>AI-Powered Insights</h3>
+                        <p>Let our smart AI categorize transactions and provide you with actionable financial insights.
+                        </p>
+                    </div>
+                    <div class="feature-item fade-in" style="transition-delay: 0.2s;">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z" />
+                        </svg>
+                        <h3>Bank-Level Security</h3>
+                        <p>Your data is protected with end-to-end encryption and the latest security protocols.</p>
+                    </div>
+                    <div class="feature-item fade-in" style="transition-delay: 0.4s;">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M19.35 10.04A7.49 7.49 0 0012 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 000 14a6 6 0 006 6h13a5 5 0 005-5c0-2.64-2.05-4.78-4.65-4.96zM19 18H6a4 4 0 010-8h1.17A7.993 7.993 0 0112 6a5.492 5.492 0 015.21 3.08L17.5 10H19a3 3 0 010 6z" />
+                        </svg>
+                        <h3>Cross-Platform Sync</h3>
+                        <p>Access your financial data anytime, anywhere, on any device. Seamlessly synced.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="container">
+                <h2 class="section-title fade-in">About FlickAI</h2>
+                <p class="fade-in" style="transition-delay: 0.2s;">FlickAI is designed to make your financial life
+                    easier. We believe that managing money shouldn't be a chore. Our mission is to provide an intuitive,
+                    powerful, and secure platform that helps you understand your spending, save more, and achieve your
+                    financial goals. FlickAI was born out of a desire to bring clarity and simplicity to personal
+                    finance through the power of artificial intelligence.</p>
+                <div class="testimonial fade-in" style="transition-delay: 0.4s;">
+                    <blockquote>"FlickAI has transformed how I manage my expenses. It's incredibly smart and easy to
+                        use!"</blockquote>
+                    <cite>- Alex P., Beta User</cite>
+                </div>
+            </section>
+
+            <section id="contact" class="container">
+                <h2 class="section-title fade-in">Get in Touch</h2>
+                <p class="fade-in" style="transition-delay: 0.2s;">Have questions or feedback? We'd love to hear from
+                    you!</p>
+                <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="fade-in"
+                    style="transition-delay: 0.4s;"> <!-- Replace YOUR_FORMSPREE_ID -->
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+                <p class="fade-in" style="transition-delay: 0.5s; margin-top: 20px; text-align: center;">Or email us
+                    directly at: <a href="mailto:support@flickai.net">support@flickai.net</a></p>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="terms-of-service.html">Terms of Service</a>
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                    <a href="cookie-policy.html">Cookie Policy</a>
+                    <a href="accessibility.html">Accessibility</a>
+                    <a href="gdpr-compliance.html">GDPR</a>
+                </div>
+                <div class="social-icons">
+                    <a href="#" aria-label="FlickAI on Facebook"><svg viewBox="0 0 24 24">
+                            <path
+                                d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-1.7c-.6 0-1.3.3-1.3.8V12h3l-.5 3h-2.5v6.8c4.56-.93 8-4.96 8-9.8z" />
+                        </svg></a>
+                    <a href="#" aria-label="FlickAI on Twitter"><svg viewBox="0 0 24 24">
+                            <path
+                                d="M22.46 6c-.77.35-1.6.58-2.46.67.9-.53 1.59-1.37 1.92-2.38-.84.5-1.78.86-2.79 1.07C18.35 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.22-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.94.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.01-.06C3.18 20.29 5.53 21 8.06 21c7.65 0 11.99-6.39 11.99-12.11 0-.18 0-.37-.01-.55.83-.6 1.54-1.35 2.11-2.2z" />
+                        </svg></a>
+                    <a href="#" aria-label="FlickAI on Instagram"><svg viewBox="0 0 24 24">
+                            <path
+                                d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8c1.99 0 3.6-1.61 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25 1.25 1.25 0 0 1-1.25 1.25 1.25 1.25 0 0 1-1.25-1.25 1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10m0 2a3 3 0 0 0 0 6 3 3 0 0 0 0-6z" />
+                        </svg></a>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 FlickAI. All rights reserved.</p>
+                    <p>
+                        <a href="/sitemap.xml" aria-label="Sitemap">Sitemap</a> |
+                        <a href="https://flickai.net" aria-label="FlickAI Website">flickai.net</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <script src="js/theme-switcher.js"></script>
+        <script src="js/common-header.js"></script>
+        <script src="js/mobile-menu.js"></script>
+        <script>
+            // Intersection Observer for fade-in animations
+            const animatedElements = document.querySelectorAll('.fade-in');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        // observer.unobserve(entry.target); // Keep observing for re-animation if user scrolls up/down
+                    }
+                });
+            }, { threshold: 0.1 }); // Adjust threshold as needed
+
+            animatedElements.forEach(el => {
+                observer.observe(el);
+            });
+        </script>
+</body>
+
+</html>
