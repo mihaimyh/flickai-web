@@ -10,6 +10,13 @@
   --white: #ffffff;
   --gradient-hero: linear-gradient(135deg, #eff6ff 0%, #f0fdf4 100%);
 
+  /* Component Colors */
+  --header-bg: rgba(255, 255, 255, 0.9);
+  --border-color: rgba(0, 0, 0, 0.05);
+  --store-btn-bg: #000000;
+  --store-btn-text: #ffffff;
+  --card-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+
   /* Typography */
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
 
@@ -26,6 +33,13 @@
     --text-main: #f1f5f9;
     --text-muted: #94a3b8;
     --gradient-hero: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+
+    /* Component Colors Dark */
+    --header-bg: rgba(15, 23, 42, 0.9);
+    --border-color: rgba(255, 255, 255, 0.1);
+    --store-btn-bg: #ffffff;
+    --store-btn-text: #000000;
+    --card-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   }
 }
 
@@ -118,10 +132,10 @@ img {
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: var(--header-bg);
   backdrop-filter: blur(10px);
   z-index: 1000;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .header-content {
@@ -156,7 +170,7 @@ img {
 .hero {
   padding-top: calc(var(--header-height) + 4rem);
   padding-bottom: 4rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8)), url('/images/hero-bg.png');
+  background: linear-gradient(var(--header-bg), rgba(255, 255, 255, 0.8)), url('/images/hero-bg.png');
   background-size: cover;
   background-position: center;
   min-height: 80vh;
@@ -244,6 +258,7 @@ img {
   /* For anchor tags */
   text-decoration: none;
   /* Remove underline */
+  box-shadow: var(--card-shadow);
 }
 
 .feature-card:hover {
@@ -332,8 +347,8 @@ img {
   align-items: center;
   padding: 1rem 2rem;
   border-radius: 0.5rem;
-  background-color: #000;
-  color: #fff;
+  background-color: var(--store-btn-bg);
+  color: var(--store-btn-text);
   font-weight: 600;
   transition: transform 0.2s;
 }
@@ -351,7 +366,7 @@ img {
 .footer {
   padding: 2rem 0;
   background-color: var(--background);
-  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid var(--border-color);
 }
 
 .footer-content {

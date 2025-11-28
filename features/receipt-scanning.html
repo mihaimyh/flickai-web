@@ -1,33 +1,75 @@
 <!doctype html>
 <html lang="en">
 
-<h2 class="mb-4">How It Works</h2>
-<ol class="mb-4" style="padding-left: 1.5rem;">
-    <li>Open the FlickAI app and tap the camera icon.</li>
-    <li>Align your receipt within the frame.</li>
-    <li>Tap capture. The AI processes the image in seconds.</li>
-    <li>Review the extracted details and save!</li>
-</ol>
-</div>
-<div class="feature-image fade-in">
-    <img src="/images/feature-scanning.png" alt="Receipt Scanning Demo"
-        style="border-radius: 1rem; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);">
-</div>
-</div>
-</main>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Receipt Scanning - FlickAI</title>
+    <meta name="description"
+        content="Instantly extract merchant, items, and prices from receipts using advanced AI technology.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
 
-<footer class="footer">
-    <div class="container footer-content">
-        <div class="footer-links">
-            <a href="/privacy-policy.html">Privacy Policy</a>
-            <a href="/terms-of-service.html">Terms of Service</a>
-            <a href="/cookie-policy.html">Cookie Policy</a>
-        </div>
-        <p class="copyright">© 2025 FlickAI. All rights reserved.</p>
+<body>
+    <div id="app">
+        <header class="header">
+            <div class="container header-content">
+                <a href="/" class="logo">
+                    <span class="logo-text">FlickAI</span>
+                </a>
+                <nav class="nav">
+                    <a href="/#features">Features</a>
+                    <a href="/" class="btn btn-primary">Back to Home</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="container section">
+            <div class="feature-detail">
+                <div class="feature-text fade-in">
+                    <h1 class="section-title">Smart Receipt Scanning</h1>
+                    <p class="mb-4">Gone are the days of manual data entry. With FlickAI, you can digitize your expenses
+                        in seconds just by taking a photo.</p>
+
+                    <h2 class="mb-4">How It Works</h2>
+                    <ol class="mb-4" style="padding-left: 1.5rem;">
+                        <li>Open the FlickAI app and tap the camera icon.</li>
+                        <li>Align your receipt within the frame.</li>
+                        <li>Tap capture. The AI processes the image in seconds.</li>
+                        <li>Review the extracted details and save!</li>
+                    </ol>
+
+                    <h2 class="mb-4">What We Extract</h2>
+                    <ul class="mb-4" style="padding-left: 1.5rem;">
+                        <li><strong>Merchant Name:</strong> Automatically identified from logos or text.</li>
+                        <li><strong>Date & Time:</strong> Records exactly when the purchase happened.</li>
+                        <li><strong>Total Amount:</strong> Captures the final total accurately.</li>
+                        <li><strong>Line Items:</strong> Extracts individual items and prices for detailed tracking.
+                        </li>
+                    </ul>
+                </div>
+                <div class="feature-image fade-in">
+                    <img src="/images/feature-scanning.png" alt="Receipt Scanning Demo"
+                        style="border-radius: 1rem; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);">
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container footer-content">
+                <div class="footer-links">
+                    <a href="/privacy-policy.html">Privacy Policy</a>
+                    <a href="/terms-of-service.html">Terms of Service</a>
+                    <a href="/cookie-policy.html">Cookie Policy</a>
+                </div>
+                <p class="copyright">© 2025 FlickAI. All rights reserved.</p>
+            </div>
+        </footer>
     </div>
-</footer>
-</div>
-<script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/src/main.ts"></script>
 </body>
 
 </html>
