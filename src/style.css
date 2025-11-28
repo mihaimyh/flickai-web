@@ -398,6 +398,11 @@ img {
   cursor: not-allowed;
 }
 
+.store-icon {
+  margin-right: 0.5rem;
+  flex-shrink: 0;
+}
+
 /* Footer */
 .footer {
   padding: 2rem 0;
