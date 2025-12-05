@@ -161,7 +161,7 @@ export function createWaitlistModal(): void {
 
   // Create modal
   const modal = document.createElement('div');
-  modal.className = 'bg-background dark:bg-surface rounded-3xl p-10 max-w-[500px] w-full shadow-2xl relative transform translate-y-5 transition-transform duration-300 border border-border-color dark:border-dark-border';
+  modal.className = 'bg-background dark:bg-dark-surface rounded-3xl p-10 max-w-[500px] w-full shadow-2xl relative transform translate-y-5 transition-transform duration-300 border border-border-color dark:border-dark-border';
   modal.innerHTML = `
     <button class="absolute top-4 right-4 bg-transparent border-none text-2xl cursor-pointer text-text-muted hover:text-text-main dark:text-dark-muted dark:hover:text-dark-text w-8 h-8 flex items-center justify-center rounded-full hover:bg-surface dark:hover:bg-dark-highlight transition-colors">×</button>
     <h3 class="text-3xl font-bold mb-2 text-text-main dark:text-dark-text text-center font-display">${messages.title}</h3>
