@@ -1,53 +1,11 @@
 <!doctype html>
-<html lang="{{meta.lang}}">
-
-<head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/{{langPrefix meta.lang}}vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Intelligent Analytics - {{meta.siteName}}</title>
-    <meta name="description"
-        content="Visualize spending trends and get personalized financial insights with {{meta.siteName}} analytics.">
-    <link rel="canonical" href="https://flickai.net/features/analytics.html">
-
-    <!-- Hreflang Tags -->
-    <link rel="alternate" hreflang="{{meta.lang}}" href="https://flickai.net/features/analytics.html" />
-    <link rel="alternate" hreflang="es" href="https://flickai.net/es/features/analytics.html" />
-    <link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features/analytics.html" />
-    <link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features/analytics.html" />
-    <link rel="alternate" hreflang="x-default" href="https://flickai.net/features/analytics.html" />
-
-    <!-- Structured Data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "Intelligent Analytics - AI Expense Tracker",
-      "description": "Visualize spending trends and get personalized financial insights with {{meta.siteName}} analytics.",
-      "url": "https://flickai.net/features/analytics.html",
-      "inLanguage": "en",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "{{meta.siteName}}",
-        "url": "https://flickai.net"
-      },
-      "about": {
-        "@type": "SoftwareApplication",
-        "name": "{{meta.siteName}}",
-        "applicationCategory": "FinanceApplication",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
-        }
-      }
-    }
-    </script>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-</head>
+<html lang="{{meta.lang}}" {{#if (isRTL meta.lang)}}dir="rtl"{{/if}}>
+  {{> head 
+    title=features.analytics.title 
+    description=features.analytics.description 
+    page='features/analytics.html'
+    keywords=home.keywords
+  }}
 
 <body>
     <div id="app">

@@ -1,53 +1,11 @@
 <!doctype html>
-<html lang="{{meta.lang}}">
-
-<head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/{{langPrefix meta.lang}}vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Smart Receipt Scanning - {{meta.siteName}}</title>
-    <meta name="description"
-        content="Instantly extract merchant, items, and prices from receipts using advanced AI technology.">
-    <link rel="canonical" href="https://flickai.net/features/receipt-scanning.html">
-
-    <!-- Hreflang Tags -->
-    <link rel="alternate" hreflang="{{meta.lang}}" href="https://flickai.net/features/receipt-scanning.html" />
-    <link rel="alternate" hreflang="es" href="https://flickai.net/es/features/receipt-scanning.html" />
-    <link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features/receipt-scanning.html" />
-    <link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features/receipt-scanning.html" />
-    <link rel="alternate" hreflang="x-default" href="https://flickai.net/features/receipt-scanning.html" />
-
-    <!-- Structured Data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "Smart Receipt Scanning - AI Expense Tracker",
-      "description": "Instantly extract merchant, items, and prices from receipts using advanced AI technology.",
-      "url": "https://flickai.net/features/receipt-scanning.html",
-      "inLanguage": "en",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "{{meta.siteName}}",
-        "url": "https://flickai.net"
-      },
-      "about": {
-        "@type": "SoftwareApplication",
-        "name": "{{meta.siteName}}",
-        "applicationCategory": "FinanceApplication",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
-        }
-      }
-    }
-    </script>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-</head>
+<html lang="{{meta.lang}}" {{#if (isRTL meta.lang)}}dir="rtl"{{/if}}>
+  {{> head 
+    title=features.scanning.title 
+    description=features.scanning.description 
+    page='features/receipt-scanning.html'
+    keywords=home.keywords
+  }}
 
 <body>
     <div id="app">

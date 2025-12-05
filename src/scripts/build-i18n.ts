@@ -52,10 +52,23 @@ interface Translation {
 async function buildPages() {
   console.log('🌍 Building i18n pages...\n');
 
+  // Register Partials
+  const partialsDir = path.resolve(TEMPLATES_DIR, 'partials');
+  if (fs.existsSync(partialsDir)) {
+    const partials = await glob('**/*.hbs', { cwd: partialsDir });
+    for (const file of partials) {
+      const name = path.basename(file, '.hbs');
+      const content = fs.readFileSync(path.join(partialsDir, file), 'utf-8');
+      Handlebars.registerPartial(name, content);
+      console.log(`🧩 Registered partial: ${name}`);
+    }
+  }
+
   // Find all template files
   const templates = await glob('**/*.html', {
     cwd: TEMPLATES_DIR,
-    absolute: false
+    absolute: false,
+    ignore: ['partials/**'] // Ignore partials directory
   });
 
   console.log(`📄 Found ${templates.length} templates`);

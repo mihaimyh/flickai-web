@@ -1,0 +1,44 @@
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/{{langPrefix meta.lang}}vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+  <meta name="keywords" content="{{keywords}}">
+  <meta name="author" content="{{meta.siteName}} Team">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="{{canonicalUrl meta.lang page}}">
+
+  <!-- Hreflang Tags -->
+  <link rel="alternate" hreflang="en" href="{{canonicalUrl 'en' page}}" />
+  <link rel="alternate" hreflang="ar" href="{{canonicalUrl 'ar' page}}" />
+  <link rel="alternate" hreflang="de" href="{{canonicalUrl 'de' page}}" />
+  <link rel="alternate" hreflang="es" href="{{canonicalUrl 'es' page}}" />
+  <link rel="alternate" hreflang="fr" href="{{canonicalUrl 'fr' page}}" />
+  <link rel="alternate" hreflang="ro" href="{{canonicalUrl 'ro' page}}" />
+  <link rel="alternate" hreflang="x-default" href="{{canonicalUrl 'en' page}}" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{canonicalUrl meta.lang page}}">
+  <meta property="og:title" content="{{#if ogTitle}}{{ogTitle}}{{else}}{{title}}{{/if}}">
+  <meta property="og:description" content="{{#if ogDescription}}{{ogDescription}}{{else}}{{description}}{{/if}}">
+  <meta property="og:image" content="{{#if ogImage}}{{ogImage}}{{else}}https://flickai.net/images/social-preview.jpg{{/if}}">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="{{canonicalUrl meta.lang page}}">
+  <meta property="twitter:title" content="{{#if ogTitle}}{{ogTitle}}{{else}}{{title}}{{/if}}">
+  <meta property="twitter:description" content="{{#if ogDescription}}{{ogDescription}}{{else}}{{description}}{{/if}}">
+  <meta property="twitter:image" content="{{#if ogImage}}{{ogImage}}{{else}}https://flickai.net/images/social-preview.jpg{{/if}}">
+
+  <!-- Structured Data (passed as raw HTML string) -->
+  {{#if schema}}
+    {{{schema}}}
+  {{/if}}
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>

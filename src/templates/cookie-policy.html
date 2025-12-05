@@ -1,17 +1,11 @@
 <!doctype html>
-<html lang="{{meta.lang}}">
-
-<head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/{{langPrefix meta.lang}}vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{footer.cookiePolicy}} - {{meta.siteName}}</title>
-    <meta name="description"
-        content="{{footer.cookiePolicy}} for {{meta.siteName}}. Understand how we use cookies to improve your experience.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-</head>
+<html lang="{{meta.lang}}" {{#if (isRTL meta.lang)}}dir="rtl"{{/if}}>
+  {{> head 
+    title=cookie.title 
+    description=cookie.description 
+    page='cookie-policy.html'
+    keywords=home.keywords
+  }}
 
 <body>
     <div id="app">
@@ -30,34 +24,24 @@
         <main class="container section">
             <h1 class="section-title">{{footer.cookiePolicy}}</h1>
             <div class="legal-content">
-                <p class="mb-4">{{terms.lastUpdated}}</p>
+                <p class="mb-4">{{cookie.lastUpdated}}</p>
 
                 <h2 class="mb-4">{{cookie.whatAre.title}}</h2>
-                <p class="mb-4">Cookies are small text files that are placed on your computer or mobile device by
-                    websites that you visit. They are widely used in order to make websites work, or work more
-                    efficiently, as well as to provide information to the owners of the site.</p>
+                <p class="mb-4">{{cookie.whatAre.content}}</p>
 
                 <h2 class="mb-4">{{cookie.howWeUse.title}}</h2>
-                <p class="mb-4">We use cookies for a variety of reasons detailed below. Unfortunately in most cases
-                    there are no industry standard options for disabling cookies without completely disabling the
-                    functionality and features they add to this site.</p>
+                <p class="mb-4">{{cookie.howWeUse.intro}}</p>
                 <ul class="mb-4" style="padding-left: 1.5rem;">
-                    <li><strong>Essential Cookies:</strong> These are necessary for the website to function properly.
-                    </li>
-                    <li><strong>Analytics Cookies:</strong> These help us understand how visitors interact with our
-                        website.</li>
-                    <li><strong>Functionality Cookies:</strong> These allow the website to remember choices you make.
-                    </li>
+                    <li>{{cookie.howWeUse.essential}}</li>
+                    <li>{{cookie.howWeUse.analytics}}</li>
+                    <li>{{cookie.howWeUse.functionality}}</li>
                 </ul>
 
                 <h2 class="mb-4">{{cookie.disabling.title}}</h2>
-                <p class="mb-4">You can prevent the setting of cookies by adjusting the settings on your browser (see
-                    your browser Help for how to do this). Be aware that disabling cookies will affect the functionality
-                    of this and many other websites that you visit.</p>
+                <p class="mb-4">{{cookie.disabling.content}}</p>
 
                 <h2 class="mb-4">{{cookie.contact.title}}</h2>
-                <p class="mb-4">If you have any questions about our use of cookies, please contact us at:
-                    support@flickai.net</p>
+                <p class="mb-4">{{cookie.contact.content}}</p>
             </div>
         </main>
 

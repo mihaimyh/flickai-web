@@ -1,17 +1,11 @@
 <!doctype html>
-<html lang="{{meta.lang}}">
-
-<head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/{{langPrefix meta.lang}}vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{gdpr.heading}} - {{meta.siteName}}</title>
-    <meta name="description"
-        content="{{gdpr.heading}} information for {{meta.siteName}}. Your rights under the General Data Protection Regulation.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-</head>
+<html lang="{{meta.lang}}" {{#if (isRTL meta.lang)}}dir="rtl"{{/if}}>
+  {{> head 
+    title=gdpr.title 
+    description=gdpr.description 
+    page='gdpr-compliance.html'
+    keywords=home.keywords
+  }}
 
 <body>
     <div id="app">
@@ -30,27 +24,24 @@
         <main class="container section">
             <h1 class="section-title">{{gdpr.heading}}</h1>
             <div class="legal-content">
-                <p class="mb-4">{{terms.lastUpdated}}</p>
+                <p class="mb-4">{{gdpr.lastUpdated}}</p>
 
                 <h2 class="mb-4">{{gdpr.rights.title}}</h2>
-                <p class="mb-4">Under the General Data Protection Regulation (GDPR), you have the following rights
-                    regarding your personal data:</p>
+                <p class="mb-4">{{gdpr.rights.intro}}</p>
                 <ul class="mb-4" style="padding-left: 1.5rem;">
-                    <li>The right to access your personal data.</li>
-                    <li>The right to rectification of inaccurate data.</li>
-                    <li>The right to erasure ("right to be forgotten").</li>
-                    <li>The right to restrict processing.</li>
-                    <li>The right to data portability.</li>
-                    <li>The right to object to processing.</li>
+                    <li>{{gdpr.rights.access}}</li>
+                    <li>{{gdpr.rights.rectification}}</li>
+                    <li>{{gdpr.rights.erasure}}</li>
+                    <li>{{gdpr.rights.restrict}}</li>
+                    <li>{{gdpr.rights.portability}}</li>
+                    <li>{{gdpr.rights.object}}</li>
                 </ul>
 
                 <h2 class="mb-4">{{gdpr.processing.title}}</h2>
-                <p class="mb-4">We process your data lawfully, fairly, and in a transparent manner. We only collect data
-                    for specified, explicit, and legitimate purposes.</p>
+                <p class="mb-4">{{gdpr.processing.content}}</p>
 
                 <h2 class="mb-4">{{gdpr.contact.title}}</h2>
-                <p class="mb-4">To exercise any of your rights or for questions regarding GDPR compliance, please
-                    contact our Data Protection Officer at: support@flickai.net</p>
+                <p class="mb-4">{{gdpr.contact.content}}</p>
             </div>
         </main>
 
