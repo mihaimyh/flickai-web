@@ -1,18 +1,21 @@
 import { defineConfig } from 'vite'
 import { resolve } from 'path'
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer'
+import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
     // Set base to '/' for custom domain (flickai.net)
     // If deploying to https://<USERNAME>.github.io/<REPO>/, set base to '/<REPO>/'
     base: '/',
     plugins: [
-        ViteImageOptimizer({
-            png: { quality: 80 },
-            jpeg: { quality: 80 },
-            jpg: { quality: 80 },
-            webp: { quality: 80 }
-        })
+        tailwindcss(),
+        // ViteImageOptimizer({
+        //     png: { quality: 80 },
+        //     jpeg: { quality: 80 },
+        //     jpg: { quality: 80 },
+        //     webp: { quality: 80 },
+        //     svg: null
+        // })
     ],
     build: {
         rollupOptions: {

@@ -33,7 +33,7 @@ function getUserLanguage(): SupportedLanguage {
   for (const browserLang of browserLanguages) {
     // Extract base language code (e.g., 'en' from 'en-US')
     const langCode = browserLang.split('-')[0].toLowerCase();
-    
+
     if (langCode in SUPPORTED_LANGUAGES) {
       return langCode as SupportedLanguage;
     }
@@ -48,12 +48,12 @@ function getUserLanguage(): SupportedLanguage {
  */
 function getCurrentLanguage(): SupportedLanguage | null {
   const path = window.location.pathname;
-  
+
   if (path.startsWith('/es/')) return 'es';
   if (path.startsWith('/fr/')) return 'fr';
   if (path.startsWith('/ro/')) return 'ro';
   if (path === '/' || path.startsWith('/features/') || path.startsWith('/privacy') || path.startsWith('/terms') || path.startsWith('/cookie')) return 'en';
-  
+
   return null;
 }
 
@@ -63,7 +63,7 @@ function getCurrentLanguage(): SupportedLanguage | null {
 function getLocalizedPath(currentPath: string, targetLang: SupportedLanguage): string {
   // Remove current language prefix if exists
   let basePath = currentPath;
-  
+
   for (const [lang, prefix] of Object.entries(SUPPORTED_LANGUAGES)) {
     if (lang !== 'en' && currentPath.startsWith(prefix)) {
       basePath = currentPath.slice(prefix.length - 1); // Keep leading slash
@@ -85,10 +85,10 @@ function getLocalizedPath(currentPath: string, targetLang: SupportedLanguage): s
 export function initLanguageRedirect(): void {
   // Only run on main pages, not on policy/terms pages
   const path = window.location.pathname;
-  const isPolicyPage = path.includes('privacy') || path.includes('terms') || 
-                       path.includes('cookie') || path.includes('accessibility') || 
-                       path.includes('gdpr');
-  
+  const isPolicyPage = path.includes('privacy') || path.includes('terms') ||
+    path.includes('cookie') || path.includes('accessibility') ||
+    path.includes('gdpr');
+
   if (isPolicyPage) {
     console.log('Policy page detected, skipping language redirect');
     return;
@@ -122,16 +122,25 @@ export function setLanguagePreference(lang: SupportedLanguage): void {
  */
 export function createLanguageSwitcher(): HTMLElement {
   const currentLang = getCurrentLanguage() || 'en';
-  
+
   const switcher = document.createElement('div');
-  switcher.className = 'language-switcher';
+  switcher.className = 'fixed bottom-5 right-5 z-50';
+
+  // Using appearance-none with a custom SVG arrow for consistent cross-browser styling
   switcher.innerHTML = `
-    <select id="language-select" class="language-select" aria-label="Select language">
-      <option value="en" ${currentLang === 'en' ? 'selected' : ''}>🇬🇧 English</option>
-      <option value="es" ${currentLang === 'es' ? 'selected' : ''}>🇪🇸 Español</option>
-      <option value="fr" ${currentLang === 'fr' ? 'selected' : ''}>🇫🇷 Français</option>
-      <option value="ro" ${currentLang === 'ro' ? 'selected' : ''}>🇷🇴 Română</option>
-    </select>
+    <div class="relative">
+      <select id="language-select" class="appearance-none bg-surface dark:bg-dark-surface text-text-main dark:text-dark-text border border-border-color dark:border-dark-border rounded-lg pl-4 pr-10 py-2 shadow-lg focus:outline-none focus:ring-2 focus:ring-primary cursor-pointer font-body text-sm transition-all hover:-translate-y-0.5 hover:shadow-xl" aria-label="Select language">
+        <option value="en" ${currentLang === 'en' ? 'selected' : ''}>🇬🇧 English</option>
+        <option value="es" ${currentLang === 'es' ? 'selected' : ''}>🇪🇸 Español</option>
+        <option value="fr" ${currentLang === 'fr' ? 'selected' : ''}>🇫🇷 Français</option>
+        <option value="ro" ${currentLang === 'ro' ? 'selected' : ''}>🇷🇴 Română</option>
+      </select>
+      <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-text-muted dark:text-dark-muted">
+        <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </div>
+    </div>
   `;
 
   const select = switcher.querySelector('#language-select') as HTMLSelectElement;
@@ -142,51 +151,4 @@ export function createLanguageSwitcher(): HTMLElement {
 
   return switcher;
 }
-
-// Add CSS for language switcher
-const style = document.createElement('style');
-style.textContent = `
-  .language-switcher {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 9999;
-  }
-
-  .language-select {
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    border: 1px solid var(--border-color);
-    background-color: var(--background);
-    color: var(--text-main);
-    font-family: var(--font-sans);
-    font-size: 0.9rem;
-    cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: all 0.2s;
-  }
-
-  .language-select:hover {
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-    transform: translateY(-1px);
-  }
-
-  .language-select:focus {
-    outline: 2px solid var(--primary);
-    outline-offset: 2px;
-  }
-
-  @media (max-width: 768px) {
-    .language-switcher {
-      bottom: 10px;
-      right: 10px;
-    }
-    
-    .language-select {
-      padding: 0.4rem 0.8rem;
-      font-size: 0.85rem;
-    }
-  }
-`;
-document.head.appendChild(style);
 

@@ -152,24 +152,24 @@ export function createWaitlistModal(): void {
 
   // Create floating button
   const floatButton = document.createElement('button');
-  floatButton.className = 'waitlist-float-button';
-  floatButton.textContent = messages.floatButton;
+  floatButton.className = 'fixed bottom-20 right-5 z-[9998] px-6 py-4 bg-gradient-to-br from-primary to-primary-dark text-white border-none rounded-full font-semibold text-base cursor-pointer shadow-lg hover:-translate-y-1 hover:shadow-xl transition-all duration-300 flex items-center gap-2 font-body md:bottom-20 md:right-5';
+  floatButton.innerHTML = `<span>🚀</span> ${messages.floatButton}`;
 
   // Create modal overlay
   const modalOverlay = document.createElement('div');
-  modalOverlay.className = 'waitlist-modal-overlay';
+  modalOverlay.className = 'hidden fixed inset-0 bg-black/60 backdrop-blur-sm z-[9999] justify-center items-center p-4 opacity-0 transition-opacity duration-300';
 
   // Create modal
   const modal = document.createElement('div');
-  modal.className = 'waitlist-modal';
+  modal.className = 'bg-background dark:bg-surface rounded-3xl p-10 max-w-[500px] w-full shadow-2xl relative transform translate-y-5 transition-transform duration-300 border border-border-color dark:border-dark-border';
   modal.innerHTML = `
-    <button class="waitlist-modal-close">×</button>
-    <h3 class="waitlist-title">${messages.title}</h3>
-    <p class="waitlist-subtitle">${messages.subtitle}</p>
-    <form class="waitlist-form">
-      <input type="email" class="waitlist-input" placeholder="${messages.placeholder}" required>
-      <button type="submit" class="waitlist-button">${messages.button}</button>
-      <div class="waitlist-message"></div>
+    <button class="absolute top-4 right-4 bg-transparent border-none text-2xl cursor-pointer text-text-muted hover:text-text-main dark:text-dark-muted dark:hover:text-dark-text w-8 h-8 flex items-center justify-center rounded-full hover:bg-surface dark:hover:bg-dark-highlight transition-colors">×</button>
+    <h3 class="text-3xl font-bold mb-2 text-text-main dark:text-dark-text text-center font-display">${messages.title}</h3>
+    <p class="text-text-muted dark:text-dark-muted mb-8 text-center text-base leading-relaxed">${messages.subtitle}</p>
+    <form class="flex flex-col gap-4">
+      <input type="email" class="w-full p-4 border-2 border-border-color dark:border-dark-border rounded-xl text-base font-body bg-background dark:bg-dark-background text-text-main dark:text-dark-text transition-all focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10" placeholder="${messages.placeholder}" required>
+      <button type="submit" class="w-full p-4 bg-primary text-white border-none rounded-xl font-semibold text-lg cursor-pointer transition-all hover:bg-primary-dark hover:-translate-y-px hover:shadow-lg disabled:opacity-60 disabled:cursor-not-allowed">${messages.button}</button>
+      <div class="hidden w-full p-4 rounded-xl text-sm text-center font-medium"></div>
     </form>
   `;
 
@@ -180,21 +180,36 @@ export function createWaitlistModal(): void {
   document.body.appendChild(modalOverlay);
 
   // Get form elements
-  const form = modal.querySelector('.waitlist-form') as HTMLFormElement;
-  const input = modal.querySelector('.waitlist-input') as HTMLInputElement;
-  const button = modal.querySelector('.waitlist-button') as HTMLButtonElement;
-  const message = modal.querySelector('.waitlist-message') as HTMLDivElement;
-  const closeButton = modal.querySelector('.waitlist-modal-close') as HTMLButtonElement;
+  const form = modal.querySelector('form') as HTMLFormElement;
+  const input = modal.querySelector('input') as HTMLInputElement;
+  const button = modal.querySelector('button[type="submit"]') as HTMLButtonElement;
+  const message = modal.querySelector('div:last-child') as HTMLDivElement;
+  const closeButton = modal.querySelector('button:first-child') as HTMLButtonElement;
 
   // Open modal
-  floatButton.addEventListener('click', () => {
-    modalOverlay.classList.add('active');
+  const openModal = () => {
+    modalOverlay.classList.remove('hidden');
+    // Trigger reflow
+    void modalOverlay.offsetWidth;
+    modalOverlay.classList.remove('opacity-0');
+    modalOverlay.classList.add('flex', 'opacity-100');
+    modal.classList.remove('translate-y-5');
+    modal.classList.add('translate-y-0');
     setTimeout(() => input.focus(), 300);
-  });
+  };
+
+  floatButton.addEventListener('click', openModal);
 
   // Close modal
   const closeModal = () => {
-    modalOverlay.classList.remove('active');
+    modalOverlay.classList.remove('opacity-100');
+    modalOverlay.classList.add('opacity-0');
+    modal.classList.remove('translate-y-0');
+    modal.classList.add('translate-y-5');
+    setTimeout(() => {
+      modalOverlay.classList.remove('flex');
+      modalOverlay.classList.add('hidden');
+    }, 300);
   };
 
   closeButton.addEventListener('click', closeModal);
@@ -253,10 +268,7 @@ export function createWaitlistModal(): void {
   });
 
   // Expose open function globally or return it
-  (window as any).openWaitlistModal = () => {
-    modalOverlay.classList.add('active');
-    setTimeout(() => input.focus(), 300);
-  };
+  (window as any).openWaitlistModal = openModal;
 }
 
 /**
@@ -268,7 +280,7 @@ export function openWaitlistModal(): void {
     openFn();
   } else {
     // Fallback if not initialized yet
-    const floatButton = document.querySelector('.waitlist-float-button') as HTMLButtonElement;
+    const floatButton = document.querySelector('button.fixed.bottom-20') as HTMLButtonElement;
     if (floatButton) floatButton.click();
   }
 }
@@ -286,7 +298,10 @@ export function initWaitlistForm(): void {
  */
 function showMessage(element: HTMLElement, text: string, type: 'success' | 'error'): void {
   element.textContent = text;
-  element.className = `waitlist-message ${type}`;
+  element.className = type === 'success'
+    ? 'w-full p-4 rounded-xl text-sm text-center font-medium bg-green-100 text-green-800 border border-green-200 dark:bg-green-900/20 dark:text-green-400 dark:border-green-900/30'
+    : 'w-full p-4 rounded-xl text-sm text-center font-medium bg-red-100 text-red-800 border border-red-200 dark:bg-red-900/20 dark:text-red-400 dark:border-red-900/30';
+
   element.style.display = 'block';
 
   // Hide after 5 seconds
@@ -294,237 +309,3 @@ function showMessage(element: HTMLElement, text: string, type: 'success' | 'erro
     element.style.display = 'none';
   }, 5000);
 }
-
-// Add CSS for waitlist form
-const style = document.createElement('style');
-style.textContent = `
-  /* Sticky Floating Button */
-  .waitlist-float-button {
-    position: fixed;
-    bottom: 80px;
-    right: 20px;
-    z-index: 9998;
-    padding: 1rem 1.5rem;
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-    color: white;
-    border: none;
-    border-radius: 2rem;
-    font-weight: 600;
-    font-size: 0.95rem;
-    cursor: pointer;
-    box-shadow: 0 4px 20px rgba(37, 99, 235, 0.4);
-    transition: all 0.3s ease;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-family: var(--font-sans);
-  }
-
-  .waitlist-float-button:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 25px rgba(37, 99, 235, 0.5);
-  }
-
-  .waitlist-float-button::before {
-    content: "🚀";
-    font-size: 1.2rem;
-  }
-
-  /* Modal Overlay */
-  .waitlist-modal-overlay {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(4px);
-    z-index: 9999;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-  }
-
-  .waitlist-modal-overlay.active {
-    display: flex;
-    animation: fadeIn 0.2s ease;
-  }
-
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
-
-  /* Modal Container */
-  .waitlist-modal {
-    background: var(--background);
-    border-radius: 1.5rem;
-    padding: 2.5rem;
-    max-width: 500px;
-    width: 100%;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-    position: relative;
-    animation: slideUp 0.3s ease;
-  }
-
-  @keyframes slideUp {
-    from { 
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to { 
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  .waitlist-modal-close {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    background: transparent;
-    border: none;
-    font-size: 1.5rem;
-    cursor: pointer;
-    color: var(--text-muted);
-    width: 32px;
-    height: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    transition: all 0.2s;
-  }
-
-  .waitlist-modal-close:hover {
-    background: var(--surface);
-    color: var(--text-main);
-  }
-
-  .waitlist-title {
-    font-size: 1.75rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-    color: var(--text-main);
-    text-align: center;
-  }
-
-  .waitlist-subtitle {
-    color: var(--text-muted);
-    margin-bottom: 2rem;
-    text-align: center;
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-
-  .waitlist-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  .waitlist-input {
-    width: 100%;
-    padding: 1rem 1.25rem;
-    border: 2px solid var(--border-color);
-    border-radius: 0.75rem;
-    font-size: 1rem;
-    font-family: var(--font-sans);
-    background: var(--background);
-    color: var(--text-main);
-    transition: all 0.2s;
-  }
-
-  .waitlist-input:focus {
-    outline: none;
-    border-color: var(--primary);
-    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
-  }
-
-  .waitlist-button {
-    width: 100%;
-    padding: 1rem 2rem;
-    background: var(--primary);
-    color: white;
-    border: none;
-    border-radius: 0.75rem;
-    font-weight: 600;
-    font-size: 1.05rem;
-    cursor: pointer;
-    transition: all 0.2s;
-  }
-
-  .waitlist-button:hover:not(:disabled) {
-    background: var(--primary-dark);
-    transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
-  }
-
-  .waitlist-button:disabled {
-    opacity: 0.6;
-    cursor: not-allowed;
-  }
-
-  .waitlist-message {
-    display: none;
-    width: 100%;
-    padding: 1rem 1.25rem;
-    border-radius: 0.75rem;
-    font-size: 0.95rem;
-    text-align: center;
-    font-weight: 500;
-  }
-
-  .waitlist-message.success {
-    background: #d1fae5;
-    color: #065f46;
-    border: 1px solid #6ee7b7;
-  }
-
-  .waitlist-message.error {
-    background: #fee2e2;
-    color: #991b1b;
-    border: 1px solid #fca5a5;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    .waitlist-modal {
-      background: var(--surface);
-      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
-    }
-
-    .waitlist-message.success {
-      background: rgba(16, 185, 129, 0.15);
-      color: #6ee7b7;
-      border-color: rgba(16, 185, 129, 0.3);
-    }
-
-    .waitlist-message.error {
-      background: rgba(239, 68, 68, 0.15);
-      color: #fca5a5;
-      border-color: rgba(239, 68, 68, 0.3);
-    }
-  }
-
-  @media (max-width: 768px) {
-    .waitlist-float-button {
-      bottom: 70px;
-      right: 10px;
-      padding: 0.875rem 1.25rem;
-      font-size: 0.9rem;
-    }
-
-    .waitlist-modal {
-      padding: 2rem 1.5rem;
-      border-radius: 1.25rem;
-      margin: 1rem;
-    }
-
-    .waitlist-title {
-      font-size: 1.5rem;
-    }
-  }
-`;
-document.head.appendChild(style);
-
