@@ -3,15 +3,7 @@
  * Automatically redirects users to their preferred language version
  */
 
-// Supported languages with their paths
-const SUPPORTED_LANGUAGES = {
-  en: '/',
-  es: '/es/',
-  fr: '/fr/',
-  ro: '/ro/',
-} as const;
-
-type SupportedLanguage = keyof typeof SUPPORTED_LANGUAGES;
+import { SUPPORTED_LOCALES, LANGUAGE_INFO, getLocalePath, getLocaleFromPath, isValidLocale, type SupportedLocale } from './i18n-config';
 
 const LANGUAGE_PREFERENCE_KEY = 'flickai_language_preference';
 
@@ -19,11 +11,11 @@ const LANGUAGE_PREFERENCE_KEY = 'flickai_language_preference';
  * Gets the user's preferred language from various sources
  * Priority: 1. Saved preference, 2. Browser language
  */
-function getUserLanguage(): SupportedLanguage {
+function getUserLanguage(): SupportedLocale {
   // Check if user has a saved preference
   const savedPreference = localStorage.getItem(LANGUAGE_PREFERENCE_KEY);
-  if (savedPreference && savedPreference in SUPPORTED_LANGUAGES) {
-    return savedPreference as SupportedLanguage;
+  if (savedPreference && isValidLocale(savedPreference)) {
+    return savedPreference;
   }
 
   // Get browser languages (returns array like ['en-US', 'en', 'es'])
@@ -34,8 +26,8 @@ function getUserLanguage(): SupportedLanguage {
     // Extract base language code (e.g., 'en' from 'en-US')
     const langCode = browserLang.split('-')[0].toLowerCase();
 
-    if (langCode in SUPPORTED_LANGUAGES) {
-      return langCode as SupportedLanguage;
+    if (isValidLocale(langCode)) {
+      return langCode;
     }
   }
 
@@ -46,28 +38,24 @@ function getUserLanguage(): SupportedLanguage {
 /**
  * Detects current page language from URL
  */
-function getCurrentLanguage(): SupportedLanguage | null {
-  const path = window.location.pathname;
-
-  if (path.startsWith('/es/')) return 'es';
-  if (path.startsWith('/fr/')) return 'fr';
-  if (path.startsWith('/ro/')) return 'ro';
-  if (path === '/' || path.startsWith('/features/') || path.startsWith('/privacy') || path.startsWith('/terms') || path.startsWith('/cookie')) return 'en';
-
-  return null;
+function getCurrentLanguage(): SupportedLocale {
+  return getLocaleFromPath(window.location.pathname);
 }
 
 /**
  * Gets the equivalent path in target language
  */
-function getLocalizedPath(currentPath: string, targetLang: SupportedLanguage): string {
+function getLocalizedPath(currentPath: string, targetLang: SupportedLocale): string {
   // Remove current language prefix if exists
   let basePath = currentPath;
 
-  for (const [lang, prefix] of Object.entries(SUPPORTED_LANGUAGES)) {
-    if (lang !== 'en' && currentPath.startsWith(prefix)) {
-      basePath = currentPath.slice(prefix.length - 1); // Keep leading slash
-      break;
+  for (const locale of SUPPORTED_LOCALES) {
+    if (locale !== 'en') {
+      const prefix = getLocalePath(locale);
+      if (currentPath.startsWith(prefix)) {
+        basePath = currentPath.slice(prefix.length - 1); // Keep leading slash
+        break;
+      }
     }
   }
 
@@ -75,7 +63,7 @@ function getLocalizedPath(currentPath: string, targetLang: SupportedLanguage): s
   if (targetLang === 'en') {
     return basePath;
   } else {
-    return SUPPORTED_LANGUAGES[targetLang] + basePath.slice(1); // Remove leading slash from basePath
+    return getLocalePath(targetLang) + basePath.slice(1); // Remove leading slash from basePath
   }
 }
 
@@ -111,7 +99,7 @@ export function initLanguageRedirect(): void {
 /**
  * Sets user language preference and redirects
  */
-export function setLanguagePreference(lang: SupportedLanguage): void {
+export function setLanguagePreference(lang: SupportedLocale): void {
   localStorage.setItem(LANGUAGE_PREFERENCE_KEY, lang);
   const targetPath = getLocalizedPath(window.location.pathname, lang);
   window.location.href = targetPath;
@@ -121,19 +109,23 @@ export function setLanguagePreference(lang: SupportedLanguage): void {
  * Creates a language switcher UI
  */
 export function createLanguageSwitcher(): HTMLElement {
-  const currentLang = getCurrentLanguage() || 'en';
+  const currentLang = getCurrentLanguage();
 
   const switcher = document.createElement('div');
   switcher.className = 'fixed bottom-5 right-5 z-50';
+
+  // Generate options dynamically from config
+  const options = SUPPORTED_LOCALES.map(locale => {
+    const info = LANGUAGE_INFO[locale];
+    const selected = currentLang === locale ? 'selected' : '';
+    return `<option value="${locale}" ${selected}>${info.flag} ${info.nativeName}</option>`;
+  }).join('\n        ');
 
   // Using appearance-none with a custom SVG arrow for consistent cross-browser styling
   switcher.innerHTML = `
     <div class="relative">
       <select id="language-select" class="appearance-none bg-surface dark:bg-dark-surface text-text-main dark:text-dark-text border border-border-color dark:border-dark-border rounded-lg pl-4 pr-10 py-2 shadow-lg focus:outline-none focus:ring-2 focus:ring-primary cursor-pointer font-body text-sm transition-all hover:-translate-y-0.5 hover:shadow-xl" aria-label="Select language">
-        <option value="en" ${currentLang === 'en' ? 'selected' : ''}>🇬🇧 English</option>
-        <option value="es" ${currentLang === 'es' ? 'selected' : ''}>🇪🇸 Español</option>
-        <option value="fr" ${currentLang === 'fr' ? 'selected' : ''}>🇫🇷 Français</option>
-        <option value="ro" ${currentLang === 'ro' ? 'selected' : ''}>🇷🇴 Română</option>
+        ${options}
       </select>
       <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-text-muted dark:text-dark-muted">
         <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -146,7 +138,9 @@ export function createLanguageSwitcher(): HTMLElement {
   const select = switcher.querySelector('#language-select') as HTMLSelectElement;
   select.addEventListener('change', (e) => {
     const target = e.target as HTMLSelectElement;
-    setLanguagePreference(target.value as SupportedLanguage);
+    if (isValidLocale(target.value)) {
+      setLanguagePreference(target.value);
+    }
   });
 
   return switcher;

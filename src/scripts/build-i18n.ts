@@ -3,11 +3,12 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { glob } from 'glob';
+import { SUPPORTED_LOCALES, LANGUAGE_INFO } from '../i18n-config.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const LOCALES = ['en', 'ro', 'es', 'fr'];
+const LOCALES = SUPPORTED_LOCALES;
 const TEMPLATES_DIR = path.resolve(__dirname, '../templates');
 const LOCALES_DIR = path.resolve(__dirname, '../locales');
 const OUTPUT_DIR = path.resolve(__dirname, '../..');
@@ -30,6 +31,12 @@ Handlebars.registerHelper('langPrefix', function(lang: string) {
 Handlebars.registerHelper('canonicalUrl', function(lang: string, path: string) {
   const langPath = lang === 'en' ? '' : `${lang}/`;
   return `https://flickai.net/${langPath}${path}`;
+});
+
+// Helper to check if language is RTL
+Handlebars.registerHelper('isRTL', function(lang: string) {
+  const locale = lang as keyof typeof LANGUAGE_INFO;
+  return LANGUAGE_INFO[locale]?.rtl || false;
 });
 
 interface Translation {
@@ -69,6 +76,25 @@ async function buildPages() {
       fs.readFileSync(translationPath, 'utf-8')
     );
 
+    // Add available languages for language selector
+    const availableLanguages = LOCALES.map(lang => {
+      const langTransPath = path.join(LOCALES_DIR, `${lang}.json`);
+      if (fs.existsSync(langTransPath)) {
+        const langData = JSON.parse(fs.readFileSync(langTransPath, 'utf-8'));
+        return {
+          code: lang,
+          name: langData.meta.langName,
+          current: lang === locale
+        };
+      }
+      return null;
+    }).filter(Boolean);
+
+    const templateData = {
+      ...translations,
+      availableLanguages
+    };
+
     console.log(`\n🔨 Building ${locale.toUpperCase()} pages...`);
 
     for (const templateRelPath of templates) {
@@ -82,7 +108,7 @@ async function buildPages() {
       });
 
       // Generate HTML
-      const html = template(translations);
+      const html = template(templateData);
 
       // Determine output path
       // English goes to root, other languages go to their subdirectory
