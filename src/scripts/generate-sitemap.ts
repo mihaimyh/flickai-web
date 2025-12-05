@@ -2,11 +2,12 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { glob } from 'glob';
+import { SUPPORTED_LOCALES, LANGUAGE_INFO } from '../i18n-config.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const LOCALES = ['en', 'ro', 'es', 'fr'];
+const LOCALES = SUPPORTED_LOCALES;
 const TEMPLATES_DIR = path.resolve(__dirname, '../templates');
 const OUTPUT_FILE = path.resolve(__dirname, '../../public/sitemap.xml');
 const BASE_URL = 'https://flickai.net';
@@ -60,7 +61,8 @@ async function generateSitemap() {
   const groupedEntries = new Map<string, SitemapEntry[]>();
   
   for (const entry of entries) {
-    const basePath = entry.path.replace(/^(ro|es|fr)\//, '');
+    // Remove any locale prefix to get base path
+    const basePath = entry.path.replace(/^(ar|de|ro|es|fr)\//, '');
     if (!groupedEntries.has(basePath)) {
       groupedEntries.set(basePath, []);
     }
@@ -73,19 +75,17 @@ async function generateSitemap() {
   xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n';
 
   // Sort entries by locale for better organization
-  const sortedLocales = ['en', 'es', 'fr', 'ro'];
+  const sortedLocales = [...LOCALES];
   
   for (const locale of sortedLocales) {
     const localeEntries = entries.filter(e => e.locale === locale);
     
     if (localeEntries.length > 0) {
-      const localeName = locale === 'en' ? 'English' : 
-                        locale === 'es' ? 'Spanish' :
-                        locale === 'fr' ? 'French' : 'Romanian';
+      const localeName = LANGUAGE_INFO[locale as keyof typeof LANGUAGE_INFO]?.name || locale.toUpperCase();
       xml += `  <!-- ${localeName} Pages -->\n`;
       
       for (const entry of localeEntries) {
-        const basePath = entry.path.replace(/^(ro|es|fr)\//, '');
+        const basePath = entry.path.replace(/^(ar|de|ro|es|fr)\//, '');
         const alternates = groupedEntries.get(basePath) || [];
         
         xml += `  <url>\n`;
