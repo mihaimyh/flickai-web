@@ -1,4 +1,6 @@
 import './style.css'
+import { initLanguageRedirect, createLanguageSwitcher } from './i18n-redirect'
+import { initWaitlistForm } from './waitlist'
 
 // Animation Observer
 const observerOptions = {
@@ -16,8 +18,21 @@ const observer = new IntersectionObserver((entries) => {
 }, observerOptions);
 
 document.addEventListener('DOMContentLoaded', () => {
+  // Initialize animations
   const animatedElements = document.querySelectorAll('.fade-in');
   animatedElements.forEach(el => observer.observe(el));
+
+  // Initialize language redirect (only on first visit to English version)
+  initLanguageRedirect();
+
+  // Add language switcher to the page
+  const body = document.querySelector('body');
+  if (body) {
+    body.appendChild(createLanguageSwitcher());
+  }
+
+  // Initialize waitlist form
+  initWaitlistForm();
 });
 
 console.log('FlickAI Web App Initialized');
