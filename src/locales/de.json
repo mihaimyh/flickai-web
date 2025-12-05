@@ -7,175 +7,179 @@
   },
   "common": {
     "features": "Funktionen",
-    "testimonials": "Bewertungen",
-    "downloadApp": "App Herunterladen",
+    "testimonials": "Referenzen",
+    "downloadApp": "App herunterladen",
     "backToHome": "Zurück zur Startseite",
     "copyright": "© 2025 FlickAI. Alle Rechte vorbehalten.",
     "learnMore": "Mehr erfahren"
   },
   "footer": {
-    "privacyPolicy": "Datenschutz",
+    "privacyPolicy": "Datenschutzerklärung",
     "termsOfService": "Nutzungsbedingungen",
     "cookiePolicy": "Cookie-Richtlinie"
   },
   "waitlist": {
-    "floatButton": "Warteliste Beitreten",
-    "title": " Fr�hen Zugang Erhalten",
-    "subtitle": "Sei der Erste, der erf�hrt, wenn FlickAI auf Android & iOS startet!",
-    "placeholder": "E-Mail eingeben",
-    "button": "Warteliste Beitreten",
-    "success": "Danke! Wir benachrichtigen dich beim Start. ",
-    "error": "Bitte gib eine g�ltige E-Mail-Adresse ein",
-    "networkError": "Etwas ist schief gelaufen. Bitte versuche es erneut.",
+    "floatButton": "Warteliste beitreten",
+    "title": "🚀 Frühen Zugang erhalten",
+    "subtitle": "Sei der Erste, der erfährt, wenn FlickAI auf Android & iOS startet!",
+    "placeholder": "Deine E-Mail eingeben",
+    "button": "Warteliste beitreten",
+    "success": "Danke! Wir benachrichtigen dich beim Start. 🎉",
+    "error": "Bitte gib eine gültige E-Mail-Adresse ein",
+    "networkError": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
     "alreadyJoined": "Du bist bereits auf der Warteliste!"
   },
   "home": {
     "title": "FlickAI - KI-gestützte Ausgabenverfolgung",
-    "description": "Vereinfachen Sie die Ausgabenverfolgung mit FlickAIs KI-gestütztem Belegscanning. Verfolgen Sie Ihre Finanzen mühelos.",
+    "description": "Vereinfachen Sie die Ausgabenverfolgung mit FlickAIs KI-gestütztem Belegscanning. Verfolgen Sie Ihre Finanzen mühelos, erstellen Sie Budgets und gewinnen Sie finanzielle Einblicke.",
+    "keywords": "Ausgabentracker, Belegscanner, KI-Finanzen, Budget-App, persönliche Finanzen, FlickAI, Ausgabenverwaltung, KI-Ausgabenverfolgung",
+    "ogTitle": "FlickAI - KI-gestützte Ausgabenverfolgung",
+    "ogDescription": "Vereinfachen Sie die Ausgabenverfolgung mit FlickAIs KI-gestütztem Belegscanning. Verfolgen Sie Ihre Finanzen mühelos.",
+    "schemaDescription": "KI-gestützte Ausgabenverfolgung und Belegscanning-Anwendung.",
     "hero": {
       "title": "KI-gestützte Ausgabenverfolgung & Belegscanning",
       "subtitle": "Verfolgen Sie Ihre Finanzen mühelos mit intelligentem Belegscanning und automatisierten Einblicken. Lassen Sie die KI die langweilige Arbeit erledigen.",
-      "getStarted": "Kostenlos Starten",
-      "learnMore": "Mehr Erfahren"
+      "getStarted": "Kostenlos starten",
+      "learnMore": "Mehr erfahren"
     },
     "features": {
-      "title": "Warum FlickAI?",
+      "title": "Warum FlickAI wählen?",
       "scanning": {
         "title": "Intelligentes Belegscanning",
-        "description": "Extrahieren Sie sofort Händler, Artikel und Preise mit fortschrittlicher KI-Technologie."
+        "description": "Extrahieren Sie Händler, Artikel und Preise sofort mit fortschrittlicher KI-Technologie."
       },
       "analytics": {
-        "title": "Intelligente Analysen",
+        "title": "Intelligente Analytik",
         "description": "Visualisieren Sie Ausgabentrends und erhalten Sie personalisierte finanzielle Einblicke in Ihrer Sprache."
       },
       "security": {
-        "title": "Banksicherheit",
-        "description": "Ihre Daten sind mit Ende-zu-Ende-Verschlüsselung und sicherer Authentifizierung geschützt."
+        "title": "Sicherheit auf Bankniveau",
+        "description": "Ihre Daten sind durch Ende-zu-Ende-Verschlüsselung und sichere Authentifizierung geschützt."
       },
       "offline": {
-        "title": "Offline & Sync",
+        "title": "Offline & Synchronisierung",
         "description": "Funktioniert perfekt offline. Änderungen werden automatisch synchronisiert, wenn Sie wieder online sind."
       }
     },
     "download": {
-      "title": "Starten Sie Heute mit der Verfolgung",
-      "subtitle": "Schließen Sie sich Tausenden von Nutzern an, die mit FlickAI die Kontrolle über ihre Finanzen übernehmen.",
+      "title": "Starten Sie heute mit dem Tracking",
+      "subtitle": "Schließen Sie sich tausenden von Nutzern an, die mit FlickAI die Kontrolle über ihre Finanzen übernehmen.",
       "googlePlay": "Google Play",
       "appStore": "App Store",
-      "waitlistNote": "Klicken Sie auf \"Warteliste Beitreten\" für frühen Zugang! 🚀"
+      "waitlistNote": "Klicke auf den \"Warteliste beitreten\"-Button für frühen Zugang! 🚀"
     }
   },
   "privacy": {
     "title": "Datenschutzerklärung - FlickAI",
-    "description": "FlickAI Datenschutzerklärung. Erfahren Sie, wie wir Ihre Daten sammeln, verwenden und schützen.",
+    "description": "Datenschutzerklärung für FlickAI. Erfahren Sie, wie wir Ihre Daten sammeln, verwenden und schützen.",
     "heading": "Datenschutzerklärung",
     "lastUpdated": "Zuletzt aktualisiert: 28. November 2025",
     "introduction": {
       "title": "1. Einführung",
-      "content": "FlickAI respektiert Ihre Privatsphäre und verpflichtet sich zum Schutz Ihrer persönlichen Daten."
+      "content": "FlickAI (\"wir\", \"unser\" oder \"uns\") respektiert Ihre Privatsphäre und verpflichtet sich, Ihre persönlichen Daten zu schützen."
     },
     "dataCollection": {
-      "title": "2. Daten, die Wir Sammeln",
-      "intro": "Wir können verschiedene Arten von personenbezogenen Daten über Sie sammeln:",
-      "identity": "Identitätsdaten: Vorname, Nachname, Benutzername.",
-      "contact": "Kontaktdaten: E-Mail-Adresse.",
-      "transaction": "Transaktionsdaten: Details zu Zahlungen und gekauften Produkten.",
-      "usage": "Nutzungsdaten: Informationen darüber, wie Sie unsere Website und Apps nutzen."
+      "title": "2. Daten, die wir sammeln",
+      "intro": "Wir können verschiedene Arten von persönlichen Daten über Sie sammeln, verwenden, speichern und übertragen:",
+      "identity": "Identitätsdaten: umfasst Vorname, Nachname, Benutzername.",
+      "contact": "Kontaktdaten: umfasst E-Mail-Adresse.",
+      "transaction": "Transaktionsdaten: Details zu Zahlungen.",
+      "usage": "Nutzungsdaten: Informationen darüber, wie Sie unsere Website nutzen."
     },
     "dataUsage": {
-      "title": "3. Wie Wir Ihre Daten Verwenden",
-      "intro": "Wir verwenden Ihre personenbezogenen Daten nur, wenn das Gesetz es erlaubt:",
-      "contract": "Wenn wir einen Vertrag mit Ihnen erfüllen müssen.",
+      "title": "3. Wie wir Ihre Daten verwenden",
+      "intro": "Wir werden Ihre persönlichen Daten nur verwenden, wenn das Gesetz es uns erlaubt:",
+      "contract": "Um den Vertrag zu erfüllen, den wir mit Ihnen eingehen.",
       "legitimate": "Wenn es für unsere berechtigten Interessen notwendig ist.",
-      "legal": "Wenn wir einer rechtlichen Verpflichtung nachkommen müssen."
+      "legal": "Wenn wir einer gesetzlichen Verpflichtung nachkommen müssen."
     },
     "security": {
       "title": "4. Datensicherheit",
-      "content": "Wir haben angemessene Sicherheitsmaßnahmen implementiert, um zu verhindern, dass Ihre persönlichen Daten verloren gehen oder unbefugt verwendet werden."
+      "content": "Wir haben angemessene Sicherheitsvorkehrungen getroffen, um zu verhindern, dass Ihre persönlichen Daten versehentlich verloren gehen."
     },
     "contact": {
-      "title": "5. Kontakt",
-      "content": "Bei Fragen zu dieser Datenschutzerklärung kontaktieren Sie uns bitte unter: support@flickai.net"
+      "title": "5. Kontaktieren Sie uns",
+      "content": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns unter: support@flickai.net"
     }
   },
   "terms": {
     "title": "Nutzungsbedingungen - FlickAI",
-    "description": "FlickAI Nutzungsbedingungen. Lesen Sie unsere Bedingungen für die Nutzung unserer Dienste.",
+    "description": "Nutzungsbedingungen für FlickAI. Lesen Sie unsere Bedingungen für die Nutzung unserer Dienste.",
     "heading": "Nutzungsbedingungen",
     "lastUpdated": "Zuletzt aktualisiert: 28. November 2025",
     "agreement": {
       "title": "1. Zustimmung zu den Bedingungen",
-      "content": "Durch den Zugriff auf unsere Website oder die Nutzung unserer App stimmen Sie diesen Nutzungsbedingungen zu."
+      "content": "Durch den Zugriff auf unsere Website stimmen Sie diesen Nutzungsbedingungen zu."
     },
     "intellectual": {
-      "title": "2. Geistiges Eigentum",
-      "content": "Alle Inhalte auf der Website sind unser Eigentum oder werden von uns kontrolliert."
+      "title": "2. Geistige Eigentumsrechte",
+      "content": "Sofern nicht anders angegeben, sind die Website und unsere mobile Anwendung unser proprietäres Eigentum."
     },
     "userRep": {
-      "title": "3. Benutzerdarstellungen",
-      "content": "Durch die Nutzung der Website erklären Sie, dass alle von Ihnen übermittelten Informationen wahr und korrekt sind."
+      "title": "3. Benutzerzusicherungen",
+      "content": "Durch die Nutzung der Website sichern Sie zu, dass alle Registrierungsinformationen wahr und genau sind."
     },
     "prohibited": {
       "title": "4. Verbotene Aktivitäten",
-      "content": "Sie dürfen die Website nicht für andere als die vorgesehenen Zwecke nutzen."
+      "content": "Sie dürfen die Website nicht für andere Zwecke als die vorgesehenen verwenden."
     },
     "contact": {
-      "title": "5. Kontakt",
-      "content": "Für Beschwerden oder weitere Informationen kontaktieren Sie uns unter: support@flickai.net"
+      "title": "5. Kontaktieren Sie uns",
+      "content": "Um eine Beschwerde bezüglich der Website zu lösen, kontaktieren Sie uns unter: support@flickai.net"
     }
   },
   "cookie": {
     "title": "Cookie-Richtlinie - FlickAI",
-    "description": "FlickAI Cookie-Richtlinie. Verstehen Sie, wie wir Cookies verwenden.",
+    "description": "Cookie-Richtlinie für FlickAI. Verstehen Sie, wie wir Cookies verwenden.",
     "heading": "Cookie-Richtlinie",
     "lastUpdated": "Zuletzt aktualisiert: 28. November 2025",
     "whatAre": {
-      "title": "1. Was Sind Cookies",
-      "content": "Cookies sind kleine Textdateien, die auf Ihrem Gerät gespeichert werden."
+      "title": "1. Was sind Cookies",
+      "content": "Cookies sind kleine Textdateien, die auf Ihrem Computer gespeichert werden."
     },
     "howWeUse": {
-      "title": "2. Wie Wir Cookies Verwenden",
+      "title": "2. Wie wir Cookies verwenden",
       "intro": "Wir verwenden Cookies aus verschiedenen Gründen:",
-      "essential": "Wesentliche Cookies: Notwendig für den Betrieb der Website.",
-      "analytics": "Analyse-Cookies: Helfen uns zu verstehen, wie Besucher mit unserer Website interagieren.",
-      "functionality": "Funktions-Cookies: Ermöglichen es der Website, sich an Ihre Auswahl zu erinnern."
+      "essential": "Essenzielle Cookies: Notwendig für die Funktion der Website.",
+      "analytics": "Analyse-Cookies: Helfen uns zu verstehen, wie Besucher interagieren.",
+      "functionality": "Funktions-Cookies: Ermöglichen der Website, sich an Auswahlmöglichkeiten zu erinnern."
     },
     "disabling": {
-      "title": "3. Cookies Deaktivieren",
-      "content": "Sie können Cookies deaktivieren, indem Sie Ihre Browsereinstellungen anpassen."
+      "title": "3. Cookies deaktivieren",
+      "content": "Sie können Cookies über Ihre Browsereinstellungen deaktivieren."
     },
     "contact": {
-      "title": "4. Kontakt",
-      "content": "Bei Fragen zur Verwendung von Cookies kontaktieren Sie uns unter: support@flickai.net"
+      "title": "4. Kontaktieren Sie uns",
+      "content": "Bei Fragen zu unserer Verwendung von Cookies kontaktieren Sie uns unter: support@flickai.net"
     }
   },
   "gdpr": {
-    "title": "DSGVO-Konformität - FlickAI",
-    "description": "FlickAI DSGVO-Konformität. Ihre Rechte gemäß der Datenschutz-Grundverordnung.",
-    "heading": "DSGVO-Konformität",
+    "title": "DSGVO-Compliance - FlickAI",
+    "description": "DSGVO-Compliance-Informationen für FlickAI. Ihre Rechte gemäß der Datenschutz-Grundverordnung.",
+    "heading": "DSGVO-Compliance",
     "lastUpdated": "Zuletzt aktualisiert: 28. November 2025",
     "rights": {
       "title": "1. Ihre Rechte",
       "intro": "Gemäß der DSGVO haben Sie folgende Rechte:",
-      "access": "Das Recht auf Zugang zu Ihren persönlichen Daten.",
-      "rectification": "Das Recht auf Berichtigung unrichtiger Daten.",
-      "erasure": "Das Recht auf Löschung (\"Recht auf Vergessenwerden\").",
-      "restrict": "Das Recht auf Einschränkung der Verarbeitung.",
-      "portability": "Das Recht auf Datenübertragbarkeit.",
-      "object": "Das Recht auf Widerspruch gegen die Verarbeitung."
+      "access": "Recht auf Auskunft.",
+      "rectification": "Recht auf Berichtigung.",
+      "erasure": "Recht auf Löschung ('Recht auf Vergessenwerden').",
+      "restrict": "Recht auf Einschränkung der Verarbeitung.",
+      "portability": "Recht auf Datenübertragbarkeit.",
+      "object": "Recht auf Widerspruch."
     },
     "processing": {
       "title": "2. Datenverarbeitung",
       "content": "Wir verarbeiten Ihre Daten rechtmäßig, fair und transparent."
     },
     "contact": {
-      "title": "3. Datenschutzbeauftragten Kontaktieren",
-      "content": "Um eines Ihrer Rechte auszuüben, kontaktieren Sie unseren Datenschutzbeauftragten unter: support@flickai.net"
+      "title": "3. Datenschutzbeauftragten kontaktieren",
+      "content": "Um Ihre Rechte auszuüben, kontaktieren Sie unseren Datenschutzbeauftragten unter: support@flickai.net"
     }
   },
   "accessibility": {
     "title": "Barrierefreiheitserklärung - FlickAI",
-    "description": "FlickAI Barrierefreiheitserklärung. Unser Engagement für digitale Barrierefreiheit.",
+    "description": "Barrierefreiheitserklärung für FlickAI. Unser Engagement für digitale Barrierefreiheit.",
     "heading": "Barrierefreiheitserklärung",
     "lastUpdated": "Zuletzt aktualisiert: 28. November 2025",
     "commitment": {
@@ -188,60 +192,60 @@
     },
     "feedback": {
       "title": "3. Feedback",
-      "intro": "Wir freuen uns über Ihr Feedback zur Barrierefreiheit von FlickAI:",
+      "intro": "Wir begrüßen Ihr Feedback zur Barrierefreiheit von FlickAI:",
       "email": "E-Mail: support@flickai.net"
     }
   },
   "features": {
     "scanning": {
       "title": "Intelligentes Belegscanning - FlickAI",
-      "description": "Extrahieren Sie sofort Händler, Artikel und Preise von Belegen mit fortschrittlicher KI-Technologie.",
+      "description": "Extrahieren Sie Händler, Artikel und Preise sofort aus Belegen mit fortschrittlicher KI-Technologie.",
       "heading": "Intelligentes Belegscanning",
-      "intro": "Die Zeiten der manuellen Dateneingabe sind vorbei. Mit FlickAI können Sie Ausgaben in Sekunden digitalisieren, indem Sie einfach ein Foto machen.",
+      "intro": "Die Zeiten der manuellen Dateneingabe sind vorbei. Mit FlickAI können Sie Ausgaben in Sekunden digitalisieren.",
       "howItWorks": {
-        "title": "So Funktioniert Es",
-        "step1": "Öffnen Sie die FlickAI-App und tippen Sie auf das Kamera-Symbol.",
-        "step2": "Richten Sie Ihren Beleg im Rahmen aus.",
-        "step3": "Tippen Sie auf Aufnehmen. Die KI verarbeitet das Bild in Sekunden.",
-        "step4": "Überprüfen Sie die extrahierten Details und speichern Sie!"
+        "title": "Wie es funktioniert",
+        "step1": "Öffnen Sie die FlickAI-App.",
+        "step2": "Richten Sie den Beleg im Rahmen aus.",
+        "step3": "Tippen Sie auf Aufnahme.",
+        "step4": "Überprüfen Sie die Details und speichern Sie!"
       },
       "whatWeExtract": {
-        "title": "Was Wir Extrahieren",
-        "merchant": "Händlername: Automatisch aus Logos oder Text identifiziert.",
-        "dateTime": "Datum & Uhrzeit: Erfasst genau, wann der Kauf stattfand.",
-        "total": "Gesamtbetrag: Erfasst den Endbetrag genau.",
-        "items": "Einzelne Artikel: Extrahiert einzelne Artikel und Preise für detaillierte Verfolgung."
+        "title": "Was wir extrahieren",
+        "merchant": "Händlername: Automatisch identifiziert.",
+        "dateTime": "Datum & Zeit: Zeichnet genau auf, wann der Kauf stattfand.",
+        "total": "Gesamtbetrag: Erfasst die Endsumme genau.",
+        "items": "Einzelne Artikel: Extrahiert einzelne Artikel."
       }
     },
     "analytics": {
-      "title": "Intelligente Analysen - FlickAI",
-      "description": "Visualisieren Sie Ausgabentrends und erhalten Sie personalisierte finanzielle Einblicke in Ihrer Sprache.",
-      "heading": "Intelligente Analysen",
-      "intro": "Ihr Geld zu verstehen ist der erste Schritt, es zu kontrollieren. FlickAI bietet tiefe Einblicke in Ihre Ausgabegewohnheiten.",
+      "title": "Intelligente Analytik - FlickAI",
+      "description": "Visualisieren Sie Ausgabentrends und erhalten Sie personalisierte Einblicke.",
+      "heading": "Intelligente Analytik",
+      "intro": "Verstehen Sie Ihr Geld, um es zu kontrollieren.",
       "visualTrends": {
         "title": "Visuelle Ausgabentrends",
-        "intro": "Sehen Sie genau, wohin Ihr Geld geht mit interaktiven Diagrammen:",
-        "categoryBreakdown": "Kategorieaufschlüsselung: Kreisdiagramme zeigen Ausgaben nach Kategorien (Essen, Transport, Versorgung usw.).",
-        "monthlyTrends": "Monatliche Trends: Balkendiagramme vergleichen Ausgaben Monat für Monat.",
-        "merchantAnalysis": "Händleranalyse: Sehen Sie, in welchen Geschäften Sie am meisten ausgeben."
+        "intro": "Sehen Sie genau, wohin Ihr Geld fließt:",
+        "categoryBreakdown": "Kategorie-Aufschlüsselung: Diagramme nach Kategorie.",
+        "monthlyTrends": "Monatliche Trends: Balkendiagramme im Monatsvergleich.",
+        "merchantAnalysis": "Händleranalyse: Sehen Sie, wo Sie am meisten ausgeben."
       },
       "aiInsights": {
-        "title": "KI-Generierte Einblicke",
-        "intro": "Unsere KI zeigt Ihnen nicht nur Daten; sie erklärt sie. Erhalten Sie personalisierte Tipps wie:",
-        "example": "\"Sie haben diesen Monat 20% mehr für Essen auswärts ausgegeben als letzten Monat. Erwägen Sie, diese Woche zu Hause zu kochen, um im Budget zu bleiben.\""
+        "title": "KI-generierte Einblicke",
+        "intro": "Unsere KI erklärt Ihre Daten.",
+        "example": "\"Sie haben diesen Monat 20% mehr für Essen ausgegeben...\""
       }
     },
     "security": {
-      "title": "Banksicherheit - FlickAI",
-      "description": "Ihre Daten sind mit Ende-zu-Ende-Verschlüsselung und sicherer Authentifizierung geschützt.",
-      "heading": "Banksicherheit",
-      "intro": "Ihre Finanzdaten sind sensibel, und wir behandeln sie entsprechend. FlickAI verwendet branchenführende Sicherheitsmaßnahmen, um Ihre Informationen sicher zu halten.",
+      "title": "Sicherheit auf Bankniveau - FlickAI",
+      "description": "Ihre Daten sind sicher geschützt.",
+      "heading": "Sicherheit auf Bankniveau",
+      "intro": "Wir behandeln Ihre Finanzdaten vertraulich.",
       "measures": {
         "title": "Sicherheitsmaßnahmen",
-        "encryption": "Ende-zu-Ende-Verschlüsselung: Alle Daten werden sowohl während der Übertragung als auch im Ruhezustand verschlüsselt.",
-        "auth": "Sichere Authentifizierung: Multi-Faktor-Authentifizierung und biometrische Anmeldeoptionen.",
-        "privacy": "Datenschutz durch Design: Wir verkaufen Ihre Daten niemals an Dritte.",
-        "compliance": "Konformität: DSGVO-konform und nach besten Sicherheitspraktiken."
+        "encryption": "Ende-zu-Ende-Verschlüsselung: Alle Daten sind verschlüsselt.",
+        "auth": "Sichere Authentifizierung: Multi-Faktor-Authentifizierung.",
+        "privacy": "Privacy by Design: Wir verkaufen Ihre Daten nicht.",
+        "compliance": "Compliance: DSGVO-konform."
       }
     }
   }
