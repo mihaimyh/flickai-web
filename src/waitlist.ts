@@ -1,10 +1,22 @@
 /**
- * Email Waitlist Form Handler
+ * Email Waitlist Form Handler with i18n support
  */
 
 interface WaitlistResponse {
   success: boolean;
   message: string;
+}
+
+interface WaitlistTranslations {
+  floatButton: string;
+  title: string;
+  subtitle: string;
+  placeholder: string;
+  button: string;
+  success: string;
+  error: string;
+  networkError: string;
+  alreadyJoined: string;
 }
 
 // Configuration - Google Sheets endpoint
@@ -73,11 +85,29 @@ function storeEmailLocally(email: string): void {
 }
 
 /**
- * Gets localized messages
+ * Loads translations from JSON files dynamically
  */
-function getMessages(lang: string) {
-  const messages: Record<string, Record<string, string>> = {
-    en: {
+async function loadTranslations(lang: string): Promise<WaitlistTranslations> {
+  try {
+    const response = await fetch(`/src/locales/${lang}.json`);
+    const data = await response.json();
+    
+    // Extract waitlist translations from the JSON structure
+    return {
+      floatButton: data.waitlist?.floatButton || 'Join Waitlist',
+      title: data.waitlist?.title || '🚀 Get Early Access',
+      subtitle: data.waitlist?.subtitle || 'Be the first to know when FlickAI launches!',
+      placeholder: data.waitlist?.placeholder || 'Enter your email',
+      button: data.waitlist?.button || 'Join Waitlist',
+      success: data.waitlist?.success || 'Thank you! We\'ll notify you when we launch. 🎉',
+      error: data.waitlist?.error || 'Please enter a valid email address',
+      networkError: data.waitlist?.networkError || 'Something went wrong. Please try again.',
+      alreadyJoined: data.waitlist?.alreadyJoined || 'You\'re already on the waitlist!',
+    };
+  } catch (error) {
+    console.error('Failed to load translations:', error);
+    // Fallback to English
+    return {
       floatButton: 'Join Waitlist',
       title: '🚀 Get Early Access',
       subtitle: 'Be the first to know when FlickAI launches on Android & iOS!',
@@ -87,43 +117,8 @@ function getMessages(lang: string) {
       error: 'Please enter a valid email address',
       networkError: 'Something went wrong. Please try again.',
       alreadyJoined: 'You\'re already on the waitlist!',
-    },
-    es: {
-      floatButton: 'Unirse a Lista',
-      title: '🚀 Acceso Anticipado',
-      subtitle: '¡Sé el primero en saber cuando FlickAI lance en Android e iOS!',
-      placeholder: 'Ingresa tu correo',
-      button: 'Unirse a la Lista',
-      success: '¡Gracias! Te notificaremos cuando lancemos. 🎉',
-      error: 'Por favor ingresa un correo válido',
-      networkError: 'Algo salió mal. Por favor intenta de nuevo.',
-      alreadyJoined: '¡Ya estás en la lista de espera!',
-    },
-    fr: {
-      floatButton: 'Rejoindre Liste',
-      title: '🚀 Accès Anticipé',
-      subtitle: 'Soyez le premier informé du lancement de FlickAI sur Android et iOS!',
-      placeholder: 'Entrez votre email',
-      button: 'Rejoindre la Liste',
-      success: 'Merci! Nous vous informerons lors du lancement. 🎉',
-      error: 'Veuillez entrer une adresse email valide',
-      networkError: 'Une erreur s\'est produite. Veuillez réessayer.',
-      alreadyJoined: 'Vous êtes déjà sur la liste d\'attente!',
-    },
-    ro: {
-      floatButton: 'Alătură-te',
-      title: '🚀 Acces Anticipat',
-      subtitle: 'Fii primul care află când FlickAI lansează pe Android și iOS!',
-      placeholder: 'Introdu emailul',
-      button: 'Alătură-te Listei',
-      success: 'Mulțumim! Te vom anunța când lansăm. 🎉',
-      error: 'Te rugăm să introduci un email valid',
-      networkError: 'Ceva nu a mers bine. Te rugăm să încerci din nou.',
-      alreadyJoined: 'Ești deja pe lista de așteptare!',
-    },
-  };
-
-  return messages[lang] || messages.en;
+    };
+  }
 }
 
 /**
@@ -141,14 +136,17 @@ function isAlreadySubmitted(email: string): boolean {
 /**
  * Creates floating waitlist button and modal
  */
-export function createWaitlistModal(): void {
+export async function createWaitlistModal(): Promise<void> {
   // Detect language from URL
-  const lang = window.location.pathname.startsWith('/es/') ? 'es'
-    : window.location.pathname.startsWith('/fr/') ? 'fr'
-      : window.location.pathname.startsWith('/ro/') ? 'ro'
-        : 'en';
+  const lang = window.location.pathname.startsWith('/ar/') ? 'ar'
+    : window.location.pathname.startsWith('/de/') ? 'de'
+      : window.location.pathname.startsWith('/es/') ? 'es'
+        : window.location.pathname.startsWith('/fr/') ? 'fr'
+          : window.location.pathname.startsWith('/ro/') ? 'ro'
+            : 'en';
 
-  const messages = getMessages(lang);
+  // Load translations from JSON
+  const messages = await loadTranslations(lang);
 
   // Create floating button
   const floatButton = document.createElement('button');
@@ -267,7 +265,7 @@ export function createWaitlistModal(): void {
     button.textContent = messages.button;
   });
 
-  // Expose open function globally or return it
+  // Expose open function globally
   (window as any).openWaitlistModal = openModal;
 }
 
@@ -286,10 +284,9 @@ export function openWaitlistModal(): void {
 }
 
 /**
- * Initializes waitlist form (legacy support for embedded forms)
+ * Initializes waitlist form
  */
 export function initWaitlistForm(): void {
-  // This is now handled by the modal
   createWaitlistModal();
 }
 

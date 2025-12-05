@@ -18,6 +18,17 @@
     "termsOfService": "T√©rminos de Servicio",
     "cookiePolicy": "Pol√≠tica de Cookies"
   },
+  "waitlist": {
+    "floatButton": "Unirse a Lista",
+    "title": " Acceso Anticipado",
+    "subtitle": "SÈ el primero en saber cuando FlickAI lance en Android e iOS!",
+    "placeholder": "Ingresa tu correo",
+    "button": "Unirse a la Lista",
+    "success": "Gracias! Te notificaremos cuando lancemos. ",
+    "error": "Por favor ingresa un correo v·lido",
+    "networkError": "Algo saliÛ mal. Por favor intenta de nuevo.",
+    "alreadyJoined": "Ya est·s en la lista de espera!"
+  },
   "home": {
     "title": "FlickAI - Rastreador de Gastos con IA",
     "description": "Simplifica el seguimiento de gastos con el escaneo de recibos con IA de FlickAI. Rastrea finanzas sin esfuerzo, crea presupuestos y obt√©n informaci√≥n financiera.",

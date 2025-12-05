@@ -18,6 +18,17 @@
     "termsOfService": "Terms of Service",
     "cookiePolicy": "Cookie Policy"
   },
+  "waitlist": {
+    "floatButton": "Join Waitlist",
+    "title": "🚀 Get Early Access",
+    "subtitle": "Be the first to know when FlickAI launches on Android & iOS!",
+    "placeholder": "Enter your email",
+    "button": "Join Waitlist",
+    "success": "Thank you! We'll notify you when we launch. 🎉",
+    "error": "Please enter a valid email address",
+    "networkError": "Something went wrong. Please try again.",
+    "alreadyJoined": "You're already on the waitlist!"
+  },
   "home": {
     "title": "FlickAI - AI-Powered Expense Tracking",
     "description": "Simplify expense tracking with FlickAI's AI-powered receipt scanning. Track finances effortlessly, create budgets, and gain financial insights.",

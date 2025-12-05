@@ -18,6 +18,17 @@
     "termsOfService": "Termeni și Condiții",
     "cookiePolicy": "Politica Cookie"
   },
+  "waitlist": {
+    "floatButton": "Alatura-te",
+    "title": " Acces Anticipat",
+    "subtitle": "Fii primul care afla c�nd FlickAI lanseaza pe Android ?i iOS!",
+    "placeholder": "Introdu emailul",
+    "button": "Alatura-te Listei",
+    "success": "Mul?umim! Te vom anun?a c�nd lansam. ",
+    "error": "Te rugam sa introduci un email valid",
+    "networkError": "Ceva nu a mers bine. Te rugam sa �ncerci din nou.",
+    "alreadyJoined": "E?ti deja pe lista de a?teptare!"
+  },
   "home": {
     "title": "FlickAI - Urmărire Cheltuieli cu IA",
     "description": "Simplifică urmărirea cheltuielilor cu scanarea bonurilor folosind IA de la FlickAI. Urmărește finanțele fără efort, creează bugete și obține informații financiare.",

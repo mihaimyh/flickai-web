@@ -18,6 +18,17 @@
     "termsOfService": "Nutzungsbedingungen",
     "cookiePolicy": "Cookie-Richtlinie"
   },
+  "waitlist": {
+    "floatButton": "Warteliste Beitreten",
+    "title": " Frühen Zugang Erhalten",
+    "subtitle": "Sei der Erste, der erfährt, wenn FlickAI auf Android & iOS startet!",
+    "placeholder": "E-Mail eingeben",
+    "button": "Warteliste Beitreten",
+    "success": "Danke! Wir benachrichtigen dich beim Start. ",
+    "error": "Bitte gib eine gültige E-Mail-Adresse ein",
+    "networkError": "Etwas ist schief gelaufen. Bitte versuche es erneut.",
+    "alreadyJoined": "Du bist bereits auf der Warteliste!"
+  },
   "home": {
     "title": "FlickAI - KI-gestÃ¼tzte Ausgabenverfolgung",
     "description": "Vereinfachen Sie die Ausgabenverfolgung mit FlickAIs KI-gestÃ¼tztem Belegscanning. Verfolgen Sie Ihre Finanzen mÃ¼helos.",

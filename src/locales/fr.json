@@ -18,6 +18,17 @@
     "termsOfService": "Conditions d'Utilisation",
     "cookiePolicy": "Politique des Cookies"
   },
+  "waitlist": {
+    "floatButton": "Rejoindre Liste",
+    "title": " Accès Anticipé",
+    "subtitle": "Soyez le premier informé du lancement de FlickAI sur Android et iOS!",
+    "placeholder": "Entrez votre email",
+    "button": "Rejoindre la Liste",
+    "success": "Merci! Nous vous informerons lors du lancement. ",
+    "error": "Veuillez entrer une adresse email valide",
+    "networkError": "Une erreur s'est produite. Veuillez réessayer.",
+    "alreadyJoined": "Vous êtes déjà sur la liste d'attente!"
+  },
   "home": {
     "title": "FlickAI - Suivi des DÃ©penses avec IA",
     "description": "Simplifiez le suivi des dÃ©penses avec le scan de reÃ§us par IA de FlickAI. Suivez vos finances sans effort, crÃ©ez des budgets et obtenez des informations financiÃ¨res.",
