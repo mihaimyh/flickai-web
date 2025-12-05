@@ -20,14 +20,14 @@
   },
   "waitlist": {
     "floatButton": "Unirse a Lista",
-    "title": " Acceso Anticipado",
-    "subtitle": "S� el primero en saber cuando FlickAI lance en Android e iOS!",
+    "title": "🚀 Acceso Anticipado",
+    "subtitle": "¡Sé el primero en saber cuando FlickAI lance en Android e iOS!",
     "placeholder": "Ingresa tu correo",
     "button": "Unirse a la Lista",
-    "success": "Gracias! Te notificaremos cuando lancemos. ",
-    "error": "Por favor ingresa un correo v�lido",
-    "networkError": "Algo sali� mal. Por favor intenta de nuevo.",
-    "alreadyJoined": "Ya est�s en la lista de espera!"
+    "success": "¡Gracias! Te notificaremos cuando lancemos. 🎉",
+    "error": "Por favor ingresa un correo válido",
+    "networkError": "Algo salió mal. Por favor intenta de nuevo.",
+    "alreadyJoined": "¡Ya estás en la lista de espera!"
   },
   "home": {
     "title": "FlickAI - Rastreador de Gastos con IA",
@@ -232,7 +232,7 @@
       "aiInsights": {
         "title": "Información Generada por IA",
         "intro": "Nuestra IA no solo te muestra datos; los explica. Obtén consejos personalizados como:",
-        "example": "\\\"Has gastado un 20% más en comer fuera este mes en comparación con el mes pasado. Considera cocinar en casa esta semana para mantenerte dentro del presupuesto.\\\""
+        "example": "\"Has gastado un 20% más en comer fuera este mes en comparación con el mes pasado. Considera cocinar en casa esta semana para mantenerte dentro del presupuesto.\""
       }
     },
     "security": {

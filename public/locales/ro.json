@@ -8,7 +8,7 @@
   "common": {
     "features": "Funcționalități",
     "testimonials": "Testimoniale",
-    "downloadApp": "Descarcă App",
+    "downloadApp": "Descarcă Aplicația",
     "backToHome": "Înapoi la Pagina Principală",
     "copyright": "© 2025 FlickAI. Toate drepturile rezervate.",
     "learnMore": "Află mai mult"
@@ -19,15 +19,15 @@
     "cookiePolicy": "Politica Cookie"
   },
   "waitlist": {
-    "floatButton": "Alatura-te",
-    "title": " Acces Anticipat",
-    "subtitle": "Fii primul care afla c�nd FlickAI lanseaza pe Android ?i iOS!",
-    "placeholder": "Introdu emailul",
-    "button": "Alatura-te Listei",
-    "success": "Mul?umim! Te vom anun?a c�nd lansam. ",
-    "error": "Te rugam sa introduci un email valid",
-    "networkError": "Ceva nu a mers bine. Te rugam sa �ncerci din nou.",
-    "alreadyJoined": "E?ti deja pe lista de a?teptare!"
+    "floatButton": "Alătură-te listei",
+    "title": "🚀 Acces Anticipat",
+    "subtitle": "Fii primul care află când FlickAI se lansează pe Android și iOS!",
+    "placeholder": "Introdu adresa de e-mail",
+    "button": "Alătură-te listei",
+    "success": "Mulțumim! Te vom anunța când lansăm. 🎉",
+    "error": "Te rugăm să introduci o adresă de e-mail validă",
+    "networkError": "Ceva nu a mers bine. Te rugăm să încerci din nou.",
+    "alreadyJoined": "Ești deja pe lista de așteptare!"
   },
   "home": {
     "title": "FlickAI - Urmărire Cheltuieli cu IA",
@@ -46,7 +46,7 @@
       "title": "De Ce FlickAI?",
       "scanning": {
         "title": "Scanare Inteligentă Bonuri",
-        "description": "Extrage instant comerciant, articole și prețuri folosind tehnologie IA avansată."
+        "description": "Extrage instant comerciantul, articolele și prețurile folosind tehnologie IA avansată."
       },
       "analytics": {
         "title": "Analiză Inteligentă",
@@ -66,7 +66,7 @@
       "subtitle": "Alătură-te miilor de utilizatori care își controlează finanțele cu FlickAI.",
       "googlePlay": "Google Play",
       "appStore": "App Store",
-      "waitlistNote": "Apasă pe \"Alătură-te\" pentru acces anticipat! 🚀"
+      "waitlistNote": "Apasă pe butonul „Alătură-te listei” pentru acces anticipat! 🚀"
     }
   },
   "privacy": {
@@ -76,7 +76,7 @@
     "lastUpdated": "Ultima actualizare: 28 noiembrie 2025",
     "introduction": {
       "title": "1. Introducere",
-      "content": "FlickAI ('noi', 'al nostru' sau 'ne') respectă confidențialitatea dumneavoastră și se angajează să vă protejeze datele personale. Această politică de confidențialitate vă va informa despre modul în care ne ocupăm de datele dumneavoastră personale atunci când vizitați site-ul nostru web sau utilizați aplicația noastră mobilă."
+      "content": "FlickAI („noi”, „nostru” sau „nouă”) respectă confidențialitatea dumneavoastră și se angajează să vă protejeze datele personale. Această politică de confidențialitate vă va informa despre modul în care ne ocupăm de datele dumneavoastră personale atunci când vizitați site-ul nostru web sau utilizați aplicația noastră mobilă."
     },
     "dataCollection": {
       "title": "2. Datele pe care le Colectăm",
@@ -113,7 +113,7 @@
     },
     "intellectual": {
       "title": "2. Drepturi de Proprietate Intelectuală",
-      "content": "Cu excepția cazului în care se indică altfel, Site-ul și aplicația noastră mobilă sunt proprietatea noastră și tot codul sursă, bazele de date, funcționalitatea, software-ul, designurile site-ului web, audio, video, text, fotografiile și grafica de pe Site (colectiv, 'Conținutul') și mărcile comerciale, mărcile de servicii și siglele conținute în acestea ('Mărcile') sunt deținute sau controlate de noi sau licențiate către noi."
+      "content": "Cu excepția cazului în care se indică altfel, Site-ul și aplicația noastră mobilă sunt proprietatea noastră și tot codul sursă, bazele de date, funcționalitatea, software-ul, designurile site-ului web, audio, video, text, fotografiile și grafica de pe Site (colectiv, „Conținutul”) și mărcile comerciale, mărcile de servicii și siglele conținute în acestea („Mărcile”) sunt deținute sau controlate de noi sau licențiate către noi."
     },
     "userRep": {
       "title": "3. Declarații ale Utilizatorului",
@@ -163,7 +163,7 @@
       "intro": "Conform Regulamentului General privind Protecția Datelor (GDPR), aveți următoarele drepturi cu privire la datele dumneavoastră personale:",
       "access": "Dreptul de a accesa datele dumneavoastră personale.",
       "rectification": "Dreptul la rectificarea datelor inexacte.",
-      "erasure": "Dreptul la ștergere ('dreptul de a fi uitat').",
+      "erasure": "Dreptul la ștergere („dreptul de a fi uitat”).",
       "restrict": "Dreptul de a restricționa prelucrarea.",
       "portability": "Dreptul la portabilitatea datelor.",
       "object": "Dreptul de a obiecta la prelucrare."
@@ -201,7 +201,7 @@
       "title": "Scanare Inteligentă Bonuri - FlickAI",
       "description": "Extrage instant comerciant, articole și prețuri din bonuri folosind tehnologie IA avansată.",
       "heading": "Scanare Inteligentă Bonuri",
-      "intro": "S-au terminat zilele introducerii manuale a datelor. Cu FlickAI, poți digitaliza cheltuielile în câteva secunde doar făcând o fotografie.",
+      "intro": "Zilele introducerii manuale a datelor s-au terminat. Cu FlickAI, poți digitaliza cheltuielile în câteva secunde doar făcând o fotografie.",
       "howItWorks": {
         "title": "Cum Funcționează",
         "step1": "Deschide aplicația FlickAI și apasă pe pictograma camerei.",

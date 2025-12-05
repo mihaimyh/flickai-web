@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "lang": "it",
+    "langName": "Italiano",
+    "siteName": "FlickAI",
+    "siteUrl": "https://flickai.net"
+  },
+  "common": {
+    "features": "Funzionalità",
+    "testimonials": "Testimonianze",
+    "downloadApp": "Scarica l'App",
+    "backToHome": "Torna alla Home",
+    "copyright": "© 2025 FlickAI. Tutti i diritti riservati.",
+    "learnMore": "Scopri di più"
+  },
+  "footer": {
+    "privacyPolicy": "Informativa sulla Privacy",
+    "termsOfService": "Termini di Servizio",
+    "cookiePolicy": "Cookie Policy"
+  },
+  "waitlist": {
+    "floatButton": "Unisciti alla Lista",
+    "title": "🚀 Ottieni l'Accesso Anticipato",
+    "subtitle": "Sii il primo a sapere quando FlickAI verrà lanciata su Android e iOS!",
+    "placeholder": "Inserisci la tua email",
+    "button": "Iscriviti alla Lista d'Attesa",
+    "success": "Grazie! Ti avviseremo al momento del lancio. 🎉",
+    "error": "Inserisci un indirizzo email valido",
+    "networkError": "Qualcosa è andato storto. Riprova.",
+    "alreadyJoined": "Sei già nella lista d'attesa!"
+  },
+  "home": {
+    "title": "FlickAI - Tracciamento Spese con IA",
+    "description": "Semplifica il tracciamento delle spese con la scansione scontrini IA di FlickAI. Monitora le finanze senza sforzo, crea budget e ottieni analisi finanziarie.",
+    "keywords": "tracciamento spese, scanner scontrini, finanza IA, app budget, finanza personale, FlickAI, gestione spese, tracciamento spese IA",
+    "ogTitle": "FlickAI - Tracciamento Spese con IA",
+    "ogDescription": "Semplifica il tracciamento delle spese con la scansione scontrini IA di FlickAI. Monitora le finanze senza sforzo.",
+    "schemaDescription": "Applicazione di tracciamento spese e scansione scontrini basata sull'intelligenza artificiale.",
+    "hero": {
+      "title": "Tracciamento Spese e Scansione Scontrini con IA",
+      "subtitle": "Monitora le tue finanze senza sforzo con la scansione intelligente degli scontrini e approfondimenti automatici. Lascia che l'IA gestisca la parte noiosa.",
+      "getStarted": "Inizia Gratis",
+      "learnMore": "Scopri di Più"
+    },
+    "features": {
+      "title": "Perché Scegliere FlickAI?",
+      "scanning": {
+        "title": "Scansione Intelligente Scontrini",
+        "description": "Estrai istantaneamente esercente, articoli e prezzi utilizzando una tecnologia IA avanzata."
+      },
+      "analytics": {
+        "title": "Analisi Intelligente",
+        "description": "Visualizza le tendenze di spesa e ottieni approfondimenti finanziari personalizzati nella tua lingua."
+      },
+      "security": {
+        "title": "Sicurezza di Livello Bancario",
+        "description": "I tuoi dati sono protetti con crittografia end-to-end e autenticazione sicura."
+      },
+      "offline": {
+        "title": "Offline e Sincronizzazione",
+        "description": "Funziona perfettamente offline. Le modifiche si sincronizzano automaticamente quando torni online."
+      }
+    },
+    "download": {
+      "title": "Inizia a Tracciare Oggi",
+      "subtitle": "Unisciti a migliaia di utenti che prendono il controllo delle loro finanze con FlickAI.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store",
+      "waitlistNote": "Clicca sul pulsante \"Unisciti alla Lista\" per ottenere l'accesso anticipato! 🚀"
+    }
+  },
+  "privacy": {
+    "title": "Informativa sulla Privacy - FlickAI",
+    "description": "Informativa sulla Privacy per FlickAI. Scopri come raccogliamo, utilizziamo e proteggiamo i tuoi dati.",
+    "heading": "Informativa sulla Privacy",
+    "lastUpdated": "Ultimo aggiornamento: 28 novembre 2025",
+    "introduction": {
+      "title": "1. Introduzione",
+      "content": "FlickAI (\"noi\", \"nostro\" o \"ci\") rispetta la tua privacy e si impegna a proteggere i tuoi dati personali. Questa informativa sulla privacy ti informerà su come ci prendiamo cura dei tuoi dati personali quando visiti il nostro sito web o utilizzi la nostra applicazione mobile."
+    },
+    "dataCollection": {
+      "title": "2. Dati che Raccogliamo",
+      "intro": "Potremmo raccogliere, utilizzare, archiviare e trasferire diversi tipi di dati personali su di te che abbiamo raggruppato come segue:",
+      "identity": "Dati Identificativi: include nome, cognome, nome utente o identificativo simile.",
+      "contact": "Dati di Contatto: include indirizzo email.",
+      "transaction": "Dati di Transazione: include dettagli sui pagamenti da e verso di te e altri dettagli di prodotti e servizi che hai acquistato da noi.",
+      "usage": "Dati di Utilizzo: include informazioni su come utilizzi il nostro sito web e le nostre applicazioni."
+    },
+    "dataUsage": {
+      "title": "3. Come Utilizziamo i Tuoi Dati",
+      "intro": "Utilizzeremo i tuoi dati personali solo quando la legge ce lo consente. Più comunemente, utilizzeremo i tuoi dati personali nelle seguenti circostanze:",
+      "contract": "Quando dobbiamo eseguire il contratto che stiamo per stipulare o abbiamo stipulato con te.",
+      "legitimate": "Quando è necessario per i nostri interessi legittimi (o quelli di una terza parte) e i tuoi interessi e diritti fondamentali non prevalgono su tali interessi.",
+      "legal": "Quando dobbiamo rispettare un obbligo legale o normativo."
+    },
+    "security": {
+      "title": "4. Sicurezza dei Dati",
+      "content": "Abbiamo messo in atto misure di sicurezza appropriate per impedire che i tuoi dati personali vengano persi accidentalmente, utilizzati o consultati in modo non autorizzato, alterati o divulgati."
+    },
+    "contact": {
+      "title": "5. Contattaci",
+      "content": "Se hai domande su questa informativa sulla privacy o sulle nostre pratiche sulla privacy, contattaci all'indirizzo: support@flickai.net"
+    }
+  },
+  "terms": {
+    "title": "Termini di Servizio - FlickAI",
+    "description": "Termini di Servizio per FlickAI. Leggi i nostri termini e condizioni per l'utilizzo dei nostri servizi.",
+    "heading": "Termini di Servizio",
+    "lastUpdated": "Ultimo aggiornamento: 28 novembre 2025",
+    "agreement": {
+      "title": "1. Accettazione dei Termini",
+      "content": "Accedendo al nostro sito web o utilizzando la nostra applicazione mobile, accetti di essere vincolato da questi Termini di Servizio. Se non accetti questi termini, ti preghiamo di non utilizzare i nostri servizi."
+    },
+    "intellectual": {
+      "title": "2. Diritti di Proprietà Intellettuale",
+      "content": "Salvo diversa indicazione, il Sito e la nostra applicazione mobile sono di nostra proprietà esclusiva e tutto il codice sorgente, i database, le funzionalità, il software, i design del sito web, l'audio, il video, il testo, le fotografie e la grafica sul Sito (collettivamente, il \"Contenuto\") e i marchi, i marchi di servizio e i loghi in essi contenuti (i \"Marchi\") sono di nostra proprietà o controllati da noi o concessi in licenza a noi."
+    },
+    "userRep": {
+      "title": "3. Dichiarazioni dell'Utente",
+      "content": "Utilizzando il Sito, dichiari e garantisci che: (1) tutte le informazioni di registrazione inviate saranno vere, accurate, attuali e complete; (2) manterrai l'accuratezza di tali informazioni e aggiornerai prontamente tali informazioni di registrazione se necessario."
+    },
+    "prohibited": {
+      "title": "4. Attività Proibite",
+      "content": "Non puoi accedere o utilizzare il Sito per scopi diversi da quelli per cui rendiamo disponibile il Sito. Il Sito non può essere utilizzato in relazione a iniziative commerciali, ad eccezione di quelle specificamente approvate o sostenute da noi."
+    },
+    "contact": {
+      "title": "5. Contattaci",
+      "content": "Per risolvere un reclamo riguardante il Sito o per ricevere ulteriori informazioni sull'utilizzo del Sito, contattaci all'indirizzo: support@flickai.net"
+    }
+  },
+  "cookie": {
+    "title": "Cookie Policy - FlickAI",
+    "description": "Cookie Policy per FlickAI. Comprendi come utilizziamo i cookie per migliorare la tua esperienza.",
+    "heading": "Cookie Policy",
+    "lastUpdated": "Ultimo aggiornamento: 28 novembre 2025",
+    "whatAre": {
+      "title": "1. Cosa Sono i Cookie",
+      "content": "I cookie sono piccoli file di testo che vengono inseriti nel tuo computer o dispositivo mobile dai siti web che visiti. Sono ampiamente utilizzati per far funzionare i siti web, o farli funzionare in modo più efficiente, nonché per fornire informazioni ai proprietari del sito."
+    },
+    "howWeUse": {
+      "title": "2. Come Utilizziamo i Cookie",
+      "intro": "Utilizziamo i cookie per una serie di motivi descritti di seguito. Purtroppo, nella maggior parte dei casi non esistono opzioni standard del settore per disabilitare i cookie senza disabilitare completamente le funzionalità e le caratteristiche che aggiungono a questo sito.",
+      "essential": "Cookie Essenziali: Questi sono necessari affinché il sito web funzioni correttamente.",
+      "analytics": "Cookie Analitici: Questi ci aiutano a capire come i visitatori interagiscono con il nostro sito web.",
+      "functionality": "Cookie di Funzionalità: Questi consentono al sito web di ricordare le scelte che fai."
+    },
+    "disabling": {
+      "title": "3. Disabilitare i Cookie",
+      "content": "Puoi impedire l'impostazione dei cookie modificando le impostazioni del tuo browser (consulta la Guida del tuo browser per sapere come farlo). Tieni presente che la disabilitazione dei cookie influenzerà la funzionalità di questo e di molti altri siti web che visiti."
+    },
+    "contact": {
+      "title": "4. Contattaci",
+      "content": "Se hai domande sul nostro utilizzo dei cookie, contattaci all'indirizzo: support@flickai.net"
+    }
+  },
+  "gdpr": {
+    "title": "Conformità GDPR - FlickAI",
+    "description": "Informazioni sulla Conformità GDPR per FlickAI. I tuoi diritti ai sensi del Regolamento Generale sulla Protezione dei Dati.",
+    "heading": "Conformità GDPR",
+    "lastUpdated": "Ultimo aggiornamento: 28 novembre 2025",
+    "rights": {
+      "title": "1. I Tuoi Diritti",
+      "intro": "Ai sensi del Regolamento Generale sulla Protezione dei Dati (GDPR), hai i seguenti diritti riguardanti i tuoi dati personali:",
+      "access": "Il diritto di accedere ai tuoi dati personali.",
+      "rectification": "Il diritto alla rettifica dei dati inesatti.",
+      "erasure": "Il diritto alla cancellazione (\"diritto all'oblio\").",
+      "restrict": "Il diritto di limitare il trattamento.",
+      "portability": "Il diritto alla portabilità dei dati.",
+      "object": "Il diritto di opporsi al trattamento."
+    },
+    "processing": {
+      "title": "2. Trattamento dei Dati",
+      "content": "Trattiamo i tuoi dati in modo lecito, corretto e trasparente. Raccogliamo i dati solo per scopi specifici, espliciti e legittimi."
+    },
+    "contact": {
+      "title": "3. Contatta il DPO",
+      "content": "Per esercitare uno qualsiasi dei tuoi diritti o per domande riguardanti la conformità GDPR, contatta il nostro Responsabile della Protezione dei Dati all'indirizzo: support@flickai.net"
+    }
+  },
+  "accessibility": {
+    "title": "Dichiarazione di Accessibilità - FlickAI",
+    "description": "Dichiarazione di Accessibilità per FlickAI. Il nostro impegno per l'accessibilità digitale.",
+    "heading": "Dichiarazione di Accessibilità",
+    "lastUpdated": "Ultimo aggiornamento: 28 novembre 2025",
+    "commitment": {
+      "title": "1. Il Nostro Impegno",
+      "content": "FlickAI si impegna a garantire l'accessibilità digitale per le persone con disabilità. Miglioriamo continuamente l'esperienza utente per tutti e applichiamo gli standard di accessibilità pertinenti."
+    },
+    "conformance": {
+      "title": "2. Stato di Conformità",
+      "content": "Le Linee Guida per l'Accessibilità dei Contenuti Web (WCAG) definiscono i requisiti per progettisti e sviluppatori per migliorare l'accessibilità per le persone con disabilità. Definiscono tre livelli di conformità: Livello A, Livello AA e Livello AAA. FlickAI è parzialmente conforme alle WCAG 2.1 livello AA."
+    },
+    "feedback": {
+      "title": "3. Feedback",
+      "intro": "Accogliamo con favore il tuo feedback sull'accessibilità di FlickAI. Ti preghiamo di farci sapere se incontri barriere di accessibilità su FlickAI:",
+      "email": "E-mail: support@flickai.net"
+    }
+  },
+  "features": {
+    "scanning": {
+      "title": "Scansione Intelligente Scontrini - FlickAI",
+      "description": "Estrai istantaneamente esercente, articoli e prezzi dagli scontrini utilizzando una tecnologia IA avanzata.",
+      "heading": "Scansione Intelligente Scontrini",
+      "intro": "I giorni dell'inserimento manuale dei dati sono finiti. Con FlickAI, puoi digitalizzare le spese in pochi secondi semplicemente scattando una foto.",
+      "howItWorks": {
+        "title": "Come Funziona",
+        "step1": "Apri l'app FlickAI e tocca l'icona della fotocamera.",
+        "step2": "Allinea lo scontrino nel riquadro.",
+        "step3": "Tocca scatta. L'IA elabora l'immagine in pochi secondi.",
+        "step4": "Rivedi i dettagli estratti e salva!"
+      },
+      "whatWeExtract": {
+        "title": "Cosa Estraiamo",
+        "merchant": "Nome Esercente: Identificato automaticamente da loghi o testo.",
+        "dateTime": "Data e Ora: Registra esattamente quando è avvenuto l'acquisto.",
+        "total": "Importo Totale: Cattura il totale finale con precisione.",
+        "items": "Singoli Articoli: Estrae singoli articoli e prezzi per un tracciamento dettagliato."
+      }
+    },
+    "analytics": {
+      "title": "Analisi Intelligente - FlickAI",
+      "description": "Visualizza le tendenze di spesa e ottieni approfondimenti finanziari personalizzati nella tua lingua.",
+      "heading": "Analisi Intelligente",
+      "intro": "Capire i tuoi soldi è il primo passo per controllarli. FlickAI fornisce approfondimenti dettagliati sulle tue abitudini di spesa.",
+      "visualTrends": {
+        "title": "Tendenze Visive di Spesa",
+        "intro": "Vedi esattamente dove vanno i tuoi soldi con grafici e diagrammi interattivi:",
+        "categoryBreakdown": "Ripartizione per Categoria: Grafici a torta che mostrano la spesa per categoria (Cibo, Trasporti, Utenze, ecc.).",
+        "monthlyTrends": "Tendenze Mensili: Grafici a barre che confrontano la spesa mese per mese.",
+        "merchantAnalysis": "Analisi Esercenti: Vedi in quali negozi spendi di più."
+      },
+      "aiInsights": {
+        "title": "Approfondimenti Generati dall'IA",
+        "intro": "La nostra IA non ti mostra solo i dati; li spiega. Ottieni consigli personalizzati come:",
+        "example": "\"Hai speso il 20% in più per mangiare fuori questo mese rispetto al mese scorso. Considera di cucinare a casa questa settimana per rimanere nel budget.\""
+      }
+    },
+    "security": {
+      "title": "Sicurezza di Livello Bancario - FlickAI",
+      "description": "I tuoi dati sono protetti con crittografia end-to-end e autenticazione sicura.",
+      "heading": "Sicurezza di Livello Bancario",
+      "intro": "I tuoi dati finanziari sono sensibili e li trattiamo come tali. FlickAI impiega misure di sicurezza leader del settore per mantenere le tue informazioni al sicuro.",
+      "measures": {
+        "title": "Misure di Sicurezza",
+        "encryption": "Crittografia End-to-End: Tutti i dati sono crittografati sia in transito che a riposo.",
+        "auth": "Autenticazione Sicura: Autenticazione a più fattori e opzioni di accesso biometrico.",
+        "privacy": "Privacy by Design: Non vendiamo mai i tuoi dati a terze parti.",
+        "compliance": "Conformità: Conforme al GDPR e seguendo le migliori pratiche di sicurezza."
+      }
+    }
+  }
+}

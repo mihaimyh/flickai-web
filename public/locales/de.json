@@ -19,15 +19,15 @@
     "cookiePolicy": "Cookie-Richtlinie"
   },
   "waitlist": {
-    "floatButton": "Warteliste beitreten",
+    "floatButton": "Der Warteliste beitreten",
     "title": "🚀 Frühen Zugang erhalten",
-    "subtitle": "Sei der Erste, der erfährt, wenn FlickAI auf Android & iOS startet!",
-    "placeholder": "Deine E-Mail eingeben",
-    "button": "Warteliste beitreten",
-    "success": "Danke! Wir benachrichtigen dich beim Start. 🎉",
-    "error": "Bitte gib eine gültige E-Mail-Adresse ein",
-    "networkError": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
-    "alreadyJoined": "Du bist bereits auf der Warteliste!"
+    "subtitle": "Erfahren Sie als Erstes, wenn FlickAI auf Android & iOS startet!",
+    "placeholder": "Ihre E-Mail eingeben",
+    "button": "Der Warteliste beitreten",
+    "success": "Danke! Wir benachrichtigen Sie beim Start. 🎉",
+    "error": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "networkError": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    "alreadyJoined": "Sie stehen bereits auf der Warteliste!"
   },
   "home": {
     "title": "FlickAI - KI-gestützte Ausgabenverfolgung",
@@ -66,7 +66,7 @@
       "subtitle": "Schließen Sie sich tausenden von Nutzern an, die mit FlickAI die Kontrolle über ihre Finanzen übernehmen.",
       "googlePlay": "Google Play",
       "appStore": "App Store",
-      "waitlistNote": "Klicke auf den \"Warteliste beitreten\"-Button für frühen Zugang! 🚀"
+      "waitlistNote": "Klicken Sie auf den \"Warteliste beitreten\"-Button, um frühen Zugang zu erhalten! 🚀"
     }
   },
   "privacy": {
@@ -76,30 +76,30 @@
     "lastUpdated": "Zuletzt aktualisiert: 28. November 2025",
     "introduction": {
       "title": "1. Einführung",
-      "content": "FlickAI (\"wir\", \"unser\" oder \"uns\") respektiert Ihre Privatsphäre und verpflichtet sich, Ihre persönlichen Daten zu schützen."
+      "content": "FlickAI (\"wir\", \"unser\" oder \"uns\") respektiert Ihre Privatsphäre und verpflichtet sich, Ihre persönlichen Daten zu schützen. Diese Datenschutzerklärung informiert Sie darüber, wie wir mit Ihren personenbezogenen Daten umgehen, wenn Sie unsere Website besuchen oder unsere mobile Anwendung nutzen."
     },
     "dataCollection": {
       "title": "2. Daten, die wir sammeln",
-      "intro": "Wir können verschiedene Arten von persönlichen Daten über Sie sammeln, verwenden, speichern und übertragen:",
-      "identity": "Identitätsdaten: umfasst Vorname, Nachname, Benutzername.",
+      "intro": "Wir können verschiedene Arten von persönlichen Daten über Sie sammeln, verwenden, speichern und übertragen, die wir wie folgt gruppiert haben:",
+      "identity": "Identitätsdaten: umfasst Vorname, Nachname, Benutzername oder ähnliche Identifikatoren.",
       "contact": "Kontaktdaten: umfasst E-Mail-Adresse.",
-      "transaction": "Transaktionsdaten: Details zu Zahlungen.",
-      "usage": "Nutzungsdaten: Informationen darüber, wie Sie unsere Website nutzen."
+      "transaction": "Transaktionsdaten: umfasst Details zu Zahlungen an Sie und von Ihnen sowie andere Details zu Produkten und Dienstleistungen, die Sie bei uns erworben haben.",
+      "usage": "Nutzungsdaten: umfasst Informationen darüber, wie Sie unsere Website und Anwendungen nutzen."
     },
     "dataUsage": {
       "title": "3. Wie wir Ihre Daten verwenden",
-      "intro": "Wir werden Ihre persönlichen Daten nur verwenden, wenn das Gesetz es uns erlaubt:",
-      "contract": "Um den Vertrag zu erfüllen, den wir mit Ihnen eingehen.",
-      "legitimate": "Wenn es für unsere berechtigten Interessen notwendig ist.",
-      "legal": "Wenn wir einer gesetzlichen Verpflichtung nachkommen müssen."
+      "intro": "Wir werden Ihre persönlichen Daten nur verwenden, wenn das Gesetz es uns erlaubt. Am häufigsten verwenden wir Ihre persönlichen Daten unter folgenden Umständen:",
+      "contract": "Wenn wir den Vertrag erfüllen müssen, den wir mit Ihnen eingehen oder eingegangen sind.",
+      "legitimate": "Wenn es für unsere berechtigten Interessen (oder die eines Dritten) notwendig ist und Ihre Interessen und Grundrechte diese Interessen nicht überwiegen.",
+      "legal": "Wenn wir einer gesetzlichen oder behördlichen Verpflichtung nachkommen müssen."
     },
     "security": {
       "title": "4. Datensicherheit",
-      "content": "Wir haben angemessene Sicherheitsvorkehrungen getroffen, um zu verhindern, dass Ihre persönlichen Daten versehentlich verloren gehen."
+      "content": "Wir haben angemessene Sicherheitsvorkehrungen getroffen, um zu verhindern, dass Ihre persönlichen Daten versehentlich verloren gehen, unbefugt verwendet oder abgerufen, verändert oder offengelegt werden."
     },
     "contact": {
       "title": "5. Kontaktieren Sie uns",
-      "content": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns unter: support@flickai.net"
+      "content": "Wenn Sie Fragen zu dieser Datenschutzerklärung oder unseren Datenschutzpraktiken haben, kontaktieren Sie uns bitte unter: support@flickai.net"
     }
   },
   "terms": {
@@ -109,48 +109,48 @@
     "lastUpdated": "Zuletzt aktualisiert: 28. November 2025",
     "agreement": {
       "title": "1. Zustimmung zu den Bedingungen",
-      "content": "Durch den Zugriff auf unsere Website stimmen Sie diesen Nutzungsbedingungen zu."
+      "content": "Durch den Zugriff auf unsere Website oder die Nutzung unserer mobilen Anwendung erklären Sie sich mit diesen Nutzungsbedingungen einverstanden. Wenn Sie diesen Bedingungen nicht zustimmen, nutzen Sie unsere Dienste bitte nicht."
     },
     "intellectual": {
       "title": "2. Geistige Eigentumsrechte",
-      "content": "Sofern nicht anders angegeben, sind die Website und unsere mobile Anwendung unser proprietäres Eigentum."
+      "content": "Sofern nicht anders angegeben, sind die Website und unsere mobile Anwendung unser proprietäres Eigentum, und der gesamte Quellcode, Datenbanken, Funktionen, Software, Website-Designs, Audio, Video, Text, Fotografien und Grafiken auf der Website (zusammen der \"Inhalt\") sowie die darin enthaltenen Marken, Dienstleistungsmarken und Logos (die \"Marken\") sind unser Eigentum oder werden von uns kontrolliert oder sind an uns lizenziert."
     },
     "userRep": {
       "title": "3. Benutzerzusicherungen",
-      "content": "Durch die Nutzung der Website sichern Sie zu, dass alle Registrierungsinformationen wahr und genau sind."
+      "content": "Durch die Nutzung der Website sichern Sie zu und gewährleisten, dass: (1) alle von Ihnen übermittelten Registrierungsinformationen wahr, genau, aktuell und vollständig sind; (2) Sie die Genauigkeit dieser Informationen aufrechterhalten und diese Registrierungsinformationen bei Bedarf umgehend aktualisieren."
     },
     "prohibited": {
       "title": "4. Verbotene Aktivitäten",
-      "content": "Sie dürfen die Website nicht für andere Zwecke als die vorgesehenen verwenden."
+      "content": "Sie dürfen die Website nicht für andere Zwecke als die verwenden, für die wir die Website zur Verfügung stellen. Die Website darf nicht im Zusammenhang mit kommerziellen Unternehmungen verwendet werden, außer solchen, die von uns ausdrücklich unterstützt oder genehmigt wurden."
     },
     "contact": {
       "title": "5. Kontaktieren Sie uns",
-      "content": "Um eine Beschwerde bezüglich der Website zu lösen, kontaktieren Sie uns unter: support@flickai.net"
+      "content": "Um eine Beschwerde bezüglich der Website zu lösen oder weitere Informationen zur Nutzung der Website zu erhalten, kontaktieren Sie uns bitte unter: support@flickai.net"
     }
   },
   "cookie": {
     "title": "Cookie-Richtlinie - FlickAI",
-    "description": "Cookie-Richtlinie für FlickAI. Verstehen Sie, wie wir Cookies verwenden.",
+    "description": "Cookie-Richtlinie für FlickAI. Verstehen Sie, wie wir Cookies verwenden, um Ihre Erfahrung zu verbessern.",
     "heading": "Cookie-Richtlinie",
     "lastUpdated": "Zuletzt aktualisiert: 28. November 2025",
     "whatAre": {
       "title": "1. Was sind Cookies",
-      "content": "Cookies sind kleine Textdateien, die auf Ihrem Computer gespeichert werden."
+      "content": "Cookies sind kleine Textdateien, die von Websites, die Sie besuchen, auf Ihrem Computer oder Mobilgerät gespeichert werden. Sie werden häufig verwendet, damit Websites funktionieren oder effizienter arbeiten, sowie um den Betreibern der Website Informationen bereitzustellen."
     },
     "howWeUse": {
       "title": "2. Wie wir Cookies verwenden",
-      "intro": "Wir verwenden Cookies aus verschiedenen Gründen:",
-      "essential": "Essenzielle Cookies: Notwendig für die Funktion der Website.",
-      "analytics": "Analyse-Cookies: Helfen uns zu verstehen, wie Besucher interagieren.",
-      "functionality": "Funktions-Cookies: Ermöglichen der Website, sich an Auswahlmöglichkeiten zu erinnern."
+      "intro": "Wir verwenden Cookies aus verschiedenen Gründen, die unten aufgeführt sind. Leider gibt es in den meisten Fällen keine branchenüblichen Optionen zum Deaktivieren von Cookies, ohne die Funktionalität und die Funktionen, die sie dieser Website hinzufügen, vollständig zu deaktivieren.",
+      "essential": "Essenzielle Cookies: Diese sind für das ordnungsgemäße Funktionieren der Website notwendig.",
+      "analytics": "Analyse-Cookies: Diese helfen uns zu verstehen, wie Besucher mit unserer Website interagieren.",
+      "functionality": "Funktions-Cookies: Diese ermöglichen es der Website, sich an von Ihnen getroffene Auswahlmöglichkeiten zu erinnern."
     },
     "disabling": {
       "title": "3. Cookies deaktivieren",
-      "content": "Sie können Cookies über Ihre Browsereinstellungen deaktivieren."
+      "content": "Sie können das Setzen von Cookies verhindern, indem Sie die Einstellungen Ihres Browsers anpassen (siehe Hilfe Ihres Browsers, wie das geht). Beachten Sie, dass das Deaktivieren von Cookies die Funktionalität dieser und vieler anderer Websites, die Sie besuchen, beeinträchtigen wird."
     },
     "contact": {
       "title": "4. Kontaktieren Sie uns",
-      "content": "Bei Fragen zu unserer Verwendung von Cookies kontaktieren Sie uns unter: support@flickai.net"
+      "content": "Wenn Sie Fragen zu unserer Verwendung von Cookies haben, kontaktieren Sie uns bitte unter: support@flickai.net"
     }
   },
   "gdpr": {
@@ -160,21 +160,21 @@
     "lastUpdated": "Zuletzt aktualisiert: 28. November 2025",
     "rights": {
       "title": "1. Ihre Rechte",
-      "intro": "Gemäß der DSGVO haben Sie folgende Rechte:",
-      "access": "Recht auf Auskunft.",
-      "rectification": "Recht auf Berichtigung.",
-      "erasure": "Recht auf Löschung ('Recht auf Vergessenwerden').",
-      "restrict": "Recht auf Einschränkung der Verarbeitung.",
-      "portability": "Recht auf Datenübertragbarkeit.",
-      "object": "Recht auf Widerspruch."
+      "intro": "Gemäß der Datenschutz-Grundverordnung (DSGVO) haben Sie folgende Rechte bezüglich Ihrer personenbezogenen Daten:",
+      "access": "Das Recht auf Auskunft über Ihre personenbezogenen Daten.",
+      "rectification": "Das Recht auf Berichtigung unrichtiger Daten.",
+      "erasure": "Das Recht auf Löschung (\"Recht auf Vergessenwerden\").",
+      "restrict": "Das Recht auf Einschränkung der Verarbeitung.",
+      "portability": "Das Recht auf Datenübertragbarkeit.",
+      "object": "Das Recht auf Widerspruch gegen die Verarbeitung."
     },
     "processing": {
       "title": "2. Datenverarbeitung",
-      "content": "Wir verarbeiten Ihre Daten rechtmäßig, fair und transparent."
+      "content": "Wir verarbeiten Ihre Daten rechtmäßig, fair und auf transparente Weise. Wir sammeln Daten nur für festgelegte, eindeutige und legitime Zwecke."
     },
     "contact": {
       "title": "3. Datenschutzbeauftragten kontaktieren",
-      "content": "Um Ihre Rechte auszuüben, kontaktieren Sie unseren Datenschutzbeauftragten unter: support@flickai.net"
+      "content": "Um eines Ihrer Rechte auszuüben oder bei Fragen zur DSGVO-Compliance, kontaktieren Sie bitte unseren Datenschutzbeauftragten unter: support@flickai.net"
     }
   },
   "accessibility": {
@@ -184,15 +184,15 @@
     "lastUpdated": "Zuletzt aktualisiert: 28. November 2025",
     "commitment": {
       "title": "1. Unser Engagement",
-      "content": "FlickAI verpflichtet sich, digitale Barrierefreiheit für Menschen mit Behinderungen zu gewährleisten."
+      "content": "FlickAI verpflichtet sich, digitale Barrierefreiheit für Menschen mit Behinderungen zu gewährleisten. Wir verbessern kontinuierlich die Benutzererfahrung für alle und wenden die relevanten Barrierefreiheitsstandards an."
     },
     "conformance": {
       "title": "2. Konformitätsstatus",
-      "content": "FlickAI ist teilweise konform mit WCAG 2.1 Level AA."
+      "content": "Die Web Content Accessibility Guidelines (WCAG) definieren Anforderungen für Designer und Entwickler, um die Barrierefreiheit für Menschen mit Behinderungen zu verbessern. Sie definieren drei Konformitätsstufen: Stufe A, Stufe AA und Stufe AAA. FlickAI ist teilweise konform mit WCAG 2.1 Stufe AA."
     },
     "feedback": {
       "title": "3. Feedback",
-      "intro": "Wir begrüßen Ihr Feedback zur Barrierefreiheit von FlickAI:",
+      "intro": "Wir begrüßen Ihr Feedback zur Barrierefreiheit von FlickAI. Bitte lassen Sie uns wissen, wenn Sie auf Barrierefreiheitsbarrieren bei FlickAI stoßen:",
       "email": "E-Mail: support@flickai.net"
     }
   },
@@ -201,51 +201,51 @@
       "title": "Intelligentes Belegscanning - FlickAI",
       "description": "Extrahieren Sie Händler, Artikel und Preise sofort aus Belegen mit fortschrittlicher KI-Technologie.",
       "heading": "Intelligentes Belegscanning",
-      "intro": "Die Zeiten der manuellen Dateneingabe sind vorbei. Mit FlickAI können Sie Ausgaben in Sekunden digitalisieren.",
+      "intro": "Die Zeiten der manuellen Dateneingabe sind vorbei. Mit FlickAI können Sie Ausgaben in Sekunden digitalisieren, indem Sie einfach ein Foto machen.",
       "howItWorks": {
         "title": "Wie es funktioniert",
-        "step1": "Öffnen Sie die FlickAI-App.",
+        "step1": "Öffnen Sie die FlickAI-App und tippen Sie auf das Kamerasymbol.",
         "step2": "Richten Sie den Beleg im Rahmen aus.",
-        "step3": "Tippen Sie auf Aufnahme.",
-        "step4": "Überprüfen Sie die Details und speichern Sie!"
+        "step3": "Tippen Sie auf Aufnahme. Die KI verarbeitet das Bild in Sekunden.",
+        "step4": "Überprüfen Sie die extrahierten Details und speichern Sie!"
       },
       "whatWeExtract": {
         "title": "Was wir extrahieren",
-        "merchant": "Händlername: Automatisch identifiziert.",
+        "merchant": "Händlername: Wird automatisch anhand von Logos oder Text identifiziert.",
         "dateTime": "Datum & Zeit: Zeichnet genau auf, wann der Kauf stattfand.",
         "total": "Gesamtbetrag: Erfasst die Endsumme genau.",
-        "items": "Einzelne Artikel: Extrahiert einzelne Artikel."
+        "items": "Einzelne Artikel: Extrahiert einzelne Artikel und Preise für eine detaillierte Verfolgung."
       }
     },
     "analytics": {
       "title": "Intelligente Analytik - FlickAI",
-      "description": "Visualisieren Sie Ausgabentrends und erhalten Sie personalisierte Einblicke.",
+      "description": "Visualisieren Sie Ausgabentrends und erhalten Sie personalisierte finanzielle Einblicke in Ihrer Sprache.",
       "heading": "Intelligente Analytik",
-      "intro": "Verstehen Sie Ihr Geld, um es zu kontrollieren.",
+      "intro": "Ihr Geld zu verstehen ist der erste Schritt, um es zu kontrollieren. FlickAI bietet tiefe Einblicke in Ihre Ausgabengewohnheiten.",
       "visualTrends": {
         "title": "Visuelle Ausgabentrends",
-        "intro": "Sehen Sie genau, wohin Ihr Geld fließt:",
-        "categoryBreakdown": "Kategorie-Aufschlüsselung: Diagramme nach Kategorie.",
-        "monthlyTrends": "Monatliche Trends: Balkendiagramme im Monatsvergleich.",
-        "merchantAnalysis": "Händleranalyse: Sehen Sie, wo Sie am meisten ausgeben."
+        "intro": "Sehen Sie genau, wohin Ihr Geld fließt, mit interaktiven Diagrammen und Grafiken:",
+        "categoryBreakdown": "Kategorie-Aufschlüsselung: Tortendiagramme, die Ausgaben nach Kategorie zeigen (Essen, Transport, Nebenkosten usw.).",
+        "monthlyTrends": "Monatliche Trends: Balkendiagramme, die Ausgaben im Monatsvergleich gegenüberstellen.",
+        "merchantAnalysis": "Händleranalyse: Sehen Sie, in welchen Geschäften Sie am meisten ausgeben."
       },
       "aiInsights": {
         "title": "KI-generierte Einblicke",
-        "intro": "Unsere KI erklärt Ihre Daten.",
-        "example": "\"Sie haben diesen Monat 20% mehr für Essen ausgegeben...\""
+        "intro": "Unsere KI zeigt Ihnen nicht nur Daten; sie erklärt sie. Erhalten Sie personalisierte Tipps wie:",
+        "example": "\"Sie haben diesen Monat 20% mehr für Essen ausgegeben als im letzten Monat. Ziehen Sie in Erwägung, diese Woche zu Hause zu kochen, um im Budget zu bleiben.\""
       }
     },
     "security": {
       "title": "Sicherheit auf Bankniveau - FlickAI",
-      "description": "Ihre Daten sind sicher geschützt.",
+      "description": "Ihre Daten sind durch Ende-zu-Ende-Verschlüsselung und sichere Authentifizierung geschützt.",
       "heading": "Sicherheit auf Bankniveau",
-      "intro": "Wir behandeln Ihre Finanzdaten vertraulich.",
+      "intro": "Ihre Finanzdaten sind sensibel und wir behandeln sie auch so. FlickAI setzt branchenführende Sicherheitsmaßnahmen ein, um Ihre Informationen sicher zu halten.",
       "measures": {
         "title": "Sicherheitsmaßnahmen",
-        "encryption": "Ende-zu-Ende-Verschlüsselung: Alle Daten sind verschlüsselt.",
-        "auth": "Sichere Authentifizierung: Multi-Faktor-Authentifizierung.",
-        "privacy": "Privacy by Design: Wir verkaufen Ihre Daten nicht.",
-        "compliance": "Compliance: DSGVO-konform."
+        "encryption": "Ende-zu-Ende-Verschlüsselung: Alle Daten werden sowohl bei der Übertragung als auch im Ruhezustand verschlüsselt.",
+        "auth": "Sichere Authentifizierung: Multi-Faktor-Authentifizierung und biometrische Anmeldeoptionen.",
+        "privacy": "Datenschutz durch Technikgestaltung (Privacy by Design): Wir verkaufen Ihre Daten niemals an Dritte.",
+        "compliance": "Compliance: DSGVO-konform und Befolgung der besten Sicherheitspraktiken."
       }
     }
   }

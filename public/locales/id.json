@@ -32,7 +32,7 @@
   "home": {
     "title": "FlickAI - Pelacak Pengeluaran Bertenaga AI",
     "description": "Sederhanakan pelacakan pengeluaran dengan pemindaian struk AI dari FlickAI. Lacak keuangan dengan mudah, buat anggaran, dan dapatkan wawasan keuangan.",
-    "keywords": "pelacak pengeluaran, pemindai struk, keuangan AI, aplikasi anggaran, keuangan pribadi, FlickAI, manajemen pengeluaran",
+    "keywords": "pelacak pengeluaran, pemindai struk, keuangan AI, aplikasi anggaran, keuangan pribadi, FlickAI, manajemen pengeluaran, pelacakan pengeluaran AI",
     "ogTitle": "FlickAI - Pelacak Pengeluaran Bertenaga AI",
     "ogDescription": "Sederhanakan pelacakan pengeluaran dengan pemindaian struk AI dari FlickAI. Lacak keuangan dengan mudah.",
     "schemaDescription": "Aplikasi pelacakan pengeluaran dan pemindaian struk bertenaga AI.",
@@ -50,7 +50,7 @@
       },
       "analytics": {
         "title": "Analitik Cerdas",
-        "description": "Visualisasikan tren pengeluaran dan dapatkan wawasan keuangan yang dipersonalisasi."
+        "description": "Visualisasikan tren pengeluaran dan dapatkan wawasan keuangan yang dipersonalisasi dalam bahasa Anda."
       },
       "security": {
         "title": "Keamanan Tingkat Bank",
@@ -66,7 +66,7 @@
       "subtitle": "Bergabunglah dengan ribuan pengguna yang mengendalikan keuangan mereka dengan FlickAI.",
       "googlePlay": "Google Play",
       "appStore": "App Store",
-      "waitlistNote": "Klik tombol \"Gabung Daftar Tunggu\" untuk akses awal! 🚀"
+      "waitlistNote": "Klik tombol \"Gabung Daftar Tunggu\" untuk mendapatkan akses awal! 🚀"
     }
   },
   "privacy": {
@@ -76,77 +76,77 @@
     "lastUpdated": "Terakhir Diperbarui: 28 November 2025",
     "introduction": {
       "title": "1. Pendahuluan",
-      "content": "FlickAI (\"kami\") menghargai privasi Anda dan berkomitmen untuk melindungi data pribadi Anda."
+      "content": "FlickAI (\"kami\", \"milik kami\", atau \"kita\") menghargai privasi Anda dan berkomitmen untuk melindungi data pribadi Anda. Kebijakan privasi ini akan memberi tahu Anda tentang bagaimana kami menjaga data pribadi Anda saat Anda mengunjungi situs web kami atau menggunakan aplikasi seluler kami."
     },
     "dataCollection": {
       "title": "2. Data yang Kami Kumpulkan",
-      "intro": "Kami dapat mengumpulkan, menggunakan, menyimpan, dan mentransfer berbagai jenis data pribadi tentang Anda:",
-      "identity": "Data Identitas: mencakup nama depan, nama belakang, nama pengguna.",
+      "intro": "Kami dapat mengumpulkan, menggunakan, menyimpan, dan mentransfer berbagai jenis data pribadi tentang Anda yang telah kami kelompokkan sebagai berikut:",
+      "identity": "Data Identitas: mencakup nama depan, nama belakang, nama pengguna atau pengenal serupa.",
       "contact": "Data Kontak: mencakup alamat email.",
-      "transaction": "Data Transaksi: detail tentang pembayaran.",
-      "usage": "Data Penggunaan: informasi tentang cara Anda menggunakan situs web kami."
+      "transaction": "Data Transaksi: mencakup detail tentang pembayaran ke dan dari Anda serta detail lain dari produk dan layanan yang telah Anda beli dari kami.",
+      "usage": "Data Penggunaan: mencakup informasi tentang cara Anda menggunakan situs web dan aplikasi kami."
     },
     "dataUsage": {
       "title": "3. Bagaimana Kami Menggunakan Data Anda",
-      "intro": "Kami hanya akan menggunakan data pribadi Anda jika hukum mengizinkan kami:",
-      "contract": "Untuk melakukan kontrak yang akan kami buat dengan Anda.",
-      "legitimate": "Di mana itu perlu untuk kepentingan sah kami.",
-      "legal": "Di mana kami perlu mematuhi kewajiban hukum."
+      "intro": "Kami hanya akan menggunakan data pribadi Anda jika hukum mengizinkan kami. Paling sering, kami akan menggunakan data pribadi Anda dalam keadaan berikut:",
+      "contract": "Di mana kami perlu melakukan kontrak yang akan atau telah kami buat dengan Anda.",
+      "legitimate": "Di mana itu perlu untuk kepentingan sah kami (atau kepentingan pihak ketiga) dan kepentingan serta hak dasar Anda tidak mengesampingkan kepentingan tersebut.",
+      "legal": "Di mana kami perlu mematuhi kewajiban hukum atau peraturan."
     },
     "security": {
       "title": "4. Keamanan Data",
-      "content": "Kami telah menerapkan langkah-langkah keamanan yang tepat untuk mencegah data pribadi Anda hilang secara tidak sengaja."
+      "content": "Kami telah menerapkan langkah-langkah keamanan yang tepat untuk mencegah data pribadi Anda hilang secara tidak sengaja, digunakan atau diakses dengan cara yang tidak sah, diubah, atau diungkapkan."
     },
     "contact": {
       "title": "5. Hubungi Kami",
-      "content": "Jika Anda memiliki pertanyaan tentang kebijakan privasi ini, silakan hubungi kami di: support@flickai.net"
+      "content": "Jika Anda memiliki pertanyaan tentang kebijakan privasi ini atau praktik privasi kami, silakan hubungi kami di: support@flickai.net"
     }
   },
   "terms": {
     "title": "Syarat Layanan - FlickAI",
-    "description": "Syarat Layanan untuk FlickAI. Baca syarat dan ketentuan kami.",
+    "description": "Syarat Layanan untuk FlickAI. Baca syarat dan ketentuan kami untuk menggunakan layanan kami.",
     "heading": "Syarat Layanan",
     "lastUpdated": "Terakhir Diperbarui: 28 November 2025",
     "agreement": {
       "title": "1. Persetujuan Syarat",
-      "content": "Dengan mengakses situs web kami, Anda setuju untuk terikat oleh Syarat Layanan ini."
+      "content": "Dengan mengakses situs web kami atau menggunakan aplikasi seluler kami, Anda setuju untuk terikat oleh Syarat Layanan ini. Jika Anda tidak setuju dengan syarat ini, mohon jangan gunakan layanan kami."
     },
     "intellectual": {
       "title": "2. Hak Kekayaan Intelektual",
-      "content": "Kecuali dinyatakan lain, Situs dan aplikasi seluler kami adalah milik eksklusif kami."
+      "content": "Kecuali dinyatakan lain, Situs dan aplikasi seluler kami adalah milik eksklusif kami dan semua kode sumber, basis data, fungsionalitas, perangkat lunak, desain situs web, audio, video, teks, foto, dan grafik di Situs (secara kolektif, \"Konten\") dan merek dagang, merek layanan, dan logo yang terkandung di dalamnya (\"Merek\") dimiliki atau dikendalikan oleh kami atau dilisensikan kepada kami."
     },
     "userRep": {
       "title": "3. Representasi Pengguna",
-      "content": "Dengan menggunakan Situs, Anda menyatakan dan menjamin bahwa: (1) semua informasi pendaftaran benar, akurat, terkini, dan lengkap."
+      "content": "Dengan menggunakan Situs, Anda menyatakan dan menjamin bahwa: (1) semua informasi pendaftaran yang Anda kirimkan adalah benar, akurat, terkini, dan lengkap; (2) Anda akan menjaga keakuratan informasi tersebut dan segera memperbarui informasi pendaftaran tersebut jika diperlukan."
     },
     "prohibited": {
       "title": "4. Aktivitas yang Dilarang",
-      "content": "Anda tidak boleh mengakses atau menggunakan Situs untuk tujuan apa pun selain dari yang kami sediakan."
+      "content": "Anda tidak boleh mengakses atau menggunakan Situs untuk tujuan apa pun selain dari yang kami sediakan. Situs tidak boleh digunakan sehubungan dengan upaya komersial apa pun kecuali yang secara khusus didukung atau disetujui oleh kami."
     },
     "contact": {
       "title": "5. Hubungi Kami",
-      "content": "Untuk menyelesaikan keluhan mengenai Situs, silakan hubungi kami di: support@flickai.net"
+      "content": "Untuk menyelesaikan keluhan mengenai Situs atau untuk menerima informasi lebih lanjut mengenai penggunaan Situs, silakan hubungi kami di: support@flickai.net"
     }
   },
   "cookie": {
     "title": "Kebijakan Cookie - FlickAI",
-    "description": "Kebijakan Cookie untuk FlickAI.",
+    "description": "Kebijakan Cookie untuk FlickAI. Pahami bagaimana kami menggunakan cookie untuk meningkatkan pengalaman Anda.",
     "heading": "Kebijakan Cookie",
     "lastUpdated": "Terakhir Diperbarui: 28 November 2025",
     "whatAre": {
       "title": "1. Apa itu Cookie",
-      "content": "Cookie adalah file teks kecil yang ditempatkan di komputer atau perangkat seluler Anda saat Anda mengunjungi situs web."
+      "content": "Cookie adalah file teks kecil yang ditempatkan di komputer atau perangkat seluler Anda oleh situs web yang Anda kunjungi. Cookie digunakan secara luas untuk membuat situs web berfungsi, atau bekerja lebih efisien, serta untuk memberikan informasi kepada pemilik situs."
     },
     "howWeUse": {
       "title": "2. Bagaimana Kami Menggunakan Cookie",
-      "intro": "Kami menggunakan cookie untuk berbagai alasan:",
-      "essential": "Cookie Esensial: Diperlukan agar situs web berfungsi dengan baik.",
-      "analytics": "Cookie Analitik: Membantu kami memahami bagaimana pengunjung berinteraksi.",
-      "functionality": "Cookie Fungsionalitas: Memungkinkan situs web mengingat pilihan yang Anda buat."
+      "intro": "Kami menggunakan cookie untuk berbagai alasan yang dirinci di bawah ini. Sayangnya dalam banyak kasus tidak ada opsi standar industri untuk menonaktifkan cookie tanpa sepenuhnya menonaktifkan fungsionalitas dan fitur yang mereka tambahkan ke situs ini.",
+      "essential": "Cookie Esensial: Ini diperlukan agar situs web berfungsi dengan baik.",
+      "analytics": "Cookie Analitik: Ini membantu kami memahami bagaimana pengunjung berinteraksi dengan situs web kami.",
+      "functionality": "Cookie Fungsionalitas: Ini memungkinkan situs web mengingat pilihan yang Anda buat."
     },
     "disabling": {
       "title": "3. Menonaktifkan Cookie",
-      "content": "Anda dapat mencegah pengaturan cookie dengan menyesuaikan pengaturan di browser Anda."
+      "content": "Anda dapat mencegah pengaturan cookie dengan menyesuaikan pengaturan di browser Anda (lihat Bantuan browser Anda untuk cara melakukannya). Sadarilah bahwa menonaktifkan cookie akan memengaruhi fungsionalitas situs ini dan banyak situs web lain yang Anda kunjungi."
     },
     "contact": {
       "title": "4. Hubungi Kami",
@@ -155,44 +155,44 @@
   },
   "gdpr": {
     "title": "Kepatuhan GDPR - FlickAI",
-    "description": "Informasi Kepatuhan GDPR untuk FlickAI.",
+    "description": "Informasi Kepatuhan GDPR untuk FlickAI. Hak Anda berdasarkan Peraturan Perlindungan Data Umum.",
     "heading": "Kepatuhan GDPR",
     "lastUpdated": "Terakhir Diperbarui: 28 November 2025",
     "rights": {
       "title": "1. Hak Anda",
-      "intro": "Berdasarkan GDPR, Anda memiliki hak-hak berikut:",
-      "access": "Hak untuk mengakses.",
-      "rectification": "Hak untuk perbaikan.",
+      "intro": "Berdasarkan Peraturan Perlindungan Data Umum (GDPR), Anda memiliki hak-hak berikut mengenai data pribadi Anda:",
+      "access": "Hak untuk mengakses data pribadi Anda.",
+      "rectification": "Hak untuk perbaikan data yang tidak akurat.",
       "erasure": "Hak untuk penghapusan (\"hak untuk dilupakan\").",
       "restrict": "Hak untuk membatasi pemrosesan.",
       "portability": "Hak portabilitas data.",
-      "object": "Hak untuk menolak."
+      "object": "Hak untuk menolak pemrosesan."
     },
     "processing": {
       "title": "2. Pemrosesan Data",
-      "content": "Kami memproses data Anda secara sah, adil, dan transparan."
+      "content": "Kami memproses data Anda secara sah, adil, dan transparan. Kami hanya mengumpulkan data untuk tujuan yang ditentukan, eksplisit, dan sah."
     },
     "contact": {
       "title": "3. Hubungi Petugas Perlindungan Data",
-      "content": "Untuk menggunakan hak Anda, silakan hubungi Petugas Perlindungan Data kami di: support@flickai.net"
+      "content": "Untuk menggunakan hak Anda atau untuk pertanyaan mengenai kepatuhan GDPR, silakan hubungi Petugas Perlindungan Data kami di: support@flickai.net"
     }
   },
   "accessibility": {
     "title": "Pernyataan Aksesibilitas - FlickAI",
-    "description": "Pernyataan Aksesibilitas untuk FlickAI.",
+    "description": "Pernyataan Aksesibilitas untuk FlickAI. Komitmen kami terhadap aksesibilitas digital.",
     "heading": "Pernyataan Aksesibilitas",
     "lastUpdated": "Terakhir Diperbarui: 28 November 2025",
     "commitment": {
       "title": "1. Komitmen Kami",
-      "content": "FlickAI berkomitmen untuk memastikan aksesibilitas digital bagi penyandang disabilitas."
+      "content": "FlickAI berkomitmen untuk memastikan aksesibilitas digital bagi penyandang disabilitas. Kami terus meningkatkan pengalaman pengguna untuk semua orang dan menerapkan standar aksesibilitas yang relevan."
     },
     "conformance": {
       "title": "2. Status Kesesuaian",
-      "content": "FlickAI sebagian sesuai dengan WCAG 2.1 level AA."
+      "content": "Pedoman Aksesibilitas Konten Web (WCAG) mendefinisikan persyaratan bagi desainer dan pengembang untuk meningkatkan aksesibilitas bagi penyandang disabilitas. Ini mendefinisikan tiga tingkat kesesuaian: Tingkat A, Tingkat AA, dan Tingkat AAA. FlickAI sebagian sesuai dengan WCAG 2.1 tingkat AA."
     },
     "feedback": {
       "title": "3. Umpan Balik",
-      "intro": "Kami menyambut umpan balik Anda:",
+      "intro": "Kami menyambut umpan balik Anda tentang aksesibilitas FlickAI. Harap beri tahu kami jika Anda menemui hambatan aksesibilitas di FlickAI:",
       "email": "E-mail: support@flickai.net"
     }
   },
@@ -201,51 +201,51 @@
       "title": "Pemindaian Struk Cerdas - FlickAI",
       "description": "Ekstrak pedagang, item, dan harga secara instan dari struk menggunakan teknologi AI canggih.",
       "heading": "Pemindaian Struk Cerdas",
-      "intro": "Hari-hari input data manual sudah berakhir.",
+      "intro": "Hari-hari input data manual sudah berakhir. Dengan FlickAI, Anda dapat mendigitalkan pengeluaran dalam hitungan detik hanya dengan mengambil foto.",
       "howItWorks": {
         "title": "Cara Kerjanya",
-        "step1": "Buka aplikasi FlickAI.",
-        "step2": "Bingkai struk dalam pandangan.",
-        "step3": "Ketuk tangkap.",
-        "step4": "Tinjau detail dan simpan!"
+        "step1": "Buka aplikasi FlickAI dan ketuk ikon kamera.",
+        "step2": "Sejajarkan struk dalam bingkai.",
+        "step3": "Ketuk tangkap. AI memproses gambar dalam hitungan detik.",
+        "step4": "Tinjau detail yang diekstrak dan simpan!"
       },
       "whatWeExtract": {
         "title": "Apa yang Kami Ekstrak",
-        "merchant": "Nama Pedagang: Diidentifikasi secara otomatis.",
-        "dateTime": "Tanggal & Waktu: Merekam kapan pembelian terjadi.",
+        "merchant": "Nama Pedagang: Diidentifikasi secara otomatis dari logo atau teks.",
+        "dateTime": "Tanggal & Waktu: Merekam dengan tepat kapan pembelian terjadi.",
         "total": "Total Jumlah: Menangkap total akhir secara akurat.",
-        "items": "Item Baris: Mengekstrak detail item individu."
+        "items": "Item Individu: Mengekstrak item individu dan harga untuk pelacakan terperinci."
       }
     },
     "analytics": {
       "title": "Analitik Cerdas - FlickAI",
-      "description": "Visualisasikan tren pengeluaran.",
+      "description": "Visualisasikan tren pengeluaran dan dapatkan wawasan keuangan yang dipersonalisasi dalam bahasa Anda.",
       "heading": "Analitik Cerdas",
-      "intro": "Pahami uang Anda untuk mengendalikannya.",
+      "intro": "Memahami uang Anda adalah langkah pertama untuk mengendalikannya. FlickAI memberikan wawasan mendalam tentang kebiasaan belanja Anda.",
       "visualTrends": {
         "title": "Tren Pengeluaran Visual",
-        "intro": "Lihat dengan tepat ke mana uang Anda pergi:",
-        "categoryBreakdown": "Rincian Kategori: Grafik berdasarkan kategori.",
-        "monthlyTrends": "Tren Bulanan: Grafik batang bulan ke bulan.",
-        "merchantAnalysis": "Analisis Pedagang: Lihat di mana Anda menghabiskan paling banyak."
+        "intro": "Lihat dengan tepat ke mana uang Anda pergi dengan grafik dan diagram interaktif:",
+        "categoryBreakdown": "Rincian Kategori: Diagram lingkaran yang menunjukkan pengeluaran berdasarkan kategori (Makanan, Transportasi, Utilitas, dll.).",
+        "monthlyTrends": "Tren Bulanan: Grafik batang yang membandingkan pengeluaran bulan ke bulan.",
+        "merchantAnalysis": "Analisis Pedagang: Lihat di toko mana Anda menghabiskan paling banyak."
       },
       "aiInsights": {
         "title": "Wawasan Buatan AI",
-        "intro": "AI kami menjelaskan data Anda.",
-        "example": "\"Kami melihat Anda menghabiskan 20% lebih banyak untuk makan di luar bulan ini...\""
+        "intro": "AI kami tidak hanya menunjukkan data kepada Anda; itu menjelaskannya. Dapatkan tip yang dipersonalisasi seperti:",
+        "example": "\"Anda telah menghabiskan 20% lebih banyak untuk makan di luar bulan ini dibandingkan bulan lalu. Pertimbangkan untuk memasak di rumah minggu ini agar tetap sesuai anggaran.\""
       }
     },
     "security": {
       "title": "Keamanan Tingkat Bank - FlickAI",
-      "description": "Data Anda dilindungi dengan aman.",
+      "description": "Data Anda dilindungi dengan enkripsi ujung-ke-ujung dan autentikasi aman.",
       "heading": "Keamanan Tingkat Bank",
-      "intro": "Kami memperlakukan data keuangan Anda dengan kerahasiaan maksimal.",
+      "intro": "Data keuangan Anda sensitif, dan kami memperlakukannya seperti itu. FlickAI menggunakan langkah-langkah keamanan terkemuka di industri untuk menjaga keamanan informasi Anda.",
       "measures": {
         "title": "Langkah Keamanan",
-        "encryption": "Enkripsi Ujung-ke-Ujung: Semua data dienkripsi.",
-        "auth": "Autentikasi Aman: Autentikasi multi-faktor.",
-        "privacy": "Privasi Secara Desain: Kami tidak menjual data Anda.",
-        "compliance": "Kepatuhan: Sesuai GDPR."
+        "encryption": "Enkripsi Ujung-ke-Ujung: Semua data dienkripsi baik saat transit maupun saat istirahat.",
+        "auth": "Autentikasi Aman: Autentikasi multi-faktor dan opsi login biometrik.",
+        "privacy": "Privasi Secara Desain: Kami tidak pernah menjual data Anda kepada pihak ketiga.",
+        "compliance": "Kepatuhan: Sesuai GDPR dan mengikuti praktik keamanan terbaik."
       }
     }
   }
