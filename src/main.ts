@@ -33,6 +33,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Initialize waitlist form
   initWaitlistForm();
+
+  // Link "Download App" buttons to waitlist
+  const downloadButtons = document.querySelectorAll('a[href="#download"], .store-button');
+  downloadButtons.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      import('./waitlist').then(({ openWaitlistModal }) => {
+        openWaitlistModal();
+      });
+    });
+  });
 });
 
 console.log('FlickAI Web App Initialized');

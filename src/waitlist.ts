@@ -251,6 +251,26 @@ export function createWaitlistModal(): void {
     button.disabled = false;
     button.textContent = messages.button;
   });
+
+  // Expose open function globally or return it
+  (window as any).openWaitlistModal = () => {
+    modalOverlay.classList.add('active');
+    setTimeout(() => input.focus(), 300);
+  };
+}
+
+/**
+ * Opens the waitlist modal
+ */
+export function openWaitlistModal(): void {
+  const openFn = (window as any).openWaitlistModal;
+  if (openFn) {
+    openFn();
+  } else {
+    // Fallback if not initialized yet
+    const floatButton = document.querySelector('.waitlist-float-button') as HTMLButtonElement;
+    if (floatButton) floatButton.click();
+  }
 }
 
 /**
