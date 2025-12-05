@@ -1,17 +1,17 @@
 <!doctype html>
-<html lang="fr">
+<html lang="{{meta.lang}}">
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/fr/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/{{langPrefix meta.lang}}vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Smart Receipt Scanning - FlickAI</title>
+    <title>Smart Receipt Scanning - {{meta.siteName}}</title>
     <meta name="description"
         content="Instantly extract merchant, items, and prices from receipts using advanced AI technology.">
     <link rel="canonical" href="https://flickai.net/features/receipt-scanning.html">
 
     <!-- Hreflang Tags -->
-    <link rel="alternate" hreflang="fr" href="https://flickai.net/features/receipt-scanning.html" />
+    <link rel="alternate" hreflang="{{meta.lang}}" href="https://flickai.net/features/receipt-scanning.html" />
     <link rel="alternate" hreflang="es" href="https://flickai.net/es/features/receipt-scanning.html" />
     <link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features/receipt-scanning.html" />
     <link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features/receipt-scanning.html" />
@@ -28,12 +28,12 @@
       "inLanguage": "en",
       "isPartOf": {
         "@type": "WebSite",
-        "name": "FlickAI",
+        "name": "{{meta.siteName}}",
         "url": "https://flickai.net"
       },
       "about": {
         "@type": "SoftwareApplication",
-        "name": "FlickAI",
+        "name": "{{meta.siteName}}",
         "applicationCategory": "FinanceApplication",
         "offers": {
           "@type": "Offer",
@@ -53,12 +53,12 @@
     <div id="app">
         <header class="header">
             <div class="container header-content">
-                <a href="/fr/" class="logo">
-                    <span class="logo-text">FlickAI</span>
+                <a href="/{{langPrefix meta.lang}}" class="logo">
+                    <span class="logo-text">{{meta.siteName}}</span>
                 </a>
                 <nav class="nav">
-                    <a href="/#features">Fonctionnalités</a>
-                    <a href="/fr/" class="btn btn-primary">Retour à l&#x27;Accueil</a>
+                    <a href="/#features">{{common.features}}</a>
+                    <a href="/{{langPrefix meta.lang}}" class="btn btn-primary">{{common.backToHome}}</a>
                 </nav>
             </div>
         </header>
@@ -66,23 +66,23 @@
         <main class="container section">
             <div class="feature-detail">
                 <div class="feature-text fade-in">
-                    <h1 class="section-title">Scan Intelligent de Reçus</h1>
-                    <p class="mb-4">Fini les jours de saisie manuelle de données. Avec FlickAI, vous pouvez numériser les dépenses en secondes simplement en prenant une photo.</p>
+                    <h1 class="section-title">{{features.scanning.heading}}</h1>
+                    <p class="mb-4">{{features.scanning.intro}}</p>
 
-                    <h2 class="mb-4">Comment Ça Marche</h2>
+                    <h2 class="mb-4">{{features.scanning.howItWorks.title}}</h2>
                     <ol class="mb-4" style="padding-left: 1.5rem;">
-                        <li>Ouvrez l&#x27;application FlickAI et appuyez sur l&#x27;icône de la caméra.</li>
-                        <li>Alignez le reçu dans le cadre.</li>
-                        <li>Appuyez sur capturer. L&#x27;IA traite l&#x27;image en quelques secondes.</li>
-                        <li>Vérifiez les détails extraits et sauvegardez!</li>
+                        <li>{{features.scanning.howItWorks.step1}}</li>
+                        <li>{{features.scanning.howItWorks.step2}}</li>
+                        <li>{{features.scanning.howItWorks.step3}}</li>
+                        <li>{{features.scanning.howItWorks.step4}}</li>
                     </ol>
 
-                    <h2 class="mb-4">Ce Que Nous Extrayons</h2>
+                    <h2 class="mb-4">{{features.scanning.whatWeExtract.title}}</h2>
                     <ul class="mb-4" style="padding-left: 1.5rem;">
-                        <li><strong>Nom du Marchand : Identifié automatiquement à partir de logos ou de texte.</strong></li>
-                        <li><strong>Date et Heure : Enregistre exactement quand l&#x27;achat a eu lieu.</strong></li>
-                        <li><strong>Montant Total : Capture le total final avec précision.</strong></li>
-                        <li><strong>Articles Individuels : Extrait les articles individuels et les prix pour un suivi détaillé.</strong></li>
+                        <li><strong>{{features.scanning.whatWeExtract.merchant}}</strong></li>
+                        <li><strong>{{features.scanning.whatWeExtract.dateTime}}</strong></li>
+                        <li><strong>{{features.scanning.whatWeExtract.total}}</strong></li>
+                        <li><strong>{{features.scanning.whatWeExtract.items}}</strong></li>
                     </ul>
                 </div>
                 <div class="feature-image fade-in">
@@ -95,11 +95,11 @@
         <footer class="footer">
             <div class="container footer-content">
                 <div class="footer-links">
-                    <a href="/fr/privacy-policy.html">Politique de Confidentialité</a>
-                    <a href="/fr/terms-of-service.html">Conditions d&#x27;Utilisation</a>
-                    <a href="/fr/cookie-policy.html">Politique des Cookies</a>
+                    <a href="/{{langPrefix meta.lang}}privacy-policy.html">{{footer.privacyPolicy}}</a>
+                    <a href="/{{langPrefix meta.lang}}terms-of-service.html">{{footer.termsOfService}}</a>
+                    <a href="/{{langPrefix meta.lang}}cookie-policy.html">{{footer.cookiePolicy}}</a>
                 </div>
-                <p class="copyright">© 2025 FlickAI. All rights reserved.</p>
+                <p class="copyright">© 2025 {{meta.siteName}}. All rights reserved.</p>
             </div>
         </footer>
     </div>

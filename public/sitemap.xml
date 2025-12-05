@@ -2,205 +2,406 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <!-- English Pages -->
   <url>
-    <loc>https://flickai.net/</loc>
-    <lastmod>2025-12-03</lastmod>
+    <loc>https://flickai.net/terms-of-service.html</loc>
+    <lastmod>2025-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/terms-of-service.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/terms-of-service.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/terms-of-service.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/terms-of-service.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/terms-of-service.html" />
+  </url>
+  <url>
+    <loc>https://flickai.net/privacy-policy.html</loc>
+    <lastmod>2025-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/privacy-policy.html" />
+  </url>
+  <url>
+    <loc>https://flickai.net/index.html</loc>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/" />
-    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/index.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/index.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/index.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/index.html" />
   </url>
   <url>
-    <loc>https://flickai.net/features/receipt-scanning.html</loc>
-    <lastmod>2025-12-03</lastmod>
+    <loc>https://flickai.net/gdpr-compliance.html</loc>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/features/receipt-scanning.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/features/receipt-scanning.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features/receipt-scanning.html" />
-    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features/receipt-scanning.html" />
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/gdpr-compliance.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/gdpr-compliance.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/gdpr-compliance.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/gdpr-compliance.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/gdpr-compliance.html" />
   </url>
   <url>
-    <loc>https://flickai.net/features/analytics.html</loc>
-    <lastmod>2025-12-03</lastmod>
+    <loc>https://flickai.net/cookie-policy.html</loc>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/features/analytics.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/features/analytics.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features/analytics.html" />
-    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features/analytics.html" />
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/cookie-policy.html" />
   </url>
   <url>
-    <loc>https://flickai.net/features/security.html</loc>
-    <lastmod>2025-12-03</lastmod>
+    <loc>https://flickai.net/accessibility.html</loc>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/features/security.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/features/security.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features/security.html" />
-    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features/security.html" />
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/accessibility.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/accessibility.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/accessibility.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/accessibility.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/accessibility.html" />
+  </url>
+  <url>
+    <loc>https://flickai.net/features\security.html</loc>
+    <lastmod>2025-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/features\security.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features\security.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/features\security.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features\security.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/features\security.html" />
+  </url>
+  <url>
+    <loc>https://flickai.net/features\receipt-scanning.html</loc>
+    <lastmod>2025-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/features\receipt-scanning.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features\receipt-scanning.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/features\receipt-scanning.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features\receipt-scanning.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/features\receipt-scanning.html" />
+  </url>
+  <url>
+    <loc>https://flickai.net/features\analytics.html</loc>
+    <lastmod>2025-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/features\analytics.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features\analytics.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/features\analytics.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features\analytics.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/features\analytics.html" />
   </url>
 
   <!-- Spanish Pages -->
   <url>
-    <loc>https://flickai.net/es/</loc>
-    <lastmod>2025-12-03</lastmod>
+    <loc>https://flickai.net/es/terms-of-service.html</loc>
+    <lastmod>2025-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/terms-of-service.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/terms-of-service.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/terms-of-service.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/terms-of-service.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/terms-of-service.html" />
+  </url>
+  <url>
+    <loc>https://flickai.net/es/privacy-policy.html</loc>
+    <lastmod>2025-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/privacy-policy.html" />
+  </url>
+  <url>
+    <loc>https://flickai.net/es/index.html</loc>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/" />
-    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/index.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/index.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/index.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/index.html" />
   </url>
   <url>
-    <loc>https://flickai.net/es/features/receipt-scanning.html</loc>
-    <lastmod>2025-12-03</lastmod>
+    <loc>https://flickai.net/es/gdpr-compliance.html</loc>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/features/receipt-scanning.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/features/receipt-scanning.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features/receipt-scanning.html" />
-    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features/receipt-scanning.html" />
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/gdpr-compliance.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/gdpr-compliance.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/gdpr-compliance.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/gdpr-compliance.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/gdpr-compliance.html" />
   </url>
   <url>
-    <loc>https://flickai.net/es/features/analytics.html</loc>
-    <lastmod>2025-12-03</lastmod>
+    <loc>https://flickai.net/es/cookie-policy.html</loc>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/features/analytics.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/features/analytics.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features/analytics.html" />
-    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features/analytics.html" />
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/cookie-policy.html" />
   </url>
   <url>
-    <loc>https://flickai.net/es/features/security.html</loc>
-    <lastmod>2025-12-03</lastmod>
+    <loc>https://flickai.net/es/accessibility.html</loc>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/features/security.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/features/security.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features/security.html" />
-    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features/security.html" />
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/accessibility.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/accessibility.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/accessibility.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/accessibility.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/accessibility.html" />
+  </url>
+  <url>
+    <loc>https://flickai.net/es/features\security.html</loc>
+    <lastmod>2025-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/features\security.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features\security.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/features\security.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features\security.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/features\security.html" />
+  </url>
+  <url>
+    <loc>https://flickai.net/es/features\receipt-scanning.html</loc>
+    <lastmod>2025-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/features\receipt-scanning.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features\receipt-scanning.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/features\receipt-scanning.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features\receipt-scanning.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/features\receipt-scanning.html" />
+  </url>
+  <url>
+    <loc>https://flickai.net/es/features\analytics.html</loc>
+    <lastmod>2025-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/features\analytics.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features\analytics.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/features\analytics.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features\analytics.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/features\analytics.html" />
   </url>
 
   <!-- French Pages -->
   <url>
-    <loc>https://flickai.net/fr/</loc>
-    <lastmod>2025-12-03</lastmod>
+    <loc>https://flickai.net/fr/terms-of-service.html</loc>
+    <lastmod>2025-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/terms-of-service.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/terms-of-service.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/terms-of-service.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/terms-of-service.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/terms-of-service.html" />
+  </url>
+  <url>
+    <loc>https://flickai.net/fr/privacy-policy.html</loc>
+    <lastmod>2025-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/privacy-policy.html" />
+  </url>
+  <url>
+    <loc>https://flickai.net/fr/index.html</loc>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/" />
-    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/index.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/index.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/index.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/index.html" />
   </url>
   <url>
-    <loc>https://flickai.net/fr/features/receipt-scanning.html</loc>
-    <lastmod>2025-12-03</lastmod>
+    <loc>https://flickai.net/fr/gdpr-compliance.html</loc>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/features/receipt-scanning.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/features/receipt-scanning.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features/receipt-scanning.html" />
-    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features/receipt-scanning.html" />
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/gdpr-compliance.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/gdpr-compliance.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/gdpr-compliance.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/gdpr-compliance.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/gdpr-compliance.html" />
   </url>
   <url>
-    <loc>https://flickai.net/fr/features/analytics.html</loc>
-    <lastmod>2025-12-03</lastmod>
+    <loc>https://flickai.net/fr/cookie-policy.html</loc>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/features/analytics.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/features/analytics.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features/analytics.html" />
-    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features/analytics.html" />
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/cookie-policy.html" />
   </url>
   <url>
-    <loc>https://flickai.net/fr/features/security.html</loc>
-    <lastmod>2025-12-03</lastmod>
+    <loc>https://flickai.net/fr/accessibility.html</loc>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/features/security.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/features/security.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features/security.html" />
-    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features/security.html" />
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/accessibility.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/accessibility.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/accessibility.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/accessibility.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/accessibility.html" />
+  </url>
+  <url>
+    <loc>https://flickai.net/fr/features\security.html</loc>
+    <lastmod>2025-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/features\security.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features\security.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/features\security.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features\security.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/features\security.html" />
+  </url>
+  <url>
+    <loc>https://flickai.net/fr/features\receipt-scanning.html</loc>
+    <lastmod>2025-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/features\receipt-scanning.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features\receipt-scanning.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/features\receipt-scanning.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features\receipt-scanning.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/features\receipt-scanning.html" />
+  </url>
+  <url>
+    <loc>https://flickai.net/fr/features\analytics.html</loc>
+    <lastmod>2025-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/features\analytics.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features\analytics.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/features\analytics.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features\analytics.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/features\analytics.html" />
   </url>
 
   <!-- Romanian Pages -->
   <url>
-    <loc>https://flickai.net/ro/</loc>
-    <lastmod>2025-12-03</lastmod>
+    <loc>https://flickai.net/ro/terms-of-service.html</loc>
+    <lastmod>2025-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/terms-of-service.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/terms-of-service.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/terms-of-service.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/terms-of-service.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/terms-of-service.html" />
+  </url>
+  <url>
+    <loc>https://flickai.net/ro/privacy-policy.html</loc>
+    <lastmod>2025-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/privacy-policy.html" />
+  </url>
+  <url>
+    <loc>https://flickai.net/ro/index.html</loc>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/" />
-    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/index.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/index.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/index.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/index.html" />
   </url>
   <url>
-    <loc>https://flickai.net/ro/features/receipt-scanning.html</loc>
-    <lastmod>2025-12-03</lastmod>
+    <loc>https://flickai.net/ro/gdpr-compliance.html</loc>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/features/receipt-scanning.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/features/receipt-scanning.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features/receipt-scanning.html" />
-    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features/receipt-scanning.html" />
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/gdpr-compliance.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/gdpr-compliance.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/gdpr-compliance.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/gdpr-compliance.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/gdpr-compliance.html" />
   </url>
   <url>
-    <loc>https://flickai.net/ro/features/analytics.html</loc>
-    <lastmod>2025-12-03</lastmod>
+    <loc>https://flickai.net/ro/cookie-policy.html</loc>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/features/analytics.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/features/analytics.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features/analytics.html" />
-    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features/analytics.html" />
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/cookie-policy.html" />
   </url>
   <url>
-    <loc>https://flickai.net/ro/features/security.html</loc>
-    <lastmod>2025-12-03</lastmod>
+    <loc>https://flickai.net/ro/accessibility.html</loc>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/features/security.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/features/security.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features/security.html" />
-    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features/security.html" />
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/accessibility.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/accessibility.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/accessibility.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/accessibility.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/accessibility.html" />
+  </url>
+  <url>
+    <loc>https://flickai.net/ro/features\security.html</loc>
+    <lastmod>2025-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/features\security.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features\security.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/features\security.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features\security.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/features\security.html" />
+  </url>
+  <url>
+    <loc>https://flickai.net/ro/features\receipt-scanning.html</loc>
+    <lastmod>2025-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/features\receipt-scanning.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features\receipt-scanning.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/features\receipt-scanning.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features\receipt-scanning.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/features\receipt-scanning.html" />
+  </url>
+  <url>
+    <loc>https://flickai.net/ro/features\analytics.html</loc>
+    <lastmod>2025-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flickai.net/features\analytics.html" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features\analytics.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flickai.net/es/features\analytics.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features\analytics.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flickai.net/features\analytics.html" />
   </url>
 
-  <!-- Policy Pages (English Only) -->
-  <url>
-    <loc>https://flickai.net/privacy-policy.html</loc>
-    <lastmod>2025-12-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://flickai.net/terms-of-service.html</loc>
-    <lastmod>2025-12-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://flickai.net/cookie-policy.html</loc>
-    <lastmod>2025-12-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://flickai.net/accessibility.html</loc>
-    <lastmod>2025-12-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://flickai.net/gdpr-compliance.html</loc>
-    <lastmod>2025-12-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
 </urlset>

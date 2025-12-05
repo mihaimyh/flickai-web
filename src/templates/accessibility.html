@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="{{meta.lang}}">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/{{langPrefix meta.lang}}vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{accessibility.heading}} - {{meta.siteName}}</title>
+    <meta name="description" content="{{accessibility.heading}} for {{meta.siteName}}. Our commitment to digital accessibility.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <header class="header">
+            <div class="container header-content">
+                <a href="/{{langPrefix meta.lang}}" class="logo">
+                    <span class="logo-text">{{meta.siteName}}</span>
+                </a>
+                <nav class="nav">
+                    <a href="/#features">{{common.features}}</a>
+                    <a href="/{{langPrefix meta.lang}}" class="btn btn-primary">{{common.backToHome}}</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="container section">
+            <h1 class="section-title">{{accessibility.heading}}</h1>
+            <div class="legal-content">
+                <p class="mb-4">{{terms.lastUpdated}}</p>
+
+                <h2 class="mb-4">{{accessibility.commitment.title}}</h2>
+                <p class="mb-4">{{meta.siteName}} is committed to ensuring digital accessibility for people with disabilities. We
+                    are continually improving the user experience for everyone and applying the relevant accessibility
+                    standards.</p>
+
+                <h2 class="mb-4">{{accessibility.conformance.title}}</h2>
+                <p class="mb-4">The Web Content Accessibility Guidelines (WCAG) defines requirements for designers and
+                    developers to improve accessibility for people with disabilities. It defines three levels of
+                    conformance: Level A, Level AA, and Level AAA. {{meta.siteName}} is partially conformant with WCAG 2.1 level
+                    AA.</p>
+
+                <h2 class="mb-4">{{accessibility.feedback.title}}</h2>
+                <p class="mb-4">We welcome your feedback on the accessibility of {{meta.siteName}}. Please let us know if you
+                    encounter accessibility barriers on {{meta.siteName}}:</p>
+                <p class="mb-4">E-mail: support@flickai.net</p>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container footer-content">
+                <div class="footer-links">
+                    <a href="/{{langPrefix meta.lang}}privacy-policy.html">{{footer.privacyPolicy}}</a>
+                    <a href="/{{langPrefix meta.lang}}terms-of-service.html">{{footer.termsOfService}}</a>
+                    <a href="/{{langPrefix meta.lang}}cookie-policy.html">{{footer.cookiePolicy}}</a>
+                </div>
+                <p class="copyright">© 2025 {{meta.siteName}}. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

@@ -1,21 +1,21 @@
 <!doctype html>
-<html lang="ro">
+<html lang="{{meta.lang}}">
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/ro/vite.svg" />
+  <link rel="icon" type="image/svg+xml" href="/{{langPrefix meta.lang}}vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FlickAI - AI-Powered Expense Tracking</title>
+  <title>{{meta.siteName}} - AI-Powered Expense Tracking</title>
   <meta name="description"
-    content="Simplify expense tracking with FlickAI's AI-powered receipt scanning. Track finances effortlessly, create budgets, and gain financial insights.">
+    content="Simplify expense tracking with {{meta.siteName}}'s AI-powered receipt scanning. Track finances effortlessly, create budgets, and gain financial insights.">
   <meta name="keywords"
-    content="expense tracker, receipt scanner, AI finance, budget app, personal finance, FlickAI, expense management">
-  <meta name="author" content="FlickAI Team">
+    content="expense tracker, receipt scanner, AI finance, budget app, personal finance, {{meta.siteName}}, expense management">
+  <meta name="author" content="{{meta.siteName}} Team">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://flickai.net/">
 
   <!-- Hreflang Tags -->
-  <link rel="alternate" hreflang="ro" href="https://flickai.net/" />
+  <link rel="alternate" hreflang="{{meta.lang}}" href="https://flickai.net/" />
   <link rel="alternate" hreflang="es" href="https://flickai.net/es/" />
   <link rel="alternate" hreflang="fr" href="https://flickai.net/fr/" />
   <link rel="alternate" hreflang="ro" href="https://flickai.net/ro/" />
@@ -24,17 +24,17 @@
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://flickai.net/">
-  <meta property="og:title" content="FlickAI - AI-Powered Expense Tracking">
+  <meta property="og:title" content="{{meta.siteName}} - AI-Powered Expense Tracking">
   <meta property="og:description"
-    content="Simplify expense tracking with FlickAI's AI-powered receipt scanning. Track finances effortlessly.">
+    content="Simplify expense tracking with {{meta.siteName}}'s AI-powered receipt scanning. Track finances effortlessly.">
   <meta property="og:image" content="https://flickai.net/images/social-preview.jpg">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://flickai.net/">
-  <meta property="twitter:title" content="FlickAI - AI-Powered Expense Tracking">
+  <meta property="twitter:title" content="{{meta.siteName}} - AI-Powered Expense Tracking">
   <meta property="twitter:description"
-    content="Simplify expense tracking with FlickAI's AI-powered receipt scanning. Track finances effortlessly.">
+    content="Simplify expense tracking with {{meta.siteName}}'s AI-powered receipt scanning. Track finances effortlessly.">
   <meta property="twitter:image" content="https://flickai.net/images/social-preview.jpg">
 
   <!-- Structured Data -->
@@ -42,7 +42,7 @@
     {
       "@context": "https://schema.org",
       "@type": "SoftwareApplication",
-      "name": "FlickAI",
+      "name": "{{meta.siteName}}",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Android, iOS",
       "offers": {
@@ -70,12 +70,12 @@
     <header class="header">
       <div class="container header-content">
         <a href="#" class="logo">
-          <span class="logo-text">FlickAI</span>
+          <span class="logo-text">{{meta.siteName}}</span>
         </a>
         <nav class="nav">
-          <a href="#features">Funcționalități</a>
-          <a href="#testimonials">Testimoniale</a>
-          <a href="#download" class="btn btn-primary">Descarcă App</a>
+          <a href="#features">{{common.features}}</a>
+          <a href="#testimonials">{{common.testimonials}}</a>
+          <a href="#download" class="btn btn-primary">{{common.downloadApp}}</a>
         </nav>
       </div>
     </header>
@@ -84,11 +84,11 @@
     <section class="hero">
       <div class="container hero-content">
         <div class="hero-text fade-in">
-          <h1>Urmărire Cheltuieli și Scanare Bonuri cu IA</h1>
-          <p>Urmărește-ți finanțele fără efort cu scanare inteligentă de bonuri și informații automate. Lasă IA-ul să se ocupe de partea plictisitoare.</p>
+          <h1>{{home.hero.title}}</h1>
+          <p>{{home.hero.subtitle}}</p>
           <div class="hero-buttons">
-            <a href="#download" class="btn btn-primary">Începe Gratuit</a>
-            <a href="#features" class="btn btn-secondary">Află Mai Mult</a>
+            <a href="#download" class="btn btn-primary">{{home.hero.getStarted}}</a>
+            <a href="#features" class="btn btn-secondary">{{home.hero.learnMore}}</a>
           </div>
         </div>
         <div class="hero-image fade-in">
@@ -101,33 +101,33 @@
       </div>
     </section>
 
-    <!-- Funcționalități Section -->
+    <!-- {{common.features}} Section -->
     <section id="features" class="section features">
       <div class="container">
-        <h2 class="section-title text-center fade-in">De Ce FlickAI?</h2>
+        <h2 class="section-title text-center fade-in">{{home.features.title}}</h2>
         <div class="features-grid">
-          <a href="/ro/features/receipt-scanning.html" class="feature-card fade-in">
+          <a href="/{{langPrefix meta.lang}}features/receipt-scanning.html" class="feature-card fade-in">
             <div class="feature-icon">📸</div>
-            <h3>Scanare Inteligentă Bonuri</h3>
-            <p>Extrage instant comerciant, articole și prețuri folosind tehnologie IA avansată. <strong>Află mai mult
+            <h3>{{home.features.scanning.title}}</h3>
+            <p>{{home.features.scanning.description}} <strong>{{common.learnMore}}
                 &rarr;</strong></p>
           </a>
-          <a href="/ro/features/analytics.html" class="feature-card fade-in">
+          <a href="/{{langPrefix meta.lang}}features/analytics.html" class="feature-card fade-in">
             <div class="feature-icon">📊</div>
-            <h3>Analiză Inteligentă</h3>
-            <p>Vizualizează tendințe de cheltuieli și primește informații financiare personalizate în limba ta. <strong>Află mai mult
+            <h3>{{home.features.analytics.title}}</h3>
+            <p>{{home.features.analytics.description}} <strong>{{common.learnMore}}
                 &rarr;</strong></p>
           </a>
-          <a href="/ro/features/security.html" class="feature-card fade-in">
+          <a href="/{{langPrefix meta.lang}}features/security.html" class="feature-card fade-in">
             <div class="feature-icon">🔒</div>
-            <h3>Securitate la Nivel Bancar</h3>
-            <p>Datele tale sunt protejate cu criptare end-to-end și autentificare securizată. <strong>Află mai mult
+            <h3>{{home.features.security.title}}</h3>
+            <p>{{home.features.security.description}} <strong>{{common.learnMore}}
                 &rarr;</strong></p>
           </a>
           <div class="feature-card fade-in">
             <div class="feature-icon">☁️</div>
-            <h3>Offline și Sincronizare</h3>
-            <p>Funcționează perfect offline. Modificările se sincronizează automat când ești online din nou.</p>
+            <h3>{{home.features.offline.title}}</h3>
+            <p>{{home.features.offline.description}}</p>
           </div>
         </div>
       </div>
@@ -136,8 +136,8 @@
     <!-- Download Section -->
     <section id="download" class="section download">
       <div class="container text-center">
-        <h2 class="fade-in">Începe Să Urmărești Astăzi</h2>
-        <p class="fade-in mb-8">Alătură-te miilor de utilizatori care își controlează finanțele cu FlickAI.</p>
+        <h2 class="fade-in">{{home.download.title}}</h2>
+        <p class="fade-in mb-8">{{home.download.subtitle}}</p>
         <div class="download-buttons fade-in">
           <div class="store-button google-play disabled" style="cursor: default;">
             <svg class="store-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
@@ -145,7 +145,7 @@
               <path
                 d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.84L14.5,12.81L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.5,12.92 20.16,13.19L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.16L16.81,8.88L14.5,11.19L6.05,2.16Z" />
             </svg>
-            Google Play
+            {{home.download.googlePlay}}
           </div>
           <div class="store-button app-store disabled" style="cursor: default;">
             <svg class="store-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
@@ -153,10 +153,10 @@
               <path
                 d="M18.71,19.5C17.88,20.74 17,21.95 15.66,21.97C14.32,22 13.89,21.18 12.37,21.18C10.84,21.18 10.37,21.95 9.1,22C7.79,22.05 6.8,20.68 5.96,19.47C4.25,17 2.94,12.45 4.7,9.39C5.57,7.87 7.13,6.91 8.82,6.88C10.1,6.86 11.32,7.75 12.11,7.75C12.89,7.75 14.37,6.68 15.92,6.84C16.57,6.87 18.39,7.1 19.56,8.82C19.47,8.88 17.39,10.1 17.41,12.63C17.44,15.65 20.06,16.66 20.09,16.67C20.06,16.74 19.67,18.11 18.71,19.5M13,3.5C13.73,2.67 14.94,2.04 15.94,2C16.07,3.17 15.6,4.35 14.9,5.19C14.21,6.04 13.07,6.7 11.95,6.61C11.8,5.37 12.36,4.26 13,3.5Z" />
             </svg>
-            App Store
+            {{home.download.appStore}}
           </div>
         </div>
-        <p class="fade-in" style="margin-top: 2rem; color: var(--text-muted); font-size: 0.95rem;">Apasă pe &quot;Alătură-te&quot; pentru acces anticipat! 🚀</p>
+        <p class="fade-in" style="margin-top: 2rem; color: var(--text-muted); font-size: 0.95rem;">{{home.download.waitlistNote}}</p>
       </div>
     </section>
 
@@ -164,11 +164,11 @@
     <footer class="footer">
       <div class="container footer-content">
         <div class="footer-links">
-          <a href="/ro/privacy-policy.html">Politica de Confidențialitate</a>
-          <a href="/ro/terms-of-service.html">Termeni și Condiții</a>
-          <a href="/ro/cookie-policy.html">Politica Cookie</a>
+          <a href="/{{langPrefix meta.lang}}privacy-policy.html">{{footer.privacyPolicy}}</a>
+          <a href="/{{langPrefix meta.lang}}terms-of-service.html">{{footer.termsOfService}}</a>
+          <a href="/{{langPrefix meta.lang}}cookie-policy.html">{{footer.cookiePolicy}}</a>
         </div>
-        <p class="copyright">© 2025 FlickAI. All rights reserved.</p>
+        <p class="copyright">© 2025 {{meta.siteName}}. All rights reserved.</p>
       </div>
     </footer>
   </div>

@@ -1,17 +1,17 @@
 <!doctype html>
-<html lang="es">
+<html lang="{{meta.lang}}">
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/es/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/{{langPrefix meta.lang}}vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Intelligent Analytics - FlickAI</title>
+    <title>Intelligent Analytics - {{meta.siteName}}</title>
     <meta name="description"
-        content="Visualize spending trends and get personalized financial insights with FlickAI analytics.">
+        content="Visualize spending trends and get personalized financial insights with {{meta.siteName}} analytics.">
     <link rel="canonical" href="https://flickai.net/features/analytics.html">
 
     <!-- Hreflang Tags -->
-    <link rel="alternate" hreflang="es" href="https://flickai.net/features/analytics.html" />
+    <link rel="alternate" hreflang="{{meta.lang}}" href="https://flickai.net/features/analytics.html" />
     <link rel="alternate" hreflang="es" href="https://flickai.net/es/features/analytics.html" />
     <link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features/analytics.html" />
     <link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features/analytics.html" />
@@ -23,17 +23,17 @@
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Intelligent Analytics - AI Expense Tracker",
-      "description": "Visualize spending trends and get personalized financial insights with FlickAI analytics.",
+      "description": "Visualize spending trends and get personalized financial insights with {{meta.siteName}} analytics.",
       "url": "https://flickai.net/features/analytics.html",
       "inLanguage": "en",
       "isPartOf": {
         "@type": "WebSite",
-        "name": "FlickAI",
+        "name": "{{meta.siteName}}",
         "url": "https://flickai.net"
       },
       "about": {
         "@type": "SoftwareApplication",
-        "name": "FlickAI",
+        "name": "{{meta.siteName}}",
         "applicationCategory": "FinanceApplication",
         "offers": {
           "@type": "Offer",
@@ -53,12 +53,12 @@
     <div id="app">
         <header class="header">
             <div class="container header-content">
-                <a href="/es/" class="logo">
-                    <span class="logo-text">FlickAI</span>
+                <a href="/{{langPrefix meta.lang}}" class="logo">
+                    <span class="logo-text">{{meta.siteName}}</span>
                 </a>
                 <nav class="nav">
-                    <a href="/#features">Características</a>
-                    <a href="/es/" class="btn btn-primary">Volver al Inicio</a>
+                    <a href="/#features">{{common.features}}</a>
+                    <a href="/{{langPrefix meta.lang}}" class="btn btn-primary">{{common.backToHome}}</a>
                 </nav>
             </div>
         </header>
@@ -66,22 +66,22 @@
         <main class="container section">
             <div class="feature-detail">
                 <div class="feature-text fade-in">
-                    <h1 class="section-title">Análisis Inteligente</h1>
-                    <p class="mb-4">Entender tu dinero es el primer paso para controlarlo. FlickAI proporciona información profunda sobre tus hábitos de gasto.</p>
+                    <h1 class="section-title">{{features.analytics.heading}}</h1>
+                    <p class="mb-4">{{features.analytics.intro}}</p>
 
-                    <h2 class="mb-4">Tendencias Visuales de Gastos</h2>
-                    <p class="mb-4">Ve exactamente a dónde va tu dinero con gráficos y diagramas interactivos:</p>
+                    <h2 class="mb-4">{{features.analytics.visualTrends.title}}</h2>
+                    <p class="mb-4">{{features.analytics.visualTrends.intro}}</p>
                     <ul class="mb-4" style="padding-left: 1.5rem;">
-                        <li><strong>Desglose por Categorías: Gráficos circulares que muestran gastos por categoría (Comida, Transporte, Servicios, etc.).</strong></li>
-                        <li><strong>Tendencias Mensuales: Gráficos de barras que comparan gastos mes a mes.</strong></li>
-                        <li><strong>Análisis de Comerciantes: Ve en qué tiendas gastas más.</strong></li>
+                        <li><strong>{{features.analytics.visualTrends.categoryBreakdown}}</strong></li>
+                        <li><strong>{{features.analytics.visualTrends.monthlyTrends}}</strong></li>
+                        <li><strong>{{features.analytics.visualTrends.merchantAnalysis}}</strong></li>
                     </ul>
 
-                    <h2 class="mb-4">Información Generada por IA</h2>
-                    <p class="mb-4">Nuestra IA no solo te muestra datos; los explica. Obtén consejos personalizados como:</p>
+                    <h2 class="mb-4">{{features.analytics.aiInsights.title}}</h2>
+                    <p class="mb-4">{{features.analytics.aiInsights.intro}}</p>
                     <blockquote
                         style="border-left: 4px solid var(--primary); padding-left: 1rem; font-style: italic; color: var(--text-muted); margin-bottom: 1rem;">
-                        \&quot;Has gastado un 20% más en comer fuera este mes en comparación con el mes pasado. Considera cocinar en casa esta semana para mantenerte dentro del presupuesto.\&quot;
+                        {{features.analytics.aiInsights.example}}
                     </blockquote>
                 </div>
                 <div class="feature-image fade-in">
@@ -94,11 +94,11 @@
         <footer class="footer">
             <div class="container footer-content">
                 <div class="footer-links">
-                    <a href="/es/privacy-policy.html">Política de Privacidad</a>
-                    <a href="/es/terms-of-service.html">Términos de Servicio</a>
-                    <a href="/es/cookie-policy.html">Política de Cookies</a>
+                    <a href="/{{langPrefix meta.lang}}privacy-policy.html">{{footer.privacyPolicy}}</a>
+                    <a href="/{{langPrefix meta.lang}}terms-of-service.html">{{footer.termsOfService}}</a>
+                    <a href="/{{langPrefix meta.lang}}cookie-policy.html">{{footer.cookiePolicy}}</a>
                 </div>
-                <p class="copyright">© 2025 FlickAI. All rights reserved.</p>
+                <p class="copyright">© 2025 {{meta.siteName}}. All rights reserved.</p>
             </div>
         </footer>
     </div>

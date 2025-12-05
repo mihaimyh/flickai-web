@@ -1,13 +1,13 @@
 <!doctype html>
-<html lang="fr">
+<html lang="{{meta.lang}}">
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/fr/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/{{langPrefix meta.lang}}vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Conformité RGPD - FlickAI</title>
+    <title>{{gdpr.heading}} - {{meta.siteName}}</title>
     <meta name="description"
-        content="Conformité RGPD information for FlickAI. Your rights under the General Data Protection Regulation.">
+        content="{{gdpr.heading}} information for {{meta.siteName}}. Your rights under the General Data Protection Regulation.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -17,22 +17,22 @@
     <div id="app">
         <header class="header">
             <div class="container header-content">
-                <a href="/fr/" class="logo">
-                    <span class="logo-text">FlickAI</span>
+                <a href="/{{langPrefix meta.lang}}" class="logo">
+                    <span class="logo-text">{{meta.siteName}}</span>
                 </a>
                 <nav class="nav">
-                    <a href="/#features">Fonctionnalités</a>
-                    <a href="/fr/" class="btn btn-primary">Retour à l&#x27;Accueil</a>
+                    <a href="/#features">{{common.features}}</a>
+                    <a href="/{{langPrefix meta.lang}}" class="btn btn-primary">{{common.backToHome}}</a>
                 </nav>
             </div>
         </header>
 
         <main class="container section">
-            <h1 class="section-title">Conformité RGPD</h1>
+            <h1 class="section-title">{{gdpr.heading}}</h1>
             <div class="legal-content">
-                <p class="mb-4">Dernière mise à jour : 28 novembre 2025</p>
+                <p class="mb-4">{{terms.lastUpdated}}</p>
 
-                <h2 class="mb-4">1. Vos Droits</h2>
+                <h2 class="mb-4">{{gdpr.rights.title}}</h2>
                 <p class="mb-4">Under the General Data Protection Regulation (GDPR), you have the following rights
                     regarding your personal data:</p>
                 <ul class="mb-4" style="padding-left: 1.5rem;">
@@ -44,11 +44,11 @@
                     <li>The right to object to processing.</li>
                 </ul>
 
-                <h2 class="mb-4">2. Traitement des Données</h2>
+                <h2 class="mb-4">{{gdpr.processing.title}}</h2>
                 <p class="mb-4">We process your data lawfully, fairly, and in a transparent manner. We only collect data
                     for specified, explicit, and legitimate purposes.</p>
 
-                <h2 class="mb-4">3. Contacter le DPO</h2>
+                <h2 class="mb-4">{{gdpr.contact.title}}</h2>
                 <p class="mb-4">To exercise any of your rights or for questions regarding GDPR compliance, please
                     contact our Data Protection Officer at: support@flickai.net</p>
             </div>
@@ -57,11 +57,11 @@
         <footer class="footer">
             <div class="container footer-content">
                 <div class="footer-links">
-                    <a href="/fr/privacy-policy.html">Politique de Confidentialité</a>
-                    <a href="/fr/terms-of-service.html">Conditions d&#x27;Utilisation</a>
-                    <a href="/fr/cookie-policy.html">Politique des Cookies</a>
+                    <a href="/{{langPrefix meta.lang}}privacy-policy.html">{{footer.privacyPolicy}}</a>
+                    <a href="/{{langPrefix meta.lang}}terms-of-service.html">{{footer.termsOfService}}</a>
+                    <a href="/{{langPrefix meta.lang}}cookie-policy.html">{{footer.cookiePolicy}}</a>
                 </div>
-                <p class="copyright">© 2025 FlickAI. All rights reserved.</p>
+                <p class="copyright">© 2025 {{meta.siteName}}. All rights reserved.</p>
             </div>
         </footer>
     </div>

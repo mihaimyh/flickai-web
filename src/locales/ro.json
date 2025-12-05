@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "lang": "ro",
+    "langName": "Română",
+    "siteName": "FlickAI",
+    "siteUrl": "https://flickai.net"
+  },
+  "common": {
+    "features": "Funcționalități",
+    "testimonials": "Testimoniale",
+    "downloadApp": "Descarcă App",
+    "backToHome": "Înapoi la Pagina Principală",
+    "copyright": "© 2025 FlickAI. Toate drepturile rezervate.",
+    "learnMore": "Află mai mult"
+  },
+  "footer": {
+    "privacyPolicy": "Politica de Confidențialitate",
+    "termsOfService": "Termeni și Condiții",
+    "cookiePolicy": "Politica Cookie"
+  },
+  "home": {
+    "title": "FlickAI - Urmărire Cheltuieli cu IA",
+    "description": "Simplifică urmărirea cheltuielilor cu scanarea bonurilor folosind IA de la FlickAI. Urmărește finanțele fără efort, creează bugete și obține informații financiare.",
+    "keywords": "aplicație cheltuieli, scaner bonuri, finanțe IA, aplicație buget, finanțe personale, FlickAI, management cheltuieli, urmărire cheltuieli cu IA",
+    "ogTitle": "FlickAI - Urmărire Cheltuieli cu IA",
+    "ogDescription": "Simplifică urmărirea cheltuielilor cu scanarea bonurilor folosind IA de la FlickAI. Urmărește finanțele fără efort.",
+    "schemaDescription": "Aplicație de urmărire cheltuieli și scanare bonuri cu IA.",
+    "hero": {
+      "title": "Urmărire Cheltuieli și Scanare Bonuri cu IA",
+      "subtitle": "Urmărește-ți finanțele fără efort cu scanare inteligentă de bonuri și informații automate. Lasă IA-ul să se ocupe de partea plictisitoare.",
+      "getStarted": "Începe Gratuit",
+      "learnMore": "Află Mai Mult"
+    },
+    "features": {
+      "title": "De Ce FlickAI?",
+      "scanning": {
+        "title": "Scanare Inteligentă Bonuri",
+        "description": "Extrage instant comerciant, articole și prețuri folosind tehnologie IA avansată."
+      },
+      "analytics": {
+        "title": "Analiză Inteligentă",
+        "description": "Vizualizează tendințe de cheltuieli și primește informații financiare personalizate în limba ta."
+      },
+      "security": {
+        "title": "Securitate la Nivel Bancar",
+        "description": "Datele tale sunt protejate cu criptare end-to-end și autentificare securizată."
+      },
+      "offline": {
+        "title": "Offline și Sincronizare",
+        "description": "Funcționează perfect offline. Modificările se sincronizează automat când ești online din nou."
+      }
+    },
+    "download": {
+      "title": "Începe Să Urmărești Astăzi",
+      "subtitle": "Alătură-te miilor de utilizatori care își controlează finanțele cu FlickAI.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store",
+      "waitlistNote": "Apasă pe \"Alătură-te\" pentru acces anticipat! 🚀"
+    }
+  },
+  "privacy": {
+    "title": "Politica de Confidențialitate - FlickAI",
+    "description": "Politica de Confidențialitate pentru FlickAI. Aflați cum colectăm, folosim și protejăm datele dumneavoastră.",
+    "heading": "Politica de Confidențialitate",
+    "lastUpdated": "Ultima actualizare: 28 noiembrie 2025",
+    "introduction": {
+      "title": "1. Introducere",
+      "content": "FlickAI ('noi', 'al nostru' sau 'ne') respectă confidențialitatea dumneavoastră și se angajează să vă protejeze datele personale. Această politică de confidențialitate vă va informa despre modul în care ne ocupăm de datele dumneavoastră personale atunci când vizitați site-ul nostru web sau utilizați aplicația noastră mobilă."
+    },
+    "dataCollection": {
+      "title": "2. Datele pe care le Colectăm",
+      "intro": "Putem colecta, utiliza, stoca și transfera diferite tipuri de date personale despre dumneavoastră, pe care le-am grupat după cum urmează:",
+      "identity": "Date de Identitate: include prenumele, numele de familie, numele de utilizator sau identificator similar.",
+      "contact": "Date de Contact: include adresa de e-mail.",
+      "transaction": "Date de Tranzacție: include detalii despre plățile către și de la dumneavoastră și alte detalii despre produsele și serviciile pe care le-ați achiziționat de la noi.",
+      "usage": "Date de Utilizare: include informații despre modul în care utilizați site-ul nostru web și aplicațiile."
+    },
+    "dataUsage": {
+      "title": "3. Cum Folosim Datele Dumneavoastră",
+      "intro": "Vom folosi datele dumneavoastră personale doar atunci când legea ne permite. Cel mai frecvent, vom folosi datele dumneavoastră personale în următoarele circumstanțe:",
+      "contract": "Când trebuie să executăm contractul pe care urmează să îl încheiem sau l-am încheiat cu dumneavoastră.",
+      "legitimate": "Când este necesar pentru interesele noastre legitime (sau ale unei terțe părți) și interesele și drepturile dumneavoastră fundamentale nu prevalează asupra acelor interese.",
+      "legal": "Când trebuie să respectăm o obligație legală sau de reglementare."
+    },
+    "security": {
+      "title": "4. Securitatea Datelor",
+      "content": "Am implementat măsuri de securitate adecvate pentru a preveni pierderea accidentală, utilizarea sau accesul neautorizat, modificarea sau dezvăluirea datelor dumneavoastră personale."
+    },
+    "contact": {
+      "title": "5. Contactați-ne",
+      "content": "Dacă aveți întrebări despre această politică de confidențialitate sau despre practicile noastre de confidențialitate, vă rugăm să ne contactați la: support@flickai.net"
+    }
+  },
+  "terms": {
+    "title": "Termeni și Condiții - FlickAI",
+    "description": "Termeni și Condiții pentru FlickAI. Citiți termenii și condițiile noastre pentru utilizarea serviciilor noastre.",
+    "heading": "Termeni și Condiții",
+    "lastUpdated": "Ultima actualizare: 28 noiembrie 2025",
+    "agreement": {
+      "title": "1. Acordul cu Termenii",
+      "content": "Prin accesarea site-ului nostru web sau utilizarea aplicației noastre mobile, sunteți de acord să fiți legat de acești Termeni și Condiții. Dacă nu sunteți de acord cu acești termeni, vă rugăm să nu utilizați serviciile noastre."
+    },
+    "intellectual": {
+      "title": "2. Drepturi de Proprietate Intelectuală",
+      "content": "Cu excepția cazului în care se indică altfel, Site-ul și aplicația noastră mobilă sunt proprietatea noastră și tot codul sursă, bazele de date, funcționalitatea, software-ul, designurile site-ului web, audio, video, text, fotografiile și grafica de pe Site (colectiv, 'Conținutul') și mărcile comerciale, mărcile de servicii și siglele conținute în acestea ('Mărcile') sunt deținute sau controlate de noi sau licențiate către noi."
+    },
+    "userRep": {
+      "title": "3. Declarații ale Utilizatorului",
+      "content": "Prin utilizarea Site-ului, declarați și garantați că: (1) toate informațiile de înregistrare pe care le trimiteți vor fi adevărate, exacte, actuale și complete; (2) veți menține acuratețea acestor informații și veți actualiza prompt astfel de informații de înregistrare după cum este necesar."
+    },
+    "prohibited": {
+      "title": "4. Activități Interzise",
+      "content": "Nu puteți accesa sau utiliza Site-ul în alt scop decât cel pentru care punem Site-ul la dispoziție. Site-ul nu poate fi utilizat în legătură cu nicio activitate comercială, cu excepția celor care sunt în mod specific aprobate sau aprobate de noi."
+    },
+    "contact": {
+      "title": "5. Contactați-ne",
+      "content": "Pentru a rezolva o plângere cu privire la Site sau pentru a primi informații suplimentare cu privire la utilizarea Site-ului, vă rugăm să ne contactați la: support@flickai.net"
+    }
+  },
+  "cookie": {
+    "title": "Politica Cookie - FlickAI",
+    "description": "Politica Cookie pentru FlickAI. Înțelegeți cum folosim cookie-urile pentru a vă îmbunătăți experiența.",
+    "heading": "Politica Cookie",
+    "lastUpdated": "Ultima actualizare: 28 noiembrie 2025",
+    "whatAre": {
+      "title": "1. Ce Sunt Cookie-urile",
+      "content": "Cookie-urile sunt fișiere text mici care sunt plasate pe computerul sau dispozitivul dumneavoastră mobil de către site-urile web pe care le vizitați. Sunt utilizate pe scară largă pentru a face site-urile web să funcționeze sau să funcționeze mai eficient, precum și pentru a furniza informații proprietarilor site-ului."
+    },
+    "howWeUse": {
+      "title": "2. Cum Folosim Cookie-urile",
+      "intro": "Folosim cookie-uri din diverse motive detaliate mai jos. Din păcate, în majoritatea cazurilor nu există opțiuni standard din industrie pentru dezactivarea cookie-urilor fără a dezactiva complet funcționalitatea și caracteristicile pe care le adaugă acestui site.",
+      "essential": "Cookie-uri Esențiale: Acestea sunt necesare pentru ca site-ul web să funcționeze corect.",
+      "analytics": "Cookie-uri de Analiză: Acestea ne ajută să înțelegem cum interacționează vizitatorii cu site-ul nostru web.",
+      "functionality": "Cookie-uri de Funcționalitate: Acestea permit site-ului web să își amintească alegerile pe care le faceți."
+    },
+    "disabling": {
+      "title": "3. Dezactivarea Cookie-urilor",
+      "content": "Puteți preveni setarea cookie-urilor prin ajustarea setărilor din browser-ul dumneavoastră (consultați Ajutorul browser-ului pentru a afla cum să faceți acest lucru). Fiți conștienți că dezactivarea cookie-urilor va afecta funcționalitatea acestui site și a multor alte site-uri web pe care le vizitați."
+    },
+    "contact": {
+      "title": "4. Contactați-ne",
+      "content": "Dacă aveți întrebări despre utilizarea cookie-urilor, vă rugăm să ne contactați la: support@flickai.net"
+    }
+  },
+  "gdpr": {
+    "title": "Conformitate GDPR - FlickAI",
+    "description": "Informații despre Conformitatea GDPR pentru FlickAI. Drepturile dumneavoastră conform Regulamentului General privind Protecția Datelor.",
+    "heading": "Conformitate GDPR",
+    "lastUpdated": "Ultima actualizare: 28 noiembrie 2025",
+    "rights": {
+      "title": "1. Drepturile Dumneavoastră",
+      "intro": "Conform Regulamentului General privind Protecția Datelor (GDPR), aveți următoarele drepturi cu privire la datele dumneavoastră personale:",
+      "access": "Dreptul de a accesa datele dumneavoastră personale.",
+      "rectification": "Dreptul la rectificarea datelor inexacte.",
+      "erasure": "Dreptul la ștergere ('dreptul de a fi uitat').",
+      "restrict": "Dreptul de a restricționa prelucrarea.",
+      "portability": "Dreptul la portabilitatea datelor.",
+      "object": "Dreptul de a obiecta la prelucrare."
+    },
+    "processing": {
+      "title": "2. Prelucrarea Datelor",
+      "content": "Prelucrăm datele dumneavoastră în mod legal, corect și transparent. Colectăm date doar în scopuri specificate, explicite și legitime."
+    },
+    "contact": {
+      "title": "3. Contactați DPO",
+      "content": "Pentru a exercita oricare dintre drepturile dumneavoastră sau pentru întrebări privind conformitatea GDPR, vă rugăm să contactați Responsabilul nostru cu Protecția Datelor la: support@flickai.net"
+    }
+  },
+  "accessibility": {
+    "title": "Declarație de Accesibilitate - FlickAI",
+    "description": "Declarație de Accesibilitate pentru FlickAI. Angajamentul nostru față de accesibilitatea digitală.",
+    "heading": "Declarație de Accesibilitate",
+    "lastUpdated": "Ultima actualizare: 28 noiembrie 2025",
+    "commitment": {
+      "title": "1. Angajamentul Nostru",
+      "content": "FlickAI se angajează să asigure accesibilitatea digitală pentru persoanele cu dizabilități. Îmbunătățim continuu experiența utilizatorului pentru toată lumea și aplicăm standardele de accesibilitate relevante."
+    },
+    "conformance": {
+      "title": "2. Starea Conformității",
+      "content": "Ghidurile de Accesibilitate a Conținutului Web (WCAG) definesc cerințe pentru designeri și dezvoltatori pentru a îmbunătăți accesibilitatea pentru persoanele cu dizabilități. Definește trei niveluri de conformitate: Nivel A, Nivel AA și Nivel AAA. FlickAI este parțial conform cu WCAG 2.1 nivel AA."
+    },
+    "feedback": {
+      "title": "3. Feedback",
+      "intro": "Salutăm feedback-ul dumneavoastră cu privire la accesibilitatea FlickAI. Vă rugăm să ne anunțați dacă întâmpinați bariere de accesibilitate pe FlickAI:",
+      "email": "E-mail: support@flickai.net"
+    }
+  },
+  "features": {
+    "scanning": {
+      "title": "Scanare Inteligentă Bonuri - FlickAI",
+      "description": "Extrage instant comerciant, articole și prețuri din bonuri folosind tehnologie IA avansată.",
+      "heading": "Scanare Inteligentă Bonuri",
+      "intro": "S-au terminat zilele introducerii manuale a datelor. Cu FlickAI, poți digitaliza cheltuielile în câteva secunde doar făcând o fotografie.",
+      "howItWorks": {
+        "title": "Cum Funcționează",
+        "step1": "Deschide aplicația FlickAI și apasă pe pictograma camerei.",
+        "step2": "Aliniază bonul în cadru.",
+        "step3": "Apasă capturează. IA procesează imaginea în câteva secunde.",
+        "step4": "Verifică detaliile extrase și salvează!"
+      },
+      "whatWeExtract": {
+        "title": "Ce Extragem",
+        "merchant": "Numele Comerciantului: Identificat automat din logo-uri sau text.",
+        "dateTime": "Data și Ora: Înregistrează exact când a avut loc achiziția.",
+        "total": "Suma Totală: Capturează totalul final cu acuratețe.",
+        "items": "Articole Individuale: Extrage articole individuale și prețuri pentru urmărire detaliată."
+      }
+    },
+    "analytics": {
+      "title": "Analiză Inteligentă - FlickAI",
+      "description": "Vizualizează tendințe de cheltuieli și primește informații financiare personalizate în limba ta.",
+      "heading": "Analiză Inteligentă",
+      "intro": "Înțelegerea banilor tăi este primul pas pentru a-i controla. FlickAI oferă informații profunde despre obiceiurile tale de cheltuieli.",
+      "visualTrends": {
+        "title": "Tendințe Vizuale de Cheltuieli",
+        "intro": "Vezi exact unde merg banii tăi cu grafice și diagrame interactive:",
+        "categoryBreakdown": "Defalcare pe Categorii: Diagrame circulare care arată cheltuielile pe categorii (Mâncare, Transport, Utilități, etc.).",
+        "monthlyTrends": "Tendințe Lunare: Grafice cu bare care compară cheltuielile lună de lună.",
+        "merchantAnalysis": "Analiză Comercianți: Vezi la ce magazine cheltuiești cel mai mult."
+      },
+      "aiInsights": {
+        "title": "Informații Generate de IA",
+        "intro": "IA-ul nostru nu doar îți arată datele; le și explică. Primește sfaturi personalizate precum:",
+        "example": "\"Ai cheltuit cu 20% mai mult pentru mese în oraș luna aceasta comparativ cu luna trecută. Ia în considerare să gătești acasă săptămâna aceasta pentru a rămâne în buget.\""
+      }
+    },
+    "security": {
+      "title": "Securitate la Nivel Bancar - FlickAI",
+      "description": "Datele tale sunt protejate cu criptare end-to-end și autentificare securizată.",
+      "heading": "Securitate la Nivel Bancar",
+      "intro": "Datele tale financiare sunt sensibile și le tratăm ca atare. FlickAI folosește măsuri de securitate de top din industrie pentru a-ți păstra informațiile în siguranță.",
+      "measures": {
+        "title": "Măsuri de Securitate",
+        "encryption": "Criptare End-to-End: Toate datele sunt criptate atât în tranzit, cât și în repaus.",
+        "auth": "Autentificare Securizată: Autentificare multi-factor și opțiuni de autentificare biometrică.",
+        "privacy": "Confidențialitate prin Design: Nu vindem niciodată datele tale către terți.",
+        "compliance": "Conformitate: Conform GDPR și urmând cele mai bune practici de securitate."
+      }
+    }
+  }
+}

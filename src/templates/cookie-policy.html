@@ -1,13 +1,13 @@
 <!doctype html>
-<html lang="es">
+<html lang="{{meta.lang}}">
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/es/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/{{langPrefix meta.lang}}vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Política de Cookies - FlickAI</title>
+    <title>{{footer.cookiePolicy}} - {{meta.siteName}}</title>
     <meta name="description"
-        content="Política de Cookies for FlickAI. Understand how we use cookies to improve your experience.">
+        content="{{footer.cookiePolicy}} for {{meta.siteName}}. Understand how we use cookies to improve your experience.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -17,27 +17,27 @@
     <div id="app">
         <header class="header">
             <div class="container header-content">
-                <a href="/es/" class="logo">
-                    <span class="logo-text">FlickAI</span>
+                <a href="/{{langPrefix meta.lang}}" class="logo">
+                    <span class="logo-text">{{meta.siteName}}</span>
                 </a>
                 <nav class="nav">
-                    <a href="/#features">Características</a>
-                    <a href="/es/" class="btn btn-primary">Volver al Inicio</a>
+                    <a href="/#features">{{common.features}}</a>
+                    <a href="/{{langPrefix meta.lang}}" class="btn btn-primary">{{common.backToHome}}</a>
                 </nav>
             </div>
         </header>
 
         <main class="container section">
-            <h1 class="section-title">Política de Cookies</h1>
+            <h1 class="section-title">{{footer.cookiePolicy}}</h1>
             <div class="legal-content">
-                <p class="mb-4">Última actualización: 28 de noviembre de 2025</p>
+                <p class="mb-4">{{terms.lastUpdated}}</p>
 
-                <h2 class="mb-4">1. Qué Son las Cookies</h2>
+                <h2 class="mb-4">{{cookie.whatAre.title}}</h2>
                 <p class="mb-4">Cookies are small text files that are placed on your computer or mobile device by
                     websites that you visit. They are widely used in order to make websites work, or work more
                     efficiently, as well as to provide information to the owners of the site.</p>
 
-                <h2 class="mb-4">2. Cómo Usamos las Cookies</h2>
+                <h2 class="mb-4">{{cookie.howWeUse.title}}</h2>
                 <p class="mb-4">We use cookies for a variety of reasons detailed below. Unfortunately in most cases
                     there are no industry standard options for disabling cookies without completely disabling the
                     functionality and features they add to this site.</p>
@@ -50,12 +50,12 @@
                     </li>
                 </ul>
 
-                <h2 class="mb-4">3. Desactivar las Cookies</h2>
+                <h2 class="mb-4">{{cookie.disabling.title}}</h2>
                 <p class="mb-4">You can prevent the setting of cookies by adjusting the settings on your browser (see
                     your browser Help for how to do this). Be aware that disabling cookies will affect the functionality
                     of this and many other websites that you visit.</p>
 
-                <h2 class="mb-4">4. Contáctenos</h2>
+                <h2 class="mb-4">{{cookie.contact.title}}</h2>
                 <p class="mb-4">If you have any questions about our use of cookies, please contact us at:
                     support@flickai.net</p>
             </div>
@@ -64,11 +64,11 @@
         <footer class="footer">
             <div class="container footer-content">
                 <div class="footer-links">
-                    <a href="/es/privacy-policy.html">Política de Privacidad</a>
-                    <a href="/es/terms-of-service.html">Términos de Servicio</a>
-                    <a href="/es/cookie-policy.html">Política de Cookies</a>
+                    <a href="/{{langPrefix meta.lang}}privacy-policy.html">{{footer.privacyPolicy}}</a>
+                    <a href="/{{langPrefix meta.lang}}terms-of-service.html">{{footer.termsOfService}}</a>
+                    <a href="/{{langPrefix meta.lang}}cookie-policy.html">{{footer.cookiePolicy}}</a>
                 </div>
-                <p class="copyright">© 2025 FlickAI. All rights reserved.</p>
+                <p class="copyright">© 2025 {{meta.siteName}}. All rights reserved.</p>
             </div>
         </footer>
     </div>

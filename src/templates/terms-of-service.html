@@ -1,13 +1,13 @@
 <!doctype html>
-<html lang="ro">
+<html lang="{{meta.lang}}">
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/ro/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/{{langPrefix meta.lang}}vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Termeni și Condiții - FlickAI</title>
+    <title>{{footer.termsOfService}} - {{meta.siteName}}</title>
     <meta name="description"
-        content="Termeni și Condiții for FlickAI. Read our terms and conditions for using our services.">
+        content="{{footer.termsOfService}} for {{meta.siteName}}. Read our terms and conditions for using our services.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -17,43 +17,43 @@
     <div id="app">
         <header class="header">
             <div class="container header-content">
-                <a href="/ro/" class="logo">
-                    <span class="logo-text">FlickAI</span>
+                <a href="/{{langPrefix meta.lang}}" class="logo">
+                    <span class="logo-text">{{meta.siteName}}</span>
                 </a>
                 <nav class="nav">
-                    <a href="/#features">Funcționalități</a>
-                    <a href="/ro/" class="btn btn-primary">Înapoi la Pagina Principală</a>
+                    <a href="/#features">{{common.features}}</a>
+                    <a href="/{{langPrefix meta.lang}}" class="btn btn-primary">{{common.backToHome}}</a>
                 </nav>
             </div>
         </header>
 
         <main class="container section">
-            <h1 class="section-title">Termeni și Condiții</h1>
+            <h1 class="section-title">{{footer.termsOfService}}</h1>
             <div class="legal-content">
-                <p class="mb-4">Ultima actualizare: 28 noiembrie 2025</p>
+                <p class="mb-4">{{terms.lastUpdated}}</p>
 
-                <h2 class="mb-4">1. Acordul cu Termenii</h2>
+                <h2 class="mb-4">{{terms.agreement.title}}</h2>
                 <p class="mb-4">By accessing our website or using our mobile application, you agree to be bound by these
-                    Termeni și Condiții. If you do not agree to these terms, please do not use our services.</p>
+                    {{footer.termsOfService}}. If you do not agree to these terms, please do not use our services.</p>
 
-                <h2 class="mb-4">2. Drepturi de Proprietate Intelectuală</h2>
+                <h2 class="mb-4">{{terms.intellectual.title}}</h2>
                 <p class="mb-4">Unless otherwise indicated, the Site and our mobile application are our proprietary
                     property and all source code, databases, functionality, software, website designs, audio, video,
                     text, photographs, and graphics on the Site (collectively, the "Content") and the trademarks,
                     service marks, and logos contained therein (the "Marks") are owned or controlled by us or licensed
                     to us.</p>
 
-                <h2 class="mb-4">3. Declarații ale Utilizatorului</h2>
+                <h2 class="mb-4">{{terms.userRep.title}}</h2>
                 <p class="mb-4">By using the Site, you represent and warrant that: (1) all registration information you
                     submit will be true, accurate, current, and complete; (2) you will maintain the accuracy of such
                     information and promptly update such registration information as necessary.</p>
 
-                <h2 class="mb-4">4. Activități Interzise</h2>
+                <h2 class="mb-4">{{terms.prohibited.title}}</h2>
                 <p class="mb-4">You may not access or use the Site for any purpose other than that for which we make the
                     Site available. The Site may not be used in connection with any commercial endeavors except those
                     that are specifically endorsed or approved by us.</p>
 
-                <h2 class="mb-4">5. Contactați-ne</h2>
+                <h2 class="mb-4">{{terms.contact.title}}</h2>
                 <p class="mb-4">In order to resolve a complaint regarding the Site or to receive further information
                     regarding use of the Site, please contact us at: support@flickai.net</p>
             </div>
@@ -62,11 +62,11 @@
         <footer class="footer">
             <div class="container footer-content">
                 <div class="footer-links">
-                    <a href="/ro/privacy-policy.html">Politica de Confidențialitate</a>
-                    <a href="/ro/terms-of-service.html">Termeni și Condiții</a>
-                    <a href="/ro/cookie-policy.html">Politica Cookie</a>
+                    <a href="/{{langPrefix meta.lang}}privacy-policy.html">{{footer.privacyPolicy}}</a>
+                    <a href="/{{langPrefix meta.lang}}terms-of-service.html">{{footer.termsOfService}}</a>
+                    <a href="/{{langPrefix meta.lang}}cookie-policy.html">{{footer.cookiePolicy}}</a>
                 </div>
-                <p class="copyright">© 2025 FlickAI. All rights reserved.</p>
+                <p class="copyright">© 2025 {{meta.siteName}}. All rights reserved.</p>
             </div>
         </footer>
     </div>

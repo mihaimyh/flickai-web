@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "lang": "en",
+    "langName": "English",
+    "siteName": "FlickAI",
+    "siteUrl": "https://flickai.net"
+  },
+  "common": {
+    "features": "Features",
+    "testimonials": "Testimonials",
+    "downloadApp": "Download App",
+    "backToHome": "Back to Home",
+    "copyright": "© 2025 FlickAI. All rights reserved.",
+    "learnMore": "Learn more"
+  },
+  "footer": {
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookiePolicy": "Cookie Policy"
+  },
+  "home": {
+    "title": "FlickAI - AI-Powered Expense Tracking",
+    "description": "Simplify expense tracking with FlickAI's AI-powered receipt scanning. Track finances effortlessly, create budgets, and gain financial insights.",
+    "keywords": "expense tracker, receipt scanner, AI finance, budget app, personal finance, FlickAI, expense management",
+    "ogTitle": "FlickAI - AI-Powered Expense Tracking",
+    "ogDescription": "Simplify expense tracking with FlickAI's AI-powered receipt scanning. Track finances effortlessly.",
+    "schemaDescription": "AI-powered expense tracking and receipt scanning application.",
+    "hero": {
+      "title": "AI-Powered Expense Tracking & Receipt Scanning",
+      "subtitle": "Effortlessly track your finances with intelligent receipt scanning and automated insights. Let AI handle the boring stuff.",
+      "getStarted": "Get Started Free",
+      "learnMore": "Learn More"
+    },
+    "features": {
+      "title": "Why Choose FlickAI?",
+      "scanning": {
+        "title": "Smart Receipt Scanning",
+        "description": "Instantly extract merchant, items, and prices using advanced AI technology."
+      },
+      "analytics": {
+        "title": "Intelligent Analytics",
+        "description": "Visualize spending trends and get personalized financial insights in your language."
+      },
+      "security": {
+        "title": "Bank-Level Security",
+        "description": "Your data is protected with end-to-end encryption and secure authentication."
+      },
+      "offline": {
+        "title": "Offline & Sync",
+        "description": "Works perfectly offline. Changes sync automatically when you're back online."
+      }
+    },
+    "download": {
+      "title": "Start Tracking Today",
+      "subtitle": "Join thousands of users taking control of their finances with FlickAI.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store",
+      "waitlistNote": "Click the \"Join Waitlist\" button to get early access! 🚀"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy - FlickAI",
+    "description": "Privacy Policy for FlickAI. Learn how we collect, use, and protect your data.",
+    "heading": "Privacy Policy",
+    "lastUpdated": "Last updated: November 28, 2025",
+    "introduction": {
+      "title": "1. Introduction",
+      "content": "FlickAI (\"we,\" \"our,\" or \"us\") respects your privacy and is committed to protecting your personal data. This privacy policy will inform you as to how we look after your personal data when you visit our website or use our mobile application."
+    },
+    "dataCollection": {
+      "title": "2. Data We Collect",
+      "intro": "We may collect, use, store and transfer different kinds of personal data about you which we have grouped together follows:",
+      "identity": "Identity Data: includes first name, last name, username or similar identifier.",
+      "contact": "Contact Data: includes email address.",
+      "transaction": "Transaction Data: includes details about payments to and from you and other details of products and services you have purchased from us.",
+      "usage": "Usage Data: includes information about how you use our website and applications."
+    },
+    "dataUsage": {
+      "title": "3. How We Use Your Data",
+      "intro": "We will only use your personal data when the law allows us to. Most commonly, we will use your personal data in the following circumstances:",
+      "contract": "Where we need to perform the contract we are about to enter into or have entered into with you.",
+      "legitimate": "Where it is necessary for our legitimate interests (or those of a third party) and your interests and fundamental rights do not override those interests.",
+      "legal": "Where we need to comply with a legal or regulatory obligation."
+    },
+    "security": {
+      "title": "4. Data Security",
+      "content": "We have put in place appropriate security measures to prevent your personal data from being accidentally lost, used or accessed in an unauthorized way, altered or disclosed."
+    },
+    "contact": {
+      "title": "5. Contact Us",
+      "content": "If you have any questions about this privacy policy or our privacy practices, please contact us at: support@flickai.net"
+    }
+  },
+  "terms": {
+    "title": "Terms of Service - FlickAI",
+    "description": "Terms of Service for FlickAI. Read our terms and conditions for using our services.",
+    "heading": "Terms of Service",
+    "lastUpdated": "Last updated: November 28, 2025",
+    "agreement": {
+      "title": "1. Agreement to Terms",
+      "content": "By accessing our website or using our mobile application, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services."
+    },
+    "intellectual": {
+      "title": "2. Intellectual Property Rights",
+      "content": "Unless otherwise indicated, the Site and our mobile application are our proprietary property and all source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics on the Site (collectively, the \"Content\") and the trademarks, service marks, and logos contained therein (the \"Marks\") are owned or controlled by us or licensed to us."
+    },
+    "userRep": {
+      "title": "3. User Representations",
+      "content": "By using the Site, you represent and warrant that: (1) all registration information you submit will be true, accurate, current, and complete; (2) you will maintain the accuracy of such information and promptly update such registration information as necessary."
+    },
+    "prohibited": {
+      "title": "4. Prohibited Activities",
+      "content": "You may not access or use the Site for any purpose other than that for which we make the Site available. The Site may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us."
+    },
+    "contact": {
+      "title": "5. Contact Us",
+      "content": "In order to resolve a complaint regarding the Site or to receive further information regarding use of the Site, please contact us at: support@flickai.net"
+    }
+  },
+  "cookie": {
+    "title": "Cookie Policy - FlickAI",
+    "description": "Cookie Policy for FlickAI. Understand how we use cookies to improve your experience.",
+    "heading": "Cookie Policy",
+    "lastUpdated": "Last updated: November 28, 2025",
+    "whatAre": {
+      "title": "1. What Are Cookies",
+      "content": "Cookies are small text files that are placed on your computer or mobile device by websites that you visit. They are widely used in order to make websites work, or work more efficiently, as well as to provide information to the owners of the site."
+    },
+    "howWeUse": {
+      "title": "2. How We Use Cookies",
+      "intro": "We use cookies for a variety of reasons detailed below. Unfortunately in most cases there are no industry standard options for disabling cookies without completely disabling the functionality and features they add to this site.",
+      "essential": "Essential Cookies: These are necessary for the website to function properly.",
+      "analytics": "Analytics Cookies: These help us understand how visitors interact with our website.",
+      "functionality": "Functionality Cookies: These allow the website to remember choices you make."
+    },
+    "disabling": {
+      "title": "3. Disabling Cookies",
+      "content": "You can prevent the setting of cookies by adjusting the settings on your browser (see your browser Help for how to do this). Be aware that disabling cookies will affect the functionality of this and many other websites that you visit."
+    },
+    "contact": {
+      "title": "4. Contact Us",
+      "content": "If you have any questions about our use of cookies, please contact us at: support@flickai.net"
+    }
+  },
+  "gdpr": {
+    "title": "GDPR Compliance - FlickAI",
+    "description": "GDPR Compliance information for FlickAI. Your rights under the General Data Protection Regulation.",
+    "heading": "GDPR Compliance",
+    "lastUpdated": "Last updated: November 28, 2025",
+    "rights": {
+      "title": "1. Your Rights",
+      "intro": "Under the General Data Protection Regulation (GDPR), you have the following rights regarding your personal data:",
+      "access": "The right to access your personal data.",
+      "rectification": "The right to rectification of inaccurate data.",
+      "erasure": "The right to erasure (\"right to be forgotten\").",
+      "restrict": "The right to restrict processing.",
+      "portability": "The right to data portability.",
+      "object": "The right to object to processing."
+    },
+    "processing": {
+      "title": "2. Data Processing",
+      "content": "We process your data lawfully, fairly, and in a transparent manner. We only collect data for specified, explicit, and legitimate purposes."
+    },
+    "contact": {
+      "title": "3. Contact DPO",
+      "content": "To exercise any of your rights or for questions regarding GDPR compliance, please contact our Data Protection Officer at: support@flickai.net"
+    }
+  },
+  "accessibility": {
+    "title": "Accessibility Statement - FlickAI",
+    "description": "Accessibility Statement for FlickAI. Our commitment to digital accessibility.",
+    "heading": "Accessibility Statement",
+    "lastUpdated": "Last updated: November 28, 2025",
+    "commitment": {
+      "title": "1. Our Commitment",
+      "content": "FlickAI is committed to ensuring digital accessibility for people with disabilities. We are continually improving the user experience for everyone and applying the relevant accessibility standards."
+    },
+    "conformance": {
+      "title": "2. Conformance Status",
+      "content": "The Web Content Accessibility Guidelines (WCAG) defines requirements for designers and developers to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA. FlickAI is partially conformant with WCAG 2.1 level AA."
+    },
+    "feedback": {
+      "title": "3. Feedback",
+      "intro": "We welcome your feedback on the accessibility of FlickAI. Please let us know if you encounter accessibility barriers on FlickAI:",
+      "email": "E-mail: support@flickai.net"
+    }
+  },
+  "features": {
+    "scanning": {
+      "title": "Smart Receipt Scanning - FlickAI",
+      "description": "Instantly extract merchant, items, and prices from receipts using advanced AI technology.",
+      "heading": "Smart Receipt Scanning",
+      "intro": "Gone are the days of manual data entry. With FlickAI, you can digitize expenses in seconds just by taking a photo.",
+      "howItWorks": {
+        "title": "How It Works",
+        "step1": "Open the FlickAI app and tap the camera icon.",
+        "step2": "Align the receipt in the frame.",
+        "step3": "Tap capture. AI processes the image in seconds.",
+        "step4": "Review the extracted details and save!"
+      },
+      "whatWeExtract": {
+        "title": "What We Extract",
+        "merchant": "Merchant Name: Automatically identified from logos or text.",
+        "dateTime": "Date & Time: Records exactly when the purchase occurred.",
+        "total": "Total Amount: Captures the final total accurately.",
+        "items": "Individual Items: Extracts individual items and prices for detailed tracking."
+      }
+    },
+    "analytics": {
+      "title": "Intelligent Analytics - FlickAI",
+      "description": "Visualize spending trends and get personalized financial insights in your language.",
+      "heading": "Intelligent Analytics",
+      "intro": "Understanding your money is the first step to controlling it. FlickAI provides deep insights into your spending habits.",
+      "visualTrends": {
+        "title": "Visual Spending Trends",
+        "intro": "See exactly where your money goes with interactive charts and graphs:",
+        "categoryBreakdown": "Category Breakdown: Pie charts showing spending by category (Food, Transport, Utilities, etc.).",
+        "monthlyTrends": "Monthly Trends: Bar graphs comparing spending month-over-month.",
+        "merchantAnalysis": "Merchant Analysis: See which stores you spend the most at."
+      },
+      "aiInsights": {
+        "title": "AI-Generated Insights",
+        "intro": "Our AI doesn't just show you data; it explains it. Get personalized tips like:",
+        "example": "\"You've spent 20% more on dining out this month compared to last month. Consider cooking at home this week to stay on budget.\""
+      }
+    },
+    "security": {
+      "title": "Bank-Level Security - FlickAI",
+      "description": "Your data is protected with end-to-end encryption and secure authentication.",
+      "heading": "Bank-Level Security",
+      "intro": "Your financial data is sensitive, and we treat it that way. FlickAI employs industry-leading security measures to keep your information safe.",
+      "measures": {
+        "title": "Security Measures",
+        "encryption": "End-to-End Encryption: All data is encrypted both in transit and at rest.",
+        "auth": "Secure Authentication: Multi-factor authentication and biometric login options.",
+        "privacy": "Privacy by Design: We never sell your data to third parties.",
+        "compliance": "Compliance: GDPR compliant and following best security practices."
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="{{meta.lang}}">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{privacy.title}}</title>
+    <meta name="description" content="{{privacy.description}}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="app">
+      <header class="header">
+        <div class="container header-content">
+          <a href="/{{#ne meta.lang 'en'}}{{meta.lang}}/{{/ne}}" class="logo">
+            <span class="logo-text">{{meta.siteName}}</span>
+          </a>
+          <nav class="nav">
+            <a href="/{{#ne meta.lang 'en'}}{{meta.lang}}/{{/ne}}#features"
+              >{{common.features}}</a
+            >
+            <a
+              href="/{{#ne meta.lang 'en'}}{{meta.lang}}/{{/ne}}"
+              class="btn btn-primary"
+              >{{common.backToHome}}</a
+            >
+          </nav>
+        </div>
+      </header>
+
+      <main class="container section">
+        <h1 class="section-title">{{privacy.heading}}</h1>
+        <div class="legal-content">
+          <p class="mb-4">{{privacy.lastUpdated}}</p>
+
+          <h2 class="mb-4">{{privacy.introduction.title}}</h2>
+          <p class="mb-4">{{privacy.introduction.content}}</p>
+
+          <h2 class="mb-4">{{privacy.dataCollection.title}}</h2>
+          <p class="mb-4">{{privacy.dataCollection.intro}}</p>
+          <ul class="mb-4" style="padding-left: 1.5rem">
+            <li><strong>{{privacy.dataCollection.identity}}</strong></li>
+            <li><strong>{{privacy.dataCollection.contact}}</strong></li>
+            <li><strong>{{privacy.dataCollection.transaction}}</strong></li>
+            <li><strong>{{privacy.dataCollection.usage}}</strong></li>
+          </ul>
+
+          <h2 class="mb-4">{{privacy.dataUsage.title}}</h2>
+          <p class="mb-4">{{privacy.dataUsage.intro}}</p>
+          <ul class="mb-4" style="padding-left: 1.5rem">
+            <li>{{privacy.dataUsage.contract}}</li>
+            <li>{{privacy.dataUsage.legitimate}}</li>
+            <li>{{privacy.dataUsage.legal}}</li>
+          </ul>
+
+          <h2 class="mb-4">{{privacy.security.title}}</h2>
+          <p class="mb-4">{{privacy.security.content}}</p>
+
+          <h2 class="mb-4">{{privacy.contact.title}}</h2>
+          <p class="mb-4">{{privacy.contact.content}}</p>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container footer-content">
+          <div class="footer-links">
+            <a
+              href="/{{#ne meta.lang 'en'}}{{meta.lang}}/{{/ne}}privacy-policy.html"
+              >{{footer.privacyPolicy}}</a
+            >
+            <a
+              href="/{{#ne meta.lang 'en'}}{{meta.lang}}/{{/ne}}terms-of-service.html"
+              >{{footer.termsOfService}}</a
+            >
+            <a
+              href="/{{#ne meta.lang 'en'}}{{meta.lang}}/{{/ne}}cookie-policy.html"
+              >{{footer.cookiePolicy}}</a
+            >
+          </div>
+          <p class="copyright">{{common.copyright}}</p>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

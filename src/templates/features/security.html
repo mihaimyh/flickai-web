@@ -1,17 +1,17 @@
 <!doctype html>
-<html lang="es">
+<html lang="{{meta.lang}}">
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/es/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/{{langPrefix meta.lang}}vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bank-Level Security - FlickAI</title>
+    <title>Bank-Level Security - {{meta.siteName}}</title>
     <meta name="description"
         content="Your financial data is protected with end-to-end encryption and secure authentication.">
     <link rel="canonical" href="https://flickai.net/features/security.html">
 
     <!-- Hreflang Tags -->
-    <link rel="alternate" hreflang="es" href="https://flickai.net/features/security.html" />
+    <link rel="alternate" hreflang="{{meta.lang}}" href="https://flickai.net/features/security.html" />
     <link rel="alternate" hreflang="es" href="https://flickai.net/es/features/security.html" />
     <link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features/security.html" />
     <link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features/security.html" />
@@ -28,12 +28,12 @@
       "inLanguage": "en",
       "isPartOf": {
         "@type": "WebSite",
-        "name": "FlickAI",
+        "name": "{{meta.siteName}}",
         "url": "https://flickai.net"
       },
       "about": {
         "@type": "SoftwareApplication",
-        "name": "FlickAI",
+        "name": "{{meta.siteName}}",
         "applicationCategory": "FinanceApplication",
         "offers": {
           "@type": "Offer",
@@ -53,12 +53,12 @@
     <div id="app">
         <header class="header">
             <div class="container header-content">
-                <a href="/es/" class="logo">
-                    <span class="logo-text">FlickAI</span>
+                <a href="/{{langPrefix meta.lang}}" class="logo">
+                    <span class="logo-text">{{meta.siteName}}</span>
                 </a>
                 <nav class="nav">
-                    <a href="/#features">Características</a>
-                    <a href="/es/" class="btn btn-primary">Volver al Inicio</a>
+                    <a href="/#features">{{common.features}}</a>
+                    <a href="/{{langPrefix meta.lang}}" class="btn btn-primary">{{common.backToHome}}</a>
                 </nav>
             </div>
         </header>
@@ -66,15 +66,15 @@
         <main class="container section">
             <div class="feature-detail">
                 <div class="feature-text fade-in">
-                    <h1 class="section-title">Seguridad de Nivel Bancario</h1>
-                    <p class="mb-4">Tus datos financieros son sensibles y los tratamos de esa manera. FlickAI emplea medidas de seguridad líderes en la industria para mantener tu información segura.</p>
+                    <h1 class="section-title">{{features.security.heading}}</h1>
+                    <p class="mb-4">{{features.security.intro}}</p>
 
-                    <h2 class="mb-4">Medidas de Seguridad</h2>
+                    <h2 class="mb-4">{{features.security.measures.title}}</h2>
                     <ul class="mb-4" style="padding-left: 1.5rem;">
-                        <li><strong>Cifrado de Extremo a Extremo: Todos los datos están cifrados tanto en tránsito como en reposo.</strong></li>
-                        <li><strong>Autenticación Segura: Autenticación multifactor y opciones de inicio de sesión biométrico.</strong></li>
-                        <li><strong>Privacidad por Diseño: Nunca vendemos tus datos a terceros.</strong></li>
-                        <li><strong>Cumplimiento: Cumple con GDPR y sigue las mejores prácticas de seguridad.</strong></li>
+                        <li><strong>{{features.security.measures.encryption}}</strong></li>
+                        <li><strong>{{features.security.measures.auth}}</strong></li>
+                        <li><strong>{{features.security.measures.privacy}}</strong></li>
+                        <li><strong>{{features.security.measures.compliance}}</strong></li>
                     </ul>
                 </div>
                 <div class="feature-image fade-in">
@@ -90,11 +90,11 @@
         <footer class="footer">
             <div class="container footer-content">
                 <div class="footer-links">
-                    <a href="/es/privacy-policy.html">Política de Privacidad</a>
-                    <a href="/es/terms-of-service.html">Términos de Servicio</a>
-                    <a href="/es/cookie-policy.html">Política de Cookies</a>
+                    <a href="/{{langPrefix meta.lang}}privacy-policy.html">{{footer.privacyPolicy}}</a>
+                    <a href="/{{langPrefix meta.lang}}terms-of-service.html">{{footer.termsOfService}}</a>
+                    <a href="/{{langPrefix meta.lang}}cookie-policy.html">{{footer.cookiePolicy}}</a>
                 </div>
-                <p class="copyright">© 2025 FlickAI. All rights reserved.</p>
+                <p class="copyright">© 2025 {{meta.siteName}}. All rights reserved.</p>
             </div>
         </footer>
     </div>
