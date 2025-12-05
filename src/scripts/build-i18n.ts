@@ -26,6 +26,12 @@ Handlebars.registerHelper('langPrefix', function(lang: string) {
   return lang === 'en' ? '' : `${lang}/`;
 });
 
+// Helper to generate canonical URL
+Handlebars.registerHelper('canonicalUrl', function(lang: string, path: string) {
+  const langPath = lang === 'en' ? '' : `${lang}/`;
+  return `https://flickai.net/${langPath}${path}`;
+});
+
 interface Translation {
   meta: {
     lang: string;
