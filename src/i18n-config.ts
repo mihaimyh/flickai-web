@@ -19,7 +19,7 @@
  * List of all supported language codes
  * Order determines display order in language selector
  */
-export const SUPPORTED_LOCALES = ['en', 'ar', 'de', 'es', 'fr', 'ro'] as const;
+export const SUPPORTED_LOCALES = ['en', 'ar', 'de', 'es', 'fr', 'ro', 'zh', 'id', 'hi'] as const;
 
 export type SupportedLocale = typeof SUPPORTED_LOCALES[number];
 
@@ -38,6 +38,9 @@ export const LANGUAGE_INFO: Record<SupportedLocale, {
   es: { name: 'Spanish', nativeName: 'Español', flag: '🇪🇸' },
   fr: { name: 'French', nativeName: 'Français', flag: '🇫🇷' },
   ro: { name: 'Romanian', nativeName: 'Română', flag: '🇷🇴' },
+  zh: { name: 'Chinese', nativeName: '简体中文', flag: '🇨🇳' },
+  id: { name: 'Indonesian', nativeName: 'Bahasa Indonesia', flag: '🇮🇩' },
+  hi: { name: 'Hindi', nativeName: 'हिन्दी', flag: '🇮🇳' },
 };
 
 /**

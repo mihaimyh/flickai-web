@@ -10,7 +10,7 @@ const __dirname = path.dirname(__filename);
 
 const LOCALES = SUPPORTED_LOCALES;
 const TEMPLATES_DIR = path.resolve(__dirname, '../templates');
-const LOCALES_DIR = path.resolve(__dirname, '../locales');
+const LOCALES_DIR = path.resolve(__dirname, '../../public/locales');
 const OUTPUT_DIR = path.resolve(__dirname, '../..');
 
 // Register Handlebars helpers

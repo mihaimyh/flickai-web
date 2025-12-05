@@ -1,3 +1,5 @@
+import { getLocaleFromPath } from './i18n-config';
+
 /**
  * Email Waitlist Form Handler with i18n support
  */
@@ -89,7 +91,7 @@ function storeEmailLocally(email: string): void {
  */
 async function loadTranslations(lang: string): Promise<WaitlistTranslations> {
   try {
-    const response = await fetch(`/src/locales/${lang}.json`);
+    const response = await fetch(`/locales/${lang}.json`);
     const data = await response.json();
     
     // Extract waitlist translations from the JSON structure
@@ -138,12 +140,7 @@ function isAlreadySubmitted(email: string): boolean {
  */
 export async function createWaitlistModal(): Promise<void> {
   // Detect language from URL
-  const lang = window.location.pathname.startsWith('/ar/') ? 'ar'
-    : window.location.pathname.startsWith('/de/') ? 'de'
-      : window.location.pathname.startsWith('/es/') ? 'es'
-        : window.location.pathname.startsWith('/fr/') ? 'fr'
-          : window.location.pathname.startsWith('/ro/') ? 'ro'
-            : 'en';
+  const lang = getLocaleFromPath(window.location.pathname);
 
   // Load translations from JSON
   const messages = await loadTranslations(lang);

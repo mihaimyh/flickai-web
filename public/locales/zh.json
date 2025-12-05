@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "lang": "zh",
+    "langName": "简体中文",
+    "siteName": "FlickAI",
+    "siteUrl": "https://flickai.net"
+  },
+  "common": {
+    "features": "功能",
+    "testimonials": "用户评价",
+    "downloadApp": "下载应用",
+    "backToHome": "返回首页",
+    "copyright": "© 2025 FlickAI。保留所有权利。",
+    "learnMore": "了解更多"
+  },
+  "footer": {
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "cookiePolicy": "Cookie 政策"
+  },
+  "waitlist": {
+    "floatButton": "加入候补名单",
+    "title": "🚀 抢先体验",
+    "subtitle": "第一时间获知 FlickAI 安卓版和 iOS 版发布消息！",
+    "placeholder": "输入您的电子邮箱",
+    "button": "加入候补名单",
+    "success": "谢谢！我们会在发布时通知您。🎉",
+    "error": "请输入有效的电子邮箱地址",
+    "networkError": "出错了，请重试。",
+    "alreadyJoined": "您已经在候补名单上了！"
+  },
+  "home": {
+    "title": "FlickAI - AI 智能记账助手",
+    "description": "FlickAI 助您轻松记账。AI 智能扫描小票，自动追踪支出，生成财务报表。",
+    "keywords": "记账软件, 小票扫描, AI 记账, 预算管理, 个人理财, FlickAI, 财务管理",
+    "ogTitle": "FlickAI - AI 智能记账助手",
+    "ogDescription": "FlickAI 助您轻松管理财务。智能扫描小票，自动分析支出。",
+    "schemaDescription": "基于人工智能的支出追踪和小票扫描应用。",
+    "hero": {
+      "title": "AI 赋能 智能记账 & 小票扫描",
+      "subtitle": "智能扫描小票，自动生成财务洞察，轻松掌控您的财务状况。把繁琐的工作交给 AI。",
+      "getStarted": "免费开始",
+      "learnMore": "了解更多"
+    },
+    "features": {
+      "title": "为什么选择 FlickAI？",
+      "scanning": {
+        "title": "智能小票扫描",
+        "description": "利用先进的 AI 技术，瞬间提取商家、商品和价格信息。"
+      },
+      "analytics": {
+        "title": "智能分析",
+        "description": "可视化支出趋势，获取个性化的财务建议。"
+      },
+      "security": {
+        "title": "银行级安全",
+        "description": "端到端加密和安全认证，全方位通过您的数据安全。"
+      },
+      "offline": {
+        "title": "离线支持 & 自动同步",
+        "description": "无网也能用。重新联网后自动同步数据。"
+      }
+    },
+    "download": {
+      "title": "立即开始记账",
+      "subtitle": "加入成千上万的用户，使用 FlickAI 掌控财务自由。",
+      "googlePlay": "Google Play",
+      "appStore": "App Store",
+      "waitlistNote": "点击“加入候补名单”按钮抢先体验！🚀"
+    }
+  },
+  "privacy": {
+    "title": "隐私政策 - FlickAI",
+    "description": "FlickAI 隐私政策。了解我们如何收集、使用和保护您的数据。",
+    "heading": "隐私政策",
+    "lastUpdated": "最后更新：2025年11月28日",
+    "introduction": {
+      "title": "1. 简介",
+      "content": "FlickAI（“我们”）尊重您的隐私并致力于保护您的个人数据。"
+    },
+    "dataCollection": {
+      "title": "2. 我们收集的数据",
+      "intro": "我们可能会收集、使用、存储和传输关于您的各种个人数据：",
+      "identity": "身份数据：包括姓名、用户名。",
+      "contact": "联系数据：包括电子邮箱地址。",
+      "transaction": "交易数据：关于付款的详细信息。",
+      "usage": "使用数据：关于您如何使用我们网站的信息。"
+    },
+    "dataUsage": {
+      "title": "3. 我们如何使用您的数据",
+      "intro": "我们仅在法律允许的情况下使用您的个人数据：",
+      "contract": "履行我们要与您签订的合同。",
+      "legitimate": "为了我们的合法利益。",
+      "legal": "我们需要遵守法律义务。"
+    },
+    "security": {
+      "title": "4. 数据安全",
+      "content": "我们已采取适当的安全措施，防止您的个人数据意外丢失。"
+    },
+    "contact": {
+      "title": "5. 联系我们",
+      "content": "如果您对本隐私政策由任何疑问，请联系我们：support@flickai.net"
+    }
+  },
+  "terms": {
+    "title": "服务条款 - FlickAI",
+    "description": "FlickAI 服务条款。",
+    "heading": "服务条款",
+    "lastUpdated": "最后更新：2025年11月28日",
+    "agreement": {
+      "title": "1. 同意条款",
+      "content": "访问我们的网站即表示您同意受这些服务条款的约束。"
+    },
+    "intellectual": {
+      "title": "2. 知识产权",
+      "content": "除另有说明外，本网站及我们的移动应用是我们专有的财产。"
+    },
+    "userRep": {
+      "title": "3. 用户陈述",
+      "content": "使用本网站即表示您陈述并保证：所有注册信息均真实准确。"
+    },
+    "prohibited": {
+      "title": "4. 禁止活动",
+      "content": "您不得将本网站用于除我们将网站提供给您的目的之外的任何用途。"
+    },
+    "contact": {
+      "title": "5. 联系我们",
+      "content": "如需解决有关网站的投诉，请联系我们：support@flickai.net"
+    }
+  },
+  "cookie": {
+    "title": "Cookie 政策 - FlickAI",
+    "description": "FlickAI Cookie 政策。",
+    "heading": "Cookie 政策",
+    "lastUpdated": "最后更新：2025年11月28日",
+    "whatAre": {
+      "title": "1. 什么是 Cookie",
+      "content": "Cookie 是您访问网站时放置在您计算机上的小文本文件。"
+    },
+    "howWeUse": {
+      "title": "2. 我们如何使用 Cookie",
+      "intro": "我们要使用 Cookie 的原因多种多样：",
+      "essential": "基本 Cookie：网站正常运行所必需。",
+      "analytics": "分析 Cookie：帮助我们了解访客如何互动。",
+      "functionality": "功能 Cookie：允许网站记住您的选择。"
+    },
+    "disabling": {
+      "title": "3. 禁用 Cookie",
+      "content": "您可以通过调整浏览器设置来阻止设置 Cookie。"
+    },
+    "contact": {
+      "title": "4. 联系我们",
+      "content": "如有疑问，请联系：support@flickai.net"
+    }
+  },
+  "gdpr": {
+    "title": "GDPR 合规 - FlickAI",
+    "description": "FlickAI GDPR 合规信息。",
+    "heading": "GDPR 合规",
+    "lastUpdated": "最后更新：2025年11月28日",
+    "rights": {
+      "title": "1. 您的权利",
+      "intro": "根据 GDPR，您享有以下权利：",
+      "access": "访问权。",
+      "rectification": "更正权。",
+      "erasure": "擦除权（“被遗忘权”）。",
+      "restrict": "限制处理权。",
+      "portability": "数据可移植权。",
+      "object": "反对权。"
+    },
+    "processing": {
+      "title": "2. 数据处理",
+      "content": "我们以合法、公平和透明的方式处理您的数据。"
+    },
+    "contact": {
+      "title": "3. 联系数据保护官",
+      "content": "要行使您的权利，请联系：support@flickai.net"
+    }
+  },
+  "accessibility": {
+    "title": "无障碍声明 - FlickAI",
+    "description": "FlickAI 无障碍声明。",
+    "heading": "无障碍声明",
+    "lastUpdated": "最后更新：2025年11月28日",
+    "commitment": {
+      "title": "1. 我们的承诺",
+      "content": "FlickAI 致力于为残障人士确立数字无障碍环境。"
+    },
+    "conformance": {
+      "title": "2. 合规状态",
+      "content": "FlickAI 部分符合 WCAG 2.1 AA 级标准。"
+    },
+    "feedback": {
+      "title": "3. 反馈",
+      "intro": "欢迎反馈：",
+      "email": "邮件：support@flickai.net"
+    }
+  },
+  "features": {
+    "scanning": {
+      "title": "智能小票扫描 - FlickAI",
+      "description": "利用 AI 技术瞬间提取小票信息。",
+      "heading": "智能小票扫描",
+      "intro": "告别手动输入。使用 FlickAI，几秒钟内即可将支出数字化。",
+      "howItWorks": {
+        "title": "工作原理",
+        "step1": "打开 FlickAI 应用。",
+        "step2": "对准小票拍照。",
+        "step3": "点击拍摄。",
+        "step4": "确认详情并保存！"
+      },
+      "whatWeExtract": {
+        "title": "我们提取的内容",
+        "merchant": "商家名称：自动识别。",
+        "dateTime": "日期和时间：准确记录购买时间。",
+        "total": "总金额：精确捕获。",
+        "items": "具体项目：提取逐项详情。"
+      }
+    },
+    "analytics": {
+      "title": "智能分析 - FlickAI",
+      "description": "可视化支出趋势。",
+      "heading": "智能分析",
+      "intro": "了解您的钱去哪了才能更好地掌控。",
+      "visualTrends": {
+        "title": "可视化趋势",
+        "intro": "直观查看资金流向：",
+        "categoryBreakdown": "类别明细：按类别图表。",
+        "monthlyTrends": "月度趋势：环比条形图。",
+        "merchantAnalysis": "商家分析：看看您在哪花得最多。"
+      },
+      "aiInsights": {
+        "title": "AI 洞察",
+        "intro": "我们的 AI 为您解读数据。",
+        "example": "“本月您在餐饮上的支出增加了 20%...”"
+      }
+    },
+    "security": {
+      "title": "银行级安全 - FlickAI",
+      "description": "您的数据受到严密保护。",
+      "heading": "银行级安全",
+      "intro": "我们像对待自己的数据一样对待您的财务数据。",
+      "measures": {
+        "title": "安全措施",
+        "encryption": "端到端加密：所有数据均加密。",
+        "auth": "安全认证：多因素认证。",
+        "privacy": "隐私设计：绝不出售您的数据。",
+        "compliance": "合规：符合 GDPR 标准。"
+      }
+    }
+  }
+}
