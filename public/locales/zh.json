@@ -32,7 +32,7 @@
   "home": {
     "title": "FlickAI - AI 智能记账助手",
     "description": "FlickAI 助您轻松记账。AI 智能扫描小票，自动追踪支出，生成财务报表，轻松管理预算。",
-    "keywords": "记账软件, 小票扫描, AI 记账, 预算管理, 个人理财, FlickAI, 财务管理, AI 支出追踪",
+    "keywords": "记账软件, 支出监控, 小票扫描, AI 记账, 预算管理, 个人理财, FlickAI, 财务管理, AI 支出追踪, AI 支出监控",
     "ogTitle": "FlickAI - AI 智能记账助手",
     "ogDescription": "FlickAI 助您轻松管理财务。智能扫描小票，自动分析支出。",
     "schemaDescription": "基于人工智能的支出追踪和小票扫描应用。",
