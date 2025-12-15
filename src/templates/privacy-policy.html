@@ -11,15 +11,24 @@
     <div id="app">
       <header class="header">
         <div class="container header-content">
-          <a href="/{{#ne meta.lang 'en'}}{{meta.lang}}/{{/ne}}" class="logo">
+          <a href="/{{langPrefix meta.lang}}" class="logo">
             <span class="logo-text">{{meta.siteName}}</span>
           </a>
           <nav class="nav">
-            <a href="/{{#ne meta.lang 'en'}}{{meta.lang}}/{{/ne}}#features"
+            <a href="/{{langPrefix meta.lang}}#features"
               >{{common.features}}</a
             >
+            <a href="/{{langPrefix meta.lang}}alternatives/index.html"
+              >{{common.alternatives}}</a
+            >
+            <a href="/{{langPrefix meta.lang}}integrations/index.html"
+              >{{common.integrations}}</a
+            >
+            <a href="/{{langPrefix meta.lang}}guides/index.html"
+              >{{common.guides}}</a
+            >
             <a
-              href="/{{#ne meta.lang 'en'}}{{meta.lang}}/{{/ne}}"
+              href="/{{langPrefix meta.lang}}"
               class="btn btn-primary"
               >{{common.backToHome}}</a
             >
@@ -63,16 +72,18 @@
       <footer class="footer">
         <div class="container footer-content">
           <div class="footer-links">
+            <a href="/{{langPrefix meta.lang}}guides/index.html">{{common.guides}}</a>
+            <a href="/{{langPrefix meta.lang}}alternatives/index.html">{{common.alternatives}}</a>
             <a
-              href="/{{#ne meta.lang 'en'}}{{meta.lang}}/{{/ne}}privacy-policy.html"
+              href="/{{langPrefix meta.lang}}privacy-policy.html"
               >{{footer.privacyPolicy}}</a
             >
             <a
-              href="/{{#ne meta.lang 'en'}}{{meta.lang}}/{{/ne}}terms-of-service.html"
+              href="/{{langPrefix meta.lang}}terms-of-service.html"
               >{{footer.termsOfService}}</a
             >
             <a
-              href="/{{#ne meta.lang 'en'}}{{meta.lang}}/{{/ne}}cookie-policy.html"
+              href="/{{langPrefix meta.lang}}cookie-policy.html"
               >{{footer.cookiePolicy}}</a
             >
           </div>

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="{{meta.lang}}" {{#if (isRTL meta.lang)}}dir="rtl"{{/if}}>
+  {{> head 
+    title=features.offlineTracker.title 
+    description=features.offlineTracker.description 
+    page='features/offline-expense-tracker.html'
+    keywords=features.offlineTracker.keywords
+    faq=features.offlineTracker.faq
+  }}
+
+<body>
+  <div id="app">
+    <header class="header">
+      <div class="container header-content">
+        <a href="/{{langPrefix meta.lang}}" class="logo">
+          <span class="logo-text">{{meta.siteName}}</span>
+        </a>
+        <nav class="nav">
+          <a href="/{{langPrefix meta.lang}}#features">{{common.features}}</a>
+          <a href="/{{langPrefix meta.lang}}alternatives/index.html">{{common.alternatives}}</a>
+          <a href="/{{langPrefix meta.lang}}integrations/index.html">{{common.integrations}}</a>
+          <a href="/{{langPrefix meta.lang}}guides/index.html">{{common.guides}}</a>
+          <a href="/{{langPrefix meta.lang}}" class="btn btn-primary">{{common.backToHome}}</a>
+        </nav>
+      </div>
+    </header>
+
+
+    <main class="container section">
+      <div class="feature-detail">
+        <div class="feature-text fade-in">
+          <h1 class="section-title">{{features.offlineTracker.heading}}</h1>
+          <p class="mb-4">{{features.offlineTracker.intro}}</p>
+
+          <h2 class="mb-4">{{features.offlineTracker.why.title}}</h2>
+          <ul class="mb-4" style="padding-left: 1.5rem;">
+            <li>{{features.offlineTracker.why.point1}}</li>
+            <li>{{features.offlineTracker.why.point2}}</li>
+            <li>{{features.offlineTracker.why.point3}}</li>
+          </ul>
+
+          <h2 class="mb-4">{{features.offlineTracker.how.title}}</h2>
+          <ol class="mb-4" style="padding-left: 1.5rem;">
+            <li>{{features.offlineTracker.how.step1}}</li>
+            <li>{{features.offlineTracker.how.step2}}</li>
+            <li>{{features.offlineTracker.how.step3}}</li>
+          </ol>
+
+          <h2 class="mb-4">{{features.offlineTracker.faq.title}}</h2>
+          <div class="legal-content">
+            <p class="mb-4"><strong>{{features.offlineTracker.faq.q1}}</strong><br>{{features.offlineTracker.faq.a1}}</p>
+            <p class="mb-4"><strong>{{features.offlineTracker.faq.q2}}</strong><br>{{features.offlineTracker.faq.a2}}</p>
+            <p class="mb-4"><strong>{{features.offlineTracker.faq.q3}}</strong><br>{{features.offlineTracker.faq.a3}}</p>
+            <p class="mb-4"><strong>{{features.offlineTracker.faq.q4}}</strong><br>{{features.offlineTracker.faq.a4}}</p>
+          </div>
+
+          <h2 class="mb-4">{{features.offlineTracker.related.title}}</h2>
+          <ul class="mb-4" style="padding-left: 1.5rem;">
+            <li><a href="/{{langPrefix meta.lang}}features/privacy-first-expense-tracker.html">{{features.privacyFirst.heading}}</a></li>
+            <li><a href="/{{langPrefix meta.lang}}features/receipt-scanning.html">{{features.scanning.heading}}</a></li>
+            <li><a href="/{{langPrefix meta.lang}}guides/offline-expense-tracking.html">{{guides.offlineExpenseTracking.heading}}</a></li>
+            <li><a href="/{{langPrefix meta.lang}}alternatives/index.html">{{common.alternatives}}</a></li>
+          </ul>
+        </div>
+
+        <div class="feature-image fade-in">
+          <img src="/images/feature-security.png" alt="Offline expense tracking that works without internet" width="800" height="600" loading="lazy"
+            style="border-radius: 1rem; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);">
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-links">
+          <a href="/{{langPrefix meta.lang}}guides/index.html">{{common.guides}}</a>
+          <a href="/{{langPrefix meta.lang}}alternatives/index.html">{{common.alternatives}}</a>
+          <a href="/{{langPrefix meta.lang}}privacy-policy.html">{{footer.privacyPolicy}}</a>
+          <a href="/{{langPrefix meta.lang}}terms-of-service.html">{{footer.termsOfService}}</a>
+          <a href="/{{langPrefix meta.lang}}cookie-policy.html">{{footer.cookiePolicy}}</a>
+        </div>
+        <p class="copyright">{{common.copyright}}</p>
+      </div>
+    </footer>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

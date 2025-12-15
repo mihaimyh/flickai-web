@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="{{meta.lang}}" {{#if (isRTL meta.lang)}}dir="rtl"{{/if}}>
+  {{> head 
+    title=features.privacyFirst.title 
+    description=features.privacyFirst.description 
+    page='features/privacy-first-expense-tracker.html'
+    keywords=features.privacyFirst.keywords
+    faq=features.privacyFirst.faq
+  }}
+
+<body>
+  <div id="app">
+    <header class="header">
+      <div class="container header-content">
+        <a href="/{{langPrefix meta.lang}}" class="logo">
+          <span class="logo-text">{{meta.siteName}}</span>
+        </a>
+        <nav class="nav">
+          <a href="/{{langPrefix meta.lang}}#features">{{common.features}}</a>
+          <a href="/{{langPrefix meta.lang}}alternatives/index.html">{{common.alternatives}}</a>
+          <a href="/{{langPrefix meta.lang}}integrations/index.html">{{common.integrations}}</a>
+          <a href="/{{langPrefix meta.lang}}guides/index.html">{{common.guides}}</a>
+          <a href="/{{langPrefix meta.lang}}" class="btn btn-primary">{{common.backToHome}}</a>
+        </nav>
+      </div>
+    </header>
+
+
+    <main class="container section">
+      <div class="feature-detail">
+        <div class="feature-text fade-in">
+          <h1 class="section-title">{{features.privacyFirst.heading}}</h1>
+          <p class="mb-4">{{features.privacyFirst.intro}}</p>
+
+          <h2 class="mb-4">{{features.privacyFirst.pillars.title}}</h2>
+          <ul class="mb-4" style="padding-left: 1.5rem;">
+            <li>{{features.privacyFirst.pillars.point1}}</li>
+            <li>{{features.privacyFirst.pillars.point2}}</li>
+            <li>{{features.privacyFirst.pillars.point3}}</li>
+            <li>{{features.privacyFirst.pillars.point4}}</li>
+          </ul>
+
+          <h2 class="mb-4">{{features.privacyFirst.faq.title}}</h2>
+          <div class="legal-content">
+            <p class="mb-4"><strong>{{features.privacyFirst.faq.q1}}</strong><br>{{features.privacyFirst.faq.a1}}</p>
+            <p class="mb-4"><strong>{{features.privacyFirst.faq.q2}}</strong><br>{{features.privacyFirst.faq.a2}}</p>
+            <p class="mb-4"><strong>{{features.privacyFirst.faq.q3}}</strong><br>{{features.privacyFirst.faq.a3}}</p>
+            <p class="mb-4"><strong>{{features.privacyFirst.faq.q4}}</strong><br>{{features.privacyFirst.faq.a4}}</p>
+          </div>
+
+          <h2 class="mb-4">{{features.privacyFirst.related.title}}</h2>
+          <ul class="mb-4" style="padding-left: 1.5rem;">
+            <li><a href="/{{langPrefix meta.lang}}features/offline-expense-tracker.html">{{features.offlineTracker.heading}}</a></li>
+            <li><a href="/{{langPrefix meta.lang}}features/security.html">{{features.security.heading}}</a></li>
+            <li><a href="/{{langPrefix meta.lang}}guides/offline-expense-tracking.html">{{guides.offlineExpenseTracking.heading}}</a></li>
+            <li><a href="/{{langPrefix meta.lang}}alternatives/index.html">{{common.alternatives}}</a></li>
+          </ul>
+        </div>
+
+        <div class="feature-image fade-in">
+          <img src="/images/feature-security.png" alt="Privacy-first expense tracking with secure receipt storage" width="800" height="600" loading="lazy"
+            style="border-radius: 1rem; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);">
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-links">
+          <a href="/{{langPrefix meta.lang}}guides/index.html">{{common.guides}}</a>
+          <a href="/{{langPrefix meta.lang}}alternatives/index.html">{{common.alternatives}}</a>
+          <a href="/{{langPrefix meta.lang}}privacy-policy.html">{{footer.privacyPolicy}}</a>
+          <a href="/{{langPrefix meta.lang}}terms-of-service.html">{{footer.termsOfService}}</a>
+          <a href="/{{langPrefix meta.lang}}cookie-policy.html">{{footer.cookiePolicy}}</a>
+        </div>
+        <p class="copyright">{{common.copyright}}</p>
+      </div>
+    </footer>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

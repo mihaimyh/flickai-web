@@ -30,13 +30,137 @@ Handlebars.registerHelper('langPrefix', function(lang: string) {
 // Helper to generate canonical URL
 Handlebars.registerHelper('canonicalUrl', function(lang: string, path: string) {
   const langPath = lang === 'en' ? '' : `${lang}/`;
-  return `https://flickai.net/${langPath}${path}`;
+  const normalizedPath = (path === 'index.html' || path === '/') ? '' : (path || '');
+  return `https://flickai.net/${langPath}${normalizedPath}`;
 });
 
 // Helper to check if language is RTL
 Handlebars.registerHelper('isRTL', function(lang: string) {
   const locale = lang as keyof typeof LANGUAGE_INFO;
   return LANGUAGE_INFO[locale]?.rtl || false;
+});
+
+function buildCanonicalUrl(lang: string, pagePath: string) {
+  const langPath = lang === 'en' ? '' : `${lang}/`;
+  const normalizedPath = (pagePath === 'index.html' || pagePath === '/') ? '' : (pagePath || '');
+  return `https://flickai.net/${langPath}${normalizedPath}`;
+}
+
+function buildBreadcrumbs(lang: string, pagePath: string, pageTitle: string) {
+  const homeUrl = buildCanonicalUrl(lang, 'index.html');
+  const titleForCrumb = (pageTitle || '').replace(/\s*\|\s*FlickAI\s*$/i, '').trim() || 'Page';
+
+  // Keep crumbs minimal to avoid showing non-localized labels in non-English SERPs.
+  return [
+    { name: 'FlickAI', url: homeUrl },
+    { name: titleForCrumb, url: buildCanonicalUrl(lang, pagePath) }
+  ];
+}
+
+function buildFaqEntities(faq: any) {
+  if (!faq || typeof faq !== 'object') return [];
+  const qKeys = Object.keys(faq).filter(k => /^q\d+$/.test(k)).sort((a, b) => {
+    const ai = Number(a.slice(1));
+    const bi = Number(b.slice(1));
+    return ai - bi;
+  });
+
+  const entities: Array<{ question: string; answer: string }> = [];
+  for (const qKey of qKeys) {
+    const index = qKey.slice(1);
+    const aKey = `a${index}`;
+    const question = faq[qKey];
+    const answer = faq[aKey];
+    if (typeof question === 'string' && question.trim() && typeof answer === 'string' && answer.trim()) {
+      entities.push({ question: question.trim(), answer: answer.trim() });
+    }
+  }
+  return entities;
+}
+
+Handlebars.registerHelper('schemaForPage', function(...args: any[]) {
+  const [lang, pagePath, title, description, faq] = args.slice(0, -1);
+
+  const pageUrl = buildCanonicalUrl(lang, pagePath);
+  const breadcrumbs = buildBreadcrumbs(lang, pagePath, title);
+
+  const graph: any[] = [
+    {
+      '@type': 'Organization',
+      '@id': 'https://flickai.net/#organization',
+      name: 'FlickAI',
+      url: 'https://flickai.net/'
+    },
+    {
+      '@type': 'WebSite',
+      '@id': 'https://flickai.net/#website',
+      url: 'https://flickai.net/',
+      name: 'FlickAI',
+      publisher: { '@id': 'https://flickai.net/#organization' }
+    },
+    {
+      '@type': 'WebPage',
+      '@id': pageUrl,
+      url: pageUrl,
+      name: title,
+      description,
+      inLanguage: lang,
+      isPartOf: { '@id': 'https://flickai.net/#website' },
+      publisher: { '@id': 'https://flickai.net/#organization' }
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: breadcrumbs.map((crumb, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: crumb.name,
+        item: crumb.url
+      }))
+    }
+  ];
+
+  const faqEntities = buildFaqEntities(faq);
+  if (faqEntities.length > 0) {
+    graph.push({
+      '@type': 'FAQPage',
+      mainEntity: faqEntities.map(e => ({
+        '@type': 'Question',
+        name: e.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: e.answer
+        }
+      }))
+    });
+  }
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': graph
+  };
+
+  const html = `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`;
+  return new Handlebars.SafeString(html);
+});
+
+Handlebars.registerHelper('softwareApplicationSchema', function(name: string, description: string) {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name,
+    applicationCategory: 'FinanceApplication',
+    operatingSystem: 'Android, iOS',
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'USD'
+    },
+    description,
+    url: 'https://flickai.net/'
+  };
+
+  const html = `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`;
+  return new Handlebars.SafeString(html);
 });
 
 interface Translation {

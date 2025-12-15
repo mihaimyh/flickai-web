@@ -1,25 +1,25 @@
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/{{langPrefix meta.lang}}vite.svg" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#3b82f6" />
   <title>{{title}}</title>
   <meta name="description" content="{{description}}">
   <meta name="keywords" content="{{keywords}}">
   <meta name="author" content="{{meta.siteName}} Team">
   <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <link rel="canonical" href="{{canonicalUrl meta.lang page}}">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="https://flickai.net/sitemap.xml" />
 
   <!-- Hreflang Tags -->
-  <link rel="alternate" hreflang="en" href="{{canonicalUrl 'en' page}}" />
-  <link rel="alternate" hreflang="ar" href="{{canonicalUrl 'ar' page}}" />
-  <link rel="alternate" hreflang="de" href="{{canonicalUrl 'de' page}}" />
-  <link rel="alternate" hreflang="es" href="{{canonicalUrl 'es' page}}" />
-  <link rel="alternate" hreflang="fr" href="{{canonicalUrl 'fr' page}}" />
-  <link rel="alternate" hreflang="ro" href="{{canonicalUrl 'ro' page}}" />
+  {{#each availableLanguages}}
+  <link rel="alternate" hreflang="{{code}}" href="{{canonicalUrl code ../page}}" />
+  {{/each}}
   <link rel="alternate" hreflang="x-default" href="{{canonicalUrl 'en' page}}" />
 
   <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="{{#if ogType}}{{ogType}}{{else}}website{{/if}}">
   <meta property="og:url" content="{{canonicalUrl meta.lang page}}">
   <meta property="og:title" content="{{#if ogTitle}}{{ogTitle}}{{else}}{{title}}{{/if}}">
   <meta property="og:description" content="{{#if ogDescription}}{{ogDescription}}{{else}}{{description}}{{/if}}">
@@ -32,7 +32,8 @@
   <meta property="twitter:description" content="{{#if ogDescription}}{{ogDescription}}{{else}}{{description}}{{/if}}">
   <meta property="twitter:image" content="{{#if ogImage}}{{ogImage}}{{else}}https://flickai.net/images/social-preview.jpg{{/if}}">
 
-  <!-- Structured Data (passed as raw HTML string) -->
+  <!-- Structured Data -->
+  {{{schemaForPage meta.lang page title description faq}}}
   {{#if schema}}
     {{{schema}}}
   {{/if}}

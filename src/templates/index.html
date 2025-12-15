@@ -1,78 +1,30 @@
 <!doctype html>
 <html lang="{{meta.lang}}" {{#if (isRTL meta.lang)}}dir="rtl"{{/if}}>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/{{langPrefix meta.lang}}vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{home.title}}</title>
-  <meta name="description" content="{{home.description}}">
-  <meta name="keywords" content="{{home.keywords}}">
-  <meta name="author" content="{{meta.siteName}} Team">
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="{{canonicalUrl meta.lang 'index.html'}}">
-
-  <!-- Hreflang Tags -->
-  <link rel="alternate" hreflang="en" href="https://flickai.net/" />
-  <link rel="alternate" hreflang="ar" href="https://flickai.net/ar/" />
-  <link rel="alternate" hreflang="de" href="https://flickai.net/de/" />
-  <link rel="alternate" hreflang="es" href="https://flickai.net/es/" />
-  <link rel="alternate" hreflang="fr" href="https://flickai.net/fr/" />
-  <link rel="alternate" hreflang="ro" href="https://flickai.net/ro/" />
-  <link rel="alternate" hreflang="x-default" href="https://flickai.net/" />
-
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{canonicalUrl meta.lang 'index.html'}}">
-  <meta property="og:title" content="{{home.ogTitle}}">
-  <meta property="og:description" content="{{home.ogDescription}}">
-  <meta property="og:image" content="https://flickai.net/images/social-preview.jpg">
-
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="{{canonicalUrl meta.lang 'index.html'}}">
-  <meta property="twitter:title" content="{{home.ogTitle}}">
-  <meta property="twitter:description" content="{{home.ogDescription}}">
-  <meta property="twitter:image" content="https://flickai.net/images/social-preview.jpg">
-
-  <!-- Structured Data -->
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "{{meta.siteName}}",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Android, iOS",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      },
-      "description": "AI-powered expense tracking and receipt scanning application.",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "reviewCount": "1200"
-      }
-    }
-    </script>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-</head>
+  {{> head 
+    title=home.title 
+    description=home.description 
+    page='index.html'
+    keywords=home.keywords
+    ogTitle=home.ogTitle
+    ogDescription=home.ogDescription
+    ogImage='https://flickai.net/images/social-preview.jpg'
+    schema=(softwareApplicationSchema meta.siteName home.schemaDescription)
+  }}
 
 <body>
   <div id="app">
     <!-- Header -->
     <header class="header">
       <div class="container header-content">
-        <a href="#" class="logo">
+        <a href="/{{langPrefix meta.lang}}" class="logo">
           <span class="logo-text">{{meta.siteName}}</span>
         </a>
         <nav class="nav">
           <a href="#features">{{common.features}}</a>
-          <a href="#testimonials">{{common.testimonials}}</a>
+          <a href="/{{langPrefix meta.lang}}alternatives/index.html">{{common.alternatives}}</a>
+          <a href="/{{langPrefix meta.lang}}integrations/index.html">{{common.integrations}}</a>
+          <a href="/{{langPrefix meta.lang}}guides/index.html">{{common.guides}}</a>
           <a href="#download" class="btn btn-primary">{{common.downloadApp}}</a>
         </nav>
       </div>
@@ -122,11 +74,12 @@
             <p>{{home.features.security.description}} <strong>{{common.learnMore}}
                 &rarr;</strong></p>
           </a>
-          <div class="feature-card fade-in">
+          <a href="/{{langPrefix meta.lang}}features/offline-expense-tracker.html" class="feature-card fade-in">
             <div class="feature-icon">☁️</div>
             <h3>{{home.features.offline.title}}</h3>
-            <p>{{home.features.offline.description}}</p>
-          </div>
+            <p>{{home.features.offline.description}} <strong>{{common.learnMore}}
+                &rarr;</strong></p>
+          </a>
         </div>
       </div>
     </section>
@@ -162,6 +115,9 @@
     <footer class="footer">
       <div class="container footer-content">
         <div class="footer-links">
+          <a href="/{{langPrefix meta.lang}}guides/index.html">{{common.guides}}</a>
+          <a href="/{{langPrefix meta.lang}}alternatives/index.html">{{common.alternatives}}</a>
+          <a href="/{{langPrefix meta.lang}}integrations/index.html">{{common.integrations}}</a>
           <a href="/{{langPrefix meta.lang}}privacy-policy.html">{{footer.privacyPolicy}}</a>
           <a href="/{{langPrefix meta.lang}}terms-of-service.html">{{footer.termsOfService}}</a>
           <a href="/{{langPrefix meta.lang}}cookie-policy.html">{{footer.cookiePolicy}}</a>

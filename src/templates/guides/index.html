@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="{{meta.lang}}" {{#if (isRTL meta.lang)}}dir="rtl"{{/if}}>
+  {{> head 
+    title=guides.index.title 
+    description=guides.index.description 
+    page='guides/index.html'
+    keywords=guides.index.keywords
+    ogType='website'
+  }}
+
+<body>
+  <div id="app">
+    <header class="header">
+      <div class="container header-content">
+        <a href="/{{langPrefix meta.lang}}" class="logo">
+          <span class="logo-text">{{meta.siteName}}</span>
+        </a>
+        <nav class="nav">
+          <a href="/{{langPrefix meta.lang}}#features">{{common.features}}</a>
+          <a href="/{{langPrefix meta.lang}}alternatives/index.html">{{common.alternatives}}</a>
+          <a href="/{{langPrefix meta.lang}}integrations/index.html">{{common.integrations}}</a>
+          <a href="/{{langPrefix meta.lang}}guides/index.html">{{common.guides}}</a>
+          <a href="/{{langPrefix meta.lang}}" class="btn btn-primary">{{common.backToHome}}</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container section">
+      <h1 class="section-title">{{guides.index.heading}}</h1>
+      <div class="legal-content">
+        <p class="mb-4">{{guides.index.intro}}</p>
+
+        <h2 class="mb-4">{{guides.index.guides.title}}</h2>
+        <ul class="mb-4" style="padding-left: 1.5rem;">
+          <li>
+            <a href="/{{langPrefix meta.lang}}guides/receipt-to-excel.html">{{guides.receiptToExcel.heading}}</a>
+            — {{guides.receiptToExcel.snippet}}
+          </li>
+          <li>
+            <a href="/{{langPrefix meta.lang}}guides/offline-expense-tracking.html">{{guides.offlineExpenseTracking.heading}}</a>
+            — {{guides.offlineExpenseTracking.snippet}}
+          </li>
+          <li>
+            <a href="/{{langPrefix meta.lang}}guides/tax-receipts-checklist.html">{{guides.taxReceiptsChecklist.heading}}</a>
+            — {{guides.taxReceiptsChecklist.snippet}}
+          </li>
+        </ul>
+
+        <p class="mb-4">{{guides.index.cta}}</p>
+        <p>
+          <a href="/{{langPrefix meta.lang}}alternatives/index.html">{{alternatives.index.heading}}</a>
+          · <a href="/{{langPrefix meta.lang}}integrations/index.html">{{integrations.index.heading}}</a>
+        </p>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-links">
+          <a href="/{{langPrefix meta.lang}}guides/index.html">{{common.guides}}</a>
+          <a href="/{{langPrefix meta.lang}}alternatives/index.html">{{common.alternatives}}</a>
+          <a href="/{{langPrefix meta.lang}}privacy-policy.html">{{footer.privacyPolicy}}</a>
+          <a href="/{{langPrefix meta.lang}}terms-of-service.html">{{footer.termsOfService}}</a>
+          <a href="/{{langPrefix meta.lang}}cookie-policy.html">{{footer.cookiePolicy}}</a>
+        </div>
+        <p class="copyright">{{common.copyright}}</p>
+      </div>
+    </footer>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

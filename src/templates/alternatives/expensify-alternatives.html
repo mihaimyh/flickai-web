@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="{{meta.lang}}" {{#if (isRTL meta.lang)}}dir="rtl"{{/if}}>
+  {{> head 
+    title=alternatives.expensify.title 
+    description=alternatives.expensify.description 
+    page='alternatives/expensify-alternatives.html'
+    keywords=alternatives.expensify.keywords
+  }}
+
+<body>
+  <div id="app">
+    <header class="header">
+      <div class="container header-content">
+        <a href="/{{langPrefix meta.lang}}" class="logo">
+          <span class="logo-text">{{meta.siteName}}</span>
+        </a>
+        <nav class="nav">
+          <a href="/{{langPrefix meta.lang}}#features">{{common.features}}</a>
+          <a href="/{{langPrefix meta.lang}}alternatives/index.html">{{common.alternatives}}</a>
+          <a href="/{{langPrefix meta.lang}}integrations/index.html">{{common.integrations}}</a>
+          <a href="/{{langPrefix meta.lang}}guides/index.html">{{common.guides}}</a>
+          <a href="/{{langPrefix meta.lang}}" class="btn btn-primary">{{common.backToHome}}</a>
+        </nav>
+      </div>
+    </header>
+
+
+    <main class="container section">
+      <h1 class="section-title">{{alternatives.expensify.heading}}</h1>
+      <div class="legal-content">
+        <p class="mb-4">{{alternatives.expensify.intro}}</p>
+
+        <h2 class="mb-4">{{alternatives.expensify.whatToLookFor.title}}</h2>
+        <ul class="mb-4" style="padding-left: 1.5rem;">
+          <li>{{alternatives.expensify.whatToLookFor.point1}}</li>
+          <li>{{alternatives.expensify.whatToLookFor.point2}}</li>
+          <li>{{alternatives.expensify.whatToLookFor.point3}}</li>
+        </ul>
+
+        <h2 class="mb-4">{{alternatives.expensify.list.title}}</h2>
+        <ol class="mb-4" style="padding-left: 1.5rem;">
+          <li><strong>{{meta.siteName}}</strong> — {{alternatives.expensify.list.item1}}</li>
+          <li>{{alternatives.expensify.list.item2}}</li>
+          <li>{{alternatives.expensify.list.item3}}</li>
+          <li>{{alternatives.expensify.list.item4}}</li>
+          <li>{{alternatives.expensify.list.item5}}</li>
+        </ol>
+
+        <p class="mb-4"><a href="/{{langPrefix meta.lang}}alternatives/index.html">{{alternatives.backToHub}}</a></p>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-links">
+          <a href="/{{langPrefix meta.lang}}guides/index.html">{{common.guides}}</a>
+          <a href="/{{langPrefix meta.lang}}alternatives/index.html">{{common.alternatives}}</a>
+          <a href="/{{langPrefix meta.lang}}privacy-policy.html">{{footer.privacyPolicy}}</a>
+          <a href="/{{langPrefix meta.lang}}terms-of-service.html">{{footer.termsOfService}}</a>
+          <a href="/{{langPrefix meta.lang}}cookie-policy.html">{{footer.cookiePolicy}}</a>
+        </div>
+        <p class="copyright">{{common.copyright}}</p>
+      </div>
+    </footer>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

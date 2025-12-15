@@ -31,11 +31,12 @@ async function generateSitemap() {
   const entries: SitemapEntry[] = [];
 
   // Generate entries for each template and locale
-  for (const template of templates) {
+  for (const rawTemplate of templates) {
+    const template = rawTemplate.replace(/\\/g, '/');
     for (const locale of LOCALES) {
       const isEnglish = locale === 'en';
       const localePath = isEnglish ? '' : `${locale}/`;
-      const fullPath = `${localePath}${template}`;
+      const fullPath = template === 'index.html' ? localePath : `${localePath}${template}`;
       
       // Determine priority based on page type
       let priority = 0.5;
@@ -46,6 +47,11 @@ async function generateSitemap() {
         changefreq = 'weekly';
       } else if (template.startsWith('features/')) {
         priority = 0.8;
+      } else if (template === 'guides/index.html') {
+        priority = 0.8;
+        changefreq = 'weekly';
+      } else if (template.startsWith('guides/')) {
+        priority = 0.7;
       }
       
       entries.push({
@@ -59,10 +65,13 @@ async function generateSitemap() {
 
   // Group entries by base path for hreflang
   const groupedEntries = new Map<string, SitemapEntry[]>();
+
+  const nonEnglishLocales = LOCALES.filter(l => l !== 'en');
+  const localePrefixRegex = new RegExp(`^(${nonEnglishLocales.join('|')})/`);
   
   for (const entry of entries) {
     // Remove any locale prefix to get base path
-    const basePath = entry.path.replace(/^(ar|de|ro|es|fr)\//, '');
+    const basePath = entry.path.replace(localePrefixRegex, '');
     if (!groupedEntries.has(basePath)) {
       groupedEntries.set(basePath, []);
     }
@@ -85,11 +94,12 @@ async function generateSitemap() {
       xml += `  <!-- ${localeName} Pages -->\n`;
       
       for (const entry of localeEntries) {
-        const basePath = entry.path.replace(/^(ar|de|ro|es|fr)\//, '');
+        const basePath = entry.path.replace(localePrefixRegex, '');
         const alternates = groupedEntries.get(basePath) || [];
         
         xml += `  <url>\n`;
-        xml += `    <loc>${BASE_URL}/${entry.path}</loc>\n`;
+        const loc = `${BASE_URL}/${entry.path}`.replace(/\\/g, '/');
+        xml += `    <loc>${loc}</loc>\n`;
         xml += `    <lastmod>${today}</lastmod>\n`;
         xml += `    <changefreq>${entry.changefreq}</changefreq>\n`;
         xml += `    <priority>${entry.priority.toFixed(1)}</priority>\n`;
@@ -98,13 +108,13 @@ async function generateSitemap() {
         if (alternates.length > 1) {
           for (const alt of alternates) {
             const hreflang = alt.locale;
-            const href = `${BASE_URL}/${alt.path}`;
+            const href = `${BASE_URL}/${alt.path}`.replace(/\\/g, '/');
             xml += `    <xhtml:link rel="alternate" hreflang="${hreflang}" href="${href}" />\n`;
           }
           // Add x-default for English version
           const enVersion = alternates.find(a => a.locale === 'en');
           if (enVersion) {
-            xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}/${enVersion.path}" />\n`;
+            xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${(`${BASE_URL}/${enVersion.path}`).replace(/\\/g, '/')}" />\n`;
           }
         }
         

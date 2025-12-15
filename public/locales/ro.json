@@ -1,252 +1,733 @@
 {
+  "accessibility": {
+    "commitment": {
+      "content": "FlickAI se angajează să asigure accesibilitatea digitală pentru persoanele cu dizabilități. Îmbunătățim continuu experiența utilizatorului pentru toată lumea și aplicăm standardele de accesibilitate relevante.",
+      "title": "1. Angajamentul Nostru"
+    },
+    "conformance": {
+      "content": "Ghidurile de Accesibilitate a Conținutului Web (WCAG) definesc cerințe pentru designeri și dezvoltatori pentru a îmbunătăți accesibilitatea pentru persoanele cu dizabilități. Definește trei niveluri de conformitate: Nivel A, Nivel AA și Nivel AAA. FlickAI este parțial conform cu WCAG 2.1 nivel AA.",
+      "title": "2. Starea Conformității"
+    },
+    "description": "Declarație de Accesibilitate pentru FlickAI. Angajamentul nostru față de accesibilitatea digitală.",
+    "feedback": {
+      "email": "E-mail: support@flickai.net",
+      "intro": "Salutăm feedback-ul dumneavoastră cu privire la accesibilitatea FlickAI. Vă rugăm să ne anunțați dacă întâmpinați bariere de accesibilitate pe FlickAI:",
+      "title": "3. Feedback"
+    },
+    "heading": "Declarație de Accesibilitate",
+    "lastUpdated": "Ultima actualizare: 28 noiembrie 2025",
+    "title": "Declarație de Accesibilitate - FlickAI"
+  },
+  "alternatives": {
+    "backToHub": "Înapoi la Alternative",
+    "bestExpenseTrackers": {
+      "criteria": {
+        "point1": "Captură rapidă (bonuri + introducere)",
+        "point2": "Offline și sincronizare fiabilă",
+        "point3": "Privacy-first (fără bancă obligatorie)",
+        "point4": "Preț accesibil (gratuit pentru început)",
+        "title": "Criterii"
+      },
+      "description": "Listă practică pentru 2025–2026: offline, confidențialitate, automatizare și preț.",
+      "faq": {
+        "a1": "Cea care se potrivește fluxului tău: offline pentru călătorii, privacy-first fără bancă, IA pentru automatizare.",
+        "a2": "Da — FlickAI este gratuit pentru început.",
+        "q1": "Care e cea mai bună aplicație de cheltuieli în 2026?",
+        "q2": "Există o aplicație gratuită pentru început?",
+        "title": "Întrebări frecvente"
+      },
+      "heading": "Cele mai bune aplicații de cheltuieli (2025–2026)",
+      "intro": "Ne concentrăm pe nevoi reale: captură rapidă, fiabilitate offline și confidențialitate.",
+      "keywords": "cea mai bună aplicație cheltuieli, buget 2026, tracker cheltuieli offline, aplicație cheltuieli privată, aplicație cheltuieli IA, gratuit pentru început",
+      "list": {
+        "item1": "Gratuit pentru început, scanare IA, workflow offline.",
+        "item2": "YNAB — Metodă de buget, abonament.",
+        "item3": "PocketGuard — Buget simplificat.",
+        "item4": "Spendee — Bugete/portofele partajate.",
+        "item5": "Money Manager — Urmărire zilnică simplă.",
+        "title": "Recomandări"
+      },
+      "title": "Cele mai bune aplicații de cheltuieli (2025-2026)"
+    },
+    "bestReceiptScanners": {
+      "criteria": {
+        "point1": "Acuratețe OCR (comerciant/dată/total/articole)",
+        "point2": "Viteză și ușurință",
+        "point3": "Captură offline",
+        "point4": "Export (CSV/Excel)",
+        "title": "Criterii"
+      },
+      "description": "Compară cele mai bune aplicații de scanat bonuri 2025–2026: OCR, captură offline și export.",
+      "heading": "Cele mai bune aplicații de scanat bonuri (2025–2026)",
+      "intro": "Pentru evidențe curate, contează OCR-ul și un export simplu.",
+      "keywords": "cea mai bună aplicație scanat bonuri, OCR bonuri, scanare bonuri offline, scanner bonuri gratuit, bonuri în Excel, 2026 scanner bonuri",
+      "list": {
+        "item1": "Gratuit pentru început, extracție IA, orientat pe cheltuieli.",
+        "item2": "Expensify — Popular pentru echipe, abonament.",
+        "item3": "Zoho Expense — Suită completă.",
+        "item4": "Genius Scan — Scanare excelentă, mai puțin orientat pe cheltuieli.",
+        "item5": "CamScanner — Instrument de scanare general.",
+        "title": "Recomandări"
+      },
+      "title": "Cele mai bune aplicații de scanat bonuri (2025-2026)"
+    },
+    "expensify": {
+      "description": "Alternative la Expensify: offline, confidențialitate, simplitate și automatizare IA.",
+      "heading": "Cele mai bune alternative la Expensify (2025–2026)",
+      "intro": "Ghid practic pentru un workflow de cheltuieli mai simplu și mai privat.",
+      "keywords": "alternative Expensify, aplicații ca Expensify, alternativă raport cheltuieli 2026, tracker cheltuieli offline, aplicație cheltuieli privată, scanare bonuri IA",
+      "list": {
+        "item1": "Gratuit pentru început, scanare IA, offline + privacy-first.",
+        "item2": "Zoho Expense — Suită completă.",
+        "item3": "Concur — Mai orientat enterprise.",
+        "item4": "QuickBooks — Contabilitate-first.",
+        "item5": "Wave — Opțiuni accesibile.",
+        "title": "Top alternative"
+      },
+      "title": "Cele mai bune alternative la Expensify (2025-2026)",
+      "whatToLookFor": {
+        "point1": "Captură rapidă cu OCR fiabil",
+        "point2": "Suport offline pentru călătorii",
+        "point3": "Prețuri clare (gratuit pentru început ajută la test)",
+        "title": "Ce să cauți"
+      }
+    },
+    "index": {
+      "cta": "FlickAI este gratuit pentru început — construit pentru offline, confidențialitate și automatizare cu IA.",
+      "description": "Ghiduri pentru cele mai bune aplicații de cheltuieli și scanare bonuri. Compară offline, confidențialitate și automatizare.",
+      "guides": {
+        "title": "Ghiduri"
+      },
+      "heading": "Top alternative (2025–2026)",
+      "howToChoose": {
+        "point1": "Alege offline dacă călătorești sau vrei fiabilitate.",
+        "point2": "Alege privacy-first dacă nu vrei bancă obligatorie.",
+        "point3": "Alege IA dacă vrei mai puțină muncă manuală.",
+        "title": "Cum alegi"
+      },
+      "intro": "Cauți o aplicație care se potrivește modului tău de lucru? Începe aici.",
+      "keywords": "alternative tracker cheltuieli, alternative scanare bonuri, cele mai bune aplicații cheltuieli 2026, cel mai bun scanner bonuri, cheltuieli offline, confidențialitate cheltuieli",
+      "title": "Top alternative: tracker cheltuieli & scanare bonuri (2025-2026)"
+    },
+    "zoho": {
+      "description": "Alternative la Zoho Expense pentru urmărire mai simplă și mai focusată pe bonuri.",
+      "heading": "Cele mai bune alternative la Zoho Expense (2025–2026)",
+      "intro": "Dacă vrei un instrument dedicat în locul unei suite mari, începe aici.",
+      "keywords": "alternative Zoho Expense, aplicații ca Zoho Expense, tracker cheltuieli simplu, alternativă scanner bonuri 2026, cheltuieli offline",
+      "list": {
+        "item1": "Gratuit pentru început, IA, offline.",
+        "item2": "Expensify — Puternic pentru echipe.",
+        "item3": "Concur — Suită enterprise.",
+        "item4": "FreshBooks — Facturare-first.",
+        "item5": "Spendee — Buget personal/partajat.",
+        "title": "Top alternative"
+      },
+      "title": "Cele mai bune alternative la Zoho Expense (2025-2026)",
+      "whatToLookFor": {
+        "point1": "UX focalizat pe urmărirea zilnică",
+        "point2": "OCR și export",
+        "point3": "Opțiuni offline și privacy-first",
+        "title": "Ce să cauți"
+      }
+    }
+  },
+  "common": {
+    "alternatives": "Alternative",
+    "integrations": "Integrări",
+    "guides": "Ghiduri",
+    "backToHome": "Înapoi la Pagina Principală",
+    "copyright": "© 2025 FlickAI. Toate drepturile rezervate.",
+    "downloadApp": "Descarcă Aplicația",
+    "features": "Funcționalități",
+    "learnMore": "Află mai mult",
+    "testimonials": "Testimoniale"
+  },
+  "cookie": {
+    "contact": {
+      "content": "Dacă aveți întrebări despre utilizarea cookie-urilor, vă rugăm să ne contactați la: support@flickai.net",
+      "title": "4. Contactați-ne"
+    },
+    "description": "Politica Cookie pentru FlickAI. Înțelegeți cum folosim cookie-urile pentru a vă îmbunătăți experiența.",
+    "disabling": {
+      "content": "Puteți preveni setarea cookie-urilor prin ajustarea setărilor din browser-ul dumneavoastră (consultați Ajutorul browser-ului pentru a afla cum să faceți acest lucru). Fiți conștienți că dezactivarea cookie-urilor va afecta funcționalitatea acestui site și a multor alte site-uri web pe care le vizitați.",
+      "title": "3. Dezactivarea Cookie-urilor"
+    },
+    "heading": "Politica Cookie",
+    "howWeUse": {
+      "analytics": "Cookie-uri de Analiză: Acestea ne ajută să înțelegem cum interacționează vizitatorii cu site-ul nostru web.",
+      "essential": "Cookie-uri Esențiale: Acestea sunt necesare pentru ca site-ul web să funcționeze corect.",
+      "functionality": "Cookie-uri de Funcționalitate: Acestea permit site-ului web să își amintească alegerile pe care le faceți.",
+      "intro": "Folosim cookie-uri din diverse motive detaliate mai jos. Din păcate, în majoritatea cazurilor nu există opțiuni standard din industrie pentru dezactivarea cookie-urilor fără a dezactiva complet funcționalitatea și caracteristicile pe care le adaugă acestui site.",
+      "title": "2. Cum Folosim Cookie-urile"
+    },
+    "lastUpdated": "Ultima actualizare: 28 noiembrie 2025",
+    "title": "Politica Cookie - FlickAI",
+    "whatAre": {
+      "content": "Cookie-urile sunt fișiere text mici care sunt plasate pe computerul sau dispozitivul dumneavoastră mobil de către site-urile web pe care le vizitați. Sunt utilizate pe scară largă pentru a face site-urile web să funcționeze sau să funcționeze mai eficient, precum și pentru a furniza informații proprietarilor site-ului.",
+      "title": "1. Ce Sunt Cookie-urile"
+    }
+  },
+  "features": {
+    "aiAssistant": {
+      "description": "Pune întrebări despre cheltuieli, primește insights și explorează fluxuri conversaționale pentru 2026. Gratuit pentru început.",
+      "faq": {
+        "a1": "Da — FlickAI este gratuit pentru început.",
+        "a2": "FlickAI susține fluxuri privacy-first și stocare sigură a bonurilor.",
+        "a3": "Da — înregistrezi offline și sincronizezi după.",
+        "q1": "FlickAI este gratuit pentru început?",
+        "q2": "Este privat?",
+        "q3": "Pot folosi offline?",
+        "title": "Întrebări frecvente"
+      },
+      "heading": "Asistent financiar IA pentru cheltuieli",
+      "intro": "În 2026 nu vom doar “urmări” cheltuieli — vom întreba. FlickAI combină captură rapidă cu insights.",
+      "keywords": "asistent financiar IA, asistent cheltuieli IA, chat cu cheltuielile, buget conversațional, căutări vocale cheltuieli, 2026 asistent finanțe",
+      "questions": {
+        "q1": "„Cât am cheltuit pe cafea luna trecută?”",
+        "q2": "„Ce categorii au crescut cel mai mult trimestrul acesta?”",
+        "q3": "„Arată-mi comercianții principali.”",
+        "q4": "„Unde pot reduce cheltuielile săptămâna aceasta?”",
+        "title": "Întrebări precum"
+      },
+      "related": {
+        "title": "Legat de"
+      },
+      "title": "Asistent financiar IA pentru cheltuieli | FlickAI"
+    },
+    "analytics": {
+      "aiInsights": {
+        "example": "\"Ai cheltuit cu 20% mai mult pentru mese în oraș luna aceasta comparativ cu luna trecută. Ia în considerare să gătești acasă săptămâna aceasta pentru a rămâne în buget.\"",
+        "intro": "IA-ul nostru nu doar îți arată datele; le și explică. Primește sfaturi personalizate precum:",
+        "title": "Informații Generate de IA"
+      },
+      "description": "Vizualizează tendințe de cheltuieli și primește informații financiare personalizate în limba ta.",
+      "heading": "Analiză Inteligentă",
+      "intro": "Înțelegerea banilor tăi este primul pas pentru a-i controla. FlickAI oferă informații profunde despre obiceiurile tale de cheltuieli.",
+      "title": "Analiză Inteligentă - FlickAI",
+      "visualTrends": {
+        "categoryBreakdown": "Defalcare pe Categorii: Diagrame circulare care arată cheltuielile pe categorii (Mâncare, Transport, Utilități, etc.).",
+        "intro": "Vezi exact unde merg banii tăi cu grafice și diagrame interactive:",
+        "merchantAnalysis": "Analiză Comercianți: Vezi la ce magazine cheltuiești cel mai mult.",
+        "monthlyTrends": "Tendințe Lunare: Grafice cu bare care compară cheltuielile lună de lună.",
+        "title": "Tendințe Vizuale de Cheltuieli"
+      }
+    },
+    "offlineTracker": {
+      "description": "Urmărește cheltuieli offline cu FlickAI: înregistrezi fără internet și sincronizezi când revii online. Gratuit pentru început.",
+      "faq": {
+        "a1": "Da: poți înregistra cheltuieli și scana bonuri offline, apoi sincronizezi când ai conexiune.",
+        "a2": "Da. FlickAI este gratuit pentru început, cu opțiuni de upgrade.",
+        "a3": "Modul offline susține fluxuri mai private, reducând nevoia de conexiune permanentă.",
+        "a4": "Călători, utilizatori preocupați de confidențialitate și oricine vrea un tracker fiabil fără conexiune constantă.",
+        "q1": "FlickAI merge fără internet?",
+        "q2": "Este gratuit pentru început?",
+        "q3": "Este mai privat offline?",
+        "q4": "Pentru cine este ideal?",
+        "title": "Întrebări frecvente"
+      },
+      "heading": "Tracker cheltuieli offline (funcționează fără internet)",
+      "how": {
+        "step1": "Adaugi cheltuieli și scanezi bonuri oricând, chiar și offline.",
+        "step2": "Verifici categorii și totaluri pe dispozitiv.",
+        "step3": "Sincronizezi când ești din nou online.",
+        "title": "Cum funcționează"
+      },
+      "intro": "În avion, pe drum sau cu semnal slab: FlickAI este construit pentru a înregistra cheltuieli offline și a sincroniza ulterior.",
+      "keywords": "cheltuieli offline, aplicație cheltuieli fără internet, buget offline, tracker cheltuieli fără conexiune, scanare bonuri offline, aplicație cheltuieli privată, 2026 tracker cheltuieli",
+      "related": {
+        "title": "Legat de"
+      },
+      "title": "Monitorizare cheltuieli offline – fără internet | FlickAI",
+      "why": {
+        "point1": "Înregistrezi cheltuieli în călătorii fără roaming sau Wi‑Fi.",
+        "point2": "Funcționează în metrou, tren sau zone cu acoperire redusă.",
+        "point3": "Mai puțină dependență de cloud pentru trackingul de bază.",
+        "title": "De ce contează offline"
+      }
+    },
+    "onDeviceAI": {
+      "description": "Workflows 2026: IA mai privată, scanare bonuri, folosire offline și întrebări conversaționale despre cheltuieli. Gratuit pentru început.",
+      "faq": {
+        "a1": "Da — FlickAI este gratuit pentru început.",
+        "a2": "Da. Înregistrezi offline și sincronizezi după.",
+        "a3": "Da — FlickAI susține fluxuri orientate pe confidențialitate și stocare sigură a bonurilor.",
+        "q1": "Este gratuit pentru început?",
+        "q2": "Funcționează offline?",
+        "q3": "Este privacy-first?",
+        "title": "Întrebări frecvente"
+      },
+      "heading": "IA pe dispozitiv pentru cheltuieli (pregătit pentru 2026)",
+      "intro": "Căutarea se mută către asistenți și întrebări în limbaj natural. FlickAI urmărește fluxuri de IA mai private și compatibile cu offline.",
+      "keywords": "IA pe dispozitiv cheltuieli, IA privată bonuri, OCR bonuri pe telefon, tracker cheltuieli IA offline, asistent financiar 2026, întrebări conversaționale cheltuieli",
+      "related": {
+        "title": "Legat de"
+      },
+      "title": "IA pe dispozitiv pentru cheltuieli (IA privată) | FlickAI",
+      "voice": {
+        "example1": "„Cât am cheltuit pe alimente luna trecută?”",
+        "example2": "„Arată-mi comercianții principali trimestrul acesta.”",
+        "example3": "„Ce categorii au crescut cel mai mult?”",
+        "title": "Exemple de întrebări “2026”"
+      },
+      "what": {
+        "point1": "Scanezi și organizezi bonuri cu extracție prin IA.",
+        "point2": "Capturezi date chiar și cu conexiune instabilă.",
+        "point3": "Primești răspunsuri tip “insights” din date (în funcție de disponibilitate).",
+        "title": "Ce înseamnă"
+      }
+    },
+    "privacyFirst": {
+      "description": "Tracker cheltuieli privacy-first, fără obligativitatea conectării contului bancar. Stocare sigură a bonurilor și fluxuri offline. Gratuit pentru început.",
+      "faq": {
+        "a1": "Nu. FlickAI funcționează fără conectare bancară obligatorie.",
+        "a2": "Nu — nu vindem datele tale.",
+        "a3": "Da. Înregistrezi offline și sincronizezi mai târziu.",
+        "a4": "Da — FlickAI este gratuit pentru început.",
+        "q1": "Trebuie să-mi conectez banca?",
+        "q2": "Vindeți datele mele?",
+        "q3": "Pot folosi aplicația offline?",
+        "q4": "Este gratuit pentru început?",
+        "title": "Întrebări frecvente"
+      },
+      "heading": "Tracker cheltuieli privacy-first (fără conectare bancă)",
+      "intro": "Dacă preferi să păstrezi controlul asupra datelor financiare, FlickAI este proiectat pentru urmărire privacy-first, fără bancă obligatorie.",
+      "keywords": "tracker cheltuieli privat, aplicație cheltuieli confidențială, fără sincronizare bancară, fără conectare bancă, bonuri criptate, confidențialitate finanțe, 2026 aplicație cheltuieli privată",
+      "pillars": {
+        "point1": "Nu este necesară sincronizarea bancară.",
+        "point2": "Stocare sigură a bonurilor și bune practici de securitate.",
+        "point3": "Fluxuri offline pentru date sensibile.",
+        "point4": "Gratuit pentru început, upgrade când ai nevoie.",
+        "title": "Confidențialitate by design"
+      },
+      "related": {
+        "title": "Legat de"
+      },
+      "title": "Tracker cheltuieli orientat pe confidențialitate – fără bancă | FlickAI"
+    },
+    "receiptToExcel": {
+      "bestFor": {
+        "point1": "Freelanceri și PFA (deduceri).",
+        "point2": "Echipe mici care preferă Excel/CSV.",
+        "point3": "Oricine vrea să evite introducerea manuală.",
+        "title": "Potrivit pentru"
+      },
+      "description": "Transformă bonurile în date pentru foi de calcul: scanezi, verifici și exporți pentru contabil. Gratuit pentru început.",
+      "faq": {
+        "a1": "Poți exporta în formate pentru foi de calcul (ex. CSV) care se deschid în Excel.",
+        "a2": "Da. Scanezi/înregistrezi offline și sincronizezi după.",
+        "a3": "Da — FlickAI este gratuit pentru început.",
+        "q1": "Pot exporta în Excel?",
+        "q2": "Funcționează offline?",
+        "q3": "Este gratuit pentru început?",
+        "title": "Întrebări frecvente"
+      },
+      "heading": "Scanează bonuri în Excel / CSV",
+      "intro": "Dacă lucrezi în foi de calcul, FlickAI te ajută să treci rapid de la hârtie la date structurate.",
+      "keywords": "scanează bonuri în Excel, bon în CSV, OCR bonuri foaie de calcul, extragere date bon, export cheltuieli, 2026 OCR bonuri",
+      "related": {
+        "title": "Legat de"
+      },
+      "steps": {
+        "step1": "Scanezi un bon.",
+        "step2": "Verifici comerciant, dată, total și articole.",
+        "step3": "Exporți într-un format compatibil cu Excel.",
+        "step4": "Partajezi cu contabilul sau imporți în workflow.",
+        "title": "Cum funcționează"
+      },
+      "title": "Scanează bonuri în Excel / CSV | FlickAI"
+    },
+    "scanning": {
+      "description": "Extrage instant comerciant, articole și prețuri din bonuri folosind tehnologie IA avansată.",
+      "heading": "Scanare Inteligentă Bonuri",
+      "howItWorks": {
+        "step1": "Deschide aplicația FlickAI și apasă pe pictograma camerei.",
+        "step2": "Aliniază bonul în cadru.",
+        "step3": "Apasă capturează. IA procesează imaginea în câteva secunde.",
+        "step4": "Verifică detaliile extrase și salvează!",
+        "title": "Cum Funcționează"
+      },
+      "intro": "Zilele introducerii manuale a datelor s-au terminat. Cu FlickAI, poți digitaliza cheltuielile în câteva secunde doar făcând o fotografie.",
+      "title": "Scanare Inteligentă Bonuri - FlickAI",
+      "whatWeExtract": {
+        "dateTime": "Data și Ora: Înregistrează exact când a avut loc achiziția.",
+        "items": "Articole Individuale: Extrage articole individuale și prețuri pentru urmărire detaliată.",
+        "merchant": "Numele Comerciantului: Identificat automat din logo-uri sau text.",
+        "title": "Ce Extragem",
+        "total": "Suma Totală: Capturează totalul final cu acuratețe."
+      }
+    },
+    "security": {
+      "description": "Datele tale sunt protejate cu criptare end-to-end și autentificare securizată.",
+      "heading": "Securitate la Nivel Bancar",
+      "intro": "Datele tale financiare sunt sensibile și le tratăm ca atare. FlickAI folosește măsuri de securitate de top din industrie pentru a-ți păstra informațiile în siguranță.",
+      "measures": {
+        "auth": "Autentificare Securizată: Autentificare multi-factor și opțiuni de autentificare biometrică.",
+        "compliance": "Conformitate: Conform GDPR și urmând cele mai bune practici de securitate.",
+        "encryption": "Criptare End-to-End: Toate datele sunt criptate atât în tranzit, cât și în repaus.",
+        "privacy": "Confidențialitate prin Design: Nu vindem niciodată datele tale către terți.",
+        "title": "Măsuri de Securitate"
+      },
+      "title": "Securitate la Nivel Bancar - FlickAI"
+    },
+    "taxReceipts": {
+      "checklist": {
+        "point1": "Scanează și salvează bonuri pe măsură ce cheltuiești.",
+        "point2": "Urmărește totaluri pe categorii (deplasări, mese, consumabile…).",
+        "point3": "Păstrează comerciant, dată și total clar.",
+        "point4": "Exporți sau partajezi când depui.",
+        "title": "Checklist fiscal"
+      },
+      "description": "Organizează bonuri pentru perioada fiscală: scanezi, categorizezi și găsești ușor cheltuieli deductibile. Gratuit pentru început.",
+      "faq": {
+        "a1": "Nu. FlickAI te ajută să organizezi bonuri și cheltuieli pentru fluxurile fiscale.",
+        "a2": "Da — util pentru freelanceri/PFA care vor evidențe pentru deduceri.",
+        "a3": "Da. Înregistrezi și scanezi offline, apoi sincronizezi.",
+        "a4": "Da — FlickAI este gratuit pentru început.",
+        "q1": "Este un serviciu de depunere taxe?",
+        "q2": "Este util pentru freelanceri?",
+        "q3": "Funcționează offline?",
+        "q4": "Este gratuit pentru început?",
+        "title": "Întrebări frecvente"
+      },
+      "heading": "Scanează bonuri pentru taxe",
+      "intro": "Sezonul fiscal e mai ușor când bonurile sunt organizate și căutabile. FlickAI ajută la păstrarea evidențelor.",
+      "keywords": "scanează bonuri pentru taxe, cheltuieli deductibile, bonuri deductibile, organizare bonuri fiscal, PFA taxe, 2026 aplicație bonuri",
+      "related": {
+        "title": "Legat de"
+      },
+      "title": "Scanează bonuri pentru taxe (cheltuieli deductibile) | FlickAI"
+    }
+  },
+  "footer": {
+    "cookiePolicy": "Politica Cookie",
+    "privacyPolicy": "Politica de Confidențialitate",
+    "termsOfService": "Termeni și Condiții"
+  },
+  "gdpr": {
+    "contact": {
+      "content": "Pentru a exercita oricare dintre drepturile dumneavoastră sau pentru întrebări privind conformitatea GDPR, vă rugăm să contactați Responsabilul nostru cu Protecția Datelor la: support@flickai.net",
+      "title": "3. Contactați DPO"
+    },
+    "description": "Informații despre Conformitatea GDPR pentru FlickAI. Drepturile dumneavoastră conform Regulamentului General privind Protecția Datelor.",
+    "heading": "Conformitate GDPR",
+    "lastUpdated": "Ultima actualizare: 28 noiembrie 2025",
+    "processing": {
+      "content": "Prelucrăm datele dumneavoastră în mod legal, corect și transparent. Colectăm date doar în scopuri specificate, explicite și legitime.",
+      "title": "2. Prelucrarea Datelor"
+    },
+    "rights": {
+      "access": "Dreptul de a accesa datele dumneavoastră personale.",
+      "erasure": "Dreptul la ștergere („dreptul de a fi uitat”).",
+      "intro": "Conform Regulamentului General privind Protecția Datelor (GDPR), aveți următoarele drepturi cu privire la datele dumneavoastră personale:",
+      "object": "Dreptul de a obiecta la prelucrare.",
+      "portability": "Dreptul la portabilitatea datelor.",
+      "rectification": "Dreptul la rectificarea datelor inexacte.",
+      "restrict": "Dreptul de a restricționa prelucrarea.",
+      "title": "1. Drepturile Dumneavoastră"
+    },
+    "title": "Conformitate GDPR - FlickAI"
+  },
+  "home": {
+    "description": "Simplifică urmărirea cheltuielilor cu scanarea bonurilor folosind IA de la FlickAI. Urmărește finanțele fără efort, creează bugete și obține informații financiare.",
+    "download": {
+      "appStore": "App Store",
+      "googlePlay": "Google Play",
+      "subtitle": "Alătură-te miilor de utilizatori care își controlează finanțele cu FlickAI.",
+      "title": "Începe Să Urmărești Astăzi",
+      "waitlistNote": "Apasă pe butonul „Alătură-te listei” pentru acces anticipat! 🚀"
+    },
+    "features": {
+      "analytics": {
+        "description": "Vizualizează tendințe de cheltuieli și primește informații financiare personalizate în limba ta.",
+        "title": "Analiză Inteligentă"
+      },
+      "offline": {
+        "description": "Funcționează perfect offline. Modificările se sincronizează automat când ești online din nou.",
+        "title": "Offline și Sincronizare"
+      },
+      "scanning": {
+        "description": "Extrage instant comerciantul, articolele și prețurile folosind tehnologie IA avansată.",
+        "title": "Scanare Inteligentă Bonuri"
+      },
+      "security": {
+        "description": "Datele tale sunt protejate cu criptare end-to-end și autentificare securizată.",
+        "title": "Securitate la Nivel Bancar"
+      },
+      "title": "De Ce FlickAI?"
+    },
+    "hero": {
+      "getStarted": "Începe Gratuit",
+      "learnMore": "Află Mai Mult",
+      "subtitle": "Urmărește-ți finanțele fără efort cu scanare inteligentă de bonuri și informații automate. Lasă IA-ul să se ocupe de partea plictisitoare.",
+      "title": "Urmărire Cheltuieli și Scanare Bonuri cu IA"
+    },
+    "keywords": "aplicație cheltuieli, monitorizare cheltuieli, scaner bonuri, finanțe IA, finanțe AI, aplicație buget, finanțe personale, FlickAI, management cheltuieli, urmărire cheltuieli cu IA, urmărire cheltuieli cu AI, monitorizare cheltuieli cu IA, monitorizare cheltuieli cu AI",
+    "ogDescription": "Simplifică urmărirea cheltuielilor cu scanarea bonurilor folosind IA de la FlickAI. Urmărește finanțele fără efort.",
+    "ogTitle": "FlickAI - Urmărire Cheltuieli cu IA",
+    "schemaDescription": "Aplicație de urmărire cheltuieli și scanare bonuri cu IA.",
+    "title": "FlickAI - Urmărire Cheltuieli cu IA"
+  },
+  "guides": {
+    "index": {
+      "title": "Ghiduri pentru cheltuieli & scanare chitanțe | FlickAI",
+      "description": "Ghiduri practice pentru scanarea chitanțelor, urmărirea cheltuielilor offline și exporturi pregătite pentru taxe. Gratuit la început.",
+      "keywords": "chitanță în excel, chitanță în csv, cheltuieli offline, checklist chitanțe taxe, sfaturi scanner chitanțe",
+      "heading": "Ghiduri",
+      "intro": "Ghiduri simple pentru a scana chitanțe, a urmări cheltuieli fără internet și a fi pregătit pentru taxe.",
+      "guides": {
+        "title": "Ghiduri populare"
+      },
+      "cta": "FlickAI este gratuit la început — pentru scanare chitanțe și cheltuieli offline, cu focus pe confidențialitate."
+    },
+    "receiptToExcel": {
+      "title": "Cum transformi chitanțe în Excel (CSV) | Ghid FlickAI",
+      "description": "Pas cu pas: scanează chitanțe, verifică datele și exportă în Excel/CSV pentru taxe, contabilitate sau rapoarte.",
+      "keywords": "chitanță excel, chitanță csv, export chitanțe, scanner chitanțe excel, export cheltuieli",
+      "heading": "Chitanță în Excel: de la scanare la tabel",
+      "snippet": "Transformă chitanțe în Excel/CSV în câteva minute.",
+      "intro": "Pentru un tabel curat, păstrează câmpuri consistente (merchant, dată, total), corectează OCR și exportă într-un format compatibil.",
+      "steps": {
+        "title": "Pași",
+        "step1": "Scanează chitanțele și confirmă comerciant/data/total.",
+        "step2": "Corectează greșeli OCR (taxe, tips, valută, linii).",
+        "step3": "Categorizează cheltuielile pentru consistență.",
+        "step4": "Exportă în Excel/CSV și partajează dacă e nevoie."
+      },
+      "pitfalls": {
+        "title": "Greșeli frecvente",
+        "point1": "Valute diferite în călătorii",
+        "point2": "Câmpuri TVA/impozit lipsă",
+        "point3": "Categorii inconsistente de la o lună la alta"
+      },
+      "faq": {
+        "title": "Întrebări frecvente",
+        "q1": "FlickAI este gratuit la început?",
+        "a1": "Da — FlickAI este gratuit la început.",
+        "q2": "Funcționează offline?",
+        "a2": "Da — poți scana și urmări offline, apoi sincronizezi mai târziu.",
+        "q3": "Pot exporta în Excel?",
+        "a3": "Da — poți exporta în formate compatibile precum CSV."
+      },
+      "related": {
+        "title": "Corelate"
+      }
+    },
+    "offlineExpenseTracking": {
+      "title": "Urmărire cheltuieli offline: checklist | Ghid FlickAI",
+      "description": "Checklist simplu pentru cheltuieli offline în călătorii, zone fără semnal sau fluxuri privacy-first.",
+      "keywords": "cheltuieli offline, tracker cheltuieli fără internet, cheltuieli privacy-first, aplicație cheltuieli offline",
+      "heading": "Urmărire cheltuieli offline (checklist)",
+      "snippet": "Urmărește cheltuielile fără internet.",
+      "intro": "Offline înseamnă fiabilitate: capturează chitanțe și cheltuieli imediat, apoi sincronizează când vrei.",
+      "checklist": {
+        "title": "Checklist",
+        "point1": "Asigură-te că captura funcționează fără conexiune",
+        "point2": "Standardizează categorii (călătorii, mese, consumabile)",
+        "point3": "Revizuiește săptămânal pentru a prinde erori",
+        "point4": "Exportă backup pentru contabil sau arhivă"
+      },
+      "faq": {
+        "title": "Întrebări frecvente",
+        "q1": "De ce contează modul offline?",
+        "a1": "Evită chitanțe pierdute și intrări lipsă când nu ai semnal.",
+        "q2": "Este mai privat?",
+        "a2": "De multe ori da — offline-first reduce partajarea inutilă și îți oferă mai mult control.",
+        "q3": "Când sincronizez?",
+        "a3": "Când este convenabil și sigur — de exemplu pe Wi‑Fi de încredere."
+      },
+      "related": {
+        "title": "Corelate"
+      }
+    },
+    "taxReceiptsChecklist": {
+      "title": "Checklist chitanțe pentru taxe (freelanceri) | Ghid FlickAI",
+      "description": "Checklist clar pentru chitanțe pregătite pentru taxe: ce să captezi, cum să etichetezi și cum să exporți pentru deduceri.",
+      "keywords": "checklist chitanțe taxe, organizează chitanțe, deduceri PFA, chitanțe contabil",
+      "heading": "Checklist chitanțe pentru taxe",
+      "snippet": "Fii organizat pentru sezonul fiscal.",
+      "intro": "O organizare bună economisește timp. Folosește acest checklist pentru chitanțe complete, ușor de căutat și exportat.",
+      "checklist": {
+        "title": "Checklist",
+        "point1": "Capturează comerciant, dată, total și TVA/impozit",
+        "point2": "Adaugă categorie și notă (client/proiect)",
+        "point3": "Păstrează copii digitale pentru chitanțe importante",
+        "point4": "Exportă lunar sau trimestrial",
+        "point5": "Separă cheltuielile personale de cele de business"
+      },
+      "faq": {
+        "title": "Întrebări frecvente",
+        "q1": "Ce chitanțe ar trebui să păstrez?",
+        "a1": "Păstrează chitanțe pentru cheltuieli de business și orice vrei să deduci.",
+        "q2": "Cât timp păstrez chitanțele?",
+        "a2": "Depinde de țară — mulți păstrează câțiva ani. Întreabă contabilul pentru reguli locale.",
+        "q3": "Pot exporta pentru contabil?",
+        "a3": "Da — exportul ajută la partajarea datelor organizate și reduce întrebările."
+      },
+      "related": {
+        "title": "Corelate"
+      }
+    }
+  },
+  "integrations": {
+    "index": {
+      "description": "Integrează FlickAI în workflow: exporturi, automatizări și partajare bonuri/cheltuieli.",
+      "heading": "Integrări și workflow-uri",
+      "ideas": {
+        "point1": "Notion: creează un dashboard de cheltuieli.",
+        "point2": "Zapier: creează task-uri/notificări din exporturi.",
+        "point3": "WhatsApp: trimite bonuri unui contabil sau partener.",
+        "title": "Workflow-uri populare"
+      },
+      "intro": "În 2026, utilizatorii se așteaptă la integrare în workflow. FlickAI pune accent pe date portabile și exporturi prietenoase pentru automatizări.",
+      "keywords": "integrări tracker cheltuieli, export cheltuieli Notion, Zapier scanare bonuri, trimite bonuri WhatsApp, automatizare rapoarte cheltuieli, workflow finanțe 2026",
+      "methods": {
+        "point1": "Exportă cheltuieli (CSV/compatibil Excel).",
+        "point2": "Partajează bonuri și rapoarte.",
+        "point3": "Automatizează rutine cu conectori simpli.",
+        "title": "Moduri comune de integrare"
+      },
+      "title": "Integrări și workflow-uri (2026) | FlickAI"
+    }
+  },
   "meta": {
     "lang": "ro",
     "langName": "Română",
     "siteName": "FlickAI",
     "siteUrl": "https://flickai.net"
   },
-  "common": {
-    "features": "Funcționalități",
-    "testimonials": "Testimoniale",
-    "downloadApp": "Descarcă Aplicația",
-    "backToHome": "Înapoi la Pagina Principală",
-    "copyright": "© 2025 FlickAI. Toate drepturile rezervate.",
-    "learnMore": "Află mai mult"
-  },
-  "footer": {
-    "privacyPolicy": "Politica de Confidențialitate",
-    "termsOfService": "Termeni și Condiții",
-    "cookiePolicy": "Politica Cookie"
-  },
-  "waitlist": {
-    "floatButton": "Alătură-te listei",
-    "title": "🚀 Acces Anticipat",
-    "subtitle": "Fii primul care află când FlickAI se lansează pe Android și iOS!",
-    "placeholder": "Introdu adresa de e-mail",
-    "button": "Alătură-te listei",
-    "success": "Mulțumim! Te vom anunța când lansăm. 🎉",
-    "error": "Te rugăm să introduci o adresă de e-mail validă",
-    "networkError": "Ceva nu a mers bine. Te rugăm să încerci din nou.",
-    "alreadyJoined": "Ești deja pe lista de așteptare!"
-  },
-  "home": {
-    "title": "FlickAI - Urmărire Cheltuieli cu IA",
-    "description": "Simplifică urmărirea cheltuielilor cu scanarea bonurilor folosind IA de la FlickAI. Urmărește finanțele fără efort, creează bugete și obține informații financiare.",
-    "keywords": "aplicație cheltuieli, monitorizare cheltuieli, scaner bonuri, finanțe IA, finanțe AI, aplicație buget, finanțe personale, FlickAI, management cheltuieli, urmărire cheltuieli cu IA, urmărire cheltuieli cu AI, monitorizare cheltuieli cu IA, monitorizare cheltuieli cu AI",
-    "ogTitle": "FlickAI - Urmărire Cheltuieli cu IA",
-    "ogDescription": "Simplifică urmărirea cheltuielilor cu scanarea bonurilor folosind IA de la FlickAI. Urmărește finanțele fără efort.",
-    "schemaDescription": "Aplicație de urmărire cheltuieli și scanare bonuri cu IA.",
-    "hero": {
-      "title": "Urmărire Cheltuieli și Scanare Bonuri cu IA",
-      "subtitle": "Urmărește-ți finanțele fără efort cu scanare inteligentă de bonuri și informații automate. Lasă IA-ul să se ocupe de partea plictisitoare.",
-      "getStarted": "Începe Gratuit",
-      "learnMore": "Află Mai Mult"
-    },
-    "features": {
-      "title": "De Ce FlickAI?",
-      "scanning": {
-        "title": "Scanare Inteligentă Bonuri",
-        "description": "Extrage instant comerciantul, articolele și prețurile folosind tehnologie IA avansată."
-      },
-      "analytics": {
-        "title": "Analiză Inteligentă",
-        "description": "Vizualizează tendințe de cheltuieli și primește informații financiare personalizate în limba ta."
-      },
-      "security": {
-        "title": "Securitate la Nivel Bancar",
-        "description": "Datele tale sunt protejate cu criptare end-to-end și autentificare securizată."
-      },
-      "offline": {
-        "title": "Offline și Sincronizare",
-        "description": "Funcționează perfect offline. Modificările se sincronizează automat când ești online din nou."
-      }
-    },
-    "download": {
-      "title": "Începe Să Urmărești Astăzi",
-      "subtitle": "Alătură-te miilor de utilizatori care își controlează finanțele cu FlickAI.",
-      "googlePlay": "Google Play",
-      "appStore": "App Store",
-      "waitlistNote": "Apasă pe butonul „Alătură-te listei” pentru acces anticipat! 🚀"
-    }
-  },
   "privacy": {
-    "title": "Politica de Confidențialitate - FlickAI",
-    "description": "Politica de Confidențialitate pentru FlickAI. Aflați cum colectăm, folosim și protejăm datele dumneavoastră.",
-    "heading": "Politica de Confidențialitate",
-    "lastUpdated": "Ultima actualizare: 28 noiembrie 2025",
-    "introduction": {
-      "title": "1. Introducere",
-      "content": "FlickAI („noi”, „nostru” sau „nouă”) respectă confidențialitatea dumneavoastră și se angajează să vă protejeze datele personale. Această politică de confidențialitate vă va informa despre modul în care ne ocupăm de datele dumneavoastră personale atunci când vizitați site-ul nostru web sau utilizați aplicația noastră mobilă."
+    "contact": {
+      "content": "Dacă aveți întrebări despre această politică de confidențialitate sau despre practicile noastre de confidențialitate, vă rugăm să ne contactați la: support@flickai.net",
+      "title": "5. Contactați-ne"
     },
     "dataCollection": {
-      "title": "2. Datele pe care le Colectăm",
-      "intro": "Putem colecta, utiliza, stoca și transfera diferite tipuri de date personale despre dumneavoastră, pe care le-am grupat după cum urmează:",
-      "identity": "Date de Identitate: include prenumele, numele de familie, numele de utilizator sau identificator similar.",
       "contact": "Date de Contact: include adresa de e-mail.",
+      "identity": "Date de Identitate: include prenumele, numele de familie, numele de utilizator sau identificator similar.",
+      "intro": "Putem colecta, utiliza, stoca și transfera diferite tipuri de date personale despre dumneavoastră, pe care le-am grupat după cum urmează:",
+      "title": "2. Datele pe care le Colectăm",
       "transaction": "Date de Tranzacție: include detalii despre plățile către și de la dumneavoastră și alte detalii despre produsele și serviciile pe care le-ați achiziționat de la noi.",
       "usage": "Date de Utilizare: include informații despre modul în care utilizați site-ul nostru web și aplicațiile."
     },
     "dataUsage": {
-      "title": "3. Cum Folosim Datele Dumneavoastră",
-      "intro": "Vom folosi datele dumneavoastră personale doar atunci când legea ne permite. Cel mai frecvent, vom folosi datele dumneavoastră personale în următoarele circumstanțe:",
       "contract": "Când trebuie să executăm contractul pe care urmează să îl încheiem sau l-am încheiat cu dumneavoastră.",
+      "intro": "Vom folosi datele dumneavoastră personale doar atunci când legea ne permite. Cel mai frecvent, vom folosi datele dumneavoastră personale în următoarele circumstanțe:",
+      "legal": "Când trebuie să respectăm o obligație legală sau de reglementare.",
       "legitimate": "Când este necesar pentru interesele noastre legitime (sau ale unei terțe părți) și interesele și drepturile dumneavoastră fundamentale nu prevalează asupra acelor interese.",
-      "legal": "Când trebuie să respectăm o obligație legală sau de reglementare."
+      "title": "3. Cum Folosim Datele Dumneavoastră"
     },
+    "description": "Politica de Confidențialitate pentru FlickAI. Aflați cum colectăm, folosim și protejăm datele dumneavoastră.",
+    "heading": "Politica de Confidențialitate",
+    "introduction": {
+      "content": "FlickAI („noi”, „nostru” sau „nouă”) respectă confidențialitatea dumneavoastră și se angajează să vă protejeze datele personale. Această politică de confidențialitate vă va informa despre modul în care ne ocupăm de datele dumneavoastră personale atunci când vizitați site-ul nostru web sau utilizați aplicația noastră mobilă.",
+      "title": "1. Introducere"
+    },
+    "lastUpdated": "Ultima actualizare: 28 noiembrie 2025",
     "security": {
-      "title": "4. Securitatea Datelor",
-      "content": "Am implementat măsuri de securitate adecvate pentru a preveni pierderea accidentală, utilizarea sau accesul neautorizat, modificarea sau dezvăluirea datelor dumneavoastră personale."
+      "content": "Am implementat măsuri de securitate adecvate pentru a preveni pierderea accidentală, utilizarea sau accesul neautorizat, modificarea sau dezvăluirea datelor dumneavoastră personale.",
+      "title": "4. Securitatea Datelor"
     },
-    "contact": {
-      "title": "5. Contactați-ne",
-      "content": "Dacă aveți întrebări despre această politică de confidențialitate sau despre practicile noastre de confidențialitate, vă rugăm să ne contactați la: support@flickai.net"
-    }
+    "title": "Politica de Confidențialitate - FlickAI"
   },
   "terms": {
-    "title": "Termeni și Condiții - FlickAI",
+    "agreement": {
+      "content": "Prin accesarea site-ului nostru web sau utilizarea aplicației noastre mobile, sunteți de acord să fiți legat de acești Termeni și Condiții. Dacă nu sunteți de acord cu acești termeni, vă rugăm să nu utilizați serviciile noastre.",
+      "title": "1. Acordul cu Termenii"
+    },
+    "contact": {
+      "content": "Pentru a rezolva o plângere cu privire la Site sau pentru a primi informații suplimentare cu privire la utilizarea Site-ului, vă rugăm să ne contactați la: support@flickai.net",
+      "title": "5. Contactați-ne"
+    },
     "description": "Termeni și Condiții pentru FlickAI. Citiți termenii și condițiile noastre pentru utilizarea serviciilor noastre.",
     "heading": "Termeni și Condiții",
-    "lastUpdated": "Ultima actualizare: 28 noiembrie 2025",
-    "agreement": {
-      "title": "1. Acordul cu Termenii",
-      "content": "Prin accesarea site-ului nostru web sau utilizarea aplicației noastre mobile, sunteți de acord să fiți legat de acești Termeni și Condiții. Dacă nu sunteți de acord cu acești termeni, vă rugăm să nu utilizați serviciile noastre."
-    },
     "intellectual": {
-      "title": "2. Drepturi de Proprietate Intelectuală",
-      "content": "Cu excepția cazului în care se indică altfel, Site-ul și aplicația noastră mobilă sunt proprietatea noastră și tot codul sursă, bazele de date, funcționalitatea, software-ul, designurile site-ului web, audio, video, text, fotografiile și grafica de pe Site (colectiv, „Conținutul”) și mărcile comerciale, mărcile de servicii și siglele conținute în acestea („Mărcile”) sunt deținute sau controlate de noi sau licențiate către noi."
+      "content": "Cu excepția cazului în care se indică altfel, Site-ul și aplicația noastră mobilă sunt proprietatea noastră și tot codul sursă, bazele de date, funcționalitatea, software-ul, designurile site-ului web, audio, video, text, fotografiile și grafica de pe Site (colectiv, „Conținutul”) și mărcile comerciale, mărcile de servicii și siglele conținute în acestea („Mărcile”) sunt deținute sau controlate de noi sau licențiate către noi.",
+      "title": "2. Drepturi de Proprietate Intelectuală"
     },
-    "userRep": {
-      "title": "3. Declarații ale Utilizatorului",
-      "content": "Prin utilizarea Site-ului, declarați și garantați că: (1) toate informațiile de înregistrare pe care le trimiteți vor fi adevărate, exacte, actuale și complete; (2) veți menține acuratețea acestor informații și veți actualiza prompt astfel de informații de înregistrare după cum este necesar."
-    },
+    "lastUpdated": "Ultima actualizare: 28 noiembrie 2025",
     "prohibited": {
-      "title": "4. Activități Interzise",
-      "content": "Nu puteți accesa sau utiliza Site-ul în alt scop decât cel pentru care punem Site-ul la dispoziție. Site-ul nu poate fi utilizat în legătură cu nicio activitate comercială, cu excepția celor care sunt în mod specific aprobate sau aprobate de noi."
+      "content": "Nu puteți accesa sau utiliza Site-ul în alt scop decât cel pentru care punem Site-ul la dispoziție. Site-ul nu poate fi utilizat în legătură cu nicio activitate comercială, cu excepția celor care sunt în mod specific aprobate sau aprobate de noi.",
+      "title": "4. Activități Interzise"
     },
-    "contact": {
-      "title": "5. Contactați-ne",
-      "content": "Pentru a rezolva o plângere cu privire la Site sau pentru a primi informații suplimentare cu privire la utilizarea Site-ului, vă rugăm să ne contactați la: support@flickai.net"
+    "title": "Termeni și Condiții - FlickAI",
+    "userRep": {
+      "content": "Prin utilizarea Site-ului, declarați și garantați că: (1) toate informațiile de înregistrare pe care le trimiteți vor fi adevărate, exacte, actuale și complete; (2) veți menține acuratețea acestor informații și veți actualiza prompt astfel de informații de înregistrare după cum este necesar.",
+      "title": "3. Declarații ale Utilizatorului"
     }
   },
-  "cookie": {
-    "title": "Politica Cookie - FlickAI",
-    "description": "Politica Cookie pentru FlickAI. Înțelegeți cum folosim cookie-urile pentru a vă îmbunătăți experiența.",
-    "heading": "Politica Cookie",
-    "lastUpdated": "Ultima actualizare: 28 noiembrie 2025",
-    "whatAre": {
-      "title": "1. Ce Sunt Cookie-urile",
-      "content": "Cookie-urile sunt fișiere text mici care sunt plasate pe computerul sau dispozitivul dumneavoastră mobil de către site-urile web pe care le vizitați. Sunt utilizate pe scară largă pentru a face site-urile web să funcționeze sau să funcționeze mai eficient, precum și pentru a furniza informații proprietarilor site-ului."
-    },
-    "howWeUse": {
-      "title": "2. Cum Folosim Cookie-urile",
-      "intro": "Folosim cookie-uri din diverse motive detaliate mai jos. Din păcate, în majoritatea cazurilor nu există opțiuni standard din industrie pentru dezactivarea cookie-urilor fără a dezactiva complet funcționalitatea și caracteristicile pe care le adaugă acestui site.",
-      "essential": "Cookie-uri Esențiale: Acestea sunt necesare pentru ca site-ul web să funcționeze corect.",
-      "analytics": "Cookie-uri de Analiză: Acestea ne ajută să înțelegem cum interacționează vizitatorii cu site-ul nostru web.",
-      "functionality": "Cookie-uri de Funcționalitate: Acestea permit site-ului web să își amintească alegerile pe care le faceți."
-    },
-    "disabling": {
-      "title": "3. Dezactivarea Cookie-urilor",
-      "content": "Puteți preveni setarea cookie-urilor prin ajustarea setărilor din browser-ul dumneavoastră (consultați Ajutorul browser-ului pentru a afla cum să faceți acest lucru). Fiți conștienți că dezactivarea cookie-urilor va afecta funcționalitatea acestui site și a multor alte site-uri web pe care le vizitați."
-    },
-    "contact": {
-      "title": "4. Contactați-ne",
-      "content": "Dacă aveți întrebări despre utilizarea cookie-urilor, vă rugăm să ne contactați la: support@flickai.net"
-    }
-  },
-  "gdpr": {
-    "title": "Conformitate GDPR - FlickAI",
-    "description": "Informații despre Conformitatea GDPR pentru FlickAI. Drepturile dumneavoastră conform Regulamentului General privind Protecția Datelor.",
-    "heading": "Conformitate GDPR",
-    "lastUpdated": "Ultima actualizare: 28 noiembrie 2025",
-    "rights": {
-      "title": "1. Drepturile Dumneavoastră",
-      "intro": "Conform Regulamentului General privind Protecția Datelor (GDPR), aveți următoarele drepturi cu privire la datele dumneavoastră personale:",
-      "access": "Dreptul de a accesa datele dumneavoastră personale.",
-      "rectification": "Dreptul la rectificarea datelor inexacte.",
-      "erasure": "Dreptul la ștergere („dreptul de a fi uitat”).",
-      "restrict": "Dreptul de a restricționa prelucrarea.",
-      "portability": "Dreptul la portabilitatea datelor.",
-      "object": "Dreptul de a obiecta la prelucrare."
-    },
-    "processing": {
-      "title": "2. Prelucrarea Datelor",
-      "content": "Prelucrăm datele dumneavoastră în mod legal, corect și transparent. Colectăm date doar în scopuri specificate, explicite și legitime."
-    },
-    "contact": {
-      "title": "3. Contactați DPO",
-      "content": "Pentru a exercita oricare dintre drepturile dumneavoastră sau pentru întrebări privind conformitatea GDPR, vă rugăm să contactați Responsabilul nostru cu Protecția Datelor la: support@flickai.net"
-    }
-  },
-  "accessibility": {
-    "title": "Declarație de Accesibilitate - FlickAI",
-    "description": "Declarație de Accesibilitate pentru FlickAI. Angajamentul nostru față de accesibilitatea digitală.",
-    "heading": "Declarație de Accesibilitate",
-    "lastUpdated": "Ultima actualizare: 28 noiembrie 2025",
-    "commitment": {
-      "title": "1. Angajamentul Nostru",
-      "content": "FlickAI se angajează să asigure accesibilitatea digitală pentru persoanele cu dizabilități. Îmbunătățim continuu experiența utilizatorului pentru toată lumea și aplicăm standardele de accesibilitate relevante."
-    },
-    "conformance": {
-      "title": "2. Starea Conformității",
-      "content": "Ghidurile de Accesibilitate a Conținutului Web (WCAG) definesc cerințe pentru designeri și dezvoltatori pentru a îmbunătăți accesibilitatea pentru persoanele cu dizabilități. Definește trei niveluri de conformitate: Nivel A, Nivel AA și Nivel AAA. FlickAI este parțial conform cu WCAG 2.1 nivel AA."
-    },
-    "feedback": {
-      "title": "3. Feedback",
-      "intro": "Salutăm feedback-ul dumneavoastră cu privire la accesibilitatea FlickAI. Vă rugăm să ne anunțați dacă întâmpinați bariere de accesibilitate pe FlickAI:",
-      "email": "E-mail: support@flickai.net"
-    }
-  },
-  "features": {
-    "scanning": {
-      "title": "Scanare Inteligentă Bonuri - FlickAI",
-      "description": "Extrage instant comerciant, articole și prețuri din bonuri folosind tehnologie IA avansată.",
-      "heading": "Scanare Inteligentă Bonuri",
-      "intro": "Zilele introducerii manuale a datelor s-au terminat. Cu FlickAI, poți digitaliza cheltuielile în câteva secunde doar făcând o fotografie.",
-      "howItWorks": {
-        "title": "Cum Funcționează",
-        "step1": "Deschide aplicația FlickAI și apasă pe pictograma camerei.",
-        "step2": "Aliniază bonul în cadru.",
-        "step3": "Apasă capturează. IA procesează imaginea în câteva secunde.",
-        "step4": "Verifică detaliile extrase și salvează!"
+  "useCases": {
+    "freelancers": {
+      "description": "Urmărește cheltuieli de business, scanează bonuri și fii pregătit pentru taxe ca freelancer. Gratuit pentru început.",
+      "faq": {
+        "a1": "Da — FlickAI te ajută să organizezi cheltuieli pentru evidențe clare.",
+        "a2": "Da — conceput pentru organizarea bonurilor și cheltuielilor deductibile.",
+        "a3": "Da — FlickAI este gratuit pentru început.",
+        "q1": "Pot separa cheltuieli personale și de business?",
+        "q2": "Este util pentru deduceri?",
+        "q3": "Este gratuit pentru început?",
+        "title": "Întrebări frecvente"
       },
-      "whatWeExtract": {
-        "title": "Ce Extragem",
-        "merchant": "Numele Comerciantului: Identificat automat din logo-uri sau text.",
-        "dateTime": "Data și Ora: Înregistrează exact când a avut loc achiziția.",
-        "total": "Suma Totală: Capturează totalul final cu acuratețe.",
-        "items": "Articole Individuale: Extrage articole individuale și prețuri pentru urmărire detaliată."
-      }
-    },
-    "analytics": {
-      "title": "Analiză Inteligentă - FlickAI",
-      "description": "Vizualizează tendințe de cheltuieli și primește informații financiare personalizate în limba ta.",
-      "heading": "Analiză Inteligentă",
-      "intro": "Înțelegerea banilor tăi este primul pas pentru a-i controla. FlickAI oferă informații profunde despre obiceiurile tale de cheltuieli.",
-      "visualTrends": {
-        "title": "Tendințe Vizuale de Cheltuieli",
-        "intro": "Vezi exact unde merg banii tăi cu grafice și diagrame interactive:",
-        "categoryBreakdown": "Defalcare pe Categorii: Diagrame circulare care arată cheltuielile pe categorii (Mâncare, Transport, Utilități, etc.).",
-        "monthlyTrends": "Tendințe Lunare: Grafice cu bare care compară cheltuielile lună de lună.",
-        "merchantAnalysis": "Analiză Comercianți: Vezi la ce magazine cheltuiești cel mai mult."
+      "heading": "Tracker cheltuieli pentru freelanceri",
+      "intro": "Freelancerii au nevoie de o metodă simplă pentru cheltuieli, bonuri și deduceri.",
+      "keywords": "tracker cheltuieli freelancer, cheltuieli freelancer, bonuri freelancer, deduceri freelancer, 2026 aplicație cheltuieli freelancer",
+      "pain": {
+        "point1": "Bonurile se pierd sau se adună.",
+        "point2": "Foile de calcul consumă timp și sunt predispuse la erori.",
+        "point3": "Fără evidențe, sezonul fiscal devine stresant.",
+        "title": "Probleme frecvente"
       },
-      "aiInsights": {
-        "title": "Informații Generate de IA",
-        "intro": "IA-ul nostru nu doar îți arată datele; le și explică. Primește sfaturi personalizate precum:",
-        "example": "\"Ai cheltuit cu 20% mai mult pentru mese în oraș luna aceasta comparativ cu luna trecută. Ia în considerare să gătești acasă săptămâna aceasta pentru a rămâne în buget.\""
-      }
+      "related": {
+        "title": "Legat de"
+      },
+      "solution": {
+        "point1": "Scanare rapidă cu extracție IA.",
+        "point2": "Totaluri pe categorii și comercianți.",
+        "point3": "Funcționează offline când ești pe drum.",
+        "point4": "Gratuit pentru început, upgrade când ai nevoie.",
+        "title": "Cum ajută FlickAI"
+      },
+      "title": "Tracker cheltuieli pentru freelanceri | FlickAI"
     },
-    "security": {
-      "title": "Securitate la Nivel Bancar - FlickAI",
-      "description": "Datele tale sunt protejate cu criptare end-to-end și autentificare securizată.",
-      "heading": "Securitate la Nivel Bancar",
-      "intro": "Datele tale financiare sunt sensibile și le tratăm ca atare. FlickAI folosește măsuri de securitate de top din industrie pentru a-ți păstra informațiile în siguranță.",
-      "measures": {
-        "title": "Măsuri de Securitate",
-        "encryption": "Criptare End-to-End: Toate datele sunt criptate atât în tranzit, cât și în repaus.",
-        "auth": "Autentificare Securizată: Autentificare multi-factor și opțiuni de autentificare biometrică.",
-        "privacy": "Confidențialitate prin Design: Nu vindem niciodată datele tale către terți.",
-        "compliance": "Conformitate: Conform GDPR și urmând cele mai bune practici de securitate."
+    "selfEmployedDeductions": {
+      "basics": {
+        "point1": "Bonuri (comerciant, dată, total).",
+        "point2": "Categorie și note.",
+        "point3": "Istoric căutabil pentru export.",
+        "title": "Ce să urmărești"
+      },
+      "description": "Urmărește cheltuieli deductibile și bonuri: scanezi, categorizezi și exporți când ai nevoie. Gratuit pentru început.",
+      "faq": {
+        "a1": "Nu. Este un workflow de evidență și organizare pentru a rămâne la zi.",
+        "a2": "Da — înregistrezi offline și sincronizezi după.",
+        "a3": "Da — FlickAI este gratuit pentru început.",
+        "q1": "Este consultanță fiscală?",
+        "q2": "Funcționează offline?",
+        "q3": "Este gratuit pentru început?",
+        "title": "Întrebări frecvente"
+      },
+      "heading": "Urmărirea deducerilor fiscale pentru independenți",
+      "intro": "Cele mai bune deduceri sunt cele pe care le poți dovedi. Construiește un istoric curat pe tot anul.",
+      "keywords": "deduceri fiscale PFA, cheltuieli deductibile, bonuri cheltuieli business, 2026 tracker cheltuieli independenți",
+      "related": {
+        "title": "Legat de"
+      },
+      "title": "Deduceri fiscale PFA / independenți: tracker cheltuieli | FlickAI",
+      "workflow": {
+        "step1": "Scanează și salvează bonuri pe măsură ce cheltuiești.",
+        "step2": "Revizuiește categorii și totaluri lunar.",
+        "step3": "Exporți sau partajezi la taxe.",
+        "title": "Un workflow simplu"
       }
     }
+  },
+  "waitlist": {
+    "alreadyJoined": "Ești deja pe lista de așteptare!",
+    "button": "Alătură-te listei",
+    "error": "Te rugăm să introduci o adresă de e-mail validă",
+    "floatButton": "Alătură-te listei",
+    "networkError": "Ceva nu a mers bine. Te rugăm să încerci din nou.",
+    "placeholder": "Introdu adresa de e-mail",
+    "subtitle": "Fii primul care află când FlickAI se lansează pe Android și iOS!",
+    "success": "Mulțumim! Te vom anunța când lansăm. 🎉",
+    "title": "🚀 Acces Anticipat"
   }
 }

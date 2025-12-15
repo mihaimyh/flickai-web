@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="{{meta.lang}}" {{#if (isRTL meta.lang)}}dir="rtl"{{/if}}>
+  {{> head 
+    title=useCases.selfEmployedDeductions.title 
+    description=useCases.selfEmployedDeductions.description 
+    page='use-cases/self-employed-tax-deductions.html'
+    keywords=useCases.selfEmployedDeductions.keywords
+    faq=useCases.selfEmployedDeductions.faq
+  }}
+
+<body>
+  <div id="app">
+    <header class="header">
+      <div class="container header-content">
+        <a href="/{{langPrefix meta.lang}}" class="logo">
+          <span class="logo-text">{{meta.siteName}}</span>
+        </a>
+        <nav class="nav">
+          <a href="/{{langPrefix meta.lang}}#features">{{common.features}}</a>
+          <a href="/{{langPrefix meta.lang}}alternatives/index.html">{{common.alternatives}}</a>
+          <a href="/{{langPrefix meta.lang}}integrations/index.html">{{common.integrations}}</a>
+          <a href="/{{langPrefix meta.lang}}guides/index.html">{{common.guides}}</a>
+          <a href="/{{langPrefix meta.lang}}" class="btn btn-primary">{{common.backToHome}}</a>
+        </nav>
+      </div>
+    </header>
+
+
+    <main class="container section">
+      <h1 class="section-title">{{useCases.selfEmployedDeductions.heading}}</h1>
+      <div class="legal-content">
+        <p class="mb-4">{{useCases.selfEmployedDeductions.intro}}</p>
+
+        <h2 class="mb-4">{{useCases.selfEmployedDeductions.basics.title}}</h2>
+        <ul class="mb-4" style="padding-left: 1.5rem;">
+          <li>{{useCases.selfEmployedDeductions.basics.point1}}</li>
+          <li>{{useCases.selfEmployedDeductions.basics.point2}}</li>
+          <li>{{useCases.selfEmployedDeductions.basics.point3}}</li>
+        </ul>
+
+        <h2 class="mb-4">{{useCases.selfEmployedDeductions.workflow.title}}</h2>
+        <ol class="mb-4" style="padding-left: 1.5rem;">
+          <li>{{useCases.selfEmployedDeductions.workflow.step1}}</li>
+          <li>{{useCases.selfEmployedDeductions.workflow.step2}}</li>
+          <li>{{useCases.selfEmployedDeductions.workflow.step3}}</li>
+        </ol>
+
+        <h2 class="mb-4">{{useCases.selfEmployedDeductions.faq.title}}</h2>
+        <p class="mb-4"><strong>{{useCases.selfEmployedDeductions.faq.q1}}</strong><br>{{useCases.selfEmployedDeductions.faq.a1}}</p>
+        <p class="mb-4"><strong>{{useCases.selfEmployedDeductions.faq.q2}}</strong><br>{{useCases.selfEmployedDeductions.faq.a2}}</p>
+        <p class="mb-4"><strong>{{useCases.selfEmployedDeductions.faq.q3}}</strong><br>{{useCases.selfEmployedDeductions.faq.a3}}</p>
+
+        <h2 class="mb-4">{{useCases.selfEmployedDeductions.related.title}}</h2>
+        <ul class="mb-4" style="padding-left: 1.5rem;">
+          <li><a href="/{{langPrefix meta.lang}}use-cases/expense-tracker-for-freelancers.html">{{useCases.freelancers.heading}}</a></li>
+          <li><a href="/{{langPrefix meta.lang}}features/scan-receipts-for-taxes.html">{{features.taxReceipts.heading}}</a></li>
+          <li><a href="/{{langPrefix meta.lang}}features/receipt-to-excel.html">{{features.receiptToExcel.heading}}</a></li>
+        </ul>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-links">
+          <a href="/{{langPrefix meta.lang}}guides/index.html">{{common.guides}}</a>
+          <a href="/{{langPrefix meta.lang}}alternatives/index.html">{{common.alternatives}}</a>
+          <a href="/{{langPrefix meta.lang}}privacy-policy.html">{{footer.privacyPolicy}}</a>
+          <a href="/{{langPrefix meta.lang}}terms-of-service.html">{{footer.termsOfService}}</a>
+          <a href="/{{langPrefix meta.lang}}cookie-policy.html">{{footer.cookiePolicy}}</a>
+        </div>
+        <p class="copyright">{{common.copyright}}</p>
+      </div>
+    </footer>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

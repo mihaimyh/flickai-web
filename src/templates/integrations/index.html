@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="{{meta.lang}}" {{#if (isRTL meta.lang)}}dir="rtl"{{/if}}>
+  {{> head 
+    title=integrations.index.title 
+    description=integrations.index.description 
+    page='integrations/index.html'
+    keywords=integrations.index.keywords
+  }}
+
+<body>
+  <div id="app">
+    <header class="header">
+      <div class="container header-content">
+        <a href="/{{langPrefix meta.lang}}" class="logo">
+          <span class="logo-text">{{meta.siteName}}</span>
+        </a>
+        <nav class="nav">
+          <a href="/{{langPrefix meta.lang}}#features">{{common.features}}</a>
+          <a href="/{{langPrefix meta.lang}}alternatives/index.html">{{common.alternatives}}</a>
+          <a href="/{{langPrefix meta.lang}}integrations/index.html">{{common.integrations}}</a>
+          <a href="/{{langPrefix meta.lang}}guides/index.html">{{common.guides}}</a>
+          <a href="/{{langPrefix meta.lang}}" class="btn btn-primary">{{common.backToHome}}</a>
+        </nav>
+      </div>
+    </header>
+
+
+    <main class="container section">
+      <h1 class="section-title">{{integrations.index.heading}}</h1>
+      <div class="legal-content">
+        <p class="mb-4">{{integrations.index.intro}}</p>
+
+        <h2 class="mb-4">{{integrations.index.methods.title}}</h2>
+        <ul class="mb-4" style="padding-left: 1.5rem;">
+          <li>{{integrations.index.methods.point1}}</li>
+          <li>{{integrations.index.methods.point2}}</li>
+          <li>{{integrations.index.methods.point3}}</li>
+        </ul>
+
+        <h2 class="mb-4">{{integrations.index.ideas.title}}</h2>
+        <ul class="mb-4" style="padding-left: 1.5rem;">
+          <li>{{integrations.index.ideas.point1}}</li>
+          <li>{{integrations.index.ideas.point2}}</li>
+          <li>{{integrations.index.ideas.point3}}</li>
+        </ul>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-links">
+          <a href="/{{langPrefix meta.lang}}guides/index.html">{{common.guides}}</a>
+          <a href="/{{langPrefix meta.lang}}alternatives/index.html">{{common.alternatives}}</a>
+          <a href="/{{langPrefix meta.lang}}privacy-policy.html">{{footer.privacyPolicy}}</a>
+          <a href="/{{langPrefix meta.lang}}terms-of-service.html">{{footer.termsOfService}}</a>
+          <a href="/{{langPrefix meta.lang}}cookie-policy.html">{{footer.cookiePolicy}}</a>
+        </div>
+        <p class="copyright">{{common.copyright}}</p>
+      </div>
+    </footer>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

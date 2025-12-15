@@ -1,252 +1,733 @@
 {
+  "accessibility": {
+    "commitment": {
+      "content": "FlickAI se compromete a garantizar la accesibilidad digital para personas con discapacidades. Estamos mejorando continuamente la experiencia del usuario para todos y aplicando los estándares de accesibilidad relevantes.",
+      "title": "1. Nuestro Compromiso"
+    },
+    "conformance": {
+      "content": "Las Pautas de Accesibilidad al Contenido Web (WCAG) definen requisitos para diseñadores y desarrolladores para mejorar la accesibilidad para personas con discapacidades. Define tres niveles de conformidad: Nivel A, Nivel AA y Nivel AAA. FlickAI cumple parcialmente con WCAG 2.1 nivel AA.",
+      "title": "2. Estado de Conformidad"
+    },
+    "description": "Declaración de Accesibilidad de FlickAI. Nuestro compromiso con la accesibilidad digital.",
+    "feedback": {
+      "email": "Correo electrónico: support@flickai.net",
+      "intro": "Agradecemos sus comentarios sobre la accesibilidad de FlickAI. Háganos saber si encuentra barreras de accesibilidad en FlickAI:",
+      "title": "3. Comentarios"
+    },
+    "heading": "Declaración de Accesibilidad",
+    "lastUpdated": "Última actualización: 28 de noviembre de 2025",
+    "title": "Declaración de Accesibilidad - FlickAI"
+  },
+  "alternatives": {
+    "backToHub": "Volver a Alternativas",
+    "bestExpenseTrackers": {
+      "criteria": {
+        "point1": "Captura rápida (recibos + entrada)",
+        "point2": "Modo offline y sincronización fiable",
+        "point3": "Opciones privacy-first (sin banco obligatorio)",
+        "point4": "Precio para probar (gratis para empezar)",
+        "title": "Criterios"
+      },
+      "description": "Lista práctica de las mejores apps de gastos 2025–2026: offline, privacidad, automatización y precio.",
+      "faq": {
+        "a1": "Depende de tu flujo: offline si viajas, privacidad si evitas banco, e IA si buscas automatización.",
+        "a2": "Sí — FlickAI es gratis para empezar.",
+        "q1": "¿Cuál es la mejor app de gastos en 2026?",
+        "q2": "¿Hay una app gratis para empezar?",
+        "title": "Preguntas frecuentes"
+      },
+      "heading": "Mejores apps de control de gastos (2025–2026)",
+      "intro": "Nos centramos en necesidades reales: captura rápida, fiabilidad offline y privacidad.",
+      "keywords": "mejor app control de gastos, app presupuesto 2026, app gastos offline, app gastos privada, app gastos IA, gratis para empezar",
+      "list": {
+        "item1": "Gratis para empezar, escaneo IA, flujos offline.",
+        "item2": "YNAB — Método de presupuesto, suscripción.",
+        "item3": "PocketGuard — Presupuesto simplificado.",
+        "item4": "Spendee — Carteras compartidas.",
+        "item5": "Money Manager — Registro diario ligero.",
+        "title": "Mejores opciones"
+      },
+      "title": "Mejores apps de control de gastos (2025-2026)"
+    },
+    "bestReceiptScanners": {
+      "criteria": {
+        "point1": "Precisión OCR (comercio/fecha/total/artículos)",
+        "point2": "Velocidad y facilidad de uso",
+        "point3": "Captura offline",
+        "point4": "Exportación (CSV/Excel)",
+        "title": "Criterios"
+      },
+      "description": "Compara los mejores escáneres de recibos 2025–2026: OCR, captura offline y exportación.",
+      "heading": "Mejores apps para escanear recibos (2025–2026)",
+      "intro": "Para un reporte limpio, importa la precisión OCR y un buen flujo de exportación.",
+      "keywords": "mejor app escanear recibos, OCR recibos, escanear recibos offline, escáner recibos gratis, recibos a Excel, 2026 escáner recibos",
+      "list": {
+        "item1": "Gratis para empezar, extracción IA, orientado a gastos.",
+        "item2": "Expensify — Popular en equipos, suscripción.",
+        "item3": "Zoho Expense — Suite completa.",
+        "item4": "Genius Scan — Excelente escaneo, menos orientado a gastos.",
+        "item5": "CamScanner — Herramienta de escaneo general.",
+        "title": "Mejores opciones"
+      },
+      "title": "Mejores apps para escanear recibos (2025-2026)"
+    },
+    "expensify": {
+      "description": "Alternativas a Expensify con foco en offline, privacidad, simplicidad y automatización con IA.",
+      "heading": "Mejores alternativas a Expensify (2025–2026)",
+      "intro": "Guía práctica para un flujo de gastos más simple y más privado.",
+      "keywords": "alternativas a Expensify, apps como Expensify, alternativa informes de gastos 2026, app gastos offline, app gastos privada, escaneo recibos IA",
+      "list": {
+        "item1": "Gratis para empezar, escaneo IA, offline + privacy-first.",
+        "item2": "Zoho Expense — Suite completa.",
+        "item3": "Concur — Más orientado a empresa.",
+        "item4": "QuickBooks — Más contabilidad.",
+        "item5": "Wave — Básicos accesibles.",
+        "title": "Top alternativas"
+      },
+      "title": "Mejores alternativas a Expensify (2025-2026)",
+      "whatToLookFor": {
+        "point1": "Captura rápida de recibos con OCR fiable",
+        "point2": "Soporte offline para viajes",
+        "point3": "Precios claros (gratis para empezar ayuda a probar)",
+        "title": "Qué buscar"
+      }
+    },
+    "index": {
+      "cta": "FlickAI es gratis para empezar — pensado para offline, privacidad y automatización con IA.",
+      "description": "Guías para comparar las mejores apps de gastos y escáneres de recibos. Offline, privacidad y automatización.",
+      "guides": {
+        "title": "Guías"
+      },
+      "heading": "Top alternativas (2025–2026)",
+      "howToChoose": {
+        "point1": "Elige offline si viajas o quieres fiabilidad.",
+        "point2": "Elige privacidad si no quieres vincular el banco.",
+        "point3": "Elige IA si quieres menos trabajo manual.",
+        "title": "Cómo elegir"
+      },
+      "intro": "¿Buscas una app que se adapte a tu forma de trabajar? Empieza aquí.",
+      "keywords": "alternativas control de gastos, alternativas escáner de recibos, mejores apps gastos 2026, mejor escáner de recibos, app offline, privacidad gastos",
+      "title": "Top alternativas: apps de gastos y escáner de recibos (2025-2026)"
+    },
+    "zoho": {
+      "description": "Alternativas a Zoho Expense para un control de gastos más simple y centrado en recibos.",
+      "heading": "Mejores alternativas a Zoho Expense (2025–2026)",
+      "intro": "Si quieres una herramienta dedicada en lugar de una suite grande, empieza aquí.",
+      "keywords": "alternativas a Zoho Expense, apps como Zoho Expense, app gastos simple, alternativa escáner recibos 2026, gastos offline",
+      "list": {
+        "item1": "Gratis para empezar, IA, offline.",
+        "item2": "Expensify — Fuerte para equipos.",
+        "item3": "Concur — Suite empresa.",
+        "item4": "FreshBooks — Más facturación.",
+        "item5": "Spendee — Presupuesto personal/compartido.",
+        "title": "Top alternativas"
+      },
+      "title": "Mejores alternativas a Zoho Expense (2025-2026)",
+      "whatToLookFor": {
+        "point1": "UX enfocada al seguimiento diario",
+        "point2": "OCR y exportación",
+        "point3": "Opciones offline y privacy-first",
+        "title": "Qué buscar"
+      }
+    }
+  },
+  "common": {
+    "alternatives": "Alternativas",
+    "integrations": "Integraciones",
+    "guides": "Guías",
+    "backToHome": "Volver al Inicio",
+    "copyright": "© 2025 FlickAI. Todos los derechos reservados.",
+    "downloadApp": "Descargar App",
+    "features": "Características",
+    "learnMore": "Saber más",
+    "testimonials": "Testimonios"
+  },
+  "cookie": {
+    "contact": {
+      "content": "Si tiene alguna pregunta sobre nuestro uso de cookies, contáctenos en: support@flickai.net",
+      "title": "4. Contáctenos"
+    },
+    "description": "Política de Cookies de FlickAI. Comprenda cómo usamos las cookies para mejorar su experiencia.",
+    "disabling": {
+      "content": "Puede evitar la configuración de cookies ajustando la configuración de su navegador (consulte la Ayuda de su navegador para saber cómo hacerlo). Tenga en cuenta que deshabilitar las cookies afectará la funcionalidad de este y muchos otros sitios web que visite.",
+      "title": "3. Desactivar las Cookies"
+    },
+    "heading": "Política de Cookies",
+    "howWeUse": {
+      "analytics": "Cookies de Análisis: Estas nos ayudan a entender cómo los visitantes interactúan con nuestro sitio web.",
+      "essential": "Cookies Esenciales: Estas son necesarias para que el sitio web funcione correctamente.",
+      "functionality": "Cookies de Funcionalidad: Estas permiten que el sitio web recuerde las elecciones que hace.",
+      "intro": "Usamos cookies por una variedad de razones detalladas a continuación. Desafortunadamente, en la mayoría de los casos no hay opciones estándar de la industria para deshabilitar las cookies sin deshabilitar completamente la funcionalidad y las características que agregan a este sitio.",
+      "title": "2. Cómo Usamos las Cookies"
+    },
+    "lastUpdated": "Última actualización: 28 de noviembre de 2025",
+    "title": "Política de Cookies - FlickAI",
+    "whatAre": {
+      "content": "Las cookies son pequeños archivos de texto que se colocan en su computadora o dispositivo móvil por los sitios web que visita. Se utilizan ampliamente para hacer que los sitios web funcionen, o funcionen de manera más eficiente, así como para proporcionar información a los propietarios del sitio.",
+      "title": "1. Qué Son las Cookies"
+    }
+  },
+  "features": {
+    "aiAssistant": {
+      "description": "Pregunta por tus gastos, obtén insights y explora flujos conversacionales para 2026. Gratis para empezar.",
+      "faq": {
+        "a1": "Sí — FlickAI es gratis para empezar.",
+        "a2": "FlickAI apoya flujos centrados en privacidad y almacenamiento seguro de recibos.",
+        "a3": "Sí — registra offline y sincroniza después.",
+        "q1": "¿FlickAI es gratis para empezar?",
+        "q2": "¿Es privado?",
+        "q3": "¿Puedo usarlo offline?",
+        "title": "Preguntas frecuentes"
+      },
+      "heading": "Asistente financiero con IA para gastos",
+      "intro": "En 2026, la gente no solo registrará: hará preguntas. FlickAI combina captura rápida con insights tipo asistente.",
+      "keywords": "asistente financiero IA, asistente de gastos IA, chat con mis gastos, presupuesto conversacional, búsquedas por voz gastos, 2026 asistente finanzas",
+      "questions": {
+        "q1": "“¿Cuánto gasté en café el mes pasado?”",
+        "q2": "“¿Qué categorías subieron más este trimestre?”",
+        "q3": "“Muéstrame mis comercios principales.”",
+        "q4": "“¿Dónde puedo recortar gastos esta semana?”",
+        "title": "Preguntas como"
+      },
+      "related": {
+        "title": "Relacionado"
+      },
+      "title": "Asistente financiero con IA para gastos | FlickAI"
+    },
+    "analytics": {
+      "aiInsights": {
+        "example": "\"Has gastado un 20% más en comer fuera este mes en comparación con el mes pasado. Considera cocinar en casa esta semana para mantenerte dentro del presupuesto.\"",
+        "intro": "Nuestra IA no solo te muestra datos; los explica. Obtén consejos personalizados como:",
+        "title": "Información Generada por IA"
+      },
+      "description": "Visualiza tendencias de gastos y obtén información financiera personalizada en tu idioma.",
+      "heading": "Análisis Inteligente",
+      "intro": "Entender tu dinero es el primer paso para controlarlo. FlickAI proporciona información profunda sobre tus hábitos de gasto.",
+      "title": "Análisis Inteligente - FlickAI",
+      "visualTrends": {
+        "categoryBreakdown": "Desglose por Categorías: Gráficos circulares que muestran gastos por categoría (Comida, Transporte, Servicios, etc.).",
+        "intro": "Ve exactamente a dónde va tu dinero con gráficos y diagramas interactivos:",
+        "merchantAnalysis": "Análisis de Comerciantes: Ve en qué tiendas gastas más.",
+        "monthlyTrends": "Tendencias Mensuales: Gráficos de barras que comparan gastos mes a mes.",
+        "title": "Tendencias Visuales de Gastos"
+      }
+    },
+    "offlineTracker": {
+      "description": "Registra gastos sin internet con FlickAI. Funciona offline y sincroniza cuando vuelves a estar en línea. Gratis para empezar.",
+      "faq": {
+        "a1": "Sí: puedes registrar gastos y escanear recibos offline, y luego sincronizar cuando tengas conexión.",
+        "a2": "Sí. FlickAI es gratis para empezar, con mejoras opcionales.",
+        "a3": "El modo offline ayuda a flujos más privados al reducir la dependencia de una conexión permanente.",
+        "a4": "Viajeros, personas que priorizan privacidad y quienes quieren una app fiable sin conexión constante.",
+        "q1": "¿FlickAI funciona sin internet?",
+        "q2": "¿Es gratis para empezar?",
+        "q3": "¿Es más privado usarlo offline?",
+        "q4": "¿Para quién es ideal?",
+        "title": "Preguntas frecuentes"
+      },
+      "heading": "Control de gastos offline (sin internet)",
+      "how": {
+        "step1": "Añade gastos y escanea recibos cuando quieras, incluso offline.",
+        "step2": "Revisa categorías y totales en el dispositivo.",
+        "step3": "Sincroniza cuando vuelvas a estar en línea.",
+        "title": "Cómo funciona"
+      },
+      "intro": "En avión, viajando o con mala cobertura: FlickAI está diseñado para registrar gastos offline y sincronizar después.",
+      "keywords": "control de gastos sin internet, app gastos offline, presupuesto offline, seguimiento de gastos sin conexión, escáner de recibos offline, app de gastos privada, 2026 control de gastos",
+      "related": {
+        "title": "Relacionado"
+      },
+      "title": "Control de gastos sin internet (offline) | FlickAI",
+      "why": {
+        "point1": "Registra gastos de viaje sin depender del roaming o Wi‑Fi.",
+        "point2": "Sigue funcionando en metro, tren o zonas con poca señal.",
+        "point3": "Menos dependencia del cloud para el seguimiento básico.",
+        "title": "Por qué importa el modo offline"
+      }
+    },
+    "onDeviceAI": {
+      "description": "Flujos 2026: IA más privada, escaneo de recibos, uso offline y consultas conversacionales sobre tus gastos. Gratis para empezar.",
+      "faq": {
+        "a1": "Sí — FlickAI es gratis para empezar.",
+        "a2": "Sí. Puedes registrar offline y sincronizar después.",
+        "a3": "Sí — FlickAI está pensado para flujos centrados en privacidad y almacenamiento seguro de recibos.",
+        "q1": "¿Es gratis para empezar?",
+        "q2": "¿Funciona offline?",
+        "q3": "¿Es privacy-first?",
+        "title": "Preguntas frecuentes"
+      },
+      "heading": "IA en el dispositivo para control de gastos (2026)",
+      "intro": "La búsqueda se mueve hacia asistentes y preguntas en lenguaje natural. FlickAI apunta a flujos de IA más privados y compatibles con offline.",
+      "keywords": "IA en el dispositivo gastos, IA privada recibos, OCR recibos en móvil, control de gastos IA offline, asistente financiero 2026, consultas conversacionales gastos",
+      "related": {
+        "title": "Relacionado"
+      },
+      "title": "IA en el dispositivo para gastos (IA privada) | FlickAI",
+      "voice": {
+        "example1": "“¿Cuánto gasté en supermercados el mes pasado?”",
+        "example2": "“Muéstrame mis comercios principales este trimestre.”",
+        "example3": "“¿Qué categorías subieron más?”",
+        "title": "Ejemplos de preguntas estilo 2026"
+      },
+      "what": {
+        "point1": "Escanear y organizar recibos con extracción por IA.",
+        "point2": "Captura fiable incluso con mala conexión.",
+        "point3": "Respuestas tipo “insights” a partir de tus datos (según disponibilidad).",
+        "title": "Qué significa"
+      }
+    },
+    "privacyFirst": {
+      "description": "Control de gastos privacy-first sin obligación de vincular tu banco. Almacenamiento seguro de recibos y flujos offline. Gratis para empezar.",
+      "faq": {
+        "a1": "No. FlickAI funciona sin conexión bancaria obligatoria.",
+        "a2": "No — no vendemos tus datos.",
+        "a3": "Sí. Registra offline y sincroniza después.",
+        "a4": "Sí — FlickAI es gratis para empezar.",
+        "q1": "¿Tengo que conectar mi banco?",
+        "q2": "¿Venden mis datos?",
+        "q3": "¿Puedo usarla offline?",
+        "q4": "¿Es gratis para empezar?",
+        "title": "Preguntas frecuentes"
+      },
+      "heading": "Control de gastos privacy-first (sin vincular banco)",
+      "intro": "Si prefieres mantener el control de tus datos financieros, FlickAI está pensado para un seguimiento privacy-first sin conexión bancaria obligatoria.",
+      "keywords": "app de gastos privada, control de gastos privado, sin sincronización bancaria, sin vincular banco, recibos cifrados, privacidad finanzas, 2026 app gastos privada",
+      "pillars": {
+        "point1": "Sin obligación de sincronización bancaria.",
+        "point2": "Almacenamiento seguro de recibos y buenas prácticas de seguridad.",
+        "point3": "Flujos offline para datos sensibles.",
+        "point4": "Gratis para empezar, mejora cuando lo necesites.",
+        "title": "Privacidad por diseño"
+      },
+      "related": {
+        "title": "Relacionado"
+      },
+      "title": "App de gastos centrada en privacidad (sin banco) | FlickAI"
+    },
+    "receiptToExcel": {
+      "bestFor": {
+        "point1": "Freelancers y autónomos (deducciones).",
+        "point2": "Pequeños equipos que prefieren Excel/CSV.",
+        "point3": "Cualquiera que quiera evitar la carga manual.",
+        "title": "Ideal para"
+      },
+      "description": "Convierte recibos en datos listos para hoja de cálculo: escanea, revisa y exporta para tu gestor/contable. Gratis para empezar.",
+      "faq": {
+        "a1": "Puedes exportar a formatos compatibles con hoja de cálculo (como CSV) que se abren en Excel.",
+        "a2": "Sí. Captura offline y sincroniza después.",
+        "a3": "Sí — FlickAI es gratis para empezar.",
+        "q1": "¿Puedo exportar a Excel?",
+        "q2": "¿Funciona offline?",
+        "q3": "¿Es gratis para empezar?",
+        "title": "Preguntas frecuentes"
+      },
+      "heading": "Escanear recibos a Excel / CSV",
+      "intro": "Si trabajas con hojas de cálculo, FlickAI acelera el paso de papel a datos estructurados.",
+      "keywords": "escanear recibos a Excel, recibo a CSV, OCR recibos hoja de cálculo, extraer datos de recibos, exportar gastos, 2026 OCR recibos",
+      "related": {
+        "title": "Relacionado"
+      },
+      "steps": {
+        "step1": "Escanea un recibo.",
+        "step2": "Revisa comercio, fecha, total y artículos.",
+        "step3": "Exporta a un formato compatible con Excel.",
+        "step4": "Comparte con tu contable o importa a tu flujo.",
+        "title": "Cómo funciona"
+      },
+      "title": "Escanear recibos a Excel / CSV | FlickAI"
+    },
+    "scanning": {
+      "description": "Extrae instantáneamente comerciante, artículos y precios de recibos usando tecnología IA avanzada.",
+      "heading": "Escaneo Inteligente de Recibos",
+      "howItWorks": {
+        "step1": "Abre la aplicación FlickAI y toca el ícono de la cámara.",
+        "step2": "Alinea el recibo en el marco.",
+        "step3": "Toca capturar. La IA procesa la imagen en segundos.",
+        "step4": "¡Revisa los detalles extraídos y guarda!",
+        "title": "Cómo Funciona"
+      },
+      "intro": "Se acabaron los días de entrada manual de datos. Con FlickAI, puedes digitalizar gastos en segundos solo tomando una foto.",
+      "title": "Escaneo Inteligente de Recibos - FlickAI",
+      "whatWeExtract": {
+        "dateTime": "Fecha y Hora: Registra exactamente cuándo ocurrió la compra.",
+        "items": "Artículos Individuales: Extrae artículos individuales y precios para seguimiento detallado.",
+        "merchant": "Nombre del Comerciante: Identificado automáticamente desde logos o texto.",
+        "title": "Qué Extraemos",
+        "total": "Monto Total: Captura el total final con precisión."
+      }
+    },
+    "security": {
+      "description": "Tus datos están protegidos con cifrado de extremo a extremo y autenticación segura.",
+      "heading": "Seguridad de Nivel Bancario",
+      "intro": "Tus datos financieros son sensibles y los tratamos de esa manera. FlickAI emplea medidas de seguridad líderes en la industria para mantener tu información segura.",
+      "measures": {
+        "auth": "Autenticación Segura: Autenticación multifactor y opciones de inicio de sesión biométrico.",
+        "compliance": "Cumplimiento: Cumple con GDPR y sigue las mejores prácticas de seguridad.",
+        "encryption": "Cifrado de Extremo a Extremo: Todos los datos están cifrados tanto en tránsito como en reposo.",
+        "privacy": "Privacidad por Diseño: Nunca vendemos tus datos a terceros.",
+        "title": "Medidas de Seguridad"
+      },
+      "title": "Seguridad de Nivel Bancario - FlickAI"
+    },
+    "taxReceipts": {
+      "checklist": {
+        "point1": "Escanea y guarda recibos al momento.",
+        "point2": "Sigue totales por categoría (viajes, comidas, material…).",
+        "point3": "Conserva comercio, fecha y total de forma clara.",
+        "point4": "Exporta o comparte cuando toque presentar.",
+        "title": "Checklist fiscal"
+      },
+      "description": "Organiza recibos para la campaña fiscal: escanea, categoriza y mantén gastos deducibles buscables. Gratis para empezar.",
+      "faq": {
+        "a1": "No. FlickAI ayuda a organizar registros y recibos para tus flujos fiscales.",
+        "a2": "Sí — pensado para autónomos y freelancers que necesitan controlar deducciones.",
+        "a3": "Sí. Registra y escanea offline, y sincroniza después.",
+        "a4": "Sí — FlickAI es gratis para empezar.",
+        "q1": "¿Es un servicio para presentar impuestos?",
+        "q2": "¿Sirve para autónomos?",
+        "q3": "¿Funciona offline?",
+        "q4": "¿Es gratis para empezar?",
+        "title": "Preguntas frecuentes"
+      },
+      "heading": "Escanear recibos para impuestos",
+      "intro": "La declaración es más fácil cuando tus recibos están organizados y son buscables. FlickAI te ayuda a llevar el control durante el año.",
+      "keywords": "escanear recibos para impuestos, app recibos impuestos, gastos deducibles, organizar recibos fiscal, autónomos impuestos, 2026 app recibos",
+      "related": {
+        "title": "Relacionado"
+      },
+      "title": "Escanear recibos para impuestos (gastos deducibles) | FlickAI"
+    }
+  },
+  "footer": {
+    "cookiePolicy": "Política de Cookies",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio"
+  },
+  "gdpr": {
+    "contact": {
+      "content": "Para ejercer cualquiera de sus derechos o para preguntas sobre el cumplimiento de GDPR, contáctenos con nuestro Oficial de Protección de Datos en: support@flickai.net",
+      "title": "3. Contactar al DPO"
+    },
+    "description": "Información de Cumplimiento GDPR de FlickAI. Sus derechos bajo el Reglamento General de Protección de Datos.",
+    "heading": "Cumplimiento GDPR",
+    "lastUpdated": "Última actualización: 28 de noviembre de 2025",
+    "processing": {
+      "content": "Procesamos sus datos de manera legal, justa y transparente. Solo recopilamos datos para fines específicos, explícitos y legítimos.",
+      "title": "2. Procesamiento de Datos"
+    },
+    "rights": {
+      "access": "El derecho a acceder a sus datos personales.",
+      "erasure": "El derecho al borrado (\"derecho al olvido\").",
+      "intro": "Bajo el Reglamento General de Protección de Datos (GDPR), tiene los siguientes derechos con respecto a sus datos personales:",
+      "object": "El derecho a oponerse al procesamiento.",
+      "portability": "El derecho a la portabilidad de datos.",
+      "rectification": "El derecho a la rectificación de datos inexactos.",
+      "restrict": "El derecho a restringir el procesamiento.",
+      "title": "1. Sus Derechos"
+    },
+    "title": "Cumplimiento GDPR - FlickAI"
+  },
+  "home": {
+    "description": "Simplifica el seguimiento de gastos con el escaneo de recibos con IA de FlickAI. Rastrea finanzas sin esfuerzo, crea presupuestos y obtén información financiera.",
+    "download": {
+      "appStore": "App Store",
+      "googlePlay": "Google Play",
+      "subtitle": "Únete a miles de usuarios que toman control de sus finanzas con FlickAI.",
+      "title": "Comienza a Rastrear Hoy",
+      "waitlistNote": "¡Haz clic en \"Unirse a Lista\" para obtener acceso anticipado! 🚀"
+    },
+    "features": {
+      "analytics": {
+        "description": "Visualiza tendencias de gastos y obtén información financiera personalizada en tu idioma.",
+        "title": "Análisis Inteligente"
+      },
+      "offline": {
+        "description": "Funciona perfectamente sin conexión. Los cambios se sincronizan automáticamente cuando vuelves en línea.",
+        "title": "Sin Conexión y Sincronización"
+      },
+      "scanning": {
+        "description": "Extrae instantáneamente comerciante, artículos y precios usando tecnología IA avanzada.",
+        "title": "Escaneo Inteligente de Recibos"
+      },
+      "security": {
+        "description": "Tus datos están protegidos con cifrado de extremo a extremo y autenticación segura.",
+        "title": "Seguridad de Nivel Bancario"
+      },
+      "title": "¿Por Qué Elegir FlickAI?"
+    },
+    "hero": {
+      "getStarted": "Comenzar Gratis",
+      "learnMore": "Saber Más",
+      "subtitle": "Rastrea tus finanzas sin esfuerzo con escaneo inteligente de recibos e información automatizada. Deja que la IA maneje lo aburrido.",
+      "title": "Rastreador de Gastos y Escaneo de Recibos con IA"
+    },
+    "keywords": "rastreador de gastos, monitor de gastos, escáner de recibos, finanzas con IA, finanzas con AI, app de presupuesto, finanzas personales, FlickAI, gestión de gastos, rastreador de gastos con IA, rastreador de gastos con AI, monitor de gastos con IA, monitor de gastos con AI",
+    "ogDescription": "Simplifica el seguimiento de gastos con el escaneo de recibos con IA de FlickAI. Rastrea finanzas sin esfuerzo.",
+    "ogTitle": "FlickAI - Rastreador de Gastos con IA",
+    "schemaDescription": "Aplicación de seguimiento de gastos y escaneo de recibos con IA.",
+    "title": "FlickAI - Rastreador de Gastos con IA"
+  },
+  "guides": {
+    "index": {
+      "title": "Guías de gastos y escaneo de recibos | FlickAI",
+      "description": "Guías prácticas para escanear recibos, llevar gastos sin conexión y exportar para impuestos. Gratis para empezar.",
+      "keywords": "recibo a excel, recibo a csv, seguimiento de gastos offline, checklist de recibos impuestos, consejos escáner de recibos",
+      "heading": "Guías",
+      "intro": "Guías simples para escanear recibos, controlar gastos sin internet y estar listo para impuestos.",
+      "guides": {
+        "title": "Guías populares"
+      },
+      "cta": "FlickAI es gratis para empezar — pensado para escaneo de recibos y gastos offline, con enfoque en privacidad."
+    },
+    "receiptToExcel": {
+      "title": "Cómo pasar recibos a Excel (CSV) | Guía FlickAI",
+      "description": "Paso a paso: escanea recibos, revisa los datos y exporta a Excel/CSV para impuestos, contabilidad o reportes.",
+      "keywords": "recibo a excel, recibo a csv, exportar recibos, escáner recibos excel, exportar gastos",
+      "heading": "Recibo a Excel: del escaneo a la hoja",
+      "snippet": "Convierte recibos en Excel/CSV en minutos.",
+      "intro": "Para una hoja limpia, usa campos consistentes (comercio, fecha, total), corrige errores de OCR y exporta a un formato compatible.",
+      "steps": {
+        "title": "Pasos",
+        "step1": "Escanea los recibos y confirma comercio/fecha/total.",
+        "step2": "Corrige errores de OCR (impuestos, propinas, moneda, líneas).",
+        "step3": "Categoriza para mantener consistencia.",
+        "step4": "Exporta a Excel/CSV y compártelo si hace falta."
+      },
+      "pitfalls": {
+        "title": "Errores comunes",
+        "point1": "Monedas mezcladas al viajar",
+        "point2": "Falta el IVA/impuesto",
+        "point3": "Categorías inconsistentes mes a mes"
+      },
+      "faq": {
+        "title": "Preguntas frecuentes",
+        "q1": "¿FlickAI es gratis para empezar?",
+        "a1": "Sí — FlickAI es gratis para empezar.",
+        "q2": "¿Funciona sin internet?",
+        "a2": "Sí — puedes escanear y registrar gastos offline y sincronizar después.",
+        "q3": "¿Puedo exportar a Excel?",
+        "a3": "Sí — puedes exportar a formatos compatibles como CSV."
+      },
+      "related": {
+        "title": "Relacionado"
+      }
+    },
+    "offlineExpenseTracking": {
+      "title": "Gastos sin conexión: checklist práctica | Guía FlickAI",
+      "description": "Checklist simple para controlar gastos offline al viajar, con poca señal o si prefieres un flujo privacy-first.",
+      "keywords": "seguimiento de gastos offline, gastos viaje sin internet, gastos privacidad, app gastos sin conexión",
+      "heading": "Seguimiento de gastos offline (checklist)",
+      "snippet": "Registra gastos sin depender de internet.",
+      "intro": "El modo offline es fiabilidad: captura recibos y gastos al momento, y sincroniza cuando quieras.",
+      "checklist": {
+        "title": "Checklist",
+        "point1": "Asegura que la captura funcione sin conexión",
+        "point2": "Estandariza categorías (viaje, comidas, suministros)",
+        "point3": "Revisa semanalmente para detectar errores",
+        "point4": "Exporta copias de seguridad para tu contable"
+      },
+      "faq": {
+        "title": "Preguntas frecuentes",
+        "q1": "¿Por qué importa el modo offline?",
+        "a1": "Evita perder recibos o entradas cuando no hay señal.",
+        "q2": "¿Es más privado?",
+        "a2": "Puede ser — un flujo offline-first reduce compartición innecesaria y te da más control.",
+        "q3": "¿Cuándo sincronizo?",
+        "a3": "Cuando te convenga y sea seguro — por ejemplo, en Wi‑Fi de confianza."
+      },
+      "related": {
+        "title": "Relacionado"
+      }
+    },
+    "taxReceiptsChecklist": {
+      "title": "Checklist de recibos para impuestos (autónomos) | Guía FlickAI",
+      "description": "Checklist clara para tener recibos listos para impuestos: qué capturar, cómo etiquetar y cómo exportar para deducciones.",
+      "keywords": "checklist recibos impuestos, organizar recibos, deducciones autónomos, recibos contable",
+      "heading": "Checklist de recibos para impuestos",
+      "snippet": "Organízate para la campaña fiscal.",
+      "intro": "Una buena organización ahorra horas. Usa esta checklist para que tus recibos sean completos, buscables y exportables.",
+      "checklist": {
+        "title": "Checklist",
+        "point1": "Captura comercio, fecha, total e impuestos",
+        "point2": "Añade categoría y nota (cliente/proyecto)",
+        "point3": "Guarda copias digitales de recibos importantes",
+        "point4": "Exporta mensual o trimestralmente",
+        "point5": "Separa gastos personales y de negocio"
+      },
+      "faq": {
+        "title": "Preguntas frecuentes",
+        "q1": "¿Qué recibos debo guardar?",
+        "a1": "Guarda recibos de compras relacionadas con tu actividad y lo que vayas a deducir.",
+        "q2": "¿Cuánto tiempo los guardo?",
+        "a2": "Depende del país — muchas personas guardan registros varios años. Consulta a tu asesor.",
+        "q3": "¿Puedo exportar para mi contable?",
+        "a3": "Sí — exportar ayuda a compartir datos organizados y reduce preguntas."
+      },
+      "related": {
+        "title": "Relacionado"
+      }
+    }
+  },
+  "integrations": {
+    "index": {
+      "description": "Integra FlickAI en tu flujo: exportaciones, automatizaciones y compartir recibos/gastos.",
+      "heading": "Integraciones y flujos de trabajo",
+      "ideas": {
+        "point1": "Notion: crear un panel de gastos.",
+        "point2": "Zapier: crear tareas/avisos desde exportaciones.",
+        "point3": "WhatsApp: compartir recibos con un socio o contable.",
+        "title": "Flujos populares"
+      },
+      "intro": "En 2026, se espera que las apps se integren en flujos. FlickAI prioriza datos portables y exportaciones para automatizar.",
+      "keywords": "integraciones control de gastos, exportar gastos a Notion, Zapier escáner recibos, enviar recibos por WhatsApp, automatizar reportes de gastos, 2026 flujo finanzas",
+      "methods": {
+        "point1": "Exporta gastos (CSV/compatible con Excel).",
+        "point2": "Comparte recibos e informes.",
+        "point3": "Automatiza rutinas con conectores ligeros.",
+        "title": "Formas comunes de integrar"
+      },
+      "title": "Integraciones y flujos de trabajo (2026) | FlickAI"
+    }
+  },
   "meta": {
     "lang": "es",
     "langName": "Español",
     "siteName": "FlickAI",
     "siteUrl": "https://flickai.net"
   },
-  "common": {
-    "features": "Características",
-    "testimonials": "Testimonios",
-    "downloadApp": "Descargar App",
-    "backToHome": "Volver al Inicio",
-    "copyright": "© 2025 FlickAI. Todos los derechos reservados.",
-    "learnMore": "Saber más"
-  },
-  "footer": {
-    "privacyPolicy": "Política de Privacidad",
-    "termsOfService": "Términos de Servicio",
-    "cookiePolicy": "Política de Cookies"
-  },
-  "waitlist": {
-    "floatButton": "Unirse a Lista",
-    "title": "🚀 Acceso Anticipado",
-    "subtitle": "¡Sé el primero en saber cuando FlickAI lance en Android e iOS!",
-    "placeholder": "Ingresa tu correo",
-    "button": "Unirse a la Lista",
-    "success": "¡Gracias! Te notificaremos cuando lancemos. 🎉",
-    "error": "Por favor ingresa un correo válido",
-    "networkError": "Algo salió mal. Por favor intenta de nuevo.",
-    "alreadyJoined": "¡Ya estás en la lista de espera!"
-  },
-  "home": {
-    "title": "FlickAI - Rastreador de Gastos con IA",
-    "description": "Simplifica el seguimiento de gastos con el escaneo de recibos con IA de FlickAI. Rastrea finanzas sin esfuerzo, crea presupuestos y obtén información financiera.",
-    "keywords": "rastreador de gastos, monitor de gastos, escáner de recibos, finanzas con IA, finanzas con AI, app de presupuesto, finanzas personales, FlickAI, gestión de gastos, rastreador de gastos con IA, rastreador de gastos con AI, monitor de gastos con IA, monitor de gastos con AI",
-    "ogTitle": "FlickAI - Rastreador de Gastos con IA",
-    "ogDescription": "Simplifica el seguimiento de gastos con el escaneo de recibos con IA de FlickAI. Rastrea finanzas sin esfuerzo.",
-    "schemaDescription": "Aplicación de seguimiento de gastos y escaneo de recibos con IA.",
-    "hero": {
-      "title": "Rastreador de Gastos y Escaneo de Recibos con IA",
-      "subtitle": "Rastrea tus finanzas sin esfuerzo con escaneo inteligente de recibos e información automatizada. Deja que la IA maneje lo aburrido.",
-      "getStarted": "Comenzar Gratis",
-      "learnMore": "Saber Más"
-    },
-    "features": {
-      "title": "¿Por Qué Elegir FlickAI?",
-      "scanning": {
-        "title": "Escaneo Inteligente de Recibos",
-        "description": "Extrae instantáneamente comerciante, artículos y precios usando tecnología IA avanzada."
-      },
-      "analytics": {
-        "title": "Análisis Inteligente",
-        "description": "Visualiza tendencias de gastos y obtén información financiera personalizada en tu idioma."
-      },
-      "security": {
-        "title": "Seguridad de Nivel Bancario",
-        "description": "Tus datos están protegidos con cifrado de extremo a extremo y autenticación segura."
-      },
-      "offline": {
-        "title": "Sin Conexión y Sincronización",
-        "description": "Funciona perfectamente sin conexión. Los cambios se sincronizan automáticamente cuando vuelves en línea."
-      }
-    },
-    "download": {
-      "title": "Comienza a Rastrear Hoy",
-      "subtitle": "Únete a miles de usuarios que toman control de sus finanzas con FlickAI.",
-      "googlePlay": "Google Play",
-      "appStore": "App Store",
-      "waitlistNote": "¡Haz clic en \"Unirse a Lista\" para obtener acceso anticipado! 🚀"
-    }
-  },
   "privacy": {
-    "title": "Política de Privacidad - FlickAI",
-    "description": "Política de Privacidad de FlickAI. Conozca cómo recopilamos, usamos y protegemos sus datos.",
-    "heading": "Política de Privacidad",
-    "lastUpdated": "Última actualización: 28 de noviembre de 2025",
-    "introduction": {
-      "title": "1. Introducción",
-      "content": "FlickAI (\"nosotros\", \"nuestro\" o \"nos\") respeta su privacidad y se compromete a proteger sus datos personales. Esta política de privacidad le informará sobre cómo cuidamos sus datos personales cuando visita nuestro sitio web o utiliza nuestra aplicación móvil."
+    "contact": {
+      "content": "Si tiene alguna pregunta sobre esta política de privacidad o nuestras prácticas de privacidad, contáctenos en: support@flickai.net",
+      "title": "5. Contáctenos"
     },
     "dataCollection": {
-      "title": "2. Datos que Recopilamos",
-      "intro": "Podemos recopilar, usar, almacenar y transferir diferentes tipos de datos personales sobre usted que hemos agrupado de la siguiente manera:",
-      "identity": "Datos de Identidad: incluye nombre, apellido, nombre de usuario o identificador similar.",
       "contact": "Datos de Contacto: incluye dirección de correo electrónico.",
+      "identity": "Datos de Identidad: incluye nombre, apellido, nombre de usuario o identificador similar.",
+      "intro": "Podemos recopilar, usar, almacenar y transferir diferentes tipos de datos personales sobre usted que hemos agrupado de la siguiente manera:",
+      "title": "2. Datos que Recopilamos",
       "transaction": "Datos de Transacción: incluye detalles sobre pagos hacia y desde usted y otros detalles de productos y servicios que ha comprado de nosotros.",
       "usage": "Datos de Uso: incluye información sobre cómo utiliza nuestro sitio web y aplicaciones."
     },
     "dataUsage": {
-      "title": "3. Cómo Usamos sus Datos",
-      "intro": "Solo usaremos sus datos personales cuando la ley nos lo permita. Más comúnmente, usaremos sus datos personales en las siguientes circunstancias:",
       "contract": "Cuando necesitemos cumplir el contrato que estamos a punto de celebrar o hemos celebrado con usted.",
+      "intro": "Solo usaremos sus datos personales cuando la ley nos lo permita. Más comúnmente, usaremos sus datos personales en las siguientes circunstancias:",
+      "legal": "Cuando necesitemos cumplir con una obligación legal o regulatoria.",
       "legitimate": "Cuando sea necesario para nuestros intereses legítimos (o los de un tercero) y sus intereses y derechos fundamentales no prevalezcan sobre esos intereses.",
-      "legal": "Cuando necesitemos cumplir con una obligación legal o regulatoria."
+      "title": "3. Cómo Usamos sus Datos"
     },
+    "description": "Política de Privacidad de FlickAI. Conozca cómo recopilamos, usamos y protegemos sus datos.",
+    "heading": "Política de Privacidad",
+    "introduction": {
+      "content": "FlickAI (\"nosotros\", \"nuestro\" o \"nos\") respeta su privacidad y se compromete a proteger sus datos personales. Esta política de privacidad le informará sobre cómo cuidamos sus datos personales cuando visita nuestro sitio web o utiliza nuestra aplicación móvil.",
+      "title": "1. Introducción"
+    },
+    "lastUpdated": "Última actualización: 28 de noviembre de 2025",
     "security": {
-      "title": "4. Seguridad de los Datos",
-      "content": "Hemos implementado medidas de seguridad apropiadas para prevenir que sus datos personales se pierdan accidentalmente, se usen o accedan de manera no autorizada, se alteren o se divulguen."
+      "content": "Hemos implementado medidas de seguridad apropiadas para prevenir que sus datos personales se pierdan accidentalmente, se usen o accedan de manera no autorizada, se alteren o se divulguen.",
+      "title": "4. Seguridad de los Datos"
     },
-    "contact": {
-      "title": "5. Contáctenos",
-      "content": "Si tiene alguna pregunta sobre esta política de privacidad o nuestras prácticas de privacidad, contáctenos en: support@flickai.net"
-    }
+    "title": "Política de Privacidad - FlickAI"
   },
   "terms": {
-    "title": "Términos de Servicio - FlickAI",
+    "agreement": {
+      "content": "Al acceder a nuestro sitio web o usar nuestra aplicación móvil, acepta estar sujeto a estos Términos de Servicio. Si no está de acuerdo con estos términos, no utilice nuestros servicios.",
+      "title": "1. Acuerdo con los Términos"
+    },
+    "contact": {
+      "content": "Para resolver una queja sobre el Sitio o para recibir más información sobre el uso del Sitio, contáctenos en: support@flickai.net",
+      "title": "5. Contáctenos"
+    },
     "description": "Términos de Servicio de FlickAI. Lea nuestros términos y condiciones para usar nuestros servicios.",
     "heading": "Términos de Servicio",
-    "lastUpdated": "Última actualización: 28 de noviembre de 2025",
-    "agreement": {
-      "title": "1. Acuerdo con los Términos",
-      "content": "Al acceder a nuestro sitio web o usar nuestra aplicación móvil, acepta estar sujeto a estos Términos de Servicio. Si no está de acuerdo con estos términos, no utilice nuestros servicios."
-    },
     "intellectual": {
-      "title": "2. Derechos de Propiedad Intelectual",
-      "content": "A menos que se indique lo contrario, el Sitio y nuestra aplicación móvil son de nuestra propiedad y todo el código fuente, bases de datos, funcionalidad, software, diseños del sitio web, audio, video, texto, fotografías y gráficos en el Sitio (colectivamente, el \"Contenido\") y las marcas comerciales, marcas de servicio y logotipos contenidos en él (las \"Marcas\") son de nuestra propiedad o están controlados por nosotros o licenciados a nosotros."
+      "content": "A menos que se indique lo contrario, el Sitio y nuestra aplicación móvil son de nuestra propiedad y todo el código fuente, bases de datos, funcionalidad, software, diseños del sitio web, audio, video, texto, fotografías y gráficos en el Sitio (colectivamente, el \"Contenido\") y las marcas comerciales, marcas de servicio y logotipos contenidos en él (las \"Marcas\") son de nuestra propiedad o están controlados por nosotros o licenciados a nosotros.",
+      "title": "2. Derechos de Propiedad Intelectual"
     },
-    "userRep": {
-      "title": "3. Declaraciones del Usuario",
-      "content": "Al usar el Sitio, declara y garantiza que: (1) toda la información de registro que envíe será verdadera, precisa, actual y completa; (2) mantendrá la precisión de dicha información y actualizará rápidamente dicha información de registro según sea necesario."
-    },
+    "lastUpdated": "Última actualización: 28 de noviembre de 2025",
     "prohibited": {
-      "title": "4. Actividades Prohibidas",
-      "content": "No puede acceder o usar el Sitio para ningún propósito que no sea aquel para el cual ponemos el Sitio a disposición. El Sitio no puede usarse en relación con ningún esfuerzo comercial excepto aquellos que estén específicamente respaldados o aprobados por nosotros."
+      "content": "No puede acceder o usar el Sitio para ningún propósito que no sea aquel para el cual ponemos el Sitio a disposición. El Sitio no puede usarse en relación con ningún esfuerzo comercial excepto aquellos que estén específicamente respaldados o aprobados por nosotros.",
+      "title": "4. Actividades Prohibidas"
     },
-    "contact": {
-      "title": "5. Contáctenos",
-      "content": "Para resolver una queja sobre el Sitio o para recibir más información sobre el uso del Sitio, contáctenos en: support@flickai.net"
+    "title": "Términos de Servicio - FlickAI",
+    "userRep": {
+      "content": "Al usar el Sitio, declara y garantiza que: (1) toda la información de registro que envíe será verdadera, precisa, actual y completa; (2) mantendrá la precisión de dicha información y actualizará rápidamente dicha información de registro según sea necesario.",
+      "title": "3. Declaraciones del Usuario"
     }
   },
-  "cookie": {
-    "title": "Política de Cookies - FlickAI",
-    "description": "Política de Cookies de FlickAI. Comprenda cómo usamos las cookies para mejorar su experiencia.",
-    "heading": "Política de Cookies",
-    "lastUpdated": "Última actualización: 28 de noviembre de 2025",
-    "whatAre": {
-      "title": "1. Qué Son las Cookies",
-      "content": "Las cookies son pequeños archivos de texto que se colocan en su computadora o dispositivo móvil por los sitios web que visita. Se utilizan ampliamente para hacer que los sitios web funcionen, o funcionen de manera más eficiente, así como para proporcionar información a los propietarios del sitio."
-    },
-    "howWeUse": {
-      "title": "2. Cómo Usamos las Cookies",
-      "intro": "Usamos cookies por una variedad de razones detalladas a continuación. Desafortunadamente, en la mayoría de los casos no hay opciones estándar de la industria para deshabilitar las cookies sin deshabilitar completamente la funcionalidad y las características que agregan a este sitio.",
-      "essential": "Cookies Esenciales: Estas son necesarias para que el sitio web funcione correctamente.",
-      "analytics": "Cookies de Análisis: Estas nos ayudan a entender cómo los visitantes interactúan con nuestro sitio web.",
-      "functionality": "Cookies de Funcionalidad: Estas permiten que el sitio web recuerde las elecciones que hace."
-    },
-    "disabling": {
-      "title": "3. Desactivar las Cookies",
-      "content": "Puede evitar la configuración de cookies ajustando la configuración de su navegador (consulte la Ayuda de su navegador para saber cómo hacerlo). Tenga en cuenta que deshabilitar las cookies afectará la funcionalidad de este y muchos otros sitios web que visite."
-    },
-    "contact": {
-      "title": "4. Contáctenos",
-      "content": "Si tiene alguna pregunta sobre nuestro uso de cookies, contáctenos en: support@flickai.net"
-    }
-  },
-  "gdpr": {
-    "title": "Cumplimiento GDPR - FlickAI",
-    "description": "Información de Cumplimiento GDPR de FlickAI. Sus derechos bajo el Reglamento General de Protección de Datos.",
-    "heading": "Cumplimiento GDPR",
-    "lastUpdated": "Última actualización: 28 de noviembre de 2025",
-    "rights": {
-      "title": "1. Sus Derechos",
-      "intro": "Bajo el Reglamento General de Protección de Datos (GDPR), tiene los siguientes derechos con respecto a sus datos personales:",
-      "access": "El derecho a acceder a sus datos personales.",
-      "rectification": "El derecho a la rectificación de datos inexactos.",
-      "erasure": "El derecho al borrado (\"derecho al olvido\").",
-      "restrict": "El derecho a restringir el procesamiento.",
-      "portability": "El derecho a la portabilidad de datos.",
-      "object": "El derecho a oponerse al procesamiento."
-    },
-    "processing": {
-      "title": "2. Procesamiento de Datos",
-      "content": "Procesamos sus datos de manera legal, justa y transparente. Solo recopilamos datos para fines específicos, explícitos y legítimos."
-    },
-    "contact": {
-      "title": "3. Contactar al DPO",
-      "content": "Para ejercer cualquiera de sus derechos o para preguntas sobre el cumplimiento de GDPR, contáctenos con nuestro Oficial de Protección de Datos en: support@flickai.net"
-    }
-  },
-  "accessibility": {
-    "title": "Declaración de Accesibilidad - FlickAI",
-    "description": "Declaración de Accesibilidad de FlickAI. Nuestro compromiso con la accesibilidad digital.",
-    "heading": "Declaración de Accesibilidad",
-    "lastUpdated": "Última actualización: 28 de noviembre de 2025",
-    "commitment": {
-      "title": "1. Nuestro Compromiso",
-      "content": "FlickAI se compromete a garantizar la accesibilidad digital para personas con discapacidades. Estamos mejorando continuamente la experiencia del usuario para todos y aplicando los estándares de accesibilidad relevantes."
-    },
-    "conformance": {
-      "title": "2. Estado de Conformidad",
-      "content": "Las Pautas de Accesibilidad al Contenido Web (WCAG) definen requisitos para diseñadores y desarrolladores para mejorar la accesibilidad para personas con discapacidades. Define tres niveles de conformidad: Nivel A, Nivel AA y Nivel AAA. FlickAI cumple parcialmente con WCAG 2.1 nivel AA."
-    },
-    "feedback": {
-      "title": "3. Comentarios",
-      "intro": "Agradecemos sus comentarios sobre la accesibilidad de FlickAI. Háganos saber si encuentra barreras de accesibilidad en FlickAI:",
-      "email": "Correo electrónico: support@flickai.net"
-    }
-  },
-  "features": {
-    "scanning": {
-      "title": "Escaneo Inteligente de Recibos - FlickAI",
-      "description": "Extrae instantáneamente comerciante, artículos y precios de recibos usando tecnología IA avanzada.",
-      "heading": "Escaneo Inteligente de Recibos",
-      "intro": "Se acabaron los días de entrada manual de datos. Con FlickAI, puedes digitalizar gastos en segundos solo tomando una foto.",
-      "howItWorks": {
-        "title": "Cómo Funciona",
-        "step1": "Abre la aplicación FlickAI y toca el ícono de la cámara.",
-        "step2": "Alinea el recibo en el marco.",
-        "step3": "Toca capturar. La IA procesa la imagen en segundos.",
-        "step4": "¡Revisa los detalles extraídos y guarda!"
+  "useCases": {
+    "freelancers": {
+      "description": "Registra gastos profesionales, escanea recibos y mantente listo para impuestos como freelancer. Gratis para empezar.",
+      "faq": {
+        "a1": "Sí — FlickAI te ayuda a organizar gastos para mantener registros claros.",
+        "a2": "Sí — pensado para organizar recibos y gastos deducibles.",
+        "a3": "Sí — FlickAI es gratis para empezar.",
+        "q1": "¿Puedo separar gastos personales y de negocio?",
+        "q2": "¿Sirve para deducciones?",
+        "q3": "¿Es gratis para empezar?",
+        "title": "Preguntas frecuentes"
       },
-      "whatWeExtract": {
-        "title": "Qué Extraemos",
-        "merchant": "Nombre del Comerciante: Identificado automáticamente desde logos o texto.",
-        "dateTime": "Fecha y Hora: Registra exactamente cuándo ocurrió la compra.",
-        "total": "Monto Total: Captura el total final con precisión.",
-        "items": "Artículos Individuales: Extrae artículos individuales y precios para seguimiento detallado."
-      }
-    },
-    "analytics": {
-      "title": "Análisis Inteligente - FlickAI",
-      "description": "Visualiza tendencias de gastos y obtén información financiera personalizada en tu idioma.",
-      "heading": "Análisis Inteligente",
-      "intro": "Entender tu dinero es el primer paso para controlarlo. FlickAI proporciona información profunda sobre tus hábitos de gasto.",
-      "visualTrends": {
-        "title": "Tendencias Visuales de Gastos",
-        "intro": "Ve exactamente a dónde va tu dinero con gráficos y diagramas interactivos:",
-        "categoryBreakdown": "Desglose por Categorías: Gráficos circulares que muestran gastos por categoría (Comida, Transporte, Servicios, etc.).",
-        "monthlyTrends": "Tendencias Mensuales: Gráficos de barras que comparan gastos mes a mes.",
-        "merchantAnalysis": "Análisis de Comerciantes: Ve en qué tiendas gastas más."
+      "heading": "Control de gastos para freelancers",
+      "intro": "Los freelancers necesitan un sistema simple para gastos profesionales, recibos y deducciones.",
+      "keywords": "control de gastos freelance, gastos freelancer, recibos freelance, deducciones freelance, 2026 app gastos freelance",
+      "pain": {
+        "point1": "Los recibos se pierden o se acumulan.",
+        "point2": "Las hojas de cálculo quitan tiempo y generan errores.",
+        "point3": "La campaña fiscal se vuelve estresante sin registros claros.",
+        "title": "Problemas típicos"
       },
-      "aiInsights": {
-        "title": "Información Generada por IA",
-        "intro": "Nuestra IA no solo te muestra datos; los explica. Obtén consejos personalizados como:",
-        "example": "\"Has gastado un 20% más en comer fuera este mes en comparación con el mes pasado. Considera cocinar en casa esta semana para mantenerte dentro del presupuesto.\""
-      }
+      "related": {
+        "title": "Relacionado"
+      },
+      "solution": {
+        "point1": "Escaneo rápido con extracción por IA.",
+        "point2": "Totales por categoría y comercio.",
+        "point3": "Trabajo offline cuando estás en movimiento.",
+        "point4": "Gratis para empezar, mejoras cuando lo necesites.",
+        "title": "Cómo ayuda FlickAI"
+      },
+      "title": "Control de gastos para freelancers | FlickAI"
     },
-    "security": {
-      "title": "Seguridad de Nivel Bancario - FlickAI",
-      "description": "Tus datos están protegidos con cifrado de extremo a extremo y autenticación segura.",
-      "heading": "Seguridad de Nivel Bancario",
-      "intro": "Tus datos financieros son sensibles y los tratamos de esa manera. FlickAI emplea medidas de seguridad líderes en la industria para mantener tu información segura.",
-      "measures": {
-        "title": "Medidas de Seguridad",
-        "encryption": "Cifrado de Extremo a Extremo: Todos los datos están cifrados tanto en tránsito como en reposo.",
-        "auth": "Autenticación Segura: Autenticación multifactor y opciones de inicio de sesión biométrico.",
-        "privacy": "Privacidad por Diseño: Nunca vendemos tus datos a terceros.",
-        "compliance": "Cumplimiento: Cumple con GDPR y sigue las mejores prácticas de seguridad."
+    "selfEmployedDeductions": {
+      "basics": {
+        "point1": "Recibos (comercio, fecha, total).",
+        "point2": "Categoría y notas.",
+        "point3": "Historial buscable para exportar.",
+        "title": "Qué registrar"
+      },
+      "description": "Controla gastos deducibles y recibos para autónomos: escanea, categoriza y exporta cuando lo necesites. Gratis para empezar.",
+      "faq": {
+        "a1": "No. Es un flujo de registro y organización para ayudarte a mantenerte al día.",
+        "a2": "Sí — registra offline y sincroniza después.",
+        "a3": "Sí — FlickAI es gratis para empezar.",
+        "q1": "¿Es asesoría fiscal?",
+        "q2": "¿Funciona offline?",
+        "q3": "¿Es gratis para empezar?",
+        "title": "Preguntas frecuentes"
+      },
+      "heading": "Seguimiento de deducciones para autónomos",
+      "intro": "Las mejores deducciones son las que puedes justificar. Construye un registro limpio durante todo el año.",
+      "keywords": "deducciones autónomos, gastos deducibles, recibos autónomos, control de gastos autónomos, 2026 app autónomos",
+      "related": {
+        "title": "Relacionado"
+      },
+      "title": "Deducciones de autónomos: seguimiento de gastos | FlickAI",
+      "workflow": {
+        "step1": "Escanea y guarda recibos al momento.",
+        "step2": "Revisa categorías y totales cada mes.",
+        "step3": "Exporta o comparte en temporada de impuestos.",
+        "title": "Un flujo simple"
       }
     }
+  },
+  "waitlist": {
+    "alreadyJoined": "¡Ya estás en la lista de espera!",
+    "button": "Unirse a la Lista",
+    "error": "Por favor ingresa un correo válido",
+    "floatButton": "Unirse a Lista",
+    "networkError": "Algo salió mal. Por favor intenta de nuevo.",
+    "placeholder": "Ingresa tu correo",
+    "subtitle": "¡Sé el primero en saber cuando FlickAI lance en Android e iOS!",
+    "success": "¡Gracias! Te notificaremos cuando lancemos. 🎉",
+    "title": "🚀 Acceso Anticipado"
   }
 }

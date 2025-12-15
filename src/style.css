@@ -75,7 +75,7 @@
   }
 
   .nav {
-    @apply hidden md:flex gap-10 items-center;
+    @apply hidden md:flex gap-6 lg:gap-10 items-center flex-nowrap whitespace-nowrap overflow-x-auto;
   }
 
   .nav a:not(.btn) {
@@ -133,6 +133,29 @@
   .feature-text ul,
   .feature-text ol {
     @apply pl-6 text-left mb-6;
+  }
+
+  /* Make in-content links clearly look clickable */
+  .legal-content a,
+  .feature-text a {
+    @apply text-primary font-semibold underline decoration-primary/40 underline-offset-4 transition-all duration-200;
+  }
+
+  .legal-content a:hover,
+  .feature-text a:hover {
+    @apply text-primary-light decoration-primary;
+  }
+
+  .legal-content a:focus-visible,
+  .feature-text a:focus-visible {
+    @apply outline-none ring-2 ring-primary ring-offset-2 ring-offset-background;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .legal-content a:focus-visible,
+    .feature-text a:focus-visible {
+      @apply ring-offset-dark-background;
+    }
   }
 
   .feature-image img {

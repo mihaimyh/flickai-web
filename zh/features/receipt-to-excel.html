@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="zh" >
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#3b82f6" />
+    <title>小票扫描导出到 Excel / CSV | FlickAI</title>
+    <meta name="description" content="把小票变成可用的表格数据：扫描、校对、再导出给会计或工作流。免费开始。">
+    <meta name="keywords" content="小票导出Excel, 小票导出CSV, OCR小票表格, 提取小票数据, 支出导出, 2026 小票OCR">
+    <meta name="author" content="FlickAI Team">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="https://flickai.net/zh/features/receipt-to-excel.html">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://flickai.net/sitemap.xml" />
+  
+    <!-- Hreflang Tags -->
+    <link rel="alternate" hreflang="en" href="https://flickai.net/features/receipt-to-excel.html" />
+    <link rel="alternate" hreflang="ar" href="https://flickai.net/ar/features/receipt-to-excel.html" />
+    <link rel="alternate" hreflang="de" href="https://flickai.net/de/features/receipt-to-excel.html" />
+    <link rel="alternate" hreflang="es" href="https://flickai.net/es/features/receipt-to-excel.html" />
+    <link rel="alternate" hreflang="fr" href="https://flickai.net/fr/features/receipt-to-excel.html" />
+    <link rel="alternate" hreflang="ro" href="https://flickai.net/ro/features/receipt-to-excel.html" />
+    <link rel="alternate" hreflang="zh" href="https://flickai.net/zh/features/receipt-to-excel.html" />
+    <link rel="alternate" hreflang="id" href="https://flickai.net/id/features/receipt-to-excel.html" />
+    <link rel="alternate" hreflang="hi" href="https://flickai.net/hi/features/receipt-to-excel.html" />
+    <link rel="alternate" hreflang="it" href="https://flickai.net/it/features/receipt-to-excel.html" />
+    <link rel="alternate" hreflang="x-default" href="https://flickai.net/features/receipt-to-excel.html" />
+  
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://flickai.net/zh/features/receipt-to-excel.html">
+    <meta property="og:title" content="小票扫描导出到 Excel / CSV | FlickAI">
+    <meta property="og:description" content="把小票变成可用的表格数据：扫描、校对、再导出给会计或工作流。免费开始。">
+    <meta property="og:image" content="https://flickai.net/images/social-preview.jpg">
+  
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://flickai.net/zh/features/receipt-to-excel.html">
+    <meta property="twitter:title" content="小票扫描导出到 Excel / CSV | FlickAI">
+    <meta property="twitter:description" content="把小票变成可用的表格数据：扫描、校对、再导出给会计或工作流。免费开始。">
+    <meta property="twitter:image" content="https://flickai.net/images/social-preview.jpg">
+  
+    <!-- Structured Data -->
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://flickai.net/#organization","name":"FlickAI","url":"https://flickai.net/"},{"@type":"WebSite","@id":"https://flickai.net/#website","url":"https://flickai.net/","name":"FlickAI","publisher":{"@id":"https://flickai.net/#organization"}},{"@type":"WebPage","@id":"https://flickai.net/zh/features/receipt-to-excel.html","url":"https://flickai.net/zh/features/receipt-to-excel.html","name":"小票扫描导出到 Excel / CSV | FlickAI","description":"把小票变成可用的表格数据：扫描、校对、再导出给会计或工作流。免费开始。","inLanguage":"zh","isPartOf":{"@id":"https://flickai.net/#website"},"publisher":{"@id":"https://flickai.net/#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"FlickAI","item":"https://flickai.net/zh/"},{"@type":"ListItem","position":2,"name":"小票扫描导出到 Excel / CSV","item":"https://flickai.net/zh/features/receipt-to-excel.html"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"能导出到 Excel 吗？","acceptedAnswer":{"@type":"Answer","text":"可导出 CSV 等格式，用 Excel 直接打开。"}},{"@type":"Question","name":"支持离线吗？","acceptedAnswer":{"@type":"Answer","text":"支持。离线扫描/记录，联网后同步。"}},{"@type":"Question","name":"可以免费开始吗？","acceptedAnswer":{"@type":"Answer","text":"可以——免费开始。"}}]}]}</script>
+  
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+  <div id="app">
+    <header class="header">
+      <div class="container header-content">
+        <a href="/zh/" class="logo">
+          <span class="logo-text">FlickAI</span>
+        </a>
+        <nav class="nav">
+          <a href="/zh/#features">功能</a>
+          <a href="/zh/alternatives/index.html">替代方案</a>
+          <a href="/zh/integrations/index.html">集成</a>
+          <a href="/zh/guides/index.html">指南</a>
+          <a href="/zh/" class="btn btn-primary">返回首页</a>
+        </nav>
+      </div>
+    </header>
+
+
+    <main class="container section">
+      <div class="feature-detail">
+        <div class="feature-text fade-in">
+          <h1 class="section-title">小票扫描导出到 Excel / CSV</h1>
+          <p class="mb-4">如果你的工作流在表格里，FlickAI 可以把纸质小票转换成结构化数据。</p>
+
+          <h2 class="mb-4">怎么做</h2>
+          <ol class="mb-4" style="padding-left: 1.5rem;">
+            <li>扫描小票。</li>
+            <li>校对商家、日期、金额与项目。</li>
+            <li>导出为表格友好的格式（如 CSV）。</li>
+            <li>分享给会计或导入你的工具。</li>
+          </ol>
+
+          <h2 class="mb-4">适合</h2>
+          <ul class="mb-4" style="padding-left: 1.5rem;">
+            <li>自由职业者的费用记录。</li>
+            <li>需要 Excel/CSV 管理的小团队。</li>
+            <li>想减少手工录入的人。</li>
+          </ul>
+
+          <h2 class="mb-4">常见问题</h2>
+          <div class="legal-content">
+            <p class="mb-4"><strong>能导出到 Excel 吗？</strong><br>可导出 CSV 等格式，用 Excel 直接打开。</p>
+            <p class="mb-4"><strong>支持离线吗？</strong><br>支持。离线扫描/记录，联网后同步。</p>
+            <p class="mb-4"><strong>可以免费开始吗？</strong><br>可以——免费开始。</p>
+          </div>
+
+          <h2 class="mb-4">相关页面</h2>
+          <ul class="mb-4" style="padding-left: 1.5rem;">
+            <li><a href="/zh/features/receipt-scanning.html">智能小票扫描</a></li>
+            <li><a href="/zh/features/scan-receipts-for-taxes.html">税务小票/发票扫描与归档</a></li>
+            <li><a href="/zh/guides/receipt-to-excel.html">收据到 Excel：从扫描到表格</a></li>
+            <li><a href="/zh/alternatives/best-receipt-scanner-apps.html">最佳小票扫描应用（2025–2026）</a></li>
+          </ul>
+        </div>
+
+        <div class="feature-image fade-in">
+          <img src="/images/feature-scanning.png" alt="Scan receipts and export expenses to Excel or CSV" width="800" height="600" loading="lazy"
+            style="border-radius: 1rem; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);">
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-links">
+          <a href="/zh/guides/index.html">指南</a>
+          <a href="/zh/alternatives/index.html">替代方案</a>
+          <a href="/zh/privacy-policy.html">隐私政策</a>
+          <a href="/zh/terms-of-service.html">服务条款</a>
+          <a href="/zh/cookie-policy.html">Cookie 政策</a>
+        </div>
+        <p class="copyright">© 2025 FlickAI。保留所有权利。</p>
+      </div>
+    </footer>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
