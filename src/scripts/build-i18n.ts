@@ -30,7 +30,8 @@ Handlebars.registerHelper('langPrefix', function(lang: string) {
 // Helper to generate canonical URL
 Handlebars.registerHelper('canonicalUrl', function(lang: string, path: string) {
   const langPath = lang === 'en' ? '' : `${lang}/`;
-  const normalizedPath = (path === 'index.html' || path === '/') ? '' : (path || '');
+
+  const normalizedPath = normalizeIndexPath(path);
   return `https://flickai.net/${langPath}${normalizedPath}`;
 });
 
@@ -42,8 +43,19 @@ Handlebars.registerHelper('isRTL', function(lang: string) {
 
 function buildCanonicalUrl(lang: string, pagePath: string) {
   const langPath = lang === 'en' ? '' : `${lang}/`;
-  const normalizedPath = (pagePath === 'index.html' || pagePath === '/') ? '' : (pagePath || '');
+
+  const normalizedPath = normalizeIndexPath(pagePath);
   return `https://flickai.net/${langPath}${normalizedPath}`;
+}
+
+function normalizeIndexPath(rawPath: string) {
+  const value = String(rawPath || '')
+    .replace(/\\/g, '/')
+    .replace(/^\/+/, '');
+
+  if (value === '' || value === '/' || value === 'index.html') return '';
+  if (value.endsWith('/index.html')) return value.slice(0, -'index.html'.length);
+  return value;
 }
 
 function buildBreadcrumbs(lang: string, pagePath: string, pageTitle: string) {

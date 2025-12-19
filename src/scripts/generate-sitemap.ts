@@ -19,6 +19,16 @@ interface SitemapEntry {
   changefreq: string;
 }
 
+function normalizeIndexPath(rawPath: string) {
+  const value = String(rawPath || '')
+    .replace(/\\/g, '/')
+    .replace(/^\/+/, '');
+
+  if (value === '' || value === '/' || value === 'index.html') return '';
+  if (value.endsWith('/index.html')) return value.slice(0, -'index.html'.length);
+  return value;
+}
+
 async function generateSitemap() {
   console.log('🗺️  Generating sitemap...\n');
 
@@ -37,6 +47,7 @@ async function generateSitemap() {
       const isEnglish = locale === 'en';
       const localePath = isEnglish ? '' : `${locale}/`;
       const fullPath = template === 'index.html' ? localePath : `${localePath}${template}`;
+      const normalizedPath = normalizeIndexPath(fullPath);
       
       // Determine priority based on page type
       let priority = 0.5;
@@ -55,7 +66,7 @@ async function generateSitemap() {
       }
       
       entries.push({
-        path: fullPath,
+        path: normalizedPath,
         locale,
         priority,
         changefreq
