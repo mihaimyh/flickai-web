@@ -16,7 +16,7 @@
     },
     "heading": "无障碍声明",
     "lastUpdated": "最后更新：2025年11月28日",
-    "title": "无障碍声明 - FlickAI"
+    "title": "无障碍声明 - FlickAI | Legal"
   },
   "alternatives": {
     "backToHub": "返回替代方案",
@@ -135,6 +135,7 @@
     "alternatives": "替代方案",
     "integrations": "集成",
     "guides": "指南",
+    "faq": "常见问题",
     "backToHome": "返回首页",
     "copyright": "© 2025 FlickAI。保留所有权利。",
     "downloadApp": "下载应用",
@@ -161,7 +162,7 @@
       "title": "2. 我们如何使用 Cookie"
     },
     "lastUpdated": "最后更新：2025年11月28日",
-    "title": "Cookie 政策 - FlickAI",
+    "title": "Cookie 政策 - FlickAI | Legal",
     "whatAre": {
       "content": "Cookie 是您访问网站时由网站放置在您计算机或移动设备上的小文本文件。它们被广泛用于使网站运行或更高效地运行，以及向网站所有者提供信息。",
       "title": "1. 什么是 Cookie"
@@ -425,7 +426,7 @@
       "restrict": "限制处理的权利。",
       "title": "1. 您的权利"
     },
-    "title": "GDPR 合规 - FlickAI"
+    "title": "GDPR 合规 - FlickAI | Legal"
   },
   "home": {
     "description": "FlickAI 助您轻松记账。AI 智能扫描小票，自动追踪支出，生成财务报表，轻松管理预算。",
@@ -626,7 +627,7 @@
       "content": "我们已采取适当的安全措施，防止您的个人数据意外丢失、以未经授权的方式使用或访问、篡改或披露。",
       "title": "4. 数据安全"
     },
-    "title": "隐私政策 - FlickAI"
+    "title": "隐私政策 - FlickAI | Legal"
   },
   "terms": {
     "agreement": {
@@ -648,7 +649,7 @@
       "content": "您不得将本网站用于除我们将网站提供给您的目的之外的任何用途。除经我们特别认可或批准的商业活动外，本网站不得用于任何商业活动。",
       "title": "4. 禁止活动"
     },
-    "title": "服务条款 - FlickAI",
+    "title": "服务条款 - FlickAI | Legal",
     "userRep": {
       "content": "使用本网站即表示您陈述并保证：(1) 您提交的所有注册信息均真实、准确、最新且完整；(2) 您将保持此类信息的准确性，并在必要时及时更新此类注册信息。",
       "title": "3. 用户陈述"
@@ -717,6 +718,27 @@
         "step3": "需要时导出/分享。",
         "title": "简单流程"
       }
+    }
+  },
+  "faqPage": {
+    "title": "常见问题 | FlickAI",
+    "description": "关于 FlickAI 的常见问题解答：隐私优先的费用记录、无需银行同步、离线模式、票据扫描与导出。",
+    "keywords": "FlickAI 常见问题, 费用追踪 常见问题, 票据扫描 常见问题, 无需银行同步 费用追踪, 离线 费用追踪",
+    "heading": "常见问题",
+    "intro": "关于 FlickAI 的常见问题快速解答。",
+    "faq": {
+      "q1": "可以免费开始使用 FlickAI 吗？",
+      "a1": "可以——FlickAI 支持免费开始。",
+      "q2": "有没有无需银行同步的费用追踪工具？",
+      "a2": "有——FlickAI 无需强制银行同步或绑定银行账户。",
+      "q3": "FlickAI 支持离线使用吗？",
+      "a3": "支持。你可以离线记录费用并扫描票据，之后再同步。",
+      "q4": "我可以扫描票据并提取金额/明细吗？",
+      "a4": "可以——FlickAI 支持 AI 票据扫描与字段提取。",
+      "q5": "可以导出到 Excel/CSV 吗？",
+      "a5": "可以——可导出为 CSV 等适合表格处理的格式。",
+      "q6": "你们会出售我的数据吗？",
+      "a6": "不会——我们不出售你的数据。"
     }
   },
   "waitlist": {

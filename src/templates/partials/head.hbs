@@ -8,8 +8,8 @@
   <meta name="description" content="{{description}}">
   <meta name="keywords" content="{{keywords}}">
   <meta name="author" content="{{meta.siteName}} Team">
-  <meta name="robots" content="index, follow">
-  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="robots" content="{{#if robots}}{{robots}}{{else}}index, follow{{/if}}">
+  <meta name="googlebot" content="{{#if googlebot}}{{googlebot}}{{else}}index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1{{/if}}">
   <link rel="canonical" href="{{canonicalUrl meta.lang page}}">
   <link rel="sitemap" type="application/xml" title="Sitemap" href="https://flickai.net/sitemap.xml" />
 

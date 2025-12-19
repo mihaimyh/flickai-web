@@ -46,14 +46,17 @@
             <p class="mb-4"><strong>{{features.privacyFirst.faq.q2}}</strong><br>{{features.privacyFirst.faq.a2}}</p>
             <p class="mb-4"><strong>{{features.privacyFirst.faq.q3}}</strong><br>{{features.privacyFirst.faq.a3}}</p>
             <p class="mb-4"><strong>{{features.privacyFirst.faq.q4}}</strong><br>{{features.privacyFirst.faq.a4}}</p>
+            {{#if features.privacyFirst.faq.q5}}
+            <p class="mb-4"><strong>{{features.privacyFirst.faq.q5}}</strong><br>{{features.privacyFirst.faq.a5}}</p>
+            {{/if}}
           </div>
 
           <h2 class="mb-4">{{features.privacyFirst.related.title}}</h2>
           <ul class="mb-4" style="padding-left: 1.5rem;">
             <li><a href="/{{langPrefix meta.lang}}features/offline-expense-tracker.html">{{features.offlineTracker.heading}}</a></li>
-            <li><a href="/{{langPrefix meta.lang}}features/security.html">{{features.security.heading}}</a></li>
+            <li><a href="/{{langPrefix meta.lang}}features/receipt-scanning.html">{{features.scanning.heading}}</a></li>
+            <li><a href="/{{langPrefix meta.lang}}features/receipt-to-excel.html">{{features.receiptToExcel.heading}}</a></li>
             <li><a href="/{{langPrefix meta.lang}}guides/offline-expense-tracking.html">{{guides.offlineExpenseTracking.heading}}</a></li>
-            <li><a href="/{{langPrefix meta.lang}}alternatives/index.html">{{common.alternatives}}</a></li>
           </ul>
         </div>
 

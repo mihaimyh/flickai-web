@@ -16,7 +16,7 @@
     },
     "heading": "بيان إمكانية الوصول",
     "lastUpdated": "آخر تحديث: 28 نوفمبر 2025",
-    "title": "بيان إمكانية الوصول - FlickAI"
+    "title": "بيان إمكانية الوصول - FlickAI | Legal"
   },
   "alternatives": {
     "backToHub": "العودة إلى البدائل",
@@ -135,6 +135,7 @@
     "alternatives": "البدائل",
     "integrations": "التكاملات",
     "guides": "أدلة",
+    "faq": "الأسئلة الشائعة",
     "backToHome": "العودة إلى الصفحة الرئيسية",
     "copyright": "© 2025 FlickAI. جميع الحقوق محفوظة.",
     "downloadApp": "تحميل التطبيق",
@@ -161,7 +162,7 @@
       "title": "2. كيف نستخدم ملفات تعريف الارتباط"
     },
     "lastUpdated": "آخر تحديث: 28 نوفمبر 2025",
-    "title": "سياسة ملفات تعريف الارتباط - FlickAI",
+    "title": "سياسة ملفات تعريف الارتباط - FlickAI | Legal",
     "whatAre": {
       "content": "ملفات تعريف الارتباط هي ملفات نصية صغيرة يتم وضعها على جهاز الكمبيوتر أو الجهاز المحمول الخاص بك بواسطة مواقع الويب التي تزورها. يتم استخدامها على نطاق واسع من أجل جعل مواقع الويب تعمل، أو تعمل بكفاءة أكبر، وكذلك لتوفير المعلومات لأصحاب الموقع.",
       "title": "1. ما هي ملفات تعريف الارتباط"
@@ -425,7 +426,7 @@
       "restrict": "الحق في تقييد المعالجة.",
       "title": "1. حقوقك"
     },
-    "title": "الامتثال للائحة العامة لحماية البيانات - FlickAI"
+    "title": "الامتثال للائحة العامة لحماية البيانات - FlickAI | Legal"
   },
   "home": {
     "description": "بسّط تتبع النفقات مع مسح الإيصالات بالذكاء الاصطناعي من FlickAI. تتبع أموالك بسهولة، وأنشئ الميزانيات، واحصل على رؤى مالية.",
@@ -626,7 +627,7 @@
       "content": "لقد وضعنا تدابير أمنية مناسبة لمنع فقدان بياناتك الشخصية عن طريق الخطأ أو استخدامها أو الوصول إليها بطريقة غير مصرح بها أو تغييرها أو الكشف عنها.",
       "title": "4. أمان البيانات"
     },
-    "title": "سياسة الخصوصية - FlickAI"
+    "title": "سياسة الخصوصية - FlickAI | Legal"
   },
   "terms": {
     "agreement": {
@@ -648,7 +649,7 @@
       "content": "لا يجوز لك الوصول إلى الموقع أو استخدامه لأي غرض آخر غير الغرض الذي نوفر الموقع من أجله. لا يجوز استخدام الموقع فيما يتعلق بأي مساعٍ تجارية باستثناء تلك التي تم اعتمادها أو الموافقة عليها بشكل محدد من قبلنا.",
       "title": "4. الأنشطة المحظورة"
     },
-    "title": "شروط الخدمة - FlickAI",
+    "title": "شروط الخدمة - FlickAI | Legal",
     "userRep": {
       "content": "باستخدام الموقع، فإنك تقر وتضمن ما يلي: (1) أن جميع معلومات التسجيل التي ترسلها ستكون صحيحة ودقيقة وحديثة وكاملة؛ (2) أنك ستحافظ على دقة هذه المعلومات وتقوم بتحديث معلومات التسجيل هذه على الفور عند الضرورة.",
       "title": "3. تصريحات المستخدم"
@@ -717,6 +718,27 @@
         "step3": "صدّر أو شارك عند الحاجة.",
         "title": "سير عمل بسيط"
       }
+    }
+  },
+  "faqPage": {
+    "title": "FAQ | FlickAI",
+    "description": "Answers to common questions about FlickAI: privacy-first expense tracking, no bank sync, offline mode, receipt scanning, and exports.",
+    "keywords": "FlickAI FAQ, expense tracker FAQ, receipt scanner FAQ, no bank sync expense tracker, offline expense tracker",
+    "heading": "Frequently Asked Questions",
+    "intro": "Quick answers to the most common questions about FlickAI.",
+    "faq": {
+      "q1": "Is FlickAI free to start?",
+      "a1": "Yes — FlickAI is free to start.",
+      "q2": "Is there an expense tracker without bank sync?",
+      "a2": "Yes — FlickAI works without mandatory bank sync or bank linking.",
+      "q3": "Does FlickAI work offline?",
+      "a3": "Yes. You can track expenses and scan receipts offline, then sync later.",
+      "q4": "Can I scan receipts and extract totals/items?",
+      "a4": "Yes — FlickAI supports AI-powered receipt scanning and field extraction.",
+      "q5": "Can I export my expenses to Excel/CSV?",
+      "a5": "Yes — you can export expense data in spreadsheet-friendly formats like CSV.",
+      "q6": "Do you sell my data?",
+      "a6": "No — we don't sell your data."
     }
   },
   "waitlist": {

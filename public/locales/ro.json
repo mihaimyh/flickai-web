@@ -16,7 +16,7 @@
     },
     "heading": "Declarație de Accesibilitate",
     "lastUpdated": "Ultima actualizare: 28 noiembrie 2025",
-    "title": "Declarație de Accesibilitate - FlickAI"
+    "title": "Declarație de Accesibilitate - FlickAI | Legal"
   },
   "alternatives": {
     "backToHub": "Înapoi la Alternative",
@@ -135,6 +135,7 @@
     "alternatives": "Alternative",
     "integrations": "Integrări",
     "guides": "Ghiduri",
+    "faq": "Întrebări frecvente",
     "backToHome": "Înapoi la Pagina Principală",
     "copyright": "© 2025 FlickAI. Toate drepturile rezervate.",
     "downloadApp": "Descarcă Aplicația",
@@ -161,7 +162,7 @@
       "title": "2. Cum Folosim Cookie-urile"
     },
     "lastUpdated": "Ultima actualizare: 28 noiembrie 2025",
-    "title": "Politica Cookie - FlickAI",
+    "title": "Politica Cookie - FlickAI | Legal",
     "whatAre": {
       "content": "Cookie-urile sunt fișiere text mici care sunt plasate pe computerul sau dispozitivul dumneavoastră mobil de către site-urile web pe care le vizitați. Sunt utilizate pe scară largă pentru a face site-urile web să funcționeze sau să funcționeze mai eficient, precum și pentru a furniza informații proprietarilor site-ului.",
       "title": "1. Ce Sunt Cookie-urile"
@@ -425,7 +426,7 @@
       "restrict": "Dreptul de a restricționa prelucrarea.",
       "title": "1. Drepturile Dumneavoastră"
     },
-    "title": "Conformitate GDPR - FlickAI"
+    "title": "Conformitate GDPR - FlickAI | Legal"
   },
   "home": {
     "description": "Simplifică urmărirea cheltuielilor cu scanarea bonurilor folosind IA de la FlickAI. Urmărește finanțele fără efort, creează bugete și obține informații financiare.",
@@ -626,7 +627,7 @@
       "content": "Am implementat măsuri de securitate adecvate pentru a preveni pierderea accidentală, utilizarea sau accesul neautorizat, modificarea sau dezvăluirea datelor dumneavoastră personale.",
       "title": "4. Securitatea Datelor"
     },
-    "title": "Politica de Confidențialitate - FlickAI"
+    "title": "Politica de Confidențialitate - FlickAI | Legal"
   },
   "terms": {
     "agreement": {
@@ -648,7 +649,7 @@
       "content": "Nu puteți accesa sau utiliza Site-ul în alt scop decât cel pentru care punem Site-ul la dispoziție. Site-ul nu poate fi utilizat în legătură cu nicio activitate comercială, cu excepția celor care sunt în mod specific aprobate sau aprobate de noi.",
       "title": "4. Activități Interzise"
     },
-    "title": "Termeni și Condiții - FlickAI",
+    "title": "Termeni și Condiții - FlickAI | Legal",
     "userRep": {
       "content": "Prin utilizarea Site-ului, declarați și garantați că: (1) toate informațiile de înregistrare pe care le trimiteți vor fi adevărate, exacte, actuale și complete; (2) veți menține acuratețea acestor informații și veți actualiza prompt astfel de informații de înregistrare după cum este necesar.",
       "title": "3. Declarații ale Utilizatorului"
@@ -717,6 +718,27 @@
         "step3": "Exporți sau partajezi la taxe.",
         "title": "Un workflow simplu"
       }
+    }
+  },
+  "faqPage": {
+    "title": "FAQ | FlickAI",
+    "description": "Răspunsuri la întrebări comune despre FlickAI: tracking cheltuieli privacy-first, fără sincronizare bancară, mod offline, scanare bonuri și export.",
+    "keywords": "FAQ FlickAI, FAQ tracker cheltuieli, FAQ scanare bonuri, tracker cheltuieli fără sincronizare bancară, tracker cheltuieli offline",
+    "heading": "Întrebări frecvente",
+    "intro": "Răspunsuri rapide la cele mai comune întrebări despre FlickAI.",
+    "faq": {
+      "q1": "Este FlickAI gratuit pentru început?",
+      "a1": "Da — FlickAI este gratuit pentru început.",
+      "q2": "Există un tracker de cheltuieli fără sincronizare bancară?",
+      "a2": "Da — FlickAI funcționează fără sincronizare bancară obligatorie sau conectare la bancă.",
+      "q3": "FlickAI funcționează offline?",
+      "a3": "Da. Poți urmări cheltuieli și scana bonuri offline, apoi sincronizezi mai târziu.",
+      "q4": "Pot scana bonuri și extrage totaluri/articole?",
+      "a4": "Da — FlickAI suportă scanarea bonurilor cu AI și extragerea câmpurilor.",
+      "q5": "Pot exporta cheltuielile în Excel/CSV?",
+      "a5": "Da — poți exporta datele în formate compatibile cu spreadsheet-uri, precum CSV.",
+      "q6": "Vindeți datele mele?",
+      "a6": "Nu — nu vindem datele tale."
     }
   },
   "waitlist": {

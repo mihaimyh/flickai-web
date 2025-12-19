@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="{{meta.lang}}" {{#if (isRTL meta.lang)}}dir="rtl"{{/if}}>
+  {{> head 
+    title=faqPage.title 
+    description=faqPage.description 
+    page='faq.html'
+    keywords=faqPage.keywords
+    faq=faqPage.faq
+  }}
+
+<body>
+  <div id="app">
+    <header class="header">
+      <div class="container header-content">
+        <a href="/{{langPrefix meta.lang}}" class="logo">
+          <span class="logo-text">{{meta.siteName}}</span>
+        </a>
+        <nav class="nav">
+          <a href="/{{langPrefix meta.lang}}#features">{{common.features}}</a>
+          <a href="/{{langPrefix meta.lang}}alternatives/index.html">{{common.alternatives}}</a>
+          <a href="/{{langPrefix meta.lang}}integrations/index.html">{{common.integrations}}</a>
+          <a href="/{{langPrefix meta.lang}}guides/index.html">{{common.guides}}</a>
+          <a href="/{{langPrefix meta.lang}}" class="btn btn-primary">{{common.backToHome}}</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container section">
+      <h1 class="section-title">{{faqPage.heading}}</h1>
+      <p class="mb-4">{{faqPage.intro}}</p>
+
+      <div class="legal-content">
+        <p class="mb-4"><strong>{{faqPage.faq.q1}}</strong><br>{{faqPage.faq.a1}}</p>
+        <p class="mb-4"><strong>{{faqPage.faq.q2}}</strong><br>{{faqPage.faq.a2}}</p>
+        <p class="mb-4"><strong>{{faqPage.faq.q3}}</strong><br>{{faqPage.faq.a3}}</p>
+        <p class="mb-4"><strong>{{faqPage.faq.q4}}</strong><br>{{faqPage.faq.a4}}</p>
+        <p class="mb-4"><strong>{{faqPage.faq.q5}}</strong><br>{{faqPage.faq.a5}}</p>
+        <p class="mb-4"><strong>{{faqPage.faq.q6}}</strong><br>{{faqPage.faq.a6}}</p>
+      </div>
+
+      <h2 class="mb-4">{{features.privacyFirst.related.title}}</h2>
+      <ul class="mb-4" style="padding-left: 1.5rem;">
+        <li><a href="/{{langPrefix meta.lang}}features/privacy-first-expense-tracker.html">{{features.privacyFirst.heading}}</a></li>
+        <li><a href="/{{langPrefix meta.lang}}features/offline-expense-tracker.html">{{features.offlineTracker.heading}}</a></li>
+        <li><a href="/{{langPrefix meta.lang}}features/receipt-scanning.html">{{features.scanning.heading}}</a></li>
+        <li><a href="/{{langPrefix meta.lang}}guides/index.html">{{common.guides}}</a></li>
+      </ul>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-links">
+          <a href="/{{langPrefix meta.lang}}guides/index.html">{{common.guides}}</a>
+          <a href="/{{langPrefix meta.lang}}alternatives/index.html">{{common.alternatives}}</a>
+          <a href="/{{langPrefix meta.lang}}privacy-policy.html">{{footer.privacyPolicy}}</a>
+          <a href="/{{langPrefix meta.lang}}terms-of-service.html">{{footer.termsOfService}}</a>
+          <a href="/{{langPrefix meta.lang}}cookie-policy.html">{{footer.cookiePolicy}}</a>
+        </div>
+        <p class="copyright">{{common.copyright}}</p>
+      </div>
+    </footer>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

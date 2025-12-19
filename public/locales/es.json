@@ -16,7 +16,7 @@
     },
     "heading": "Declaración de Accesibilidad",
     "lastUpdated": "Última actualización: 28 de noviembre de 2025",
-    "title": "Declaración de Accesibilidad - FlickAI"
+    "title": "Declaración de Accesibilidad - FlickAI | Legal"
   },
   "alternatives": {
     "backToHub": "Volver a Alternativas",
@@ -135,6 +135,7 @@
     "alternatives": "Alternativas",
     "integrations": "Integraciones",
     "guides": "Guías",
+    "faq": "Preguntas frecuentes",
     "backToHome": "Volver al Inicio",
     "copyright": "© 2025 FlickAI. Todos los derechos reservados.",
     "downloadApp": "Descargar App",
@@ -161,7 +162,7 @@
       "title": "2. Cómo Usamos las Cookies"
     },
     "lastUpdated": "Última actualización: 28 de noviembre de 2025",
-    "title": "Política de Cookies - FlickAI",
+    "title": "Política de Cookies - FlickAI | Legal",
     "whatAre": {
       "content": "Las cookies son pequeños archivos de texto que se colocan en su computadora o dispositivo móvil por los sitios web que visita. Se utilizan ampliamente para hacer que los sitios web funcionen, o funcionen de manera más eficiente, así como para proporcionar información a los propietarios del sitio.",
       "title": "1. Qué Son las Cookies"
@@ -425,7 +426,7 @@
       "restrict": "El derecho a restringir el procesamiento.",
       "title": "1. Sus Derechos"
     },
-    "title": "Cumplimiento GDPR - FlickAI"
+    "title": "Cumplimiento GDPR - FlickAI | Legal"
   },
   "home": {
     "description": "Simplifica el seguimiento de gastos con el escaneo de recibos con IA de FlickAI. Rastrea finanzas sin esfuerzo, crea presupuestos y obtén información financiera.",
@@ -626,7 +627,7 @@
       "content": "Hemos implementado medidas de seguridad apropiadas para prevenir que sus datos personales se pierdan accidentalmente, se usen o accedan de manera no autorizada, se alteren o se divulguen.",
       "title": "4. Seguridad de los Datos"
     },
-    "title": "Política de Privacidad - FlickAI"
+    "title": "Política de Privacidad - FlickAI | Legal"
   },
   "terms": {
     "agreement": {
@@ -648,7 +649,7 @@
       "content": "No puede acceder o usar el Sitio para ningún propósito que no sea aquel para el cual ponemos el Sitio a disposición. El Sitio no puede usarse en relación con ningún esfuerzo comercial excepto aquellos que estén específicamente respaldados o aprobados por nosotros.",
       "title": "4. Actividades Prohibidas"
     },
-    "title": "Términos de Servicio - FlickAI",
+    "title": "Términos de Servicio - FlickAI | Legal",
     "userRep": {
       "content": "Al usar el Sitio, declara y garantiza que: (1) toda la información de registro que envíe será verdadera, precisa, actual y completa; (2) mantendrá la precisión de dicha información y actualizará rápidamente dicha información de registro según sea necesario.",
       "title": "3. Declaraciones del Usuario"
@@ -717,6 +718,27 @@
         "step3": "Exporta o comparte en temporada de impuestos.",
         "title": "Un flujo simple"
       }
+    }
+  },
+  "faqPage": {
+    "title": "FAQ | FlickAI",
+    "description": "Answers to common questions about FlickAI: privacy-first expense tracking, no bank sync, offline mode, receipt scanning, and exports.",
+    "keywords": "FlickAI FAQ, expense tracker FAQ, receipt scanner FAQ, no bank sync expense tracker, offline expense tracker",
+    "heading": "Frequently Asked Questions",
+    "intro": "Quick answers to the most common questions about FlickAI.",
+    "faq": {
+      "q1": "Is FlickAI free to start?",
+      "a1": "Yes — FlickAI is free to start.",
+      "q2": "Is there an expense tracker without bank sync?",
+      "a2": "Yes — FlickAI works without mandatory bank sync or bank linking.",
+      "q3": "Does FlickAI work offline?",
+      "a3": "Yes. You can track expenses and scan receipts offline, then sync later.",
+      "q4": "Can I scan receipts and extract totals/items?",
+      "a4": "Yes — FlickAI supports AI-powered receipt scanning and field extraction.",
+      "q5": "Can I export my expenses to Excel/CSV?",
+      "a5": "Yes — you can export expense data in spreadsheet-friendly formats like CSV.",
+      "q6": "Do you sell my data?",
+      "a6": "No — we don't sell your data."
     }
   },
   "waitlist": {

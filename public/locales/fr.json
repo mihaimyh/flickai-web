@@ -16,7 +16,7 @@
     },
     "heading": "Déclaration d'accessibilité",
     "lastUpdated": "Dernière mise à jour : 28 novembre 2025",
-    "title": "Déclaration d'accessibilité - FlickAI"
+    "title": "Déclaration d'accessibilité - FlickAI | Legal"
   },
   "alternatives": {
     "backToHub": "Retour aux alternatives",
@@ -135,6 +135,7 @@
     "alternatives": "Alternatives",
     "integrations": "Intégrations",
     "guides": "Guides",
+    "faq": "FAQ",
     "backToHome": "Retour à l'accueil",
     "copyright": "© 2025 FlickAI. Tous droits réservés.",
     "downloadApp": "Télécharger l'application",
@@ -161,7 +162,7 @@
       "title": "2. Comment nous utilisons les cookies"
     },
     "lastUpdated": "Dernière mise à jour : 28 novembre 2025",
-    "title": "Politique des cookies - FlickAI",
+    "title": "Politique des cookies - FlickAI | Legal",
     "whatAre": {
       "content": "Les cookies sont de petits fichiers texte qui sont placés sur votre ordinateur ou appareil mobile par les sites Web que vous visitez. Ils sont largement utilisés pour faire fonctionner les sites Web, ou pour les faire fonctionner plus efficacement, ainsi que pour fournir des informations aux propriétaires du site.",
       "title": "1. Que sont les cookies"
@@ -425,7 +426,7 @@
       "restrict": "Le droit de limiter le traitement.",
       "title": "1. Vos droits"
     },
-    "title": "Conformité RGPD - FlickAI"
+    "title": "Conformité RGPD - FlickAI | Legal"
   },
   "home": {
     "description": "Simplifiez le suivi des dépenses avec le scan de reçus par IA de FlickAI. Suivez vos finances sans effort, créez des budgets et obtenez des informations financières.",
@@ -626,7 +627,7 @@
       "content": "Nous avons mis en place des mesures de sécurité appropriées pour empêcher que vos données personnelles ne soient perdues accidentellement, utilisées ou consultées de manière non autorisée, modifiées ou divulguées.",
       "title": "4. Sécurité des données"
     },
-    "title": "Politique de confidentialité - FlickAI"
+    "title": "Politique de confidentialité - FlickAI | Legal"
   },
   "terms": {
     "agreement": {
@@ -648,7 +649,7 @@
       "content": "Vous ne pouvez pas accéder ou utiliser le Site à d'autres fins que celles pour lesquelles nous mettons le Site à disposition. Le Site ne peut pas être utilisé dans le cadre d'efforts commerciaux, sauf ceux qui sont spécifiquement approuvés ou approuvés par nous.",
       "title": "4. Activités interdites"
     },
-    "title": "Conditions d'utilisation - FlickAI",
+    "title": "Conditions d'utilisation - FlickAI | Legal",
     "userRep": {
       "content": "En utilisant le Site, vous déclarez et garantissez que : (1) toutes les informations d'inscription que vous soumettez seront vraies, exactes, à jour et complètes ; (2) vous maintiendrez l'exactitude de ces informations et mettrez rapidement à jour ces informations d'inscription si nécessaire.",
       "title": "3. Déclarations de l'utilisateur"
@@ -717,6 +718,27 @@
         "step3": "Exportez/partagez au moment de déclarer.",
         "title": "Workflow simple"
       }
+    }
+  },
+  "faqPage": {
+    "title": "FAQ | FlickAI",
+    "description": "Réponses aux questions fréquentes sur FlickAI : suivi des dépenses privacy-first, sans synchronisation bancaire, mode hors ligne, scan de reçus et exports.",
+    "keywords": "FAQ FlickAI, FAQ suivi dépenses, FAQ scanner reçus, suivi dépenses sans synchronisation bancaire, suivi dépenses hors ligne",
+    "heading": "Foire aux questions",
+    "intro": "Réponses rapides aux questions les plus fréquentes sur FlickAI.",
+    "faq": {
+      "q1": "FlickAI est-il gratuit pour commencer ?",
+      "a1": "Oui — FlickAI est gratuit pour commencer.",
+      "q2": "Existe-t-il un suivi de dépenses sans synchronisation bancaire ?",
+      "a2": "Oui — FlickAI fonctionne sans synchronisation bancaire obligatoire ni liaison de compte.",
+      "q3": "FlickAI fonctionne-t-il hors ligne ?",
+      "a3": "Oui. Vous pouvez suivre vos dépenses et scanner des reçus hors ligne, puis synchroniser plus tard.",
+      "q4": "Puis-je scanner des reçus et extraire totaux/articles ?",
+      "a4": "Oui — FlickAI prend en charge le scan de reçus par IA et l’extraction de champs.",
+      "q5": "Puis-je exporter mes dépenses vers Excel/CSV ?",
+      "a5": "Oui — vous pouvez exporter vos dépenses dans des formats compatibles tableur comme le CSV.",
+      "q6": "Vendez-vous mes données ?",
+      "a6": "Non — nous ne vendons pas vos données."
     }
   },
   "waitlist": {

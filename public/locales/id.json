@@ -16,7 +16,7 @@
     },
     "heading": "Pernyataan Aksesibilitas",
     "lastUpdated": "Terakhir Diperbarui: 28 November 2025",
-    "title": "Pernyataan Aksesibilitas - FlickAI"
+    "title": "Pernyataan Aksesibilitas - FlickAI | Legal"
   },
   "alternatives": {
     "backToHub": "Kembali ke Alternatif",
@@ -135,6 +135,7 @@
     "alternatives": "Alternatif",
     "integrations": "Integrasi",
     "guides": "Panduan",
+    "faq": "FAQ",
     "backToHome": "Kembali ke Beranda",
     "copyright": "© 2025 FlickAI. Hak Cipta Dilindungi.",
     "downloadApp": "Unduh Aplikasi",
@@ -161,7 +162,7 @@
       "title": "2. Bagaimana Kami Menggunakan Cookie"
     },
     "lastUpdated": "Terakhir Diperbarui: 28 November 2025",
-    "title": "Kebijakan Cookie - FlickAI",
+    "title": "Kebijakan Cookie - FlickAI | Legal",
     "whatAre": {
       "content": "Cookie adalah file teks kecil yang ditempatkan di komputer atau perangkat seluler Anda oleh situs web yang Anda kunjungi. Cookie digunakan secara luas untuk membuat situs web berfungsi, atau bekerja lebih efisien, serta untuk memberikan informasi kepada pemilik situs.",
       "title": "1. Apa itu Cookie"
@@ -425,7 +426,7 @@
       "restrict": "Hak untuk membatasi pemrosesan.",
       "title": "1. Hak Anda"
     },
-    "title": "Kepatuhan GDPR - FlickAI"
+    "title": "Kepatuhan GDPR - FlickAI | Legal"
   },
   "home": {
     "description": "Sederhanakan pelacakan pengeluaran dengan pemindaian struk AI dari FlickAI. Lacak keuangan dengan mudah, buat anggaran, dan dapatkan wawasan keuangan.",
@@ -626,7 +627,7 @@
       "content": "Kami telah menerapkan langkah-langkah keamanan yang tepat untuk mencegah data pribadi Anda hilang secara tidak sengaja, digunakan atau diakses dengan cara yang tidak sah, diubah, atau diungkapkan.",
       "title": "4. Keamanan Data"
     },
-    "title": "Kebijakan Privasi - FlickAI"
+    "title": "Kebijakan Privasi - FlickAI | Legal"
   },
   "terms": {
     "agreement": {
@@ -648,7 +649,7 @@
       "content": "Anda tidak boleh mengakses atau menggunakan Situs untuk tujuan apa pun selain dari yang kami sediakan. Situs tidak boleh digunakan sehubungan dengan upaya komersial apa pun kecuali yang secara khusus didukung atau disetujui oleh kami.",
       "title": "4. Aktivitas yang Dilarang"
     },
-    "title": "Syarat Layanan - FlickAI",
+    "title": "Syarat Layanan - FlickAI | Legal",
     "userRep": {
       "content": "Dengan menggunakan Situs, Anda menyatakan dan menjamin bahwa: (1) semua informasi pendaftaran yang Anda kirimkan adalah benar, akurat, terkini, dan lengkap; (2) Anda akan menjaga keakuratan informasi tersebut dan segera memperbarui informasi pendaftaran tersebut jika diperlukan.",
       "title": "3. Representasi Pengguna"
@@ -717,6 +718,27 @@
         "step3": "Ekspor atau bagikan saat pelaporan.",
         "title": "Alur sederhana"
       }
+    }
+  },
+  "faqPage": {
+    "title": "FAQ | FlickAI",
+    "description": "Jawaban pertanyaan umum tentang FlickAI: pelacakan pengeluaran privacy-first, tanpa bank sync, mode offline, scan struk, dan ekspor.",
+    "keywords": "FlickAI FAQ, pelacak pengeluaran FAQ, scanner struk FAQ, tanpa bank sync pelacak pengeluaran, pelacak pengeluaran offline",
+    "heading": "Pertanyaan yang Sering Diajukan",
+    "intro": "Jawaban singkat untuk pertanyaan paling umum tentang FlickAI.",
+    "faq": {
+      "q1": "Apakah FlickAI gratis untuk mulai?",
+      "a1": "Ya — FlickAI gratis untuk mulai.",
+      "q2": "Adakah pelacak pengeluaran tanpa bank sync?",
+      "a2": "Ya — FlickAI bekerja tanpa bank sync atau pengaitan bank yang wajib.",
+      "q3": "Apakah FlickAI bisa offline?",
+      "a3": "Ya. Anda bisa mencatat pengeluaran dan memindai struk secara offline, lalu sinkron nanti.",
+      "q4": "Bisakah saya scan struk dan mengekstrak total/item?",
+      "a4": "Ya — FlickAI mendukung pemindaian struk berbasis AI dan ekstraksi data.",
+      "q5": "Bisakah saya mengekspor pengeluaran ke Excel/CSV?",
+      "a5": "Ya — Anda bisa mengekspor data ke format ramah spreadsheet seperti CSV.",
+      "q6": "Apakah Anda menjual data saya?",
+      "a6": "Tidak — kami tidak menjual data Anda."
     }
   },
   "waitlist": {

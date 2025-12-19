@@ -16,7 +16,7 @@
     },
     "heading": "Accessibility Statement",
     "lastUpdated": "Last updated: November 28, 2025",
-    "title": "Accessibility Statement - FlickAI"
+    "title": "Accessibility Statement - FlickAI | Legal"
   },
   "alternatives": {
     "backToHub": "Back to Alternatives",
@@ -135,6 +135,7 @@
     "alternatives": "Alternatives",
     "integrations": "Integrations",
     "guides": "Guides",
+    "faq": "FAQ",
     "backToHome": "Back to Home",
     "copyright": "© 2025 FlickAI. All rights reserved.",
     "downloadApp": "Download App",
@@ -161,7 +162,7 @@
       "title": "2. How We Use Cookies"
     },
     "lastUpdated": "Last updated: November 28, 2025",
-    "title": "Cookie Policy - FlickAI",
+    "title": "Cookie Policy - FlickAI | Legal",
     "whatAre": {
       "content": "Cookies are small text files that are placed on your computer or mobile device by websites that you visit. They are widely used in order to make websites work, or work more efficiently, as well as to provide information to the owners of the site.",
       "title": "1. What Are Cookies"
@@ -277,21 +278,23 @@
       }
     },
     "privacyFirst": {
-      "description": "A privacy-first expense tracker built for people who don't want to link bank accounts. Secure receipt storage and offline-friendly workflows. Free to start.",
+      "description": "An expense tracker without bank sync, built for people who don't want to link bank accounts. Secure receipt storage and offline-friendly workflows. Free to start.",
       "faq": {
-        "a1": "No. FlickAI is designed to work without mandatory bank linking.",
-        "a2": "No — we don't sell your data.",
-        "a3": "Yes. You can track expenses offline and sync later.",
-        "a4": "Yes — FlickAI is free to start.",
-        "q1": "Do I have to connect my bank account?",
-        "q2": "Do you sell my data?",
-        "q3": "Can I use it offline?",
-        "q4": "Is it free to start?",
+        "a1": "Yes — FlickAI works without mandatory bank sync or bank linking.",
+        "a2": "No. FlickAI is designed to work without mandatory bank linking.",
+        "a3": "No — we don't sell your data.",
+        "a4": "Yes. You can track expenses offline and sync later.",
+        "a5": "Yes — FlickAI is free to start.",
+        "q1": "Is there an expense tracker without bank sync?",
+        "q2": "Do I have to connect my bank account?",
+        "q3": "Do you sell my data?",
+        "q4": "Can I use it offline?",
+        "q5": "Is it free to start?",
         "title": "FAQ"
       },
-      "heading": "Privacy-First Expense Tracker (No Bank Sync Required)",
-      "intro": "If you prefer to keep control of your financial data, FlickAI is designed for privacy-first expense tracking — without forcing a bank connection.",
-      "keywords": "privacy-first expense tracker, private expense tracker, no bank sync expense tracker, local-only expense tracker, encrypted expense tracker, secure receipt storage, 2026 private expense tracker",
+      "heading": "Expense Tracker Without Bank Sync (Privacy-First)",
+      "intro": "If you want an expense tracker without bank sync, FlickAI is built for privacy-first tracking — without forcing you to link a bank account.",
+      "keywords": "expense tracker without bank sync, privacy-first expense tracker, private expense tracker, no bank sync expense tracker, no bank account expense tracker, local-only expense tracker, secure receipt storage, 2026 private expense tracker",
       "pillars": {
         "point1": "No bank sync required to track spending.",
         "point2": "Secure receipt storage and strong security practices.",
@@ -302,7 +305,7 @@
       "related": {
         "title": "Related"
       },
-      "title": "Privacy-First Expense Tracker - No Bank Sync | FlickAI"
+      "title": "Expense Tracker Without Bank Sync (Privacy-First) | FlickAI"
     },
     "receiptToExcel": {
       "bestFor": {
@@ -425,7 +428,7 @@
       "restrict": "The right to restrict processing.",
       "title": "1. Your Rights"
     },
-    "title": "GDPR Compliance - FlickAI"
+    "title": "GDPR Compliance - FlickAI | Legal"
   },
   "home": {
     "description": "Simplify expense tracking with FlickAI's AI-powered receipt scanning. Track finances effortlessly, create budgets, and gain financial insights.",
@@ -626,7 +629,7 @@
       "content": "We have put in place appropriate security measures to prevent your personal data from being accidentally lost, used or accessed in an unauthorized way, altered or disclosed.",
       "title": "4. Data Security"
     },
-    "title": "Privacy Policy - FlickAI"
+    "title": "Privacy Policy - FlickAI | Legal"
   },
   "terms": {
     "agreement": {
@@ -648,7 +651,7 @@
       "content": "You may not access or use the Site for any purpose other than that for which we make the Site available. The Site may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us.",
       "title": "4. Prohibited Activities"
     },
-    "title": "Terms of Service - FlickAI",
+    "title": "Terms of Service - FlickAI | Legal",
     "userRep": {
       "content": "By using the Site, you represent and warrant that: (1) all registration information you submit will be true, accurate, current, and complete; (2) you will maintain the accuracy of such information and promptly update such registration information as necessary.",
       "title": "3. User Representations"
@@ -717,6 +720,27 @@
         "step3": "Export or share records at tax time.",
         "title": "A simple workflow"
       }
+    }
+  },
+  "faqPage": {
+    "title": "FAQ | FlickAI",
+    "description": "Answers to common questions about FlickAI: privacy-first expense tracking, no bank sync, offline mode, receipt scanning, and exports.",
+    "keywords": "FlickAI FAQ, expense tracker FAQ, receipt scanner FAQ, no bank sync expense tracker, offline expense tracker",
+    "heading": "Frequently Asked Questions",
+    "intro": "Quick answers to the most common questions about FlickAI.",
+    "faq": {
+      "q1": "Is FlickAI free to start?",
+      "a1": "Yes — FlickAI is free to start.",
+      "q2": "Is there an expense tracker without bank sync?",
+      "a2": "Yes — FlickAI works without mandatory bank sync or bank linking.",
+      "q3": "Does FlickAI work offline?",
+      "a3": "Yes. You can track expenses and scan receipts offline, then sync later.",
+      "q4": "Can I scan receipts and extract totals/items?",
+      "a4": "Yes — FlickAI supports AI-powered receipt scanning and field extraction.",
+      "q5": "Can I export my expenses to Excel/CSV?",
+      "a5": "Yes — you can export expense data in spreadsheet-friendly formats like CSV.",
+      "q6": "Do you sell my data?",
+      "a6": "No — we don't sell your data."
     }
   },
   "waitlist": {
