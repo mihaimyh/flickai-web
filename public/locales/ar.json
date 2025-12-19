@@ -721,24 +721,24 @@
     }
   },
   "faqPage": {
-    "title": "FAQ | FlickAI",
-    "description": "Answers to common questions about FlickAI: privacy-first expense tracking, no bank sync, offline mode, receipt scanning, and exports.",
-    "keywords": "FlickAI FAQ, expense tracker FAQ, receipt scanner FAQ, no bank sync expense tracker, offline expense tracker",
-    "heading": "Frequently Asked Questions",
-    "intro": "Quick answers to the most common questions about FlickAI.",
+    "title": "الأسئلة الشائعة | FlickAI",
+    "description": "إجابات على الأسئلة الشائعة حول FlickAI: تتبع المصروفات بخصوصية أولًا، بدون مزامنة بنكية، وضع أوفلاين، مسح الإيصالات، والتصدير.",
+    "keywords": "الأسئلة الشائعة FlickAI, أسئلة متتبع المصروفات, أسئلة ماسح الإيصالات, متتبع مصروفات بدون مزامنة بنكية, متتبع مصروفات أوفلاين",
+    "heading": "الأسئلة الشائعة",
+    "intro": "إجابات سريعة على أكثر الأسئلة شيوعًا حول FlickAI.",
     "faq": {
-      "q1": "Is FlickAI free to start?",
-      "a1": "Yes — FlickAI is free to start.",
-      "q2": "Is there an expense tracker without bank sync?",
-      "a2": "Yes — FlickAI works without mandatory bank sync or bank linking.",
-      "q3": "Does FlickAI work offline?",
-      "a3": "Yes. You can track expenses and scan receipts offline, then sync later.",
-      "q4": "Can I scan receipts and extract totals/items?",
-      "a4": "Yes — FlickAI supports AI-powered receipt scanning and field extraction.",
-      "q5": "Can I export my expenses to Excel/CSV?",
-      "a5": "Yes — you can export expense data in spreadsheet-friendly formats like CSV.",
-      "q6": "Do you sell my data?",
-      "a6": "No — we don't sell your data."
+      "q1": "هل يمكن البدء مجانًا؟",
+      "a1": "نعم — يمكنك البدء مجانًا مع FlickAI.",
+      "q2": "هل يوجد متتبع مصروفات بدون مزامنة بنكية؟",
+      "a2": "نعم — يعمل FlickAI بدون مزامنة بنكية إلزامية أو ربط البنك.",
+      "q3": "هل يعمل FlickAI أوفلاين؟",
+      "a3": "نعم. يمكنك تتبع المصروفات ومسح الإيصالات أوفلاين ثم المزامنة لاحقًا.",
+      "q4": "هل يمكنني مسح الإيصالات واستخراج الإجمالي/العناصر؟",
+      "a4": "نعم — يدعم FlickAI مسح الإيصالات بالذكاء الاصطناعي واستخراج الحقول.",
+      "q5": "هل يمكنني تصدير المصروفات إلى Excel/CSV؟",
+      "a5": "نعم — يمكنك تصدير بيانات المصروفات بصيغ مناسبة للجداول مثل CSV.",
+      "q6": "هل تبيعون بياناتي؟",
+      "a6": "لا — نحن لا نبيع بياناتك."
     }
   },
   "waitlist": {

@@ -721,24 +721,24 @@
     }
   },
   "faqPage": {
-    "title": "FAQ | FlickAI",
-    "description": "Answers to common questions about FlickAI: privacy-first expense tracking, no bank sync, offline mode, receipt scanning, and exports.",
-    "keywords": "FlickAI FAQ, expense tracker FAQ, receipt scanner FAQ, no bank sync expense tracker, offline expense tracker",
-    "heading": "Frequently Asked Questions",
-    "intro": "Quick answers to the most common questions about FlickAI.",
+    "title": "Preguntas frecuentes | FlickAI",
+    "description": "Respuestas a preguntas comunes sobre FlickAI: control de gastos privacy-first, sin sincronización bancaria, modo offline, escaneo de recibos y exportación.",
+    "keywords": "preguntas frecuentes FlickAI, FAQ control de gastos, FAQ escáner de recibos, control de gastos sin banco, control de gastos offline",
+    "heading": "Preguntas frecuentes",
+    "intro": "Respuestas rápidas a las preguntas más comunes sobre FlickAI.",
     "faq": {
-      "q1": "Is FlickAI free to start?",
-      "a1": "Yes — FlickAI is free to start.",
-      "q2": "Is there an expense tracker without bank sync?",
-      "a2": "Yes — FlickAI works without mandatory bank sync or bank linking.",
-      "q3": "Does FlickAI work offline?",
-      "a3": "Yes. You can track expenses and scan receipts offline, then sync later.",
-      "q4": "Can I scan receipts and extract totals/items?",
-      "a4": "Yes — FlickAI supports AI-powered receipt scanning and field extraction.",
-      "q5": "Can I export my expenses to Excel/CSV?",
-      "a5": "Yes — you can export expense data in spreadsheet-friendly formats like CSV.",
-      "q6": "Do you sell my data?",
-      "a6": "No — we don't sell your data."
+      "q1": "¿FlickAI es gratis para empezar?",
+      "a1": "Sí — FlickAI es gratis para empezar.",
+      "q2": "¿Hay un control de gastos sin sincronización bancaria?",
+      "a2": "Sí — FlickAI funciona sin sincronización bancaria obligatoria ni vincular el banco.",
+      "q3": "¿FlickAI funciona offline?",
+      "a3": "Sí. Puedes registrar gastos y escanear recibos offline, y luego sincronizar.",
+      "q4": "¿Puedo escanear recibos y extraer totales/artículos?",
+      "a4": "Sí — FlickAI admite escaneo de recibos con IA y extracción de campos.",
+      "q5": "¿Puedo exportar mis gastos a Excel/CSV?",
+      "a5": "Sí — puedes exportar los datos en formatos compatibles con hojas de cálculo como CSV.",
+      "q6": "¿Venden mis datos?",
+      "a6": "No — no vendemos tus datos."
     }
   },
   "waitlist": {
