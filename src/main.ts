@@ -34,13 +34,31 @@ document.addEventListener('DOMContentLoaded', () => {
   // Initialize waitlist form
   initWaitlistForm();
 
-  // Link "Download App" buttons to waitlist
-  const downloadButtons = document.querySelectorAll('a[href="#download"], .store-button');
+  // Link "Download App" buttons to download options dialog (exclude store buttons with external links)
+  const downloadButtons = document.querySelectorAll('a[href="#download"]');
   downloadButtons.forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
-      import('./waitlist').then(({ openWaitlistModal }) => {
-        openWaitlistModal();
+      import('./waitlist').then(({ openDownloadOptionsDialog }) => {
+        openDownloadOptionsDialog();
+      });
+    });
+  });
+  
+  // Link disabled store buttons (App Store) to download options dialog
+  const disabledStoreButtons = document.querySelectorAll('.store-button.disabled, .store-button.app-store');
+  disabledStoreButtons.forEach(btn => {
+    // Skip if it's an anchor with an external link
+    if (btn instanceof HTMLAnchorElement) {
+      const href = btn.getAttribute('href');
+      if (href && (href.startsWith('http://') || href.startsWith('https://'))) {
+        return; // Allow external links to work normally
+      }
+    }
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      import('./waitlist').then(({ openDownloadOptionsDialog }) => {
+        openDownloadOptionsDialog();
       });
     });
   });
