@@ -143,6 +143,30 @@
     "learnMore": "Mehr erfahren",
     "testimonials": "Referenzen"
   },
+  "testimonials": {
+    "title": "Was unsere Nutzer sagen",
+    "subtitle": "Schließen Sie sich Tausenden zufriedener Nutzer an, die FlickAI für ihre Ausgabenverfolgung vertrauen",
+    "items": [
+      {
+        "name": "Julia K.",
+        "role": "Freiberufliche Grafikdesignerin",
+        "text": "Der Offline-Modus von FlickAI hat mich während einer Kundendienstreise gerettet, als ich kein WLAN hatte. Die OCR-Genauigkeit ist beeindruckend und die kostenlose Stufe ist wirklich nützlich. Ich habe Stunden bei der Ausgabenverfolgung gespart.",
+        "rating": 5
+      },
+      {
+        "name": "Hans M.",
+        "role": "Berater",
+        "text": "Als jemand, der häufig reist, ist die Offline-Funktionalität unerlässlich. FlickAI funktioniert perfekt im Flugzeug und an abgelegenen Orten. Der datenschutzorientierte Ansatz gibt mir auch bei kundenspezifischen Ausgaben Sicherheit.",
+        "rating": 5
+      },
+      {
+        "name": "Michael S.",
+        "role": "Kleinunternehmer",
+        "text": "Wir sind von Expensify zu FlickAI gewechselt und haben es nicht bereut. Die kostenlose Stufe war perfekt zum Testen, und die Preisgestaltung ist für unser kleines Team viel angemessener. Die Belegscan-Genauigkeit entspricht dem, was wir vorher hatten.",
+        "rating": 5
+      }
+    ]
+  },
   "cookie": {
     "contact": {
       "content": "Wenn Sie Fragen zu unserer Verwendung von Cookies haben, kontaktieren Sie uns bitte unter: support@flickai.net",

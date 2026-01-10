@@ -142,7 +142,7 @@ const finalCanonicalUrl = canonicalUrl || `${baseUrl}${currentPath === '/' ? '/'
     
     <slot name="head" />
   </head>
-  <body>
+  <body class="bg-background dark:bg-dark-background text-text-main dark:text-dark-text transition-colors duration-300">
     <div id="app">
       <Header translations={translations} lang={locale} langPrefix={langPrefix} />
       
