@@ -5,13 +5,17 @@ import { getTranslations, getLangPrefix, getLocaleFromParams } from '../../../ut
 import { isValidAlternativeSlug } from '../../../utils/alternatives';
 
 export async function getStaticPaths() {
-  const alternatives = await getCollection('alternatives');
+  // Only include non-English alternatives for the [lang] route
+  // English alternatives are handled by /alternatives/[slug].astro
+  const alternatives = await getCollection('alternatives', ({ data }) => {
+    return data.lang !== 'en';
+  });
   
   return alternatives.map((alternative) => {
-    // Astro creates slugs like "expensify-alternatives-es" from "expensify-alternatives.es.md"
-    // For English files (expensify-alternatives.md), slug is "expensify-alternatives"
-    // Remove the language suffix (e.g., "-es", "-de") to get the base slug
-    const cleanSlug = alternative.slug.replace(/-(ar|de|es|fr|hi|id|it|ro|zh)$/, '');
+    // Astro creates slugs like "expensify-alternativeses" from "expensify-alternatives.es.md"
+    // Remove the language suffix (e.g., "es", "de") to get the base slug
+    // Only apply replacement for non-English files to avoid matching "es" in "alternatives"
+    const cleanSlug = alternative.slug.replace(/(ar|de|es|fr|hi|id|it|ro|zh)$/, '');
     
     return {
       params: { 
@@ -24,7 +28,7 @@ export async function getStaticPaths() {
 }
 
 const { alternative } = Astro.props;
-const { lang, slug } = Astro.params;
+const { slug } = Astro.params;
 
 // Validate slug is a valid alternative slug
 if (!slug || !isValidAlternativeSlug(slug)) {
