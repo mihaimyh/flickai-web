@@ -90,6 +90,22 @@ const finalCanonicalUrl = canonicalUrl || `${baseUrl}${currentPath === '/' ? '/'
     <link rel="canonical" href={finalCanonicalUrl} />
     <link rel="sitemap" type="application/xml" title="Sitemap" href={`${baseUrl}/sitemap.xml`} />
     
+    <!-- Redirect .html URLs to clean URLs (for live site with indexed .html URLs) -->
+    <script is:inline>
+      // Redirect old .html URLs to clean URLs with trailing slashes
+      (function() {
+        const path = window.location.pathname;
+        // Only redirect if path ends with .html (excluding index.html at root)
+        if (path.endsWith('.html') && path !== '/index.html') {
+          // Replace .html with trailing slash, preserving query string and hash
+          const cleanPath = path.replace(/\.html$/, '/');
+          const newUrl = cleanPath + window.location.search + window.location.hash;
+          // Use replace instead of assign to avoid adding to history
+          window.location.replace(newUrl);
+        }
+      })();
+    </script>
+    
     <!-- Hreflang Tags -->
     {locales.map((loc) => {
       const localePath = loc === 'en' ? '' : `/${loc}`;
