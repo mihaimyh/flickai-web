@@ -46,6 +46,26 @@ const locales = SUPPORTED_LOCALES;
 const currentPath = Astro.url.pathname;
 const baseUrl = 'https://flickai.net';
 
+// Helper to get clean path without locale prefix for hreflang generation
+function getCleanPath(pathname: string, currentLocale: SupportedLocale): string {
+  // Remove leading/trailing slashes
+  let cleanPath = pathname.replace(/^\/+|\/+$/g, '');
+  
+  // Remove locale prefix if present (except for root)
+  if (currentLocale !== 'en' && cleanPath.startsWith(`${currentLocale}/`)) {
+    cleanPath = cleanPath.replace(new RegExp(`^${currentLocale}\\/`), '');
+  }
+  
+  // Ensure path starts with / and ends with / (for directory format)
+  if (cleanPath === '') {
+    return '/';
+  }
+  return `/${cleanPath}/`;
+}
+
+// Get clean path without current locale prefix
+const cleanPath = getCleanPath(currentPath, locale);
+
 // Auto-generate canonical URL if not provided
 const finalCanonicalUrl = canonicalUrl || `${baseUrl}${currentPath === '/' ? '/' : currentPath}`;
 ---
@@ -71,14 +91,18 @@ const finalCanonicalUrl = canonicalUrl || `${baseUrl}${currentPath === '/' ? '/'
     <link rel="sitemap" type="application/xml" title="Sitemap" href={`${baseUrl}/sitemap.xml`} />
     
     <!-- Hreflang Tags -->
-    {locales.map((locale) => (
-      <link 
-        rel="alternate" 
-        hreflang={locale} 
-        href={`${baseUrl}${locale === 'en' ? '' : `/${locale}`}${currentPath}`} 
-      />
-    ))}
-    <link rel="alternate" hreflang="x-default" href={`${baseUrl}${currentPath}`} />
+    {locales.map((loc) => {
+      const localePath = loc === 'en' ? '' : `/${loc}`;
+      const fullPath = cleanPath === '/' && loc === 'en' ? '/' : `${localePath}${cleanPath}`;
+      return (
+        <link 
+          rel="alternate" 
+          hreflang={loc} 
+          href={`${baseUrl}${fullPath}`} 
+        />
+      );
+    })}
+    <link rel="alternate" hreflang="x-default" href={`${baseUrl}${cleanPath === '/' ? '/' : cleanPath}`} />
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content={ogType} />

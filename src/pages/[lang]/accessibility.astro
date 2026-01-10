@@ -17,7 +17,7 @@ const locale = getLocaleFromParams({ lang });
 const translations = getTranslations(locale);
 const accessibility = translations.accessibility || {};
 const langPrefix = getLangPrefix(locale);
-const pageUrl = `https://flickai.net${langPrefix}/accessibility.html`;
+const pageUrl = `https://flickai.net${langPrefix}/accessibility/`;
 const breadcrumbs = [
   { name: 'FlickAI', url: 'https://flickai.net/' },
   { name: accessibility.heading || 'Accessibility Statement', url: pageUrl }

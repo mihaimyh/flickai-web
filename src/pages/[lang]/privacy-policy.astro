@@ -17,7 +17,7 @@ const locale = getLocaleFromParams({ lang });
 const translations = getTranslations(locale);
 const privacy = translations.privacy || {};
 const langPrefix = getLangPrefix(locale);
-const pageUrl = `https://flickai.net${langPrefix}/privacy-policy.html`;
+const pageUrl = `https://flickai.net${langPrefix}/privacy-policy/`;
 const breadcrumbs = [
   { name: 'FlickAI', url: 'https://flickai.net/' },
   { name: privacy.heading || 'Privacy Policy', url: pageUrl }

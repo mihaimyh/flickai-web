@@ -17,7 +17,7 @@ const locale = getLocaleFromParams({ lang });
 const translations = getTranslations(locale);
 const cookie = translations.cookie || {};
 const langPrefix = getLangPrefix(locale);
-const pageUrl = `https://flickai.net${langPrefix}/cookie-policy.html`;
+const pageUrl = `https://flickai.net${langPrefix}/cookie-policy/`;
 const breadcrumbs = [
   { name: 'FlickAI', url: 'https://flickai.net/' },
   { name: cookie.heading || 'Cookie Policy', url: pageUrl }

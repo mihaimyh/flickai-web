@@ -17,7 +17,7 @@ const locale = getLocaleFromParams({ lang });
 const translations = getTranslations(locale);
 const gdpr = translations.gdpr || {};
 const langPrefix = getLangPrefix(locale);
-const pageUrl = `https://flickai.net${langPrefix}/gdpr-compliance.html`;
+const pageUrl = `https://flickai.net${langPrefix}/gdpr-compliance/`;
 const breadcrumbs = [
   { name: 'FlickAI', url: 'https://flickai.net/' },
   { name: gdpr.heading || 'GDPR Compliance', url: pageUrl }

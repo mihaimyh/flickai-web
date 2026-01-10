@@ -17,7 +17,7 @@ const locale = getLocaleFromParams({ lang });
 const translations = getTranslations(locale);
 const faqPage = translations.faqPage || {};
 const langPrefix = getLangPrefix(locale);
-const pageUrl = `https://flickai.net${langPrefix}/faq.html`;
+const pageUrl = `https://flickai.net${langPrefix}/faq/`;
 const faqItems = extractFAQItems(faqPage.faq);
 const schema = buildPageSchema(pageUrl, faqPage.title || 'FAQ', faqPage.description || '', locale, undefined, faqItems);
 ---

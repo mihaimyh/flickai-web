@@ -6,7 +6,7 @@ import { buildPageSchema, extractFAQItems } from '../utils/schema';
 const translations = getTranslations('en');
 const faqPage = translations.faqPage || {};
 const langPrefix = '';
-const pageUrl = 'https://flickai.net/faq.html';
+const pageUrl = 'https://flickai.net/faq/';
 const faqItems = extractFAQItems(faqPage.faq);
 const schema = buildPageSchema(pageUrl, faqPage.title || 'FAQ', faqPage.description || '', 'en', undefined, faqItems);
 ---

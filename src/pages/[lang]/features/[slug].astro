@@ -1,8 +1,21 @@
 ---
+import { Image } from 'astro:assets';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getTranslations, getLangPrefix, getLocaleFromParams } from '../../../utils/i18n';
 import { getFeatureKey, isValidFeatureSlug, getFeatureSlugs } from '../../../utils/features';
 import type { SupportedLocale } from '../../../i18n-config';
+
+// Import feature images that exist
+import featureAnalytics from '../../../assets/images/feature-analytics.png';
+import featureScanning from '../../../assets/images/feature-scanning.png';
+import featureSecurity from '../../../assets/images/feature-security.png';
+
+// Map feature slugs to their images
+const featureImages: Record<string, typeof featureAnalytics | undefined> = {
+  'analytics': featureAnalytics,
+  'receipt-scanning': featureScanning,
+  'security': featureSecurity,
+};
 
 export async function getStaticPaths() {
   const slugs = getFeatureSlugs();
@@ -33,6 +46,7 @@ const features = translations.features || {};
 const feature = features[featureKey] || {};
 const common = translations.common || {};
 const langPrefix = getLangPrefix(locale);
+const featureImage = featureImages[slug];
 ---
 
 <BaseLayout
@@ -257,16 +271,19 @@ const langPrefix = getLangPrefix(locale);
           </>
         )}
       </div>
-      <div class="feature-image fade-in">
-        <img 
-          src={`/images/feature-${slug}.png`} 
-          alt={feature.description || `Feature: ${feature.heading || slug}`}
-          width="800" 
-          height="600" 
-          loading="lazy"
-          style="border-radius: 1rem; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);"
-        />
-      </div>
+      {featureImage && (
+        <div class="feature-image fade-in">
+          <Image 
+            src={featureImage} 
+            alt={feature.description || `Feature: ${feature.heading || slug}`}
+            width={800} 
+            height={600} 
+            format="webp"
+            loading="lazy"
+            style="border-radius: 1rem; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);"
+          />
+        </div>
+      )}
     </div>
   </main>
 </BaseLayout>

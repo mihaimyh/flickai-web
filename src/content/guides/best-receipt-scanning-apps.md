@@ -30,7 +30,7 @@ This guide will walk you through the best options available, helping you find th
 
 Before we compare specific apps, let's talk about what makes one worth your time. A truly great receipt scanner is much more than a fancy camera for your phone; it's a smart financial assistant that genuinely makes your life easier. It saves you time, eliminates frustrating manual errors, and gives you a crystal-clear picture of where your money is going.
 
-At the heart of any decent app is its **Optical Character Recognition (OCR)**. This tech "reads" your crumpled receipts and pulls out the important stuff—the store name, the date, and the final total. High accuracy here is non-negotiable. If you're constantly correcting what the app gets wrong, it defeats the whole purpose. To understand how this works, you can explore the basics of effective [receipt scanning](https://flickai.net/features/receipt-scanning.html) and how it automates this tedious task.
+At the heart of any decent app is its **Optical Character Recognition (OCR)**. This tech "reads" your crumpled receipts and pulls out the important stuff—the store name, the date, and the final total. High accuracy here is non-negotiable. If you're constantly correcting what the app gets wrong, it defeats the whole purpose. To understand how this works, you can explore the basics of effective [receipt scanning](https://flickai.net/features/receipt-scanning/) and how it automates this tedious task.
 
 Another crucial piece of the puzzle is how well the app integrates with your other financial tools, especially your accounting software. Your goal should be to have your expenses flow seamlessly into your books without you lifting a finger. This kind of integration is exactly why the global receipt scanner app market is expected to hit **$1,200 million by 2033**. People are tired of manual data entry, and the demand for these smart, connected tools is only getting stronger, as highlighted in this [full report](https://www.datainsightsmarket.com/reports/receipt-scanner-app-1421135).
 
@@ -84,7 +84,7 @@ First things first, connect your bank accounts. This is the secret to automating
 
 The single most important habit you can build? Scan receipts the moment you get them. Seriously. A quick snap after buying coffee or paying for parking takes seconds and saves you from a mountain of crumpled paper later. This simple act turns your **AI expense tracker** from just another app on your phone into a powerful, real-time financial tool.
 
-If you're looking to take your organized data a step further, check out our guide on how to convert a [receipt to an Excel file](https://flickai.net/guides/receipt-to-excel.html) for some extra pointers.
+If you're looking to take your organized data a step further, check out our guide on how to convert a [receipt to an Excel file](https://flickai.net/guides/receipt-to-excel/) for some extra pointers.
 
 This flowchart can help you visualize how different features line up with different needs, whether you're a freelancer, managing a team, or always on the road.
 

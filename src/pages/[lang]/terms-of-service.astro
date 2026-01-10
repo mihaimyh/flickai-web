@@ -17,7 +17,7 @@ const locale = getLocaleFromParams({ lang });
 const translations = getTranslations(locale);
 const terms = translations.terms || {};
 const langPrefix = getLangPrefix(locale);
-const pageUrl = `https://flickai.net${langPrefix}/terms-of-service.html`;
+const pageUrl = `https://flickai.net${langPrefix}/terms-of-service/`;
 const breadcrumbs = [
   { name: 'FlickAI', url: 'https://flickai.net/' },
   { name: terms.heading || 'Terms of Service', url: pageUrl }

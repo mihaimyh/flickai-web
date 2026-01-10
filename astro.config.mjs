@@ -21,8 +21,10 @@ export default defineConfig({
   output: 'static',
 
   build: {
-    format: 'file'
+    format: 'directory'
   },
+
+  trailingSlash: 'always',
 
   integrations: [sitemap(), mdx()],
 

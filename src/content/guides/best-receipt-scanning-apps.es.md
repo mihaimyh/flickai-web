@@ -30,7 +30,7 @@ Esta guía te llevará a través de las mejores opciones disponibles, ayudándot
 
 Antes de comparar apps específicas, hablemos de lo que hace que una valga tu tiempo. Un escáner de recibos verdaderamente excelente es mucho más que una cámara elegante para tu teléfono; es un asistente financiero inteligente que genuinamente facilita tu vida. Te ahorra tiempo, elimina errores manuales frustrantes y te da una imagen cristalina de hacia dónde va tu dinero.
 
-En el corazón de cualquier app decente está su **Reconocimiento Óptico de Caracteres (OCR)**. Esta tecnología "lee" tus recibos arrugados y extrae lo importante: el nombre de la tienda, la fecha y el total final. Alta precisión aquí no es negociable. Si estás constantemente corrigiendo lo que la app interpreta mal, derrota todo el propósito. Para entender cómo funciona esto, puedes explorar los conceptos básicos del [escaneo de recibos](https://flickai.net/features/receipt-scanning.html) efectivo y cómo automatiza esta tediosa tarea.
+En el corazón de cualquier app decente está su **Reconocimiento Óptico de Caracteres (OCR)**. Esta tecnología "lee" tus recibos arrugados y extrae lo importante: el nombre de la tienda, la fecha y el total final. Alta precisión aquí no es negociable. Si estás constantemente corrigiendo lo que la app interpreta mal, derrota todo el propósito. Para entender cómo funciona esto, puedes explorar los conceptos básicos del [escaneo de recibos](https://flickai.net/features/receipt-scanning/) efectivo y cómo automatiza esta tediosa tarea.
 
 Otra pieza crucial del rompecabezas es qué tan bien se integra la app con tus otras herramientas financieras, especialmente tu software contable. Tu objetivo debe ser que tus gastos fluyan sin problemas a tus libros sin que levantes un dedo. Este tipo de integración es exactamente por qué se espera que el mercado global de apps de escaneo de recibos alcance **$1,200 millones para 2033**. La gente está cansada de la entrada manual de datos, y la demanda de estas herramientas inteligentes y conectadas solo se está fortaleciendo, como se destaca en este [informe completo](https://www.datainsightsmarket.com/reports/receipt-scanner-app-1421135).
 
@@ -84,7 +84,7 @@ Primero lo primero, conecta tus cuentas bancarias. Este es el secreto para autom
 
 ¿El hábito más importante que puedes construir? Escanear recibos en el momento en que los obtienes. En serio. Una captura rápida después de comprar café o pagar por estacionamiento toma segundos y te ahorra una montaña de papel arrugado después. Este simple acto convierte tu **rastreador de gastos con IA** de solo otra app en tu teléfono a una poderosa herramienta financiera en tiempo real.
 
-Si buscas llevar tus datos organizados un paso más allá, consulta nuestra guía sobre cómo convertir un [recibo a un archivo de Excel](https://flickai.net/guides/receipt-to-excel.html) para algunos consejos extra.
+Si buscas llevar tus datos organizados un paso más allá, consulta nuestra guía sobre cómo convertir un [recibo a un archivo de Excel](https://flickai.net/guides/receipt-to-excel/) para algunos consejos extra.
 
 Este diagrama de flujo puede ayudarte a visualizar cómo diferentes características se alinean con diferentes necesidades, ya seas freelancer, gestionando un equipo o siempre en movimiento.
 

@@ -8,7 +8,7 @@ interface Props {
 
 const { pageKey, translations, lang, langPrefix } = Astro.props;
 const pageData = translations[pageKey] || {};
-const pageUrl = `https://flickai.net${langPrefix}/${pageKey === 'faqPage' ? 'faq.html' : pageKey === 'privacy' ? 'privacy-policy.html' : pageKey === 'terms' ? 'terms-of-service.html' : pageKey === 'cookie' ? 'cookie-policy.html' : pageKey === 'gdpr' ? 'gdpr-compliance.html' : 'accessibility.html'}`;
+const pageUrl = `https://flickai.net${langPrefix}/${pageKey === 'faqPage' ? 'faq/' : pageKey === 'privacy' ? 'privacy-policy/' : pageKey === 'terms' ? 'terms-of-service/' : pageKey === 'cookie' ? 'cookie-policy/' : pageKey === 'gdpr' ? 'gdpr-compliance/' : 'accessibility/'}`;
 
 // This component will be used by legal pages to render content
 // For now, each page will handle its own rendering for flexibility
