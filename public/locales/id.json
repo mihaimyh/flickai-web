@@ -1,0 +1,755 @@
+{
+  "accessibility": {
+    "commitment": {
+      "content": "FlickAI berkomitmen untuk memastikan aksesibilitas digital bagi penyandang disabilitas. Kami terus meningkatkan pengalaman pengguna untuk semua orang dan menerapkan standar aksesibilitas yang relevan.",
+      "title": "1. Komitmen Kami"
+    },
+    "conformance": {
+      "content": "Pedoman Aksesibilitas Konten Web (WCAG) mendefinisikan persyaratan bagi desainer dan pengembang untuk meningkatkan aksesibilitas bagi penyandang disabilitas. Ini mendefinisikan tiga tingkat kesesuaian: Tingkat A, Tingkat AA, dan Tingkat AAA. FlickAI sebagian sesuai dengan WCAG 2.1 tingkat AA.",
+      "title": "2. Status Kesesuaian"
+    },
+    "description": "Pernyataan Aksesibilitas untuk FlickAI. Komitmen kami terhadap aksesibilitas digital.",
+    "feedback": {
+      "email": "E-mail: support@flickai.net",
+      "intro": "Kami menyambut umpan balik Anda tentang aksesibilitas FlickAI. Harap beri tahu kami jika Anda menemui hambatan aksesibilitas di FlickAI:",
+      "title": "3. Umpan Balik"
+    },
+    "heading": "Pernyataan Aksesibilitas",
+    "lastUpdated": "Terakhir Diperbarui: 28 November 2025",
+    "title": "Pernyataan Aksesibilitas - FlickAI | Legal"
+  },
+  "alternatives": {
+    "backToHub": "Kembali ke Alternatif",
+    "bestExpenseTrackers": {
+      "criteria": {
+        "point1": "Pencatatan cepat (scan + input)",
+        "point2": "Mode offline dan sinkron yang andal",
+        "point3": "Privacy-first (tanpa bank wajib)",
+        "point4": "Harga untuk mencoba (mulai gratis)",
+        "title": "Kriteria"
+      },
+      "description": "Daftar praktis aplikasi pengeluaran terbaik 2025–2026: offline, privasi, otomatisasi, dan harga.",
+      "faq": {
+        "a1": "Tergantung workflow: offline untuk perjalanan, privacy-first jika tanpa bank, AI untuk otomatisasi.",
+        "a2": "Ya — FlickAI bisa mulai gratis.",
+        "q1": "Apa aplikasi pengeluaran terbaik di 2026?",
+        "q2": "Ada yang mulai gratis?",
+        "title": "FAQ"
+      },
+      "heading": "Aplikasi pelacak pengeluaran terbaik (2025–2026)",
+      "intro": "Fokus pada kebutuhan nyata: cepat, andal offline, dan privasi.",
+      "keywords": "aplikasi pengeluaran terbaik, aplikasi budget 2026, pelacak pengeluaran offline, aplikasi pengeluaran privat, aplikasi pengeluaran AI, mulai gratis",
+      "list": {
+        "item1": "Mulai gratis, scan AI, workflow offline.",
+        "item2": "YNAB — Metode budgeting, berlangganan.",
+        "item3": "PocketGuard — Budget sederhana.",
+        "item4": "Spendee — Dompet bersama.",
+        "item5": "Money Manager — Pencatatan harian ringan.",
+        "title": "Pilihan"
+      },
+      "title": "Aplikasi pelacak pengeluaran terbaik (2025-2026)"
+    },
+    "bestReceiptScanners": {
+      "criteria": {
+        "point1": "Akurasi OCR (merchant/tanggal/total/item)",
+        "point2": "Kecepatan dan kemudahan",
+        "point3": "Capture offline",
+        "point4": "Ekspor (CSV/Excel)",
+        "title": "Kriteria"
+      },
+      "description": "Bandingkan pemindai struk terbaik 2025–2026: akurasi OCR, capture offline, dan ekspor.",
+      "heading": "Aplikasi pemindai struk terbaik (2025–2026)",
+      "intro": "Untuk catatan rapi, akurasi OCR dan ekspor sama pentingnya.",
+      "keywords": "pemindai struk terbaik, OCR struk, scan struk offline, pemindai struk gratis, struk ke Excel, 2026 pemindai struk",
+      "list": {
+        "item1": "Mulai gratis, ekstraksi AI, fokus pengeluaran.",
+        "item2": "Expensify — Populer untuk tim, berlangganan.",
+        "item3": "Zoho Expense — Suite lengkap.",
+        "item4": "Genius Scan — Scan bagus, kurang fokus pengeluaran.",
+        "item5": "CamScanner — Alat scan umum.",
+        "title": "Pilihan"
+      },
+      "title": "Aplikasi pemindai struk terbaik (2025-2026)"
+    },
+    "expensify": {
+      "description": "Mencari alternatif Expensify? Bandingkan aplikasi dengan fokus offline, privasi, sederhana, dan otomatisasi AI.",
+      "heading": "Alternatif Expensify terbaik (2025–2026)",
+      "intro": "Panduan praktis untuk workflow pengeluaran yang lebih sederhana dan lebih privat.",
+      "keywords": "alternatif Expensify, aplikasi seperti Expensify, alternatif laporan pengeluaran 2026, pelacak pengeluaran offline, aplikasi pengeluaran privat, pemindai struk AI",
+      "list": {
+        "item1": "Mulai gratis, scan AI, offline + privacy-first.",
+        "item2": "Zoho Expense — Suite lengkap.",
+        "item3": "Concur — Lebih enterprise.",
+        "item4": "QuickBooks — Lebih akuntansi.",
+        "item5": "Wave — Opsi ramah budget.",
+        "title": "Top alternatif"
+      },
+      "title": "Alternatif Expensify terbaik (2025-2026)",
+      "whatToLookFor": {
+        "point1": "Capture struk cepat dengan OCR andal",
+        "point2": "Dukungan offline untuk perjalanan",
+        "point3": "Harga jelas (mulai gratis membantu mencoba)",
+        "title": "Yang perlu dicari"
+      }
+    },
+    "index": {
+      "cta": "FlickAI bisa mulai gratis — dibuat untuk offline, privasi, dan otomatisasi AI.",
+      "description": "Jelajahi panduan aplikasi pengeluaran dan pemindai struk terbaik. Bandingkan offline, privasi, dan otomatisasi.",
+      "guides": {
+        "title": "Panduan"
+      },
+      "heading": "Top alternatif (2025–2026)",
+      "howToChoose": {
+        "point1": "Pilih offline jika Anda sering bepergian atau butuh andal.",
+        "point2": "Pilih privacy-first jika tidak ingin wajib sinkron bank.",
+        "point3": "Pilih AI jika ingin lebih sedikit input manual.",
+        "title": "Cara memilih"
+      },
+      "intro": "Mencari aplikasi yang cocok dengan workflow Anda? Mulai dari sini.",
+      "keywords": "alternatif aplikasi pengeluaran, alternatif pemindai struk, aplikasi pengeluaran terbaik 2026, pemindai struk terbaik, pengeluaran offline, privasi pengeluaran",
+      "title": "Top alternatif: pelacak pengeluaran & pemindai struk (2025-2026)"
+    },
+    "zoho": {
+      "description": "Alternatif Zoho Expense untuk pengguna yang ingin alur pengeluaran dan struk yang lebih sederhana.",
+      "heading": "Alternatif Zoho Expense terbaik (2025–2026)",
+      "intro": "Jika Anda ingin alat khusus, bukan suite besar, mulai dari sini.",
+      "keywords": "alternatif Zoho Expense, aplikasi seperti Zoho Expense, pelacak pengeluaran sederhana, alternatif pemindai struk 2026, pengeluaran offline",
+      "list": {
+        "item1": "Mulai gratis, AI, offline.",
+        "item2": "Expensify — Kuat untuk tim.",
+        "item3": "Concur — Suite enterprise.",
+        "item4": "FreshBooks — Fokus invoice.",
+        "item5": "Spendee — Budget personal/bersama.",
+        "title": "Top alternatif"
+      },
+      "title": "Alternatif Zoho Expense terbaik (2025-2026)",
+      "whatToLookFor": {
+        "point1": "UX fokus untuk pencatatan harian",
+        "point2": "OCR dan ekspor",
+        "point3": "Opsi offline dan privacy-first",
+        "title": "Yang perlu dicari"
+      }
+    }
+  },
+  "common": {
+    "alternatives": "Alternatif",
+    "integrations": "Integrasi",
+    "guides": "Panduan",
+    "faq": "FAQ",
+    "backToHome": "Kembali ke Beranda",
+    "copyright": "© 2025 FlickAI. Hak Cipta Dilindungi.",
+    "downloadApp": "Unduh Aplikasi",
+    "features": "Fitur",
+    "learnMore": "Pelajari Lebih Lanjut",
+    "testimonials": "Testimoni"
+  },
+  "cookie": {
+    "contact": {
+      "content": "Jika Anda memiliki pertanyaan tentang penggunaan cookie kami, silakan hubungi kami di: support@flickai.net",
+      "title": "4. Hubungi Kami"
+    },
+    "description": "Kebijakan Cookie untuk FlickAI. Pahami bagaimana kami menggunakan cookie untuk meningkatkan pengalaman Anda.",
+    "disabling": {
+      "content": "Anda dapat mencegah pengaturan cookie dengan menyesuaikan pengaturan di browser Anda (lihat Bantuan browser Anda untuk cara melakukannya). Sadarilah bahwa menonaktifkan cookie akan memengaruhi fungsionalitas situs ini dan banyak situs web lain yang Anda kunjungi.",
+      "title": "3. Menonaktifkan Cookie"
+    },
+    "heading": "Kebijakan Cookie",
+    "howWeUse": {
+      "analytics": "Cookie Analitik: Ini membantu kami memahami bagaimana pengunjung berinteraksi dengan situs web kami.",
+      "essential": "Cookie Esensial: Ini diperlukan agar situs web berfungsi dengan baik.",
+      "functionality": "Cookie Fungsionalitas: Ini memungkinkan situs web mengingat pilihan yang Anda buat.",
+      "intro": "Kami menggunakan cookie untuk berbagai alasan yang dirinci di bawah ini. Sayangnya dalam banyak kasus tidak ada opsi standar industri untuk menonaktifkan cookie tanpa sepenuhnya menonaktifkan fungsionalitas dan fitur yang mereka tambahkan ke situs ini.",
+      "title": "2. Bagaimana Kami Menggunakan Cookie"
+    },
+    "lastUpdated": "Terakhir Diperbarui: 28 November 2025",
+    "title": "Kebijakan Cookie - FlickAI | Legal",
+    "whatAre": {
+      "content": "Cookie adalah file teks kecil yang ditempatkan di komputer atau perangkat seluler Anda oleh situs web yang Anda kunjungi. Cookie digunakan secara luas untuk membuat situs web berfungsi, atau bekerja lebih efisien, serta untuk memberikan informasi kepada pemilik situs.",
+      "title": "1. Apa itu Cookie"
+    }
+  },
+  "features": {
+    "aiAssistant": {
+      "description": "Tanya soal pengeluaran Anda, dapatkan insight, dan jelajahi workflow percakapan untuk 2026. Mulai gratis.",
+      "faq": {
+        "a1": "Ya — FlickAI bisa mulai gratis.",
+        "a2": "FlickAI mendukung alur privacy-first dan penyimpanan struk aman.",
+        "a3": "Ya — catat offline lalu sinkron.",
+        "q1": "Apakah FlickAI bisa mulai gratis?",
+        "q2": "Apakah ini privat?",
+        "q3": "Bisa offline?",
+        "title": "FAQ"
+      },
+      "heading": "Asisten keuangan AI untuk pengeluaran",
+      "intro": "Di 2026, orang tidak hanya mencatat — mereka bertanya. FlickAI memadukan pencatatan cepat dengan insight ala asisten.",
+      "keywords": "asisten keuangan AI, asisten pengeluaran AI, chat pengeluaran, budget percakapan, pencarian suara pengeluaran, 2026 asisten finansial",
+      "questions": {
+        "q1": "“Berapa yang saya habiskan untuk kopi bulan lalu?”",
+        "q2": "“Kategori mana yang naik paling banyak kuartal ini?”",
+        "q3": "“Tampilkan merchant teratas saya.”",
+        "q4": "“Di mana saya bisa menghemat minggu ini?”",
+        "title": "Contoh pertanyaan"
+      },
+      "related": {
+        "title": "Terkait"
+      },
+      "title": "Asisten keuangan AI untuk pengeluaran | FlickAI"
+    },
+    "analytics": {
+      "aiInsights": {
+        "example": "\"Anda telah menghabiskan 20% lebih banyak untuk makan di luar bulan ini dibandingkan bulan lalu. Pertimbangkan untuk memasak di rumah minggu ini agar tetap sesuai anggaran.\"",
+        "intro": "AI kami tidak hanya menunjukkan data kepada Anda; itu menjelaskannya. Dapatkan tip yang dipersonalisasi seperti:",
+        "title": "Wawasan Buatan AI"
+      },
+      "description": "Visualisasikan tren pengeluaran dan dapatkan wawasan keuangan yang dipersonalisasi dalam bahasa Anda.",
+      "heading": "Analitik Cerdas",
+      "intro": "Memahami uang Anda adalah langkah pertama untuk mengendalikannya. FlickAI memberikan wawasan mendalam tentang kebiasaan belanja Anda.",
+      "title": "Analitik Cerdas - FlickAI",
+      "visualTrends": {
+        "categoryBreakdown": "Rincian Kategori: Diagram lingkaran yang menunjukkan pengeluaran berdasarkan kategori (Makanan, Transportasi, Utilitas, dll.).",
+        "intro": "Lihat dengan tepat ke mana uang Anda pergi dengan grafik dan diagram interaktif:",
+        "merchantAnalysis": "Analisis Pedagang: Lihat di toko mana Anda menghabiskan paling banyak.",
+        "monthlyTrends": "Tren Bulanan: Grafik batang yang membandingkan pengeluaran bulan ke bulan.",
+        "title": "Tren Pengeluaran Visual"
+      }
+    },
+    "offlineTracker": {
+      "description": "Catat pengeluaran tanpa internet dengan FlickAI. Bekerja offline dan sinkron saat Anda kembali online. Mulai gratis.",
+      "faq": {
+        "a1": "Ya. Anda bisa mencatat pengeluaran dan memindai struk secara offline, lalu sinkron saat online.",
+        "a2": "Ya. FlickAI bisa mulai gratis, dengan upgrade opsional.",
+        "a3": "Mode offline mendukung alur yang lebih privat karena tidak bergantung pada koneksi terus-menerus.",
+        "a4": "Traveler, pengguna yang peduli privasi, dan siapa pun yang butuh pelacak yang andal tanpa koneksi konstan.",
+        "q1": "Apakah FlickAI bisa tanpa internet?",
+        "q2": "Apakah bisa mulai gratis?",
+        "q3": "Apakah offline lebih privat?",
+        "q4": "Cocok untuk siapa?",
+        "title": "FAQ"
+      },
+      "heading": "Pelacak pengeluaran offline (tanpa internet)",
+      "how": {
+        "step1": "Tambah pengeluaran dan scan struk kapan saja, bahkan offline.",
+        "step2": "Tinjau kategori dan total di perangkat.",
+        "step3": "Sinkron saat Anda kembali online.",
+        "title": "Cara kerjanya"
+      },
+      "intro": "Di pesawat, saat bepergian, atau sinyal buruk: FlickAI dibuat untuk mencatat pengeluaran secara offline dan sinkron belakangan.",
+      "keywords": "pelacak pengeluaran offline, aplikasi pengeluaran tanpa internet, budget offline, catat pengeluaran tanpa koneksi, pemindai struk offline, aplikasi pengeluaran privat, 2026 pelacak pengeluaran",
+      "related": {
+        "title": "Terkait"
+      },
+      "title": "Pelacak pengeluaran offline – tanpa internet | FlickAI",
+      "why": {
+        "point1": "Catat pengeluaran perjalanan tanpa bergantung pada roaming/Wi‑Fi.",
+        "point2": "Tetap bisa dipakai di kereta, basement, atau area minim sinyal.",
+        "point3": "Mengurangi ketergantungan ke cloud untuk pencatatan dasar.",
+        "title": "Kenapa offline itu penting"
+      }
+    },
+    "onDeviceAI": {
+      "description": "Workflows 2026: AI lebih privat, scan struk, penggunaan offline, dan pertanyaan percakapan tentang pengeluaran. Mulai gratis.",
+      "faq": {
+        "a1": "Ya — FlickAI bisa mulai gratis.",
+        "a2": "Ya. Catat offline dan sinkron nanti.",
+        "a3": "Ya — FlickAI mendukung alur yang mengutamakan privasi dan penyimpanan struk aman.",
+        "q1": "Apakah mulai gratis?",
+        "q2": "Bisa offline?",
+        "q3": "Apakah privacy-first?",
+        "title": "FAQ"
+      },
+      "heading": "AI di perangkat untuk pelacakan pengeluaran (siap 2026)",
+      "intro": "Pencarian bergerak ke asisten dan pertanyaan natural. FlickAI menargetkan alur AI yang lebih privat dan ramah offline.",
+      "keywords": "AI di perangkat pengeluaran, AI privat struk, OCR struk di ponsel, pelacak pengeluaran AI offline, asisten keuangan 2026, pertanyaan percakapan pengeluaran",
+      "related": {
+        "title": "Terkait"
+      },
+      "title": "AI di perangkat untuk pengeluaran (AI privat) | FlickAI",
+      "voice": {
+        "example1": "“Berapa yang saya habiskan untuk belanja bulanan?”",
+        "example2": "“Tampilkan merchant teratas saya kuartal ini.”",
+        "example3": "“Kategori mana yang naik paling banyak?”",
+        "title": "Contoh pertanyaan gaya 2026"
+      },
+      "what": {
+        "point1": "Scan dan rapikan struk dengan ekstraksi AI.",
+        "point2": "Tetap bisa mencatat saat koneksi tidak stabil.",
+        "point3": "Dapatkan jawaban gaya “insight” dari data Anda (sesuai ketersediaan).",
+        "title": "Artinya"
+      }
+    },
+    "privacyFirst": {
+      "description": "Pelacak pengeluaran yang mengutamakan privasi tanpa wajib menghubungkan rekening bank. Penyimpanan struk aman dan alur offline. Mulai gratis.",
+      "faq": {
+        "a1": "Tidak. FlickAI tidak mewajibkan koneksi bank untuk mencatat pengeluaran.",
+        "a2": "Tidak — kami tidak menjual data Anda.",
+        "a3": "Ya. Catat offline dan sinkron nanti.",
+        "a4": "Ya — FlickAI bisa mulai gratis.",
+        "q1": "Haruskah saya menghubungkan rekening bank?",
+        "q2": "Apakah Anda menjual data saya?",
+        "q3": "Bisa dipakai offline?",
+        "q4": "Apakah mulai gratis?",
+        "title": "FAQ"
+      },
+      "heading": "Pelacak pengeluaran privacy-first (tanpa wajib bank)",
+      "intro": "Jika Anda ingin tetap memegang kendali atas data keuangan, FlickAI dirancang untuk alur privacy-first tanpa koneksi bank wajib.",
+      "keywords": "pelacak pengeluaran privat, aplikasi pengeluaran privasi, tanpa sinkronisasi bank, tanpa hubungkan bank, struk terenkripsi, privasi keuangan, 2026 aplikasi pengeluaran privat",
+      "pillars": {
+        "point1": "Tidak wajib sinkron rekening bank.",
+        "point2": "Penyimpanan struk aman dan praktik keamanan yang baik.",
+        "point3": "Alur offline untuk data sensitif.",
+        "point4": "Mulai gratis, upgrade saat perlu.",
+        "title": "Privasi by design"
+      },
+      "related": {
+        "title": "Terkait"
+      },
+      "title": "Pelacak pengeluaran privacy-first – tanpa sinkron bank | FlickAI"
+    },
+    "receiptToExcel": {
+      "bestFor": {
+        "point1": "Freelancer/pekerja lepas untuk catat pengeluaran.",
+        "point2": "Tim kecil yang ingin kontrol di Excel/CSV.",
+        "point3": "Siapa pun yang ingin mengurangi input manual.",
+        "title": "Cocok untuk"
+      },
+      "description": "Ubah struk menjadi data siap spreadsheet: scan, cek, lalu ekspor untuk akuntan. Mulai gratis.",
+      "faq": {
+        "a1": "Anda bisa ekspor dalam format spreadsheet (mis. CSV) yang bisa dibuka di Excel.",
+        "a2": "Ya. Scan/catat offline lalu sinkron.",
+        "a3": "Ya — FlickAI bisa mulai gratis.",
+        "q1": "Bisa ekspor ke Excel?",
+        "q2": "Bisa offline?",
+        "q3": "Apakah mulai gratis?",
+        "title": "FAQ"
+      },
+      "heading": "Scan struk ke Excel / CSV",
+      "intro": "Jika workflow Anda ada di spreadsheet, FlickAI membantu mengubah struk kertas menjadi data terstruktur.",
+      "keywords": "scan struk ke Excel, struk ke CSV, OCR struk spreadsheet, ekstrak data struk, ekspor pengeluaran, 2026 OCR struk",
+      "related": {
+        "title": "Terkait"
+      },
+      "steps": {
+        "step1": "Scan struk.",
+        "step2": "Cek merchant, tanggal, total, dan item.",
+        "step3": "Ekspor ke format ramah spreadsheet.",
+        "step4": "Bagikan ke akuntan atau impor ke workflow Anda.",
+        "title": "Cara kerjanya"
+      },
+      "title": "Scan struk ke Excel / CSV | FlickAI"
+    },
+    "scanning": {
+      "description": "Ekstrak pedagang, item, dan harga secara instan dari struk menggunakan teknologi AI canggih.",
+      "heading": "Pemindaian Struk Cerdas",
+      "howItWorks": {
+        "step1": "Buka aplikasi FlickAI dan ketuk ikon kamera.",
+        "step2": "Sejajarkan struk dalam bingkai.",
+        "step3": "Ketuk tangkap. AI memproses gambar dalam hitungan detik.",
+        "step4": "Tinjau detail yang diekstrak dan simpan!",
+        "title": "Cara Kerjanya"
+      },
+      "intro": "Hari-hari input data manual sudah berakhir. Dengan FlickAI, Anda dapat mendigitalkan pengeluaran dalam hitungan detik hanya dengan mengambil foto.",
+      "title": "Pemindaian Struk Cerdas - FlickAI",
+      "whatWeExtract": {
+        "dateTime": "Tanggal & Waktu: Merekam dengan tepat kapan pembelian terjadi.",
+        "items": "Item Individu: Mengekstrak item individu dan harga untuk pelacakan terperinci.",
+        "merchant": "Nama Pedagang: Diidentifikasi secara otomatis dari logo atau teks.",
+        "title": "Apa yang Kami Ekstrak",
+        "total": "Total Jumlah: Menangkap total akhir secara akurat."
+      }
+    },
+    "security": {
+      "description": "Data Anda dilindungi dengan enkripsi ujung-ke-ujung dan autentikasi aman.",
+      "heading": "Keamanan Tingkat Bank",
+      "intro": "Data keuangan Anda sensitif, dan kami memperlakukannya seperti itu. FlickAI menggunakan langkah-langkah keamanan terkemuka di industri untuk menjaga keamanan informasi Anda.",
+      "measures": {
+        "auth": "Autentikasi Aman: Autentikasi multi-faktor dan opsi login biometrik.",
+        "compliance": "Kepatuhan: Sesuai GDPR dan mengikuti praktik keamanan terbaik.",
+        "encryption": "Enkripsi Ujung-ke-Ujung: Semua data dienkripsi baik saat transit maupun saat istirahat.",
+        "privacy": "Privasi Secara Desain: Kami tidak pernah menjual data Anda kepada pihak ketiga.",
+        "title": "Langkah Keamanan"
+      },
+      "title": "Keamanan Tingkat Bank - FlickAI"
+    },
+    "taxReceipts": {
+      "checklist": {
+        "point1": "Scan dan simpan struk saat transaksi.",
+        "point2": "Lacak total per kategori (perjalanan, makan, perlengkapan…).",
+        "point3": "Simpan merchant, tanggal, dan total dengan jelas.",
+        "point4": "Ekspor atau bagikan saat perlu pelaporan.",
+        "title": "Checklist siap pajak"
+      },
+      "description": "Rapi saat musim pajak: scan, kategorikan, dan simpan struk agar mudah dicari. Mulai gratis.",
+      "faq": {
+        "a1": "Bukan. FlickAI membantu mengorganisir catatan pengeluaran dan struk untuk workflow pajak.",
+        "a2": "Ya — membantu pekerja lepas menyimpan bukti pengeluaran.",
+        "a3": "Ya. Catat/scan offline lalu sinkron.",
+        "a4": "Ya — FlickAI bisa mulai gratis.",
+        "q1": "Apakah ini layanan pelaporan pajak?",
+        "q2": "Cocok untuk freelancer?",
+        "q3": "Bisa offline?",
+        "q4": "Mulai gratis?",
+        "title": "FAQ"
+      },
+      "heading": "Scan struk untuk pajak",
+      "intro": "Musim pajak lebih mudah jika struk Anda rapi dan bisa dicari. FlickAI membantu Anda menyimpan bukti pengeluaran.",
+      "keywords": "scan struk untuk pajak, aplikasi struk pajak, pengeluaran deductible, arsip struk pajak, catat biaya usaha, 2026 aplikasi struk",
+      "related": {
+        "title": "Terkait"
+      },
+      "title": "Scan struk untuk pajak (pengeluaran deductible) | FlickAI"
+    }
+  },
+  "footer": {
+    "cookiePolicy": "Kebijakan Cookie",
+    "privacyPolicy": "Kebijakan Privasi",
+    "termsOfService": "Syarat Layanan"
+  },
+  "gdpr": {
+    "contact": {
+      "content": "Untuk menggunakan hak Anda atau untuk pertanyaan mengenai kepatuhan GDPR, silakan hubungi Petugas Perlindungan Data kami di: support@flickai.net",
+      "title": "3. Hubungi Petugas Perlindungan Data"
+    },
+    "description": "Informasi Kepatuhan GDPR untuk FlickAI. Hak Anda berdasarkan Peraturan Perlindungan Data Umum.",
+    "heading": "Kepatuhan GDPR",
+    "lastUpdated": "Terakhir Diperbarui: 28 November 2025",
+    "processing": {
+      "content": "Kami memproses data Anda secara sah, adil, dan transparan. Kami hanya mengumpulkan data untuk tujuan yang ditentukan, eksplisit, dan sah.",
+      "title": "2. Pemrosesan Data"
+    },
+    "rights": {
+      "access": "Hak untuk mengakses data pribadi Anda.",
+      "erasure": "Hak untuk penghapusan (\"hak untuk dilupakan\").",
+      "intro": "Berdasarkan Peraturan Perlindungan Data Umum (GDPR), Anda memiliki hak-hak berikut mengenai data pribadi Anda:",
+      "object": "Hak untuk menolak pemrosesan.",
+      "portability": "Hak portabilitas data.",
+      "rectification": "Hak untuk perbaikan data yang tidak akurat.",
+      "restrict": "Hak untuk membatasi pemrosesan.",
+      "title": "1. Hak Anda"
+    },
+    "title": "Kepatuhan GDPR - FlickAI | Legal"
+  },
+  "home": {
+    "description": "Sederhanakan pelacakan pengeluaran dengan pemindaian struk AI dari FlickAI. Lacak keuangan dengan mudah, buat anggaran, dan dapatkan wawasan keuangan.",
+    "download": {
+      "appStore": "App Store",
+      "googlePlay": "Google Play",
+      "subtitle": "Bergabunglah dengan ribuan pengguna yang mengendalikan keuangan mereka dengan FlickAI.",
+      "title": "Mulai Melacak Hari Ini",
+      "waitlistNote": "Klik tombol \"Gabung Daftar Tunggu\" untuk mendapatkan akses awal! 🚀"
+    },
+    "features": {
+      "analytics": {
+        "description": "Visualisasikan tren pengeluaran dan dapatkan wawasan keuangan yang dipersonalisasi dalam bahasa Anda.",
+        "title": "Analitik Cerdas"
+      },
+      "offline": {
+        "description": "Bekerja sempurna secara offline. Perubahan disinkronkan secara otomatis saat Anda kembali online.",
+        "title": "Offline & Sinkronisasi"
+      },
+      "scanning": {
+        "description": "Ekstrak pedagang, item, dan harga secara instan menggunakan teknologi AI canggih.",
+        "title": "Pemindaian Struk Cerdas"
+      },
+      "security": {
+        "description": "Data Anda dilindungi dengan enkripsi ujung-ke-ujung dan autentikasi aman.",
+        "title": "Keamanan Tingkat Bank"
+      },
+      "title": "Mengapa Memilih FlickAI?"
+    },
+    "hero": {
+      "getStarted": "Mulai Gratis",
+      "learnMore": "Pelajari Lebih Lanjut",
+      "subtitle": "Lacak keuangan Anda dengan mudah menggunakan pemindaian struk cerdas dan wawasan otomatis. Biarkan AI melakukan pekerjaan membosankan.",
+      "title": "Pelacakan Pengeluaran & Pemindaian Struk Bertenaga AI"
+    },
+    "keywords": "pelacak pengeluaran, pemantauan pengeluaran, pemindai struk, keuangan AI, aplikasi anggaran, keuangan pribadi, FlickAI, manajemen pengeluaran, pelacakan pengeluaran AI, pemantauan pengeluaran AI",
+    "ogDescription": "Sederhanakan pelacakan pengeluaran dengan pemindaian struk AI dari FlickAI. Lacak keuangan dengan mudah.",
+    "ogTitle": "FlickAI - Pelacak Pengeluaran Bertenaga AI",
+    "schemaDescription": "Aplikasi pelacakan pengeluaran dan pemindaian struk bertenaga AI.",
+    "title": "FlickAI - Pelacak Pengeluaran Bertenaga AI"
+  },
+  "guides": {
+    "index": {
+      "title": "Panduan pengeluaran & scan struk | FlickAI",
+      "description": "Panduan praktis untuk scan struk, melacak pengeluaran offline, dan ekspor siap pajak. Gratis untuk mulai.",
+      "keywords": "struk ke excel, struk ke csv, pelacakan pengeluaran offline, checklist struk pajak, tips scanner struk",
+      "heading": "Panduan",
+      "intro": "Panduan sederhana untuk scan struk, melacak pengeluaran tanpa internet, dan siap saat musim pajak.",
+      "guides": {
+        "title": "Panduan populer"
+      },
+      "cta": "FlickAI gratis untuk mulai — dibuat untuk scan struk dan pelacakan offline, privacy-first."
+    },
+    "receiptToExcel": {
+      "title": "Cara mengubah struk ke Excel (CSV) | Panduan FlickAI",
+      "description": "Langkah demi langkah: scan struk, cek data, lalu ekspor ke Excel/CSV untuk pajak, pembukuan, atau laporan.",
+      "keywords": "struk ke excel, struk ke csv, ekspor struk, scanner struk excel, ekspor pengeluaran",
+      "heading": "Struk ke Excel: dari scan ke spreadsheet",
+      "snippet": "Ubah struk jadi Excel/CSV dalam hitungan menit.",
+      "intro": "Agar spreadsheet rapi, gunakan field yang konsisten (merchant, tanggal, total), perbaiki hasil OCR, lalu ekspor ke format yang kompatibel.",
+      "steps": {
+        "title": "Langkah",
+        "step1": "Scan struk dan konfirmasi merchant/tanggal/total.",
+        "step2": "Perbaiki kesalahan OCR (pajak, tip, mata uang, item).",
+        "step3": "Kategorikan pengeluaran agar konsisten.",
+        "step4": "Ekspor ke Excel/CSV dan bagikan bila perlu."
+      },
+      "pitfalls": {
+        "title": "Kesalahan umum",
+        "point1": "Mata uang campur saat traveling",
+        "point2": "Field pajak/PPN tidak lengkap",
+        "point3": "Kategori berubah-ubah tiap bulan"
+      },
+      "faq": {
+        "title": "FAQ",
+        "q1": "Apakah FlickAI gratis untuk mulai?",
+        "a1": "Ya — FlickAI gratis untuk mulai.",
+        "q2": "Bisa offline?",
+        "a2": "Ya — Anda bisa scan dan catat offline lalu sinkronkan nanti.",
+        "q3": "Bisa ekspor ke Excel?",
+        "a3": "Ya — Anda bisa ekspor ke format ramah spreadsheet seperti CSV."
+      },
+      "related": {
+        "title": "Terkait"
+      }
+    },
+    "offlineExpenseTracking": {
+      "title": "Pelacakan pengeluaran offline: checklist | Panduan FlickAI",
+      "description": "Checklist sederhana untuk melacak pengeluaran offline saat traveling, sinyal lemah, atau untuk alur privacy-first.",
+      "keywords": "pelacakan pengeluaran offline, pengeluaran traveling tanpa internet, aplikasi pengeluaran offline, privacy-first pengeluaran",
+      "heading": "Pelacakan pengeluaran offline (checklist)",
+      "snippet": "Catat pengeluaran tanpa bergantung internet.",
+      "intro": "Offline itu soal keandalan: tangkap struk dan pengeluaran saat itu juga, lalu sinkronkan saat Anda siap.",
+      "checklist": {
+        "title": "Checklist",
+        "point1": "Pastikan capture bisa tanpa koneksi",
+        "point2": "Standarkan kategori (travel, makan, perlengkapan)",
+        "point3": "Review mingguan untuk deteksi kesalahan",
+        "point4": "Ekspor backup untuk arsip atau akuntan"
+      },
+      "faq": {
+        "title": "FAQ",
+        "q1": "Kenapa mode offline penting?",
+        "a1": "Agar struk tidak hilang dan catatan tidak terlewat saat sinyal buruk.",
+        "q2": "Apakah lebih privat?",
+        "a2": "Seringkali ya — alur offline-first mengurangi berbagi data yang tidak perlu.",
+        "q3": "Kapan sinkronisasi?",
+        "a3": "Saat nyaman dan aman — misalnya di Wi‑Fi tepercaya."
+      },
+      "related": {
+        "title": "Terkait"
+      }
+    },
+    "taxReceiptsChecklist": {
+      "title": "Checklist struk untuk pajak (freelancer) | Panduan FlickAI",
+      "description": "Checklist jelas agar struk siap pajak: apa yang harus dicatat, cara memberi label, dan cara ekspor untuk potongan.",
+      "keywords": "checklist struk pajak, rapikan struk, potongan pajak freelancer, struk untuk akuntan",
+      "heading": "Checklist struk untuk pajak",
+      "snippet": "Lebih rapi saat musim pajak.",
+      "intro": "Kebiasaan yang baik menghemat waktu. Gunakan checklist ini agar struk lengkap, mudah dicari, dan mudah diekspor.",
+      "checklist": {
+        "title": "Checklist",
+        "point1": "Catat merchant, tanggal, total, dan pajak/PPN",
+        "point2": "Tambah kategori dan catatan (klien/proyek)",
+        "point3": "Simpan salinan digital untuk struk penting",
+        "point4": "Ekspor bulanan atau kuartalan",
+        "point5": "Pisahkan pribadi vs bisnis"
+      },
+      "faq": {
+        "title": "FAQ",
+        "q1": "Struk apa yang harus disimpan?",
+        "a1": "Simpan struk pembelian terkait bisnis dan yang akan Anda klaim sebagai potongan.",
+        "q2": "Berapa lama harus disimpan?",
+        "a2": "Tergantung negara — banyak yang menyimpan beberapa tahun. Tanyakan akuntan Anda.",
+        "q3": "Bisa ekspor untuk akuntan?",
+        "a3": "Ya — ekspor memudahkan berbagi data yang rapi dan mengurangi tanya-jawab."
+      },
+      "related": {
+        "title": "Terkait"
+      }
+    }
+  },
+  "integrations": {
+    "index": {
+      "description": "Hubungkan FlickAI ke workflow Anda: ekspor, otomatisasi, dan berbagi struk/pengeluaran.",
+      "heading": "Integrasi & workflow",
+      "ideas": {
+        "point1": "Notion: buat dashboard pengeluaran.",
+        "point2": "Zapier: buat tugas/notifikasi dari ekspor.",
+        "point3": "WhatsApp: kirim struk ke partner atau akuntan.",
+        "title": "Workflow populer"
+      },
+      "intro": "Di 2026, orang berharap aplikasi menyatu dengan workflow. FlickAI fokus pada data yang mudah dipindahkan dan ekspor untuk otomatisasi.",
+      "keywords": "integrasi aplikasi pengeluaran, ekspor pengeluaran ke Notion, Zapier pemindai struk, kirim struk WhatsApp, otomatisasi laporan pengeluaran, workflow finansial 2026",
+      "methods": {
+        "point1": "Ekspor pengeluaran (CSV/kompatibel Excel).",
+        "point2": "Bagikan struk dan laporan.",
+        "point3": "Otomatiskan rutinitas dengan konektor ringan.",
+        "title": "Cara integrasi umum"
+      },
+      "title": "Integrasi & workflow (2026) | FlickAI"
+    }
+  },
+  "meta": {
+    "lang": "id",
+    "langName": "Bahasa Indonesia",
+    "siteName": "FlickAI",
+    "siteUrl": "https://flickai.net"
+  },
+  "privacy": {
+    "contact": {
+      "content": "Jika Anda memiliki pertanyaan tentang kebijakan privasi ini atau praktik privasi kami, silakan hubungi kami di: support@flickai.net",
+      "title": "5. Hubungi Kami"
+    },
+    "dataCollection": {
+      "contact": "Data Kontak: mencakup alamat email.",
+      "identity": "Data Identitas: mencakup nama depan, nama belakang, nama pengguna atau pengenal serupa.",
+      "intro": "Kami dapat mengumpulkan, menggunakan, menyimpan, dan mentransfer berbagai jenis data pribadi tentang Anda yang telah kami kelompokkan sebagai berikut:",
+      "title": "2. Data yang Kami Kumpulkan",
+      "transaction": "Data Transaksi: mencakup detail tentang pembayaran ke dan dari Anda serta detail lain dari produk dan layanan yang telah Anda beli dari kami.",
+      "usage": "Data Penggunaan: mencakup informasi tentang cara Anda menggunakan situs web dan aplikasi kami."
+    },
+    "dataUsage": {
+      "contract": "Di mana kami perlu melakukan kontrak yang akan atau telah kami buat dengan Anda.",
+      "intro": "Kami hanya akan menggunakan data pribadi Anda jika hukum mengizinkan kami. Paling sering, kami akan menggunakan data pribadi Anda dalam keadaan berikut:",
+      "legal": "Di mana kami perlu mematuhi kewajiban hukum atau peraturan.",
+      "legitimate": "Di mana itu perlu untuk kepentingan sah kami (atau kepentingan pihak ketiga) dan kepentingan serta hak dasar Anda tidak mengesampingkan kepentingan tersebut.",
+      "title": "3. Bagaimana Kami Menggunakan Data Anda"
+    },
+    "description": "Kebijakan Privasi untuk FlickAI. Pelajari cara kami mengumpulkan, menggunakan, dan melindungi data Anda.",
+    "heading": "Kebijakan Privasi",
+    "introduction": {
+      "content": "FlickAI (\"kami\", \"milik kami\", atau \"kita\") menghargai privasi Anda dan berkomitmen untuk melindungi data pribadi Anda. Kebijakan privasi ini akan memberi tahu Anda tentang bagaimana kami menjaga data pribadi Anda saat Anda mengunjungi situs web kami atau menggunakan aplikasi seluler kami.",
+      "title": "1. Pendahuluan"
+    },
+    "lastUpdated": "Terakhir Diperbarui: 28 November 2025",
+    "security": {
+      "content": "Kami telah menerapkan langkah-langkah keamanan yang tepat untuk mencegah data pribadi Anda hilang secara tidak sengaja, digunakan atau diakses dengan cara yang tidak sah, diubah, atau diungkapkan.",
+      "title": "4. Keamanan Data"
+    },
+    "title": "Kebijakan Privasi - FlickAI | Legal"
+  },
+  "terms": {
+    "agreement": {
+      "content": "Dengan mengakses situs web kami atau menggunakan aplikasi seluler kami, Anda setuju untuk terikat oleh Syarat Layanan ini. Jika Anda tidak setuju dengan syarat ini, mohon jangan gunakan layanan kami.",
+      "title": "1. Persetujuan Syarat"
+    },
+    "contact": {
+      "content": "Untuk menyelesaikan keluhan mengenai Situs atau untuk menerima informasi lebih lanjut mengenai penggunaan Situs, silakan hubungi kami di: support@flickai.net",
+      "title": "5. Hubungi Kami"
+    },
+    "description": "Syarat Layanan untuk FlickAI. Baca syarat dan ketentuan kami untuk menggunakan layanan kami.",
+    "heading": "Syarat Layanan",
+    "intellectual": {
+      "content": "Kecuali dinyatakan lain, Situs dan aplikasi seluler kami adalah milik eksklusif kami dan semua kode sumber, basis data, fungsionalitas, perangkat lunak, desain situs web, audio, video, teks, foto, dan grafik di Situs (secara kolektif, \"Konten\") dan merek dagang, merek layanan, dan logo yang terkandung di dalamnya (\"Merek\") dimiliki atau dikendalikan oleh kami atau dilisensikan kepada kami.",
+      "title": "2. Hak Kekayaan Intelektual"
+    },
+    "lastUpdated": "Terakhir Diperbarui: 28 November 2025",
+    "prohibited": {
+      "content": "Anda tidak boleh mengakses atau menggunakan Situs untuk tujuan apa pun selain dari yang kami sediakan. Situs tidak boleh digunakan sehubungan dengan upaya komersial apa pun kecuali yang secara khusus didukung atau disetujui oleh kami.",
+      "title": "4. Aktivitas yang Dilarang"
+    },
+    "title": "Syarat Layanan - FlickAI | Legal",
+    "userRep": {
+      "content": "Dengan menggunakan Situs, Anda menyatakan dan menjamin bahwa: (1) semua informasi pendaftaran yang Anda kirimkan adalah benar, akurat, terkini, dan lengkap; (2) Anda akan menjaga keakuratan informasi tersebut dan segera memperbarui informasi pendaftaran tersebut jika diperlukan.",
+      "title": "3. Representasi Pengguna"
+    }
+  },
+  "useCases": {
+    "freelancers": {
+      "description": "Catat pengeluaran bisnis, scan struk, dan siap pajak sebagai freelancer. Mulai gratis.",
+      "faq": {
+        "a1": "Ya — FlickAI membantu mengorganisir pengeluaran agar catatan bisnis tetap rapi.",
+        "a2": "Ya — membantu menyimpan struk dan pengeluaran yang bisa diklaim.",
+        "a3": "Ya — FlickAI bisa mulai gratis.",
+        "q1": "Bisa pisahkan pengeluaran pribadi dan bisnis?",
+        "q2": "Bisa untuk deductible?",
+        "q3": "Mulai gratis?",
+        "title": "FAQ"
+      },
+      "heading": "Pelacak pengeluaran untuk freelancer",
+      "intro": "Freelancer butuh cara sederhana untuk mencatat pengeluaran usaha, menyimpan struk, dan siap saat pelaporan.",
+      "keywords": "pelacak pengeluaran freelancer, pengeluaran freelancer, struk freelancer, pengeluaran usaha, 2026 aplikasi pengeluaran freelancer",
+      "pain": {
+        "point1": "Struk mudah hilang atau menumpuk.",
+        "point2": "Spreadsheet makan waktu dan rawan salah.",
+        "point3": "Musim pajak jadi stres tanpa catatan rapi.",
+        "title": "Masalah umum"
+      },
+      "related": {
+        "title": "Terkait"
+      },
+      "solution": {
+        "point1": "Scan cepat dengan ekstraksi AI.",
+        "point2": "Total per kategori dan merchant.",
+        "point3": "Bisa offline saat Anda sibuk/perjalanan.",
+        "point4": "Mulai gratis, upgrade saat perlu.",
+        "title": "Bagaimana FlickAI membantu"
+      },
+      "title": "Pelacak pengeluaran untuk freelancer | FlickAI"
+    },
+    "selfEmployedDeductions": {
+      "basics": {
+        "point1": "Struk (merchant, tanggal, total).",
+        "point2": "Kategori dan catatan.",
+        "point3": "Riwayat yang bisa dicari dan diekspor.",
+        "title": "Yang perlu dicatat"
+      },
+      "description": "Lacak pengeluaran deductible dan struk: scan, kategorikan, dan ekspor saat dibutuhkan. Mulai gratis.",
+      "faq": {
+        "a1": "Bukan. Ini workflow pencatatan dan pengarsipan agar Anda tetap terorganisir.",
+        "a2": "Ya — catat offline lalu sinkron.",
+        "a3": "Ya — FlickAI bisa mulai gratis.",
+        "q1": "Apakah ini saran pajak?",
+        "q2": "Bisa offline?",
+        "q3": "Mulai gratis?",
+        "title": "FAQ"
+      },
+      "heading": "Lacak pengeluaran deductible untuk pekerja mandiri",
+      "intro": "Deduksi paling mudah adalah yang punya bukti. Bangun catatan rapi sepanjang tahun.",
+      "keywords": "pengeluaran deductible, catat biaya usaha, bukti pengeluaran pajak, 2026 pelacak pengeluaran usaha",
+      "related": {
+        "title": "Terkait"
+      },
+      "title": "Pelacak pengeluaran deductible untuk pekerja mandiri | FlickAI",
+      "workflow": {
+        "step1": "Scan dan simpan struk saat transaksi.",
+        "step2": "Tinjau kategori dan total tiap bulan.",
+        "step3": "Ekspor atau bagikan saat pelaporan.",
+        "title": "Alur sederhana"
+      }
+    }
+  },
+  "faqPage": {
+    "title": "FAQ | FlickAI",
+    "description": "Jawaban pertanyaan umum tentang FlickAI: pelacakan pengeluaran privacy-first, tanpa bank sync, mode offline, scan struk, dan ekspor.",
+    "keywords": "FlickAI FAQ, pelacak pengeluaran FAQ, scanner struk FAQ, tanpa bank sync pelacak pengeluaran, pelacak pengeluaran offline",
+    "heading": "Pertanyaan yang Sering Diajukan",
+    "intro": "Jawaban singkat untuk pertanyaan paling umum tentang FlickAI.",
+    "faq": {
+      "q1": "Apakah FlickAI gratis untuk mulai?",
+      "a1": "Ya — FlickAI gratis untuk mulai.",
+      "q2": "Adakah pelacak pengeluaran tanpa bank sync?",
+      "a2": "Ya — FlickAI bekerja tanpa bank sync atau pengaitan bank yang wajib.",
+      "q3": "Apakah FlickAI bisa offline?",
+      "a3": "Ya. Anda bisa mencatat pengeluaran dan memindai struk secara offline, lalu sinkron nanti.",
+      "q4": "Bisakah saya scan struk dan mengekstrak total/item?",
+      "a4": "Ya — FlickAI mendukung pemindaian struk berbasis AI dan ekstraksi data.",
+      "q5": "Bisakah saya mengekspor pengeluaran ke Excel/CSV?",
+      "a5": "Ya — Anda bisa mengekspor data ke format ramah spreadsheet seperti CSV.",
+      "q6": "Apakah Anda menjual data saya?",
+      "a6": "Tidak — kami tidak menjual data Anda."
+    }
+  },
+  "waitlist": {
+    "alreadyJoined": "Anda sudah ada di daftar tunggu!",
+    "button": "Gabung Daftar Tunggu",
+    "error": "Silakan masukkan alamat email yang valid",
+    "floatButton": "Gabung Daftar Tunggu",
+    "networkError": "Terjadi kesalahan. Silakan coba lagi.",
+    "placeholder": "Masukkan email Anda",
+    "subtitle": "Jadilah yang pertama tahu saat FlickAI meluncur di iOS!",
+    "success": "Terima kasih! Kami akan memberi tahu Anda saat peluncuran. 🎉",
+    "title": "🚀 Dapatkan Akses Awal"
+  }
+}

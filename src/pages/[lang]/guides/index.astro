@@ -1,0 +1,68 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getTranslations, getLangPrefix, getLocaleFromParams } from '../../../utils/i18n';
+import type { SupportedLocale } from '../../../i18n-config';
+
+export async function getStaticPaths() {
+  const locales: SupportedLocale[] = ['ar', 'de', 'es', 'fr', 'hi', 'id', 'it', 'ro', 'zh'];
+  
+  return locales.map((lang) => ({
+    params: { lang },
+  }));
+}
+
+const { lang } = Astro.params;
+const locale = getLocaleFromParams({ lang });
+const translations = getTranslations(locale);
+const guidesSection = translations.guides || {};
+const indexPage = guidesSection.index || {};
+const common = translations.common || {};
+const langPrefix = getLangPrefix(locale);
+
+// Get all guides filtered by current language
+const allGuides = await getCollection('guides');
+const guides = allGuides.filter((guide) => guide.data.lang === locale);
+---
+
+<BaseLayout
+  title={indexPage.title || 'Expense Tracking & Receipt Scanning Guides | FlickAI'}
+  description={indexPage.description || 'Practical how-to guides for receipt scanning, offline expense tracking, and tax-ready exports. Free to start.'}
+  keywords={indexPage.keywords || 'receipt to excel, export receipts to csv, offline expense tracking, tax receipt checklist, receipt scanner tips'}
+  lang={locale}
+  translations={translations}
+>
+  <main class="container section">
+    <h1 class="section-title">{indexPage.heading || 'Guides'}</h1>
+    <div class="legal-content">
+      {indexPage.intro && <p class="mb-4">{indexPage.intro}</p>}
+
+      {indexPage.guides && indexPage.guides.title && (
+        <>
+          <h2 class="mb-4">{indexPage.guides.title}</h2>
+          <ul class="mb-4" style="padding-left: 1.5rem;">
+            {guides.map((guide) => {
+              // Remove language suffix from slug if present
+              const cleanSlug = guide.slug.replace(/(ar|de|es|fr|hi|id|it|ro|zh)$/, '');
+              const url = `/${locale}/guides/${cleanSlug}`;
+              
+              return (
+                <li>
+                  <a href={url}>{guide.data.title}</a>
+                  — {guide.data.description}
+                </li>
+              );
+            })}
+          </ul>
+        </>
+      )}
+
+      {indexPage.cta && <p class="mb-4">{indexPage.cta}</p>}
+      
+      <p class="mb-4">
+        <a href={`${langPrefix}/alternatives/`}>{common.alternatives || 'Alternatives'}</a>
+        · <a href={`${langPrefix}/integrations/`}>{common.integrations || 'Integrations'}</a>
+      </p>
+    </div>
+  </main>
+</BaseLayout>

@@ -2,7 +2,9 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
-const guides = await getCollection('guides');
+// Get only English guides for the English guides index page
+const allGuides = await getCollection('guides');
+const guides = allGuides.filter((guide) => guide.data.lang === 'en');
 ---
 
 <BaseLayout

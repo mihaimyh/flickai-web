@@ -6,7 +6,7 @@ interface Props {
       alternatives?: string;
       integrations?: string;
       guides?: string;
-      backToHome?: string;
+      downloadApp?: string;
     };
   };
   lang?: string;
@@ -39,7 +39,7 @@ const homeLink = langPrefix || '/';
       <a href={alternativesLink}>{common.alternatives || 'Alternatives'}</a>
       <a href={integrationsLink}>{common.integrations || 'Integrations'}</a>
       <a href={guidesLink}>{common.guides || 'Guides'}</a>
-      <a href={homeLink} class="btn btn-primary">{common.backToHome || 'Back to Home'}</a>
+      <a href="#download" class="btn btn-primary download-app-btn">{common.downloadApp || 'Download App'}</a>
     </nav>
     
     <!-- Mobile Hamburger Button -->
@@ -57,7 +57,7 @@ const homeLink = langPrefix || '/';
       <a href={alternativesLink}>{common.alternatives || 'Alternatives'}</a>
       <a href={integrationsLink}>{common.integrations || 'Integrations'}</a>
       <a href={guidesLink}>{common.guides || 'Guides'}</a>
-      <a href={homeLink} class="btn btn-primary">{common.backToHome || 'Back to Home'}</a>
+      <a href="#download" class="btn btn-primary download-app-btn">{common.downloadApp || 'Download App'}</a>
     </nav>
   </div>
 </header>

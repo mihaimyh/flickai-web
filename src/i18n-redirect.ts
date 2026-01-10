@@ -112,7 +112,7 @@ export function createLanguageSwitcher(): HTMLElement {
   const currentLang = getCurrentLanguage();
 
   const switcher = document.createElement('div');
-  switcher.className = 'fixed bottom-5 right-5 z-50';
+  switcher.className = 'fixed bottom-5 right-5 z-[9997]';
 
   // Generate options dynamically from config
   const options = SUPPORTED_LOCALES.map(locale => {

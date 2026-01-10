@@ -61,12 +61,26 @@ export function isValidLocale(locale: string): locale is SupportedLocale {
 
 /**
  * Get locale from URL path
+ * Handles paths like: /, /es/, /es, /es/index.html, /es/page
  */
 export function getLocaleFromPath(path: string): SupportedLocale {
+  // Normalize path - ensure it starts with /
+  const normalizedPath = path.startsWith('/') ? path : `/${path}`;
+  
+  // Check if path matches any locale prefix (excluding 'en' which uses root)
   for (const locale of SUPPORTED_LOCALES) {
-    if (locale !== 'en' && path.startsWith(`/${locale}/`)) {
-      return locale;
+    if (locale !== 'en') {
+      // Check for exact match: /{locale} or /{locale}/
+      if (normalizedPath === `/${locale}` || normalizedPath === `/${locale}/`) {
+        return locale;
+      }
+      // Check if path starts with /{locale}/ (for paths like /es/page, /es/index.html)
+      if (normalizedPath.startsWith(`/${locale}/`)) {
+        return locale;
+      }
     }
   }
+  
+  // Default to English for root path or unmatched paths
   return 'en';
 }

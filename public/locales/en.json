@@ -1,0 +1,757 @@
+{
+  "accessibility": {
+    "commitment": {
+      "content": "FlickAI is committed to ensuring digital accessibility for people with disabilities. We are continually improving the user experience for everyone and applying the relevant accessibility standards.",
+      "title": "1. Our Commitment"
+    },
+    "conformance": {
+      "content": "The Web Content Accessibility Guidelines (WCAG) defines requirements for designers and developers to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA. FlickAI is partially conformant with WCAG 2.1 level AA.",
+      "title": "2. Conformance Status"
+    },
+    "description": "Accessibility Statement for FlickAI. Our commitment to digital accessibility.",
+    "feedback": {
+      "email": "E-mail: support@flickai.net",
+      "intro": "We welcome your feedback on the accessibility of FlickAI. Please let us know if you encounter accessibility barriers on FlickAI:",
+      "title": "3. Feedback"
+    },
+    "heading": "Accessibility Statement",
+    "lastUpdated": "Last updated: November 28, 2025",
+    "title": "Accessibility Statement - FlickAI | Legal"
+  },
+  "alternatives": {
+    "backToHub": "Back to Alternatives",
+    "bestExpenseTrackers": {
+      "criteria": {
+        "point1": "Fast capture (receipt scanning + quick entry)",
+        "point2": "Offline mode and reliable syncing",
+        "point3": "Privacy-first options (no forced bank sync)",
+        "point4": "Pricing you can start with (free to start)",
+        "title": "What we looked for"
+      },
+      "description": "A practical list of the best expense tracker apps for 2025–2026. Compare offline mode, privacy, automation, and price.",
+      "faq": {
+        "a1": "The best one matches your workflow: offline if you travel, privacy-first if you avoid bank sync, and AI if you want automation.",
+        "a2": "Yes — FlickAI is free to start.",
+        "q1": "What’s the best expense tracker in 2026?",
+        "q2": "Is there an expense tracker that’s free to start?",
+        "title": "FAQ"
+      },
+      "heading": "Best Expense Tracker Apps (2025–2026)",
+      "intro": "This guide focuses on real-world needs: capture speed, offline reliability, and privacy-first workflows.",
+      "keywords": "best expense tracker apps, best budgeting app 2026, offline expense tracker, private expense tracker, AI expense tracker, free to start expense app",
+      "list": {
+        "item1": "Free to start, AI receipt scanning, offline-friendly workflows.",
+        "item2": "YNAB — Strong budgeting method, paid subscription.",
+        "item3": "PocketGuard — Simplified budgeting and spending overview.",
+        "item4": "Spendee — Shared wallets and category-based tracking.",
+        "item5": "Money Manager — Lightweight daily tracking.",
+        "title": "Top picks"
+      },
+      "title": "Best Expense Tracker Apps (2025-2026) | Top Picks"
+    },
+    "bestReceiptScanners": {
+      "criteria": {
+        "point1": "OCR accuracy (merchant/date/total/items)",
+        "point2": "Speed and usability",
+        "point3": "Offline-friendly capture",
+        "point4": "Exports (CSV/Excel workflows)",
+        "title": "What we looked for"
+      },
+      "description": "Compare the best receipt scanner apps for 2025–2026, including OCR accuracy, offline scanning, and export workflows.",
+      "heading": "Best Receipt Scanner Apps (2025–2026)",
+      "intro": "If you want clean expense records, pick a scanner with strong OCR and an easy export workflow.",
+      "keywords": "best receipt scanner app, receipt OCR, scan receipts offline, receipt scanner free to start, receipt scanner 2026, scan receipts to Excel",
+      "list": {
+        "item1": "Free to start, AI extraction, built for expense tracking.",
+        "item2": "Expensify — Popular for teams, subscription oriented.",
+        "item3": "Zoho Expense — Strong suite, can feel heavy for solo use.",
+        "item4": "Genius Scan — Great scanning, less expense-focused.",
+        "item5": "CamScanner — Scanning tool, not expense-first.",
+        "title": "Top picks"
+      },
+      "title": "Best Receipt Scanner Apps (2025-2026) | Top Picks"
+    },
+    "expensify": {
+      "description": "Looking for Expensify alternatives? Compare apps that emphasize offline mode, privacy, simplicity, and modern AI automation.",
+      "heading": "Best Expensify Alternatives (2025–2026)",
+      "intro": "This is a practical guide for people who want a simpler, more privacy-friendly expense workflow.",
+      "keywords": "Expensify alternatives, apps like Expensify, expense reporting alternative 2026, offline expense tracker, privacy-first expense tracker, AI receipt scanner",
+      "list": {
+        "item1": "Free to start, AI receipt scanning, offline + privacy-first workflow.",
+        "item2": "Zoho Expense — Full-featured suite.",
+        "item3": "Concur — Enterprise-heavy workflows.",
+        "item4": "QuickBooks — Accounting-first, broader tool.",
+        "item5": "Wave — Budget-friendly basics for small teams.",
+        "title": "Top alternatives"
+      },
+      "title": "Best Expensify Alternatives (2025-2026)",
+      "whatToLookFor": {
+        "point1": "Fast receipt capture with reliable OCR",
+        "point2": "Offline support for travel and reliability",
+        "point3": "Clear pricing (free to start helps you try it)",
+        "title": "What to look for"
+      }
+    },
+    "index": {
+      "cta": "FlickAI is free to start — built for offline, privacy-first receipt scanning and expense tracking.",
+      "description": "Browse guides to the best expense trackers and receipt scanner apps. Compare features like offline mode, privacy, and AI automation.",
+      "guides": {
+        "title": "Guides"
+      },
+      "heading": "Top Alternatives (2025–2026)",
+      "howToChoose": {
+        "point1": "Pick offline mode if you travel or care about reliability.",
+        "point2": "Pick privacy-first if you don’t want mandatory bank sync.",
+        "point3": "Pick AI automation if you want less manual entry.",
+        "title": "How to choose"
+      },
+      "intro": "Looking for an expense tracker or receipt scanner that fits how you actually work? Start here.",
+      "keywords": "expense tracker alternatives, receipt scanner alternatives, best expense tracker apps 2026, best receipt scanner apps 2026, privacy-first expense tracker, offline expense tracker",
+      "title": "Top Alternatives: Expense Trackers & Receipt Scanners (2025-2026)"
+    },
+    "zoho": {
+      "description": "A guide to Zoho Expense alternatives for people who want a more focused, simpler expense and receipt scanning workflow.",
+      "heading": "Best Zoho Expense Alternatives (2025–2026)",
+      "intro": "If you want a dedicated expense tool instead of a large suite, start here.",
+      "keywords": "Zoho Expense alternatives, apps like Zoho Expense, simple expense tracker, receipt scanner alternative 2026, offline expense tracking",
+      "list": {
+        "item1": "Free to start, AI automation, offline-friendly.",
+        "item2": "Expensify — Strong team workflows.",
+        "item3": "Concur — Enterprise suite.",
+        "item4": "FreshBooks — Invoice-first with expense features.",
+        "item5": "Spendee — Personal/shared budgeting focus.",
+        "title": "Top alternatives"
+      },
+      "title": "Best Zoho Expense Alternatives (2025-2026)",
+      "whatToLookFor": {
+        "point1": "Focused UX for quick daily tracking",
+        "point2": "OCR receipt scanning and exports",
+        "point3": "Privacy-first and offline options",
+        "title": "What to look for"
+      }
+    }
+  },
+  "common": {
+    "alternatives": "Alternatives",
+    "integrations": "Integrations",
+    "guides": "Guides",
+    "faq": "FAQ",
+    "backToHome": "Back to Home",
+    "copyright": "© 2025 FlickAI. All rights reserved.",
+    "downloadApp": "Download App",
+    "features": "Features",
+    "learnMore": "Learn more",
+    "testimonials": "Testimonials"
+  },
+  "cookie": {
+    "contact": {
+      "content": "If you have any questions about our use of cookies, please contact us at: support@flickai.net",
+      "title": "4. Contact Us"
+    },
+    "description": "Cookie Policy for FlickAI. Understand how we use cookies to improve your experience.",
+    "disabling": {
+      "content": "You can prevent the setting of cookies by adjusting the settings on your browser (see your browser Help for how to do this). Be aware that disabling cookies will affect the functionality of this and many other websites that you visit.",
+      "title": "3. Disabling Cookies"
+    },
+    "heading": "Cookie Policy",
+    "howWeUse": {
+      "analytics": "Analytics Cookies: These help us understand how visitors interact with our website.",
+      "essential": "Essential Cookies: These are necessary for the website to function properly.",
+      "functionality": "Functionality Cookies: These allow the website to remember choices you make.",
+      "intro": "We use cookies for a variety of reasons detailed below. Unfortunately in most cases there are no industry standard options for disabling cookies without completely disabling the functionality and features they add to this site.",
+      "title": "2. How We Use Cookies"
+    },
+    "lastUpdated": "Last updated: November 28, 2025",
+    "title": "Cookie Policy - FlickAI | Legal",
+    "whatAre": {
+      "content": "Cookies are small text files that are placed on your computer or mobile device by websites that you visit. They are widely used in order to make websites work, or work more efficiently, as well as to provide information to the owners of the site.",
+      "title": "1. What Are Cookies"
+    }
+  },
+  "features": {
+    "aiAssistant": {
+      "description": "Ask questions about your spending, get AI-style insights, and explore conversational finance workflows for 2026. Free to start.",
+      "faq": {
+        "a1": "Yes — FlickAI is free to start.",
+        "a2": "FlickAI supports privacy-first workflows and secure receipt storage.",
+        "a3": "Yes — you can track expenses offline and sync later.",
+        "q1": "Is FlickAI free to start?",
+        "q2": "Is this private?",
+        "q3": "Can I use this offline?",
+        "title": "FAQ"
+      },
+      "heading": "AI Financial Assistant for Expenses",
+      "intro": "In 2026, people won’t just ‘track’ expenses — they’ll ask questions. FlickAI is built around fast capture plus assistant-style insight.",
+      "keywords": "AI financial assistant, AI expense assistant, chat with my spending, conversational budgeting, voice search expenses, 2026 finance AI assistant",
+      "questions": {
+        "q1": "“How much did I spend on coffee last month?”",
+        "q2": "“What categories increased the most this quarter?”",
+        "q3": "“Show my top merchants.”",
+        "q4": "“Where can I cut spending this week?”",
+        "title": "Ask things like"
+      },
+      "related": {
+        "title": "Related"
+      },
+      "title": "AI Financial Assistant for Expenses | FlickAI"
+    },
+    "analytics": {
+      "aiInsights": {
+        "example": "\"You've spent 20% more on dining out this month compared to last month. Consider cooking at home this week to stay on budget.\"",
+        "intro": "Our AI doesn't just show you data; it explains it. Get personalized tips like:",
+        "title": "AI-Generated Insights"
+      },
+      "description": "Visualize spending trends and get personalized financial insights in your language.",
+      "heading": "Intelligent Analytics",
+      "intro": "Understanding your money is the first step to controlling it. FlickAI provides deep insights into your spending habits.",
+      "title": "Intelligent Analytics - FlickAI",
+      "visualTrends": {
+        "categoryBreakdown": "Category Breakdown: Pie charts showing spending by category (Food, Transport, Utilities, etc.).",
+        "intro": "See exactly where your money goes with interactive charts and graphs:",
+        "merchantAnalysis": "Merchant Analysis: See which stores you spend the most at.",
+        "monthlyTrends": "Monthly Trends: Bar graphs comparing spending month-over-month.",
+        "title": "Visual Spending Trends"
+      }
+    },
+    "offlineTracker": {
+      "description": "Track expenses offline with FlickAI. Log spending without internet, then sync when you're back online. Free to start.",
+      "faq": {
+        "a1": "Yes — you can track expenses and scan receipts offline. When you're online again, you can sync your changes.",
+        "a2": "Yes. FlickAI is free to start, with optional upgrades.",
+        "a3": "Offline mode supports privacy-first workflows by reducing reliance on always-on cloud access.",
+        "a4": "Travelers, privacy-conscious users, and anyone who wants a reliable tracker without a constant connection.",
+        "q1": "Does FlickAI work without internet?",
+        "q2": "Is it free to start?",
+        "q3": "Is my data private when offline?",
+        "q4": "Who is this best for?",
+        "title": "FAQ"
+      },
+      "heading": "Offline Expense Tracker (Works Without Internet)",
+      "how": {
+        "step1": "Add expenses and scan receipts anytime — even offline.",
+        "step2": "Review categories and totals on-device.",
+        "step3": "Sync changes when you're back online.",
+        "title": "How it works"
+      },
+      "intro": "Need an expense tracker that works on planes, on the road, or anywhere with spotty signal? FlickAI is built to track spending offline — and sync when you choose.",
+      "keywords": "offline expense tracker, expense tracker no internet, offline budgeting app, travel expense tracker offline, local storage expense tracker, private offline expense app, 2026 offline expense tracker",
+      "related": {
+        "title": "Related"
+      },
+      "title": "Offline Expense Tracker - Works Without Internet | FlickAI",
+      "why": {
+        "point1": "Track expenses while traveling without roaming or unreliable Wi‑Fi.",
+        "point2": "Keep working even when you're underground, on a train, or in low-coverage areas.",
+        "point3": "Reduce risk by not depending on always-on cloud connectivity for basic tracking.",
+        "title": "Why offline matters"
+      }
+    },
+    "onDeviceAI": {
+      "description": "Explore on-device AI workflows for expense tracking: private receipt scanning, offline-first insights, and voice-style queries. Free to start.",
+      "faq": {
+        "a1": "Yes — FlickAI is free to start.",
+        "a2": "Yes. You can track expenses offline and sync later.",
+        "a3": "Yes — FlickAI supports privacy-first workflows and secure receipt storage.",
+        "q1": "Is this free to start?",
+        "q2": "Does it work offline?",
+        "q3": "Is it privacy-first?",
+        "title": "FAQ"
+      },
+      "heading": "On-Device AI for Expense Tracking (2026-Ready)",
+      "intro": "Search is shifting toward assistants and conversational queries. FlickAI is built to support privacy-first, offline-friendly AI workflows for expenses.",
+      "keywords": "on-device AI expense tracker, private AI receipt scanner, offline AI expense tracker, on-device OCR receipts, AI expense assistant on phone, 2026 AI financial assistant, conversational spending insights",
+      "related": {
+        "title": "Related"
+      },
+      "title": "On-Device AI Expense Tracker (Private AI) | FlickAI",
+      "voice": {
+        "example1": "“How much did I spend on groceries last month?”",
+        "example2": "“Show my top merchants this quarter.”",
+        "example3": "“What categories increased the most?”",
+        "title": "Examples of 2026-style questions"
+      },
+      "what": {
+        "point1": "Scan and organize receipts with AI-powered extraction.",
+        "point2": "Use offline-friendly flows when connectivity is unreliable.",
+        "point3": "Get insight-style answers from your expense data (where available).",
+        "title": "What this means in practice"
+      }
+    },
+    "privacyFirst": {
+      "description": "An expense tracker without bank sync, built for people who don't want to link bank accounts. Secure receipt storage and offline-friendly workflows. Free to start.",
+      "faq": {
+        "a1": "Yes — FlickAI works without mandatory bank sync or bank linking.",
+        "a2": "No. FlickAI is designed to work without mandatory bank linking.",
+        "a3": "No — we don't sell your data.",
+        "a4": "Yes. You can track expenses offline and sync later.",
+        "a5": "Yes — FlickAI is free to start.",
+        "q1": "Is there an expense tracker without bank sync?",
+        "q2": "Do I have to connect my bank account?",
+        "q3": "Do you sell my data?",
+        "q4": "Can I use it offline?",
+        "q5": "Is it free to start?",
+        "title": "FAQ"
+      },
+      "heading": "Expense Tracker Without Bank Sync (Privacy-First)",
+      "intro": "If you want an expense tracker without bank sync, FlickAI is built for privacy-first tracking — without forcing you to link a bank account.",
+      "keywords": "expense tracker without bank sync, privacy-first expense tracker, private expense tracker, no bank sync expense tracker, no bank account expense tracker, local-only expense tracker, secure receipt storage, 2026 private expense tracker",
+      "pillars": {
+        "point1": "No bank sync required to track spending.",
+        "point2": "Secure receipt storage and strong security practices.",
+        "point3": "Offline-friendly workflows for sensitive data.",
+        "point4": "Free to start, with upgrades when you need them.",
+        "title": "Privacy-first by design"
+      },
+      "related": {
+        "title": "Related"
+      },
+      "title": "Expense Tracker Without Bank Sync (Privacy-First) | FlickAI"
+    },
+    "receiptToExcel": {
+      "bestFor": {
+        "point1": "Freelancers and contractors tracking deductions.",
+        "point2": "Small teams that want spreadsheet control.",
+        "point3": "Anyone replacing manual receipt entry.",
+        "title": "Best for"
+      },
+      "description": "Turn receipts into spreadsheet-ready expense data. Scan receipts, review extracted fields, and export for your accountant. Free to start.",
+      "faq": {
+        "a1": "You can export data in spreadsheet-friendly formats (such as CSV) that open in Excel.",
+        "a2": "You can scan and track offline, then sync later.",
+        "a3": "Yes — FlickAI is free to start.",
+        "q1": "Can I export to Excel?",
+        "q2": "Does it work offline?",
+        "q3": "Is it free to start?",
+        "title": "FAQ"
+      },
+      "heading": "Scan Receipts to Excel / CSV",
+      "intro": "If you live in spreadsheets, FlickAI helps you move from paper receipts to clean, structured expense data — fast.",
+      "keywords": "scan receipts to Excel, receipt to CSV export, OCR receipt to spreadsheet, extract receipt data automatically, receipt parser, 2026 receipt OCR export",
+      "related": {
+        "title": "Related"
+      },
+      "steps": {
+        "step1": "Scan a receipt.",
+        "step2": "Review the extracted merchant, date, totals, and items.",
+        "step3": "Export your expenses to a spreadsheet-friendly format.",
+        "step4": "Share with your accountant or import into your workflow.",
+        "title": "How it works"
+      },
+      "title": "Scan Receipts to Excel / CSV | FlickAI"
+    },
+    "scanning": {
+      "description": "Instantly extract merchant, items, and prices from receipts using advanced AI technology.",
+      "heading": "Smart Receipt Scanning",
+      "howItWorks": {
+        "step1": "Open the FlickAI app and tap the camera icon.",
+        "step2": "Align the receipt in the frame.",
+        "step3": "Tap capture. AI processes the image in seconds.",
+        "step4": "Review the extracted details and save!",
+        "title": "How It Works"
+      },
+      "intro": "Gone are the days of manual data entry. With FlickAI, you can digitize expenses in seconds just by taking a photo.",
+      "title": "Smart Receipt Scanning - FlickAI",
+      "whatWeExtract": {
+        "dateTime": "Date & Time: Records exactly when the purchase occurred.",
+        "items": "Individual Items: Extracts individual items and prices for detailed tracking.",
+        "merchant": "Merchant Name: Automatically identified from logos or text.",
+        "title": "What We Extract",
+        "total": "Total Amount: Captures the final total accurately."
+      }
+    },
+    "security": {
+      "description": "Your data is protected with end-to-end encryption and secure authentication.",
+      "heading": "Bank-Level Security",
+      "intro": "Your financial data is sensitive, and we treat it that way. FlickAI employs industry-leading security measures to keep your information safe.",
+      "measures": {
+        "auth": "Secure Authentication: Multi-factor authentication and biometric login options.",
+        "compliance": "Compliance: GDPR compliant and following best security practices.",
+        "encryption": "End-to-End Encryption: All data is encrypted both in transit and at rest.",
+        "privacy": "Privacy by Design: We never sell your data to third parties.",
+        "title": "Security Measures"
+      },
+      "title": "Bank-Level Security - FlickAI"
+    },
+    "taxReceipts": {
+      "checklist": {
+        "point1": "Scan and save receipts as you spend.",
+        "point2": "Track totals by category (travel, meals, supplies, etc.).",
+        "point3": "Keep a clean record of merchant, date, and total.",
+        "point4": "Export or share when it’s time to file.",
+        "title": "Tax-ready checklist"
+      },
+      "description": "Organize receipts for tax season: scan, categorize, and keep deductible expenses searchable. Free to start.",
+      "faq": {
+        "a1": "No. FlickAI helps you organize expense records and receipts for tax workflows.",
+        "a2": "Yes — it’s designed to help freelancers and self-employed users track deductions.",
+        "a3": "Yes. Track and scan offline, then sync later.",
+        "a4": "Yes — FlickAI is free to start.",
+        "q1": "Is this a tax filing service?",
+        "q2": "Can freelancers use this?",
+        "q3": "Does it work offline?",
+        "q4": "Is it free to start?",
+        "title": "FAQ"
+      },
+      "heading": "Scan Receipts for Taxes",
+      "intro": "Tax time gets easier when your receipts are searchable and organized. FlickAI helps you capture and track deductible expenses as you go.",
+      "keywords": "scan receipts for taxes, tax receipt scanner, deductible expense tracker, organize receipts for tax season, business receipts taxes, 2026 tax receipt app",
+      "related": {
+        "title": "Related"
+      },
+      "title": "Scan Receipts for Taxes (Deductible Expenses) | FlickAI"
+    }
+  },
+  "footer": {
+    "cookiePolicy": "Cookie Policy",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "gdpr": {
+    "contact": {
+      "content": "To exercise any of your rights or for questions regarding GDPR compliance, please contact our Data Protection Officer at: support@flickai.net",
+      "title": "3. Contact DPO"
+    },
+    "description": "GDPR Compliance information for FlickAI. Your rights under the General Data Protection Regulation.",
+    "heading": "GDPR Compliance",
+    "lastUpdated": "Last updated: November 28, 2025",
+    "processing": {
+      "content": "We process your data lawfully, fairly, and in a transparent manner. We only collect data for specified, explicit, and legitimate purposes.",
+      "title": "2. Data Processing"
+    },
+    "rights": {
+      "access": "The right to access your personal data.",
+      "erasure": "The right to erasure (\"right to be forgotten\").",
+      "intro": "Under the General Data Protection Regulation (GDPR), you have the following rights regarding your personal data:",
+      "object": "The right to object to processing.",
+      "portability": "The right to data portability.",
+      "rectification": "The right to rectification of inaccurate data.",
+      "restrict": "The right to restrict processing.",
+      "title": "1. Your Rights"
+    },
+    "title": "GDPR Compliance - FlickAI | Legal"
+  },
+  "home": {
+    "description": "Simplify expense tracking with FlickAI's AI-powered receipt scanning. Track finances effortlessly, create budgets, and gain financial insights.",
+    "download": {
+      "appStore": "App Store",
+      "googlePlay": "Google Play",
+      "subtitle": "Join thousands of users taking control of their finances with FlickAI.",
+      "title": "Start Tracking Today",
+      "waitlistNote": "Click the \"Join Waitlist\" button to get early access! 🚀"
+    },
+    "features": {
+      "analytics": {
+        "description": "Visualize spending trends and get personalized financial insights in your language.",
+        "title": "Intelligent Analytics"
+      },
+      "offline": {
+        "description": "Works perfectly offline. Changes sync automatically when you're back online.",
+        "title": "Offline & Sync"
+      },
+      "scanning": {
+        "description": "Instantly extract merchant, items, and prices using advanced AI technology.",
+        "title": "Smart Receipt Scanning"
+      },
+      "security": {
+        "description": "Your data is protected with end-to-end encryption and secure authentication.",
+        "title": "Bank-Level Security"
+      },
+      "title": "Why Choose FlickAI?"
+    },
+    "hero": {
+      "getStarted": "Free to start",
+      "learnMore": "Learn More",
+      "subtitle": "Effortlessly track your finances with intelligent receipt scanning and automated insights. Let AI handle the boring stuff.",
+      "title": "AI-Powered Expense Tracking & Receipt Scanning"
+    },
+    "keywords": "expense tracker, expense monitor, receipt scanner, AI finance, IA finance, budget app, personal finance, FlickAI, expense management, AI expense tracking, AI expense monitor",
+    "ogDescription": "Simplify expense tracking with FlickAI's AI-powered receipt scanning. Track finances effortlessly.",
+    "ogTitle": "FlickAI - AI-Powered Expense Tracking",
+    "schemaDescription": "AI-powered expense tracking and receipt scanning application.",
+    "title": "FlickAI - AI-Powered Expense Tracking"
+  },
+  "guides": {
+    "index": {
+      "title": "Expense Tracking & Receipt Scanning Guides | FlickAI",
+      "description": "Practical how-to guides for receipt scanning, offline expense tracking, and tax-ready exports. Free to start.",
+      "keywords": "receipt to excel, export receipts to csv, offline expense tracking, tax receipt checklist, receipt scanner tips",
+      "heading": "Guides",
+      "intro": "Simple, practical guides to help you scan receipts, track expenses offline, and stay tax-ready.",
+      "guides": {
+        "title": "Popular guides"
+      },
+      "cta": "FlickAI is free to start — built for offline, privacy-first receipt scanning and expense tracking."
+    },
+    "receiptToExcel": {
+      "title": "How to Convert Receipts to Excel (CSV) | FlickAI Guide",
+      "description": "Step-by-step: scan receipts, clean the data, and export to Excel/CSV for taxes, bookkeeping, or reports.",
+      "keywords": "receipt to excel, receipt to csv, export receipts, receipt scanner excel, expense export",
+      "heading": "Receipt to Excel: from scan to spreadsheet",
+      "snippet": "Turn paper receipts into Excel/CSV in minutes.",
+      "intro": "If you need clean spreadsheets for taxes or bookkeeping, start with consistent fields (merchant, date, total) and export in a spreadsheet-friendly format.",
+      "steps": {
+        "title": "Steps",
+        "step1": "Scan receipts and confirm merchant, date, and total.",
+        "step2": "Fix OCR mistakes (taxes, tips, currencies, line items).",
+        "step3": "Categorize expenses so your sheet stays consistent.",
+        "step4": "Export to Excel/CSV and share with your accountant or tools."
+      },
+      "pitfalls": {
+        "title": "Common pitfalls",
+        "point1": "Mixed currencies when traveling",
+        "point2": "Missing tax/VAT fields",
+        "point3": "Inconsistent categories across months"
+      },
+      "faq": {
+        "title": "FAQ",
+        "q1": "Is FlickAI free to start?",
+        "a1": "Yes — FlickAI is free to start.",
+        "q2": "Can I do this offline?",
+        "a2": "Yes — you can scan receipts and track expenses offline, then sync later.",
+        "q3": "Can I export to Excel?",
+        "a3": "Yes — you can export expense data in spreadsheet-friendly formats like CSV."
+      },
+      "related": {
+        "title": "Related"
+      }
+    },
+    "offlineExpenseTracking": {
+      "title": "Offline Expense Tracking: A Practical Checklist | FlickAI Guide",
+      "description": "A simple checklist for tracking expenses offline while traveling, in low-signal areas, or when you prefer privacy-first workflows.",
+      "keywords": "offline expense tracking, travel expense tracker offline, privacy-first expense tracking, no internet expense tracker",
+      "heading": "Offline expense tracking (checklist)",
+      "snippet": "Track spending reliably without internet.",
+      "intro": "Offline tracking is about reliability: capture receipts and expenses immediately, even with no signal, then sync when you’re ready.",
+      "checklist": {
+        "title": "Checklist",
+        "point1": "Make sure capture works without an internet connection",
+        "point2": "Standardize categories (travel, meals, supplies, mileage)",
+        "point3": "Review totals weekly to catch mistakes early",
+        "point4": "Export backups for your accountant or records"
+      },
+      "faq": {
+        "title": "FAQ",
+        "q1": "Why does offline mode matter?",
+        "a1": "It prevents lost receipts and missing entries when you’re traveling or have poor connectivity.",
+        "q2": "Is offline tracking private?",
+        "a2": "It can be — offline-first workflows reduce unnecessary data sharing and give you more control.",
+        "q3": "When should I sync?",
+        "a3": "Sync when it’s convenient and secure for you — for example, on trusted Wi‑Fi."
+      },
+      "related": {
+        "title": "Related"
+      }
+    },
+    "taxReceiptsChecklist": {
+      "title": "Tax Receipts Checklist (Self‑Employed & Freelancers) | FlickAI Guide",
+      "description": "A clear checklist to keep receipts tax-ready: what to capture, how to label, and how to export for deductions.",
+      "keywords": "tax receipt checklist, organize receipts for taxes, self employed deductions receipts, receipts for accountant",
+      "heading": "Tax receipts checklist",
+      "snippet": "Stay organized for tax season.",
+      "intro": "Good receipt hygiene saves hours during tax season. Use this checklist to keep your receipts complete, searchable, and exportable.",
+      "checklist": {
+        "title": "Checklist",
+        "point1": "Capture merchant, date, total, and tax/VAT",
+        "point2": "Add a category and a short note (client/project)",
+        "point3": "Keep digital copies of important receipts",
+        "point4": "Export monthly or quarterly for backups",
+        "point5": "Separate personal vs. business spending"
+      },
+      "faq": {
+        "title": "FAQ",
+        "q1": "What receipts should I keep?",
+        "a1": "Keep receipts for business-related purchases and anything you plan to deduct.",
+        "q2": "How long should I keep receipts?",
+        "a2": "Rules vary by country — many people keep records for several years. Ask your accountant for local guidance.",
+        "q3": "Can I export everything for my accountant?",
+        "a3": "Yes — exports make it easier to share organized data and reduce back-and-forth."
+      },
+      "related": {
+        "title": "Related"
+      }
+    }
+  },
+  "integrations": {
+    "index": {
+      "description": "Connect FlickAI to your workflow. Export receipts and expenses to tools like Notion, Zapier automations, or WhatsApp sharing patterns.",
+      "heading": "Integrations & Workflows",
+      "ideas": {
+        "point1": "Notion: build a spending dashboard.",
+        "point2": "Zapier: auto-create tasks or notifications from exports.",
+        "point3": "WhatsApp: share receipts with a partner or accountant.",
+        "title": "Popular workflows"
+      },
+      "intro": "In 2026, people expect apps to fit into workflows. FlickAI focuses on portable data and automation-friendly exports.",
+      "keywords": "expense tracker integrations, export expenses to Notion, Zapier receipt scanner, send receipts to WhatsApp, automate expense reports, 2026 finance workflow",
+      "methods": {
+        "point1": "Export expenses (CSV/Excel-compatible) into your tools.",
+        "point2": "Share receipts and reports when collaborating.",
+        "point3": "Automate routines with lightweight connectors.",
+        "title": "Common ways to integrate"
+      },
+      "title": "Integrations & Workflows (2026) | FlickAI"
+    }
+  },
+  "meta": {
+    "lang": "en",
+    "langName": "English",
+    "siteName": "FlickAI",
+    "siteUrl": "https://flickai.net"
+  },
+  "privacy": {
+    "contact": {
+      "content": "If you have any questions about this privacy policy or our privacy practices, please contact us at: support@flickai.net",
+      "title": "5. Contact Us"
+    },
+    "dataCollection": {
+      "contact": "Contact Data: includes email address.",
+      "identity": "Identity Data: includes first name, last name, username or similar identifier.",
+      "intro": "We may collect, use, store and transfer different kinds of personal data about you which we have grouped together follows:",
+      "title": "2. Data We Collect",
+      "transaction": "Transaction Data: includes details about payments to and from you and other details of products and services you have purchased from us.",
+      "usage": "Usage Data: includes information about how you use our website and applications."
+    },
+    "dataUsage": {
+      "contract": "Where we need to perform the contract we are about to enter into or have entered into with you.",
+      "intro": "We will only use your personal data when the law allows us to. Most commonly, we will use your personal data in the following circumstances:",
+      "legal": "Where we need to comply with a legal or regulatory obligation.",
+      "legitimate": "Where it is necessary for our legitimate interests (or those of a third party) and your interests and fundamental rights do not override those interests.",
+      "title": "3. How We Use Your Data"
+    },
+    "description": "Privacy Policy for FlickAI. Learn how we collect, use, and protect your data.",
+    "heading": "Privacy Policy",
+    "introduction": {
+      "content": "FlickAI (\"we,\" \"our,\" or \"us\") respects your privacy and is committed to protecting your personal data. This privacy policy will inform you as to how we look after your personal data when you visit our website or use our mobile application.",
+      "title": "1. Introduction"
+    },
+    "lastUpdated": "Last updated: November 28, 2025",
+    "security": {
+      "content": "We have put in place appropriate security measures to prevent your personal data from being accidentally lost, used or accessed in an unauthorized way, altered or disclosed.",
+      "title": "4. Data Security"
+    },
+    "title": "Privacy Policy - FlickAI | Legal"
+  },
+  "terms": {
+    "agreement": {
+      "content": "By accessing our website or using our mobile application, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services.",
+      "title": "1. Agreement to Terms"
+    },
+    "contact": {
+      "content": "In order to resolve a complaint regarding the Site or to receive further information regarding use of the Site, please contact us at: support@flickai.net",
+      "title": "5. Contact Us"
+    },
+    "description": "Terms of Service for FlickAI. Read our terms and conditions for using our services.",
+    "heading": "Terms of Service",
+    "intellectual": {
+      "content": "Unless otherwise indicated, the Site and our mobile application are our proprietary property and all source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics on the Site (collectively, the \"Content\") and the trademarks, service marks, and logos contained therein (the \"Marks\") are owned or controlled by us or licensed to us.",
+      "title": "2. Intellectual Property Rights"
+    },
+    "lastUpdated": "Last updated: November 28, 2025",
+    "prohibited": {
+      "content": "You may not access or use the Site for any purpose other than that for which we make the Site available. The Site may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us.",
+      "title": "4. Prohibited Activities"
+    },
+    "title": "Terms of Service - FlickAI | Legal",
+    "userRep": {
+      "content": "By using the Site, you represent and warrant that: (1) all registration information you submit will be true, accurate, current, and complete; (2) you will maintain the accuracy of such information and promptly update such registration information as necessary.",
+      "title": "3. User Representations"
+    }
+  },
+  "useCases": {
+    "freelancers": {
+      "description": "Track business expenses, scan receipts, and stay tax-ready as a freelancer. Free to start.",
+      "faq": {
+        "a1": "Yes — FlickAI helps you organize spending so you can keep business records clean.",
+        "a2": "Yes — it’s built to help you keep deductible receipts organized.",
+        "a3": "Yes — FlickAI is free to start.",
+        "q1": "Can I track business and personal expenses?",
+        "q2": "Can I use this for deductions?",
+        "q3": "Is it free to start?",
+        "title": "FAQ"
+      },
+      "heading": "Expense Tracker for Freelancers",
+      "intro": "Freelancers need a simple way to track business spending, keep receipts, and stay ready for deductions.",
+      "keywords": "expense tracker for freelancers, freelance expense tracker, self-employed expense tracker, contractor receipt tracker, 2026 freelancer expense app",
+      "pain": {
+        "point1": "Receipts get lost or pile up.",
+        "point2": "Spreadsheets take time and are easy to mess up.",
+        "point3": "Tax time becomes stressful without clean records.",
+        "title": "Common problems"
+      },
+      "related": {
+        "title": "Related"
+      },
+      "solution": {
+        "point1": "Scan receipts fast with AI extraction.",
+        "point2": "Track totals by category and merchant.",
+        "point3": "Work offline when you’re traveling or busy.",
+        "point4": "Free to start, upgrade when you need more.",
+        "title": "How FlickAI helps"
+      },
+      "title": "Expense Tracker for Freelancers | FlickAI"
+    },
+    "selfEmployedDeductions": {
+      "basics": {
+        "point1": "Receipts (merchant, date, total).",
+        "point2": "Expense category and notes.",
+        "point3": "A searchable history you can export.",
+        "title": "What to track"
+      },
+      "description": "Track deductible expenses and receipts for self-employment taxes. Scan, categorize, and export when needed. Free to start.",
+      "faq": {
+        "a1": "No. This is a tracking and record-keeping workflow to help you stay organized.",
+        "a2": "Yes — track offline and sync later.",
+        "a3": "Yes — FlickAI is free to start.",
+        "q1": "Is this tax advice?",
+        "q2": "Does it work offline?",
+        "q3": "Is it free to start?",
+        "title": "FAQ"
+      },
+      "heading": "Track Self-Employed Tax Deductions",
+      "intro": "The easiest deductions are the ones you have receipts for. Build a clean record throughout the year.",
+      "keywords": "self-employed tax deductions tracker, deductible expenses tracker, business expense receipts, 2026 self-employed expense tracker",
+      "related": {
+        "title": "Related"
+      },
+      "title": "Self-Employed Tax Deductions Tracker | FlickAI",
+      "workflow": {
+        "step1": "Scan and save receipts as you spend.",
+        "step2": "Review categories and totals monthly.",
+        "step3": "Export or share records at tax time.",
+        "title": "A simple workflow"
+      }
+    }
+  },
+  "faqPage": {
+    "title": "FAQ | FlickAI",
+    "description": "Answers to common questions about FlickAI: privacy-first expense tracking, no bank sync, offline mode, receipt scanning, and exports.",
+    "keywords": "FlickAI FAQ, expense tracker FAQ, receipt scanner FAQ, no bank sync expense tracker, offline expense tracker",
+    "heading": "Frequently Asked Questions",
+    "intro": "Quick answers to the most common questions about FlickAI.",
+    "faq": {
+      "q1": "Is FlickAI free to start?",
+      "a1": "Yes — FlickAI is free to start.",
+      "q2": "Is there an expense tracker without bank sync?",
+      "a2": "Yes — FlickAI works without mandatory bank sync or bank linking.",
+      "q3": "Does FlickAI work offline?",
+      "a3": "Yes. You can track expenses and scan receipts offline, then sync later.",
+      "q4": "Can I scan receipts and extract totals/items?",
+      "a4": "Yes — FlickAI supports AI-powered receipt scanning and field extraction.",
+      "q5": "Can I export my expenses to Excel/CSV?",
+      "a5": "Yes — you can export expense data in spreadsheet-friendly formats like CSV.",
+      "q6": "Do you sell my data?",
+      "a6": "No — we don't sell your data."
+    }
+  },
+  "waitlist": {
+    "alreadyJoined": "You're already on the waitlist!",
+    "button": "Join Waitlist",
+    "error": "Please enter a valid email address",
+    "floatButton": "Join Waitlist",
+    "networkError": "Something went wrong. Please try again.",
+    "placeholder": "Enter your email",
+    "subtitle": "Be the first to know when FlickAI launches on iOS!",
+    "success": "Thank you! We'll notify you when we launch. 🎉",
+    "title": "🚀 Get Early Access"
+  }
+}

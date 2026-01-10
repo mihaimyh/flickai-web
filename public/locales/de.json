@@ -1,0 +1,755 @@
+{
+  "accessibility": {
+    "commitment": {
+      "content": "FlickAI verpflichtet sich, digitale Barrierefreiheit für Menschen mit Behinderungen zu gewährleisten. Wir verbessern kontinuierlich die Benutzererfahrung für alle und wenden die relevanten Barrierefreiheitsstandards an.",
+      "title": "1. Unser Engagement"
+    },
+    "conformance": {
+      "content": "Die Web Content Accessibility Guidelines (WCAG) definieren Anforderungen für Designer und Entwickler, um die Barrierefreiheit für Menschen mit Behinderungen zu verbessern. Sie definieren drei Konformitätsstufen: Stufe A, Stufe AA und Stufe AAA. FlickAI ist teilweise konform mit WCAG 2.1 Stufe AA.",
+      "title": "2. Konformitätsstatus"
+    },
+    "description": "Barrierefreiheitserklärung für FlickAI. Unser Engagement für digitale Barrierefreiheit.",
+    "feedback": {
+      "email": "E-Mail: support@flickai.net",
+      "intro": "Wir begrüßen Ihr Feedback zur Barrierefreiheit von FlickAI. Bitte lassen Sie uns wissen, wenn Sie auf Barrierefreiheitsbarrieren bei FlickAI stoßen:",
+      "title": "3. Feedback"
+    },
+    "heading": "Barrierefreiheitserklärung",
+    "lastUpdated": "Zuletzt aktualisiert: 28. November 2025",
+    "title": "Barrierefreiheitserklärung - FlickAI | Legal"
+  },
+  "alternatives": {
+    "backToHub": "Zurück zu Alternativen",
+    "bestExpenseTrackers": {
+      "criteria": {
+        "point1": "Schnelle Erfassung (Belege + Eingabe)",
+        "point2": "Offline-Modus und zuverlässige Synchronisierung",
+        "point3": "Datenschutz (keine Pflicht-Bankverknüpfung)",
+        "point4": "Preis zum Ausprobieren (kostenlos starten)",
+        "title": "Worauf wir geachtet haben"
+      },
+      "description": "Eine praxisnahe Liste der besten Ausgabentracker 2025–2026. Vergleichen Sie Offline, Datenschutz, Automation und Preis.",
+      "faq": {
+        "a1": "Die beste passt zu Ihrem Workflow: offline für Reisen, privacy-first ohne Bankzwang, KI für Automatisierung.",
+        "a2": "Ja – FlickAI ist kostenlos startbar.",
+        "q1": "Welche ist die beste Ausgaben-App 2026?",
+        "q2": "Gibt es eine App, die kostenlos startbar ist?",
+        "title": "FAQ"
+      },
+      "heading": "Beste Ausgabentracker-Apps (2025–2026)",
+      "intro": "Fokus auf echte Anforderungen: schnelle Erfassung, Offline-Zuverlässigkeit und Datenschutz.",
+      "keywords": "beste Ausgaben App, Haushaltsbuch App 2026, Offline Ausgabentracker, privater Ausgabentracker, KI Ausgaben App, kostenlos starten",
+      "list": {
+        "item1": "Kostenlos startbar, KI-Belegscanning, offline-freundliche Workflows.",
+        "item2": "YNAB — Starke Budgetmethode, Abo-Modell.",
+        "item3": "PocketGuard — Einfaches Budget und Übersicht.",
+        "item4": "Spendee — Gemeinsame Wallets und Kategorien.",
+        "item5": "Money Manager — Leichtes tägliches Tracking.",
+        "title": "Top Picks"
+      },
+      "title": "Beste Ausgabentracker-Apps (2025-2026) | Empfehlungen"
+    },
+    "bestReceiptScanners": {
+      "criteria": {
+        "point1": "OCR-Genauigkeit (Händler/Datum/Summe/Positionen)",
+        "point2": "Geschwindigkeit und Bedienbarkeit",
+        "point3": "Offline-freundliche Erfassung",
+        "point4": "Exporte (CSV/Excel-Workflows)",
+        "title": "Worauf wir geachtet haben"
+      },
+      "description": "Vergleichen Sie die besten Belegscanner 2025–2026: OCR-Qualität, Offline-Erfassung und Export.",
+      "heading": "Beste Belegscanner-Apps (2025–2026)",
+      "intro": "Für saubere Ausgabenberichte zählt starke OCR und ein einfacher Export-Workflow.",
+      "keywords": "beste Belegscanner App, Beleg OCR, Belege offline scannen, Belegscanner kostenlos, Belege zu Excel, 2026 Belegscanner",
+      "list": {
+        "item1": "Kostenlos startbar, KI-Extraktion, ausgabenorientiert.",
+        "item2": "Expensify — Beliebt für Teams, Abo-orientiert.",
+        "item3": "Zoho Expense — Starkes Suite-Angebot.",
+        "item4": "Genius Scan — Sehr guter Scanner, weniger ausgabenfokussiert.",
+        "item5": "CamScanner — Scanner-Tool, nicht expense-first.",
+        "title": "Top Picks"
+      },
+      "title": "Beste Belegscanner-Apps (2025-2026) | Empfehlungen"
+    },
+    "expensify": {
+      "description": "Expensify-Alternativen vergleichen: Offline-Modus, Datenschutz, Einfachheit und moderne KI-Automatisierung.",
+      "heading": "Beste Expensify-Alternativen (2025–2026)",
+      "intro": "Für alle, die einen schlankeren und datenschutzfreundlicheren Spesen-Workflow suchen.",
+      "keywords": "Expensify Alternativen, Apps wie Expensify, Spesenabrechnung Alternative 2026, Offline Ausgabentracker, privater Ausgabentracker, KI Belegscanner",
+      "list": {
+        "item1": "Kostenlos startbar, KI-Belegscanning, offline + privacy-first.",
+        "item2": "Zoho Expense — Funktionsreiche Suite.",
+        "item3": "Concur — Stark enterprise-lastig.",
+        "item4": "QuickBooks — Accounting-first.",
+        "item5": "Wave — Preiswerte Basics für kleine Teams.",
+        "title": "Top Alternativen"
+      },
+      "title": "Beste Expensify-Alternativen (2025-2026)",
+      "whatToLookFor": {
+        "point1": "Schnelle Belegerfassung mit zuverlässiger OCR",
+        "point2": "Offline-Support für Reisen",
+        "point3": "Transparente Preise (kostenlos starten hilft beim Testen)",
+        "title": "Worauf Sie achten sollten"
+      }
+    },
+    "index": {
+      "cta": "FlickAI ist kostenlos startbar – offline-freundlich, privacy-first und mit KI-Belegscanning.",
+      "description": "Guides zu den besten Ausgabentrackern und Belegscanner-Apps. Vergleichen Sie Offline, Datenschutz und Automatisierung.",
+      "guides": {
+        "title": "Guides"
+      },
+      "heading": "Top Alternativen (2025–2026)",
+      "howToChoose": {
+        "point1": "Offline ist ideal für Reisen und Zuverlässigkeit.",
+        "point2": "Privacy-first, wenn Sie keine Bankverknüpfung wollen.",
+        "point3": "KI-Automation, wenn Sie weniger manuelle Eingabe möchten.",
+        "title": "So wählen Sie"
+      },
+      "intro": "Sie suchen eine App, die zu Ihrem Workflow passt? Starten Sie hier.",
+      "keywords": "Ausgabentracker Alternativen, Belegscanner Alternativen, beste Ausgaben App 2026, beste Belegscanner App, Offline Haushaltsbuch, Datenschutz Ausgaben",
+      "title": "Top Alternativen: Ausgabentracker & Belegscanner (2025-2026)"
+    },
+    "zoho": {
+      "description": "Zoho Expense-Alternativen für alle, die eine fokussierte, einfache Ausgaben- und Beleglösung suchen.",
+      "heading": "Beste Zoho Expense-Alternativen (2025–2026)",
+      "intro": "Wenn Sie lieber ein dediziertes Tool statt einer großen Suite möchten.",
+      "keywords": "Zoho Expense Alternativen, Apps wie Zoho Expense, einfacher Ausgabentracker, Belegscanner Alternative 2026, offline Ausgaben",
+      "list": {
+        "item1": "Kostenlos startbar, KI-Automation, offline-freundlich.",
+        "item2": "Expensify — Starke Team-Workflows.",
+        "item3": "Concur — Enterprise-Suite.",
+        "item4": "FreshBooks — Rechnung-first mit Ausgaben.",
+        "item5": "Spendee — Personal/Shared Budgeting.",
+        "title": "Top Alternativen"
+      },
+      "title": "Beste Zoho Expense-Alternativen (2025-2026)",
+      "whatToLookFor": {
+        "point1": "Fokussierte UX für tägliches Tracking",
+        "point2": "OCR-Belegscanning und Exporte",
+        "point3": "Privacy-first und Offline-Optionen",
+        "title": "Worauf Sie achten sollten"
+      }
+    }
+  },
+  "common": {
+    "alternatives": "Alternativen",
+    "integrations": "Integrationen",
+    "guides": "Ratgeber",
+    "faq": "FAQ",
+    "backToHome": "Zurück zur Startseite",
+    "copyright": "© 2025 FlickAI. Alle Rechte vorbehalten.",
+    "downloadApp": "App herunterladen",
+    "features": "Funktionen",
+    "learnMore": "Mehr erfahren",
+    "testimonials": "Referenzen"
+  },
+  "cookie": {
+    "contact": {
+      "content": "Wenn Sie Fragen zu unserer Verwendung von Cookies haben, kontaktieren Sie uns bitte unter: support@flickai.net",
+      "title": "4. Kontaktieren Sie uns"
+    },
+    "description": "Cookie-Richtlinie für FlickAI. Verstehen Sie, wie wir Cookies verwenden, um Ihre Erfahrung zu verbessern.",
+    "disabling": {
+      "content": "Sie können das Setzen von Cookies verhindern, indem Sie die Einstellungen Ihres Browsers anpassen (siehe Hilfe Ihres Browsers, wie das geht). Beachten Sie, dass das Deaktivieren von Cookies die Funktionalität dieser und vieler anderer Websites, die Sie besuchen, beeinträchtigen wird.",
+      "title": "3. Cookies deaktivieren"
+    },
+    "heading": "Cookie-Richtlinie",
+    "howWeUse": {
+      "analytics": "Analyse-Cookies: Diese helfen uns zu verstehen, wie Besucher mit unserer Website interagieren.",
+      "essential": "Essenzielle Cookies: Diese sind für das ordnungsgemäße Funktionieren der Website notwendig.",
+      "functionality": "Funktions-Cookies: Diese ermöglichen es der Website, sich an von Ihnen getroffene Auswahlmöglichkeiten zu erinnern.",
+      "intro": "Wir verwenden Cookies aus verschiedenen Gründen, die unten aufgeführt sind. Leider gibt es in den meisten Fällen keine branchenüblichen Optionen zum Deaktivieren von Cookies, ohne die Funktionalität und die Funktionen, die sie dieser Website hinzufügen, vollständig zu deaktivieren.",
+      "title": "2. Wie wir Cookies verwenden"
+    },
+    "lastUpdated": "Zuletzt aktualisiert: 28. November 2025",
+    "title": "Cookie-Richtlinie - FlickAI | Legal",
+    "whatAre": {
+      "content": "Cookies sind kleine Textdateien, die von Websites, die Sie besuchen, auf Ihrem Computer oder Mobilgerät gespeichert werden. Sie werden häufig verwendet, damit Websites funktionieren oder effizienter arbeiten, sowie um den Betreibern der Website Informationen bereitzustellen.",
+      "title": "1. Was sind Cookies"
+    }
+  },
+  "features": {
+    "aiAssistant": {
+      "description": "Stellen Sie Fragen zu Ihren Ausgaben, erhalten Sie Einblicke und entdecken Sie konversationelle Finanz-Workflows für 2026. Kostenlos starten.",
+      "faq": {
+        "a1": "Ja – FlickAI ist kostenlos startbar.",
+        "a2": "FlickAI unterstützt privacy-first Workflows und sichere Belegablage.",
+        "a3": "Ja. Offline erfassen und später synchronisieren.",
+        "q1": "Kann ich kostenlos starten?",
+        "q2": "Ist das datenschutzfreundlich?",
+        "q3": "Kann ich offline nutzen?",
+        "title": "FAQ"
+      },
+      "heading": "KI-Finanzassistent für Ausgaben",
+      "intro": "2026 werden Menschen nicht nur tracken – sie werden fragen. FlickAI kombiniert schnelle Erfassung mit assistentähnlichen Insights.",
+      "keywords": "KI Finanzassistent, KI Ausgabenassistent, Ausgaben per Chat, konversationelles Budget, Voice Search Ausgaben, 2026 Finanz Assistent",
+      "questions": {
+        "q1": "„Wie viel habe ich letzten Monat für Kaffee ausgegeben?“",
+        "q2": "„Welche Kategorien sind dieses Quartal am stärksten gestiegen?“",
+        "q3": "„Zeig mir meine Top-Händler.“",
+        "q4": "„Wo kann ich diese Woche sparen?“",
+        "title": "Fragen wie"
+      },
+      "related": {
+        "title": "Ähnliches"
+      },
+      "title": "KI-Finanzassistent für Ausgaben | FlickAI"
+    },
+    "analytics": {
+      "aiInsights": {
+        "example": "\"Sie haben diesen Monat 20% mehr für Essen ausgegeben als im letzten Monat. Ziehen Sie in Erwägung, diese Woche zu Hause zu kochen, um im Budget zu bleiben.\"",
+        "intro": "Unsere KI zeigt Ihnen nicht nur Daten; sie erklärt sie. Erhalten Sie personalisierte Tipps wie:",
+        "title": "KI-generierte Einblicke"
+      },
+      "description": "Visualisieren Sie Ausgabentrends und erhalten Sie personalisierte finanzielle Einblicke in Ihrer Sprache.",
+      "heading": "Intelligente Analytik",
+      "intro": "Ihr Geld zu verstehen ist der erste Schritt, um es zu kontrollieren. FlickAI bietet tiefe Einblicke in Ihre Ausgabengewohnheiten.",
+      "title": "Intelligente Analytik - FlickAI",
+      "visualTrends": {
+        "categoryBreakdown": "Kategorie-Aufschlüsselung: Tortendiagramme, die Ausgaben nach Kategorie zeigen (Essen, Transport, Nebenkosten usw.).",
+        "intro": "Sehen Sie genau, wohin Ihr Geld fließt, mit interaktiven Diagrammen und Grafiken:",
+        "merchantAnalysis": "Händleranalyse: Sehen Sie, in welchen Geschäften Sie am meisten ausgeben.",
+        "monthlyTrends": "Monatliche Trends: Balkendiagramme, die Ausgaben im Monatsvergleich gegenüberstellen.",
+        "title": "Visuelle Ausgabentrends"
+      }
+    },
+    "offlineTracker": {
+      "description": "Ausgaben offline erfassen mit FlickAI: ohne Internet tracken und später synchronisieren. Kostenlos starten.",
+      "faq": {
+        "a1": "Ja – Sie können Ausgaben und Belege auch offline erfassen. Wenn Sie wieder online sind, synchronisieren Sie Ihre Änderungen.",
+        "a2": "Ja. FlickAI ist kostenlos startbar, mit optionalen Upgrades.",
+        "a3": "Offline-Workflows reduzieren die Abhängigkeit von einer ständigen Cloud-Verbindung und unterstützen privacy-first Nutzung.",
+        "a4": "Für Reisende, Datenschutzbewusste und alle, die eine zuverlässige Ausgaben-App ohne Dauerverbindung wollen.",
+        "q1": "Funktioniert FlickAI ohne Internet?",
+        "q2": "Kann ich kostenlos starten?",
+        "q3": "Ist das offline auch datenschutzfreundlich?",
+        "q4": "Für wen ist das besonders geeignet?",
+        "title": "FAQ"
+      },
+      "heading": "Offline Ausgabentracker (funktioniert ohne Internet)",
+      "how": {
+        "step1": "Ausgaben hinzufügen und Belege scannen – auch offline.",
+        "step2": "Kategorien und Summen direkt auf dem Gerät prüfen.",
+        "step3": "Synchronisieren, sobald Sie wieder online sind.",
+        "title": "So funktioniert’s"
+      },
+      "intro": "Ob im Flugzeug, in der U-Bahn oder auf Reisen: FlickAI ist darauf ausgelegt, Ausgaben auch offline zuverlässig zu erfassen – und bei Bedarf zu synchronisieren.",
+      "keywords": "Offline Ausgabentracker, Ausgaben Tracker ohne Internet, Haushaltsbuch offline, Reisekosten offline, Belegscanner offline, privater Ausgabentracker, 2026 Ausgabentracker",
+      "related": {
+        "title": "Ähnliches"
+      },
+      "title": "Offline Ausgabentracker – ohne Internet | FlickAI",
+      "why": {
+        "point1": "Ausgaben unterwegs erfassen – ohne Roaming oder instabiles WLAN.",
+        "point2": "Weiterarbeiten bei schlechtem Empfang (Zug, Keller, Ausland).",
+        "point3": "Mehr Kontrolle, weil Sie nicht von einer dauerhaften Cloud-Verbindung abhängig sind.",
+        "title": "Warum Offline wichtig ist"
+      }
+    },
+    "onDeviceAI": {
+      "description": "On-Device KI-Workflows für Ausgaben: private Beleg-Erkennung, offline-first Nutzung und assistentähnliche Fragen. Kostenlos starten.",
+      "faq": {
+        "a1": "Ja – FlickAI ist kostenlos startbar.",
+        "a2": "Ja. Offline erfassen und später synchronisieren.",
+        "a3": "Ja – FlickAI unterstützt datenschutzfreundliche Workflows und sichere Belegablage.",
+        "q1": "Kann ich kostenlos starten?",
+        "q2": "Funktioniert es offline?",
+        "q3": "Ist es privacy-first?",
+        "title": "FAQ"
+      },
+      "heading": "On-Device KI für Ausgaben (2026-ready)",
+      "intro": "Suche entwickelt sich Richtung Assistenten und Gesprächsanfragen. FlickAI unterstützt privacy-first und offline-freundliche KI-Workflows rund um Ausgaben.",
+      "keywords": "On-Device KI Ausgaben, private KI Belegscanner, Offline KI Ausgabentracker, Beleg OCR auf dem Gerät, KI Finanzassistent 2026, konversationelle Ausgabenanalyse",
+      "related": {
+        "title": "Ähnliches"
+      },
+      "title": "On-Device KI Ausgabentracker (Private KI) | FlickAI",
+      "voice": {
+        "example1": "„Wie viel habe ich letzten Monat für Lebensmittel ausgegeben?“",
+        "example2": "„Zeig mir meine Top-Händler dieses Quartal.“",
+        "example3": "„Welche Kategorien sind am stärksten gestiegen?“",
+        "title": "Beispiele für 2026-Fragen"
+      },
+      "what": {
+        "point1": "Belege scannen und automatisch strukturieren lassen.",
+        "point2": "Offline-freundliche Abläufe bei schlechter Verbindung.",
+        "point3": "Insight-ähnliche Antworten aus Ihren Ausgabendaten (je nach Verfügbarkeit).",
+        "title": "Was das konkret bedeutet"
+      }
+    },
+    "privacyFirst": {
+      "description": "Privacy-first Ausgabentracker ohne Pflicht-Bankverknüpfung. Sichere Belegablage, offline-freundliche Workflows. Kostenlos starten.",
+      "faq": {
+        "a1": "Nein. FlickAI funktioniert ohne verpflichtende Bankverknüpfung.",
+        "a2": "Nein – wir verkaufen Ihre Daten nicht.",
+        "a3": "Ja. Sie können offline erfassen und später synchronisieren.",
+        "a4": "Ja – FlickAI ist kostenlos startbar.",
+        "q1": "Muss ich mein Bankkonto verbinden?",
+        "q2": "Verkauft ihr meine Daten?",
+        "q3": "Kann ich die App offline nutzen?",
+        "q4": "Kann ich kostenlos starten?",
+        "title": "FAQ"
+      },
+      "heading": "Privacy-First Ausgabentracker (keine Bankverknüpfung nötig)",
+      "intro": "Wenn Sie Ihre Finanzdaten nicht zwangsweise mit einem Bankkonto verknüpfen möchten, ist FlickAI auf privacy-first Ausgaben-Tracking ausgelegt.",
+      "keywords": "Datenschutz Ausgabentracker, privater Ausgabentracker, Ausgaben ohne Bankverknüpfung, lokale Ausgaben-App, verschlüsselte Belege, DSGVO, 2026 privater Ausgabentracker",
+      "pillars": {
+        "point1": "Keine Pflicht zur Bank-Synchronisierung.",
+        "point2": "Sichere Belegablage und starke Sicherheitsstandards.",
+        "point3": "Offline-freundliche Workflows für sensible Daten.",
+        "point4": "Kostenlos starten und bei Bedarf erweitern.",
+        "title": "Datenschutz by Design"
+      },
+      "related": {
+        "title": "Ähnliches"
+      },
+      "title": "Datenschutzfreundlicher Ausgabentracker – ohne Bankverknüpfung | FlickAI"
+    },
+    "receiptToExcel": {
+      "bestFor": {
+        "point1": "Freelancer und Selbstständige (Betriebsausgaben).",
+        "point2": "Kleine Teams mit Excel-/CSV-Workflow.",
+        "point3": "Alle, die manuelle Erfassung ersetzen wollen.",
+        "title": "Ideal für"
+      },
+      "description": "Machen Sie aus Belegen saubere Tabellendaten: scannen, prüfen und für Buchhaltung exportieren. Kostenlos starten.",
+      "faq": {
+        "a1": "Sie können in tabellenfreundliche Formate (z. B. CSV) exportieren, die sich in Excel öffnen lassen.",
+        "a2": "Ja. Offline scannen und später synchronisieren.",
+        "a3": "Ja – FlickAI ist kostenlos startbar.",
+        "q1": "Kann ich nach Excel exportieren?",
+        "q2": "Geht das auch offline?",
+        "q3": "Kann ich kostenlos starten?",
+        "title": "FAQ"
+      },
+      "heading": "Belege in Excel / CSV scannen",
+      "intro": "Wenn Sie mit Tabellen arbeiten, hilft FlickAI beim schnellen Weg von Papierbelegen zu strukturierten Ausgabendaten.",
+      "keywords": "Belege in Excel scannen, Beleg zu CSV, OCR Beleg Tabelle, Belegdaten extrahieren, Reisekosten Belege, 2026 Belegscanner Export",
+      "related": {
+        "title": "Ähnliches"
+      },
+      "steps": {
+        "step1": "Beleg scannen.",
+        "step2": "Händler, Datum, Summe und Positionen prüfen.",
+        "step3": "In ein tabellenfreundliches Format exportieren.",
+        "step4": "Mit Steuerberatung teilen oder in Ihr System importieren.",
+        "title": "So funktioniert’s"
+      },
+      "title": "Belege in Excel / CSV scannen | FlickAI"
+    },
+    "scanning": {
+      "description": "Extrahieren Sie Händler, Artikel und Preise sofort aus Belegen mit fortschrittlicher KI-Technologie.",
+      "heading": "Intelligentes Belegscanning",
+      "howItWorks": {
+        "step1": "Öffnen Sie die FlickAI-App und tippen Sie auf das Kamerasymbol.",
+        "step2": "Richten Sie den Beleg im Rahmen aus.",
+        "step3": "Tippen Sie auf Aufnahme. Die KI verarbeitet das Bild in Sekunden.",
+        "step4": "Überprüfen Sie die extrahierten Details und speichern Sie!",
+        "title": "Wie es funktioniert"
+      },
+      "intro": "Die Zeiten der manuellen Dateneingabe sind vorbei. Mit FlickAI können Sie Ausgaben in Sekunden digitalisieren, indem Sie einfach ein Foto machen.",
+      "title": "Intelligentes Belegscanning - FlickAI",
+      "whatWeExtract": {
+        "dateTime": "Datum & Zeit: Zeichnet genau auf, wann der Kauf stattfand.",
+        "items": "Einzelne Artikel: Extrahiert einzelne Artikel und Preise für eine detaillierte Verfolgung.",
+        "merchant": "Händlername: Wird automatisch anhand von Logos oder Text identifiziert.",
+        "title": "Was wir extrahieren",
+        "total": "Gesamtbetrag: Erfasst die Endsumme genau."
+      }
+    },
+    "security": {
+      "description": "Ihre Daten sind durch Ende-zu-Ende-Verschlüsselung und sichere Authentifizierung geschützt.",
+      "heading": "Sicherheit auf Bankniveau",
+      "intro": "Ihre Finanzdaten sind sensibel und wir behandeln sie auch so. FlickAI setzt branchenführende Sicherheitsmaßnahmen ein, um Ihre Informationen sicher zu halten.",
+      "measures": {
+        "auth": "Sichere Authentifizierung: Multi-Faktor-Authentifizierung und biometrische Anmeldeoptionen.",
+        "compliance": "Compliance: DSGVO-konform und Befolgung der besten Sicherheitspraktiken.",
+        "encryption": "Ende-zu-Ende-Verschlüsselung: Alle Daten werden sowohl bei der Übertragung als auch im Ruhezustand verschlüsselt.",
+        "privacy": "Datenschutz durch Technikgestaltung (Privacy by Design): Wir verkaufen Ihre Daten niemals an Dritte.",
+        "title": "Sicherheitsmaßnahmen"
+      },
+      "title": "Sicherheit auf Bankniveau - FlickAI"
+    },
+    "taxReceipts": {
+      "checklist": {
+        "point1": "Belege beim Ausgeben direkt scannen und speichern.",
+        "point2": "Summen nach Kategorien verfolgen (Reise, Bewirtung, Büro usw.).",
+        "point3": "Saubere Daten: Händler, Datum, Gesamtbetrag.",
+        "point4": "Exportieren oder teilen, wenn es ans Einreichen geht.",
+        "title": "Steuer-Checkliste"
+      },
+      "description": "Belege für die Steuerzeit organisieren: scannen, kategorisieren und absetzbare Ausgaben durchsuchbar halten. Kostenlos starten.",
+      "faq": {
+        "a1": "Nein. FlickAI hilft beim Organisieren von Belegen und Ausgaben für Steuer-Workflows.",
+        "a2": "Ja – besonders für Freelancer und Selbstständige, die Betriebsausgaben dokumentieren müssen.",
+        "a3": "Ja. Offline erfassen und später synchronisieren.",
+        "a4": "Ja – FlickAI ist kostenlos startbar.",
+        "q1": "Ist das eine Steuererklärung?",
+        "q2": "Eignet sich das für Freelancer?",
+        "q3": "Geht das offline?",
+        "q4": "Kann ich kostenlos starten?",
+        "title": "FAQ"
+      },
+      "heading": "Belege für die Steuer scannen",
+      "intro": "Wenn Belege strukturiert und durchsuchbar sind, wird die Steuerzeit deutlich einfacher. FlickAI hilft Ihnen, absetzbare Ausgaben laufend zu erfassen.",
+      "keywords": "Belege für Steuer scannen, Steuer Belegscanner, absetzbare Ausgaben, Betriebsausgaben Belege, Reisekosten Belege, 2026 Steuer Beleg App",
+      "related": {
+        "title": "Ähnliches"
+      },
+      "title": "Belege für die Steuer scannen (absetzbare Ausgaben) | FlickAI"
+    }
+  },
+  "footer": {
+    "cookiePolicy": "Cookie-Richtlinie",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen"
+  },
+  "gdpr": {
+    "contact": {
+      "content": "Um eines Ihrer Rechte auszuüben oder bei Fragen zur DSGVO-Compliance, kontaktieren Sie bitte unseren Datenschutzbeauftragten unter: support@flickai.net",
+      "title": "3. Datenschutzbeauftragten kontaktieren"
+    },
+    "description": "DSGVO-Compliance-Informationen für FlickAI. Ihre Rechte gemäß der Datenschutz-Grundverordnung.",
+    "heading": "DSGVO-Compliance",
+    "lastUpdated": "Zuletzt aktualisiert: 28. November 2025",
+    "processing": {
+      "content": "Wir verarbeiten Ihre Daten rechtmäßig, fair und auf transparente Weise. Wir sammeln Daten nur für festgelegte, eindeutige und legitime Zwecke.",
+      "title": "2. Datenverarbeitung"
+    },
+    "rights": {
+      "access": "Das Recht auf Auskunft über Ihre personenbezogenen Daten.",
+      "erasure": "Das Recht auf Löschung (\"Recht auf Vergessenwerden\").",
+      "intro": "Gemäß der Datenschutz-Grundverordnung (DSGVO) haben Sie folgende Rechte bezüglich Ihrer personenbezogenen Daten:",
+      "object": "Das Recht auf Widerspruch gegen die Verarbeitung.",
+      "portability": "Das Recht auf Datenübertragbarkeit.",
+      "rectification": "Das Recht auf Berichtigung unrichtiger Daten.",
+      "restrict": "Das Recht auf Einschränkung der Verarbeitung.",
+      "title": "1. Ihre Rechte"
+    },
+    "title": "DSGVO-Compliance - FlickAI | Legal"
+  },
+  "home": {
+    "description": "Vereinfachen Sie die Ausgabenverfolgung mit FlickAIs KI-gestütztem Belegscanning. Verfolgen Sie Ihre Finanzen mühelos, erstellen Sie Budgets und gewinnen Sie finanzielle Einblicke.",
+    "download": {
+      "appStore": "App Store",
+      "googlePlay": "Google Play",
+      "subtitle": "Schließen Sie sich tausenden von Nutzern an, die mit FlickAI die Kontrolle über ihre Finanzen übernehmen.",
+      "title": "Starten Sie heute mit dem Tracking",
+      "waitlistNote": "Klicken Sie auf den \"Warteliste beitreten\"-Button, um frühen Zugang zu erhalten! 🚀"
+    },
+    "features": {
+      "analytics": {
+        "description": "Visualisieren Sie Ausgabentrends und erhalten Sie personalisierte finanzielle Einblicke in Ihrer Sprache.",
+        "title": "Intelligente Analytik"
+      },
+      "offline": {
+        "description": "Funktioniert perfekt offline. Änderungen werden automatisch synchronisiert, wenn Sie wieder online sind.",
+        "title": "Offline & Synchronisierung"
+      },
+      "scanning": {
+        "description": "Extrahieren Sie Händler, Artikel und Preise sofort mit fortschrittlicher KI-Technologie.",
+        "title": "Intelligentes Belegscanning"
+      },
+      "security": {
+        "description": "Ihre Daten sind durch Ende-zu-Ende-Verschlüsselung und sichere Authentifizierung geschützt.",
+        "title": "Sicherheit auf Bankniveau"
+      },
+      "title": "Warum FlickAI wählen?"
+    },
+    "hero": {
+      "getStarted": "Kostenlos starten",
+      "learnMore": "Mehr erfahren",
+      "subtitle": "Verfolgen Sie Ihre Finanzen mühelos mit intelligentem Belegscanning und automatisierten Einblicken. Lassen Sie die KI die langweilige Arbeit erledigen.",
+      "title": "KI-gestützte Ausgabenverfolgung & Belegscanning"
+    },
+    "keywords": "Ausgabentracker, Ausgabenüberwachung, Belegscanner, KI-Finanzen, AI-Finanzen, Budget-App, persönliche Finanzen, FlickAI, Ausgabenverwaltung, KI-Ausgabenverfolgung, AI-Ausgabenverfolgung, KI-Ausgabenüberwachung, AI-Ausgabenüberwachung",
+    "ogDescription": "Vereinfachen Sie die Ausgabenverfolgung mit FlickAIs KI-gestütztem Belegscanning. Verfolgen Sie Ihre Finanzen mühelos.",
+    "ogTitle": "FlickAI - KI-gestützte Ausgabenverfolgung",
+    "schemaDescription": "KI-gestützte Ausgabenverfolgung und Belegscanning-Anwendung.",
+    "title": "FlickAI - KI-gestützte Ausgabenverfolgung"
+  },
+  "guides": {
+    "index": {
+      "title": "Ratgeber für Ausgaben & Belegscan | FlickAI",
+      "description": "Praktische Anleitungen für Belegscan, Offline-Ausgaben-Tracking und steuerfertige Exporte. Kostenlos starten.",
+      "keywords": "Beleg zu Excel, Beleg zu CSV, Offline Ausgaben Tracking, Steuerbeleg Checkliste, Belegscanner Tipps",
+      "heading": "Ratgeber",
+      "intro": "Kurze, praktische Guides: Belege scannen, Ausgaben offline erfassen und für die Steuer exportieren.",
+      "guides": {
+        "title": "Beliebte Ratgeber"
+      },
+      "cta": "FlickAI ist kostenlos zum Starten — offline- und privacy-first für Belegscan und Ausgaben."
+    },
+    "receiptToExcel": {
+      "title": "Belege in Excel (CSV) umwandeln | FlickAI Guide",
+      "description": "Schritt für Schritt: Belege scannen, Daten prüfen und nach Excel/CSV exportieren — für Steuer, Buchhaltung oder Reports.",
+      "keywords": "Beleg zu Excel, Beleg zu CSV, Belegscanner Excel, Ausgaben Export, CSV Export",
+      "heading": "Beleg zu Excel: vom Scan zur Tabelle",
+      "snippet": "Belege in Minuten in Excel/CSV bringen.",
+      "intro": "Für saubere Tabellen zählen konsistente Felder (Händler, Datum, Betrag). Prüfen Sie OCR-Daten und exportieren Sie in ein spreadsheet-taugliches Format.",
+      "steps": {
+        "title": "Schritte",
+        "step1": "Belege scannen und Händler/Datum/Betrag bestätigen.",
+        "step2": "OCR-Fehler korrigieren (Steuer, Trinkgeld, Währung, Positionen).",
+        "step3": "Ausgaben kategorisieren, damit die Tabelle konsistent bleibt.",
+        "step4": "Nach Excel/CSV exportieren und bei Bedarf teilen."
+      },
+      "pitfalls": {
+        "title": "Häufige Stolperfallen",
+        "point1": "Gemischte Währungen auf Reisen",
+        "point2": "Fehlende Steuer-/MwSt.-Felder",
+        "point3": "Uneinheitliche Kategorien über Monate"
+      },
+      "faq": {
+        "title": "FAQ",
+        "q1": "Kann ich kostenlos starten?",
+        "a1": "Ja — FlickAI ist kostenlos zum Starten.",
+        "q2": "Funktioniert das offline?",
+        "a2": "Ja — Sie können Belege und Ausgaben offline erfassen und später synchronisieren.",
+        "q3": "Kann ich nach Excel exportieren?",
+        "a3": "Ja — Exporte sind in spreadsheet-freundlichen Formaten wie CSV möglich."
+      },
+      "related": {
+        "title": "Ähnlich"
+      }
+    },
+    "offlineExpenseTracking": {
+      "title": "Offline-Ausgaben-Tracking: Checkliste | FlickAI Guide",
+      "description": "Eine einfache Checkliste für Offline-Ausgaben-Tracking auf Reisen, bei schlechtem Empfang oder für privacy-first Workflows.",
+      "keywords": "Offline Ausgaben Tracking, Reise Ausgaben Tracker offline, privacy-first Ausgaben, ohne Internet Ausgaben",
+      "heading": "Offline-Ausgaben-Tracking (Checkliste)",
+      "snippet": "Zuverlässig ohne Internet tracken.",
+      "intro": "Offline-Tracking steht für Zuverlässigkeit: erfassen Sie Belege sofort und synchronisieren Sie später, wenn es passt.",
+      "checklist": {
+        "title": "Checkliste",
+        "point1": "Erfassung ohne Internetverbindung sicherstellen",
+        "point2": "Kategorien standardisieren (Reise, Essen, Material, Fahrt)",
+        "point3": "Wöchentlich prüfen, um Fehler früh zu finden",
+        "point4": "Backups exportieren (für Buchhaltung/Archiv)"
+      },
+      "faq": {
+        "title": "FAQ",
+        "q1": "Warum ist Offline-Modus wichtig?",
+        "a1": "Er verhindert verlorene Belege und Lücken bei schlechtem Empfang oder auf Reisen.",
+        "q2": "Ist Offline-Tracking privat?",
+        "a2": "Oft ja — offline-first reduziert unnötiges Teilen von Daten und gibt Ihnen mehr Kontrolle.",
+        "q3": "Wann sollte ich synchronisieren?",
+        "a3": "Wenn es für Sie bequem und sicher ist — z. B. in einem vertrauenswürdigen WLAN."
+      },
+      "related": {
+        "title": "Ähnlich"
+      }
+    },
+    "taxReceiptsChecklist": {
+      "title": "Steuerbelege-Checkliste (Selbstständig) | FlickAI Guide",
+      "description": "Eine klare Checkliste für steuerfertige Belege: was erfassen, wie beschriften und wie für Abzüge exportieren.",
+      "keywords": "Steuerbeleg Checkliste, Belege für Steuer, Selbstständig Abzüge, Belege organisieren",
+      "heading": "Steuerbelege-Checkliste",
+      "snippet": "Organisiert in die Steuer-Saison.",
+      "intro": "Gute Beleghygiene spart Zeit. Nutzen Sie diese Checkliste, damit Belege vollständig, durchsuchbar und exportierbar bleiben.",
+      "checklist": {
+        "title": "Checkliste",
+        "point1": "Händler, Datum, Betrag und Steuer/MwSt. erfassen",
+        "point2": "Kategorie + kurze Notiz hinzufügen (Kunde/Projekt)",
+        "point3": "Wichtige Belege digital sichern",
+        "point4": "Monatlich oder quartalsweise exportieren",
+        "point5": "Privat vs. geschäftlich trennen"
+      },
+      "faq": {
+        "title": "FAQ",
+        "q1": "Welche Belege sollte ich behalten?",
+        "a1": "Behalten Sie Belege für geschäftliche Ausgaben und alles, was Sie absetzen möchten.",
+        "q2": "Wie lange sollte ich Belege aufbewahren?",
+        "a2": "Das hängt vom Land ab — viele bewahren Unterlagen mehrere Jahre auf. Fragen Sie Ihren Steuerberater.",
+        "q3": "Kann ich alles für den Steuerberater exportieren?",
+        "a3": "Ja — Exporte erleichtern das Teilen strukturierter Daten und reduzieren Rückfragen."
+      },
+      "related": {
+        "title": "Ähnlich"
+      }
+    }
+  },
+  "integrations": {
+    "index": {
+      "description": "Bringen Sie FlickAI in Ihren Workflow: Exporte, Automationen und Teilen von Belegen und Ausgaben.",
+      "heading": "Integrationen & Workflows",
+      "ideas": {
+        "point1": "Notion: Ausgaben-Dashboard bauen.",
+        "point2": "Zapier: Aufgaben/Benachrichtigungen aus Exporten erstellen.",
+        "point3": "WhatsApp: Belege an Partner oder Steuerberatung schicken.",
+        "title": "Beliebte Workflows"
+      },
+      "intro": "2026 erwarten Nutzer, dass Apps in Workflows passen. FlickAI setzt auf portable Daten und automation-freundliche Exporte.",
+      "keywords": "Ausgaben App Integrationen, Ausgaben nach Notion exportieren, Zapier Belegscanner, Belege per WhatsApp senden, Automatisierung Spesen, 2026 Finanz Workflow",
+      "methods": {
+        "point1": "Ausgaben exportieren (CSV/Excel-kompatibel).",
+        "point2": "Belege und Reports teilen.",
+        "point3": "Routinen mit leichten Connectors automatisieren.",
+        "title": "Typische Integrationswege"
+      },
+      "title": "Integrationen & Workflows (2026) | FlickAI"
+    }
+  },
+  "meta": {
+    "lang": "de",
+    "langName": "Deutsch",
+    "siteName": "FlickAI",
+    "siteUrl": "https://flickai.net"
+  },
+  "privacy": {
+    "contact": {
+      "content": "Wenn Sie Fragen zu dieser Datenschutzerklärung oder unseren Datenschutzpraktiken haben, kontaktieren Sie uns bitte unter: support@flickai.net",
+      "title": "5. Kontaktieren Sie uns"
+    },
+    "dataCollection": {
+      "contact": "Kontaktdaten: umfasst E-Mail-Adresse.",
+      "identity": "Identitätsdaten: umfasst Vorname, Nachname, Benutzername oder ähnliche Identifikatoren.",
+      "intro": "Wir können verschiedene Arten von persönlichen Daten über Sie sammeln, verwenden, speichern und übertragen, die wir wie folgt gruppiert haben:",
+      "title": "2. Daten, die wir sammeln",
+      "transaction": "Transaktionsdaten: umfasst Details zu Zahlungen an Sie und von Ihnen sowie andere Details zu Produkten und Dienstleistungen, die Sie bei uns erworben haben.",
+      "usage": "Nutzungsdaten: umfasst Informationen darüber, wie Sie unsere Website und Anwendungen nutzen."
+    },
+    "dataUsage": {
+      "contract": "Wenn wir den Vertrag erfüllen müssen, den wir mit Ihnen eingehen oder eingegangen sind.",
+      "intro": "Wir werden Ihre persönlichen Daten nur verwenden, wenn das Gesetz es uns erlaubt. Am häufigsten verwenden wir Ihre persönlichen Daten unter folgenden Umständen:",
+      "legal": "Wenn wir einer gesetzlichen oder behördlichen Verpflichtung nachkommen müssen.",
+      "legitimate": "Wenn es für unsere berechtigten Interessen (oder die eines Dritten) notwendig ist und Ihre Interessen und Grundrechte diese Interessen nicht überwiegen.",
+      "title": "3. Wie wir Ihre Daten verwenden"
+    },
+    "description": "Datenschutzerklärung für FlickAI. Erfahren Sie, wie wir Ihre Daten sammeln, verwenden und schützen.",
+    "heading": "Datenschutzerklärung",
+    "introduction": {
+      "content": "FlickAI (\"wir\", \"unser\" oder \"uns\") respektiert Ihre Privatsphäre und verpflichtet sich, Ihre persönlichen Daten zu schützen. Diese Datenschutzerklärung informiert Sie darüber, wie wir mit Ihren personenbezogenen Daten umgehen, wenn Sie unsere Website besuchen oder unsere mobile Anwendung nutzen.",
+      "title": "1. Einführung"
+    },
+    "lastUpdated": "Zuletzt aktualisiert: 28. November 2025",
+    "security": {
+      "content": "Wir haben angemessene Sicherheitsvorkehrungen getroffen, um zu verhindern, dass Ihre persönlichen Daten versehentlich verloren gehen, unbefugt verwendet oder abgerufen, verändert oder offengelegt werden.",
+      "title": "4. Datensicherheit"
+    },
+    "title": "Datenschutzerklärung - FlickAI | Legal"
+  },
+  "terms": {
+    "agreement": {
+      "content": "Durch den Zugriff auf unsere Website oder die Nutzung unserer mobilen Anwendung erklären Sie sich mit diesen Nutzungsbedingungen einverstanden. Wenn Sie diesen Bedingungen nicht zustimmen, nutzen Sie unsere Dienste bitte nicht.",
+      "title": "1. Zustimmung zu den Bedingungen"
+    },
+    "contact": {
+      "content": "Um eine Beschwerde bezüglich der Website zu lösen oder weitere Informationen zur Nutzung der Website zu erhalten, kontaktieren Sie uns bitte unter: support@flickai.net",
+      "title": "5. Kontaktieren Sie uns"
+    },
+    "description": "Nutzungsbedingungen für FlickAI. Lesen Sie unsere Bedingungen für die Nutzung unserer Dienste.",
+    "heading": "Nutzungsbedingungen",
+    "intellectual": {
+      "content": "Sofern nicht anders angegeben, sind die Website und unsere mobile Anwendung unser proprietäres Eigentum, und der gesamte Quellcode, Datenbanken, Funktionen, Software, Website-Designs, Audio, Video, Text, Fotografien und Grafiken auf der Website (zusammen der \"Inhalt\") sowie die darin enthaltenen Marken, Dienstleistungsmarken und Logos (die \"Marken\") sind unser Eigentum oder werden von uns kontrolliert oder sind an uns lizenziert.",
+      "title": "2. Geistige Eigentumsrechte"
+    },
+    "lastUpdated": "Zuletzt aktualisiert: 28. November 2025",
+    "prohibited": {
+      "content": "Sie dürfen die Website nicht für andere Zwecke als die verwenden, für die wir die Website zur Verfügung stellen. Die Website darf nicht im Zusammenhang mit kommerziellen Unternehmungen verwendet werden, außer solchen, die von uns ausdrücklich unterstützt oder genehmigt wurden.",
+      "title": "4. Verbotene Aktivitäten"
+    },
+    "title": "Nutzungsbedingungen - FlickAI | Legal",
+    "userRep": {
+      "content": "Durch die Nutzung der Website sichern Sie zu und gewährleisten, dass: (1) alle von Ihnen übermittelten Registrierungsinformationen wahr, genau, aktuell und vollständig sind; (2) Sie die Genauigkeit dieser Informationen aufrechterhalten und diese Registrierungsinformationen bei Bedarf umgehend aktualisieren.",
+      "title": "3. Benutzerzusicherungen"
+    }
+  },
+  "useCases": {
+    "freelancers": {
+      "description": "Betriebsausgaben erfassen, Belege scannen und steuerbereit bleiben – ideal für Freelancer. Kostenlos starten.",
+      "faq": {
+        "a1": "Ja – FlickAI hilft, Ausgaben so zu organisieren, dass Ihre geschäftlichen Unterlagen sauber bleiben.",
+        "a2": "Ja – es unterstützt das strukturierte Sammeln absetzbarer Belege.",
+        "a3": "Ja – FlickAI ist kostenlos startbar.",
+        "q1": "Kann ich private und geschäftliche Ausgaben trennen?",
+        "q2": "Eignet sich das für Betriebsausgaben/Abzüge?",
+        "q3": "Kann ich kostenlos starten?",
+        "title": "FAQ"
+      },
+      "heading": "Ausgabentracker für Freelancer",
+      "intro": "Freelancer brauchen eine einfache Lösung, um Ausgaben zu erfassen, Belege zu speichern und für die Steuer vorbereitet zu sein.",
+      "keywords": "Ausgabentracker Freelancer, Freelancer Betriebsausgaben, Selbstständig Ausgaben app, Belege sammeln Steuer, 2026 Freelancer Ausgaben",
+      "pain": {
+        "point1": "Belege gehen verloren oder stapeln sich.",
+        "point2": "Excel kostet Zeit und ist fehleranfällig.",
+        "point3": "Ohne saubere Nachweise wird die Steuerzeit stressig.",
+        "title": "Typische Probleme"
+      },
+      "related": {
+        "title": "Ähnliches"
+      },
+      "solution": {
+        "point1": "Belege schnell scannen mit KI-Extraktion.",
+        "point2": "Summen nach Kategorie und Händler verfolgen.",
+        "point3": "Offline arbeiten, wenn Sie unterwegs sind.",
+        "point4": "Kostenlos starten, bei Bedarf upgraden.",
+        "title": "Wie FlickAI hilft"
+      },
+      "title": "Ausgabentracker für Freelancer | FlickAI"
+    },
+    "selfEmployedDeductions": {
+      "basics": {
+        "point1": "Belege (Händler, Datum, Summe).",
+        "point2": "Kategorie und Notizen.",
+        "point3": "Durchsuchbare Historie zum Export.",
+        "title": "Was Sie erfassen sollten"
+      },
+      "description": "Absetzbare Ausgaben und Belege für Selbstständige erfassen: scannen, kategorisieren, exportieren. Kostenlos starten.",
+      "faq": {
+        "a1": "Nein. Es ist ein Tracking- und Dokumentations-Workflow, damit Sie organisiert bleiben.",
+        "a2": "Ja – offline erfassen und später synchronisieren.",
+        "a3": "Ja – FlickAI ist kostenlos startbar.",
+        "q1": "Ist das Steuerberatung?",
+        "q2": "Funktioniert es offline?",
+        "q3": "Kann ich kostenlos starten?",
+        "title": "FAQ"
+      },
+      "heading": "Steuerabzüge für Selbstständige im Blick behalten",
+      "intro": "Die besten Abzüge sind die, die Sie belegen können. Erstellen Sie über das Jahr eine saubere Dokumentation.",
+      "keywords": "Steuerabzüge Selbstständige, absetzbare Ausgaben, Betriebsausgaben Belege, Reisekosten Nachweise, 2026 Ausgaben tracker Selbstständig",
+      "related": {
+        "title": "Ähnliches"
+      },
+      "title": "Steuerabzüge für Selbstständige verfolgen | FlickAI",
+      "workflow": {
+        "step1": "Belege beim Ausgeben scannen und speichern.",
+        "step2": "Monatlich Kategorien und Summen prüfen.",
+        "step3": "Zur Steuerzeit exportieren oder teilen.",
+        "title": "Ein einfacher Ablauf"
+      }
+    }
+  },
+  "faqPage": {
+    "title": "FAQ | FlickAI",
+    "description": "Antworten auf häufige Fragen zu FlickAI: privacy-first Ausgabentracking, ohne Bankverknüpfung, Offline-Modus, Belegscanning und Export.",
+    "keywords": "FlickAI FAQ, Ausgaben App FAQ, Belegscanner FAQ, Ausgabentracker ohne Bankverknüpfung, Offline Ausgabentracker",
+    "heading": "Häufige Fragen",
+    "intro": "Kurze Antworten auf die häufigsten Fragen zu FlickAI.",
+    "faq": {
+      "q1": "Kann ich kostenlos starten?",
+      "a1": "Ja — FlickAI ist kostenlos startbar.",
+      "q2": "Gibt es einen Ausgabentracker ohne Bankverknüpfung?",
+      "a2": "Ja — FlickAI funktioniert ohne verpflichtende Banksynchronisierung oder Bankverknüpfung.",
+      "q3": "Funktioniert FlickAI offline?",
+      "a3": "Ja. Sie können Ausgaben erfassen und Belege offline scannen und später synchronisieren.",
+      "q4": "Kann ich Belege scannen und Summen/Positionen extrahieren?",
+      "a4": "Ja — FlickAI unterstützt KI-gestütztes Belegscanning und die Extraktion von Feldern.",
+      "q5": "Kann ich meine Ausgaben nach Excel/CSV exportieren?",
+      "a5": "Ja — Sie können Ausgabendaten in tabellenfreundlichen Formaten wie CSV exportieren.",
+      "q6": "Verkauft ihr meine Daten?",
+      "a6": "Nein — wir verkaufen Ihre Daten nicht."
+    }
+  },
+  "waitlist": {
+    "alreadyJoined": "Sie stehen bereits auf der Warteliste!",
+    "button": "Der Warteliste beitreten",
+    "error": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "floatButton": "Der Warteliste beitreten",
+    "networkError": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    "placeholder": "Ihre E-Mail eingeben",
+    "subtitle": "Erfahren Sie als Erstes, wenn FlickAI auf iOS startet!",
+    "success": "Danke! Wir benachrichtigen Sie beim Start. 🎉",
+    "title": "🚀 Frühen Zugang erhalten"
+  }
+}

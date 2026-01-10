@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro check && astro build",
+    "dev": "node scripts/copy-locales.js && astro dev",
+    "build": "node scripts/copy-locales.js && astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "test": "playwright test",

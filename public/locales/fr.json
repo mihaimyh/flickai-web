@@ -1,0 +1,755 @@
+{
+  "accessibility": {
+    "commitment": {
+      "content": "FlickAI s'engage à garantir l'accessibilité numérique pour les personnes handicapées. Nous améliorons continuellement l'expérience utilisateur pour tous et appliquons les normes d'accessibilité pertinentes.",
+      "title": "1. Notre engagement"
+    },
+    "conformance": {
+      "content": "Les Directives pour l'accessibilité du contenu Web (WCAG) définissent les exigences pour les concepteurs et les développeurs afin d'améliorer l'accessibilité pour les personnes handicapées. Elles définissent trois niveaux de conformité : Niveau A, Niveau AA et Niveau AAA. FlickAI est partiellement conforme au WCAG 2.1 niveau AA.",
+      "title": "2. État de conformité"
+    },
+    "description": "Déclaration d'accessibilité de FlickAI. Notre engagement envers l'accessibilité numérique.",
+    "feedback": {
+      "email": "E-mail : support@flickai.net",
+      "intro": "Nous accueillons vos commentaires sur l'accessibilité de FlickAI. Veuillez nous informer si vous rencontrez des obstacles d'accessibilité sur FlickAI :",
+      "title": "3. Commentaires"
+    },
+    "heading": "Déclaration d'accessibilité",
+    "lastUpdated": "Dernière mise à jour : 28 novembre 2025",
+    "title": "Déclaration d'accessibilité - FlickAI | Legal"
+  },
+  "alternatives": {
+    "backToHub": "Retour aux alternatives",
+    "bestExpenseTrackers": {
+      "criteria": {
+        "point1": "Capture rapide (scan + saisie)",
+        "point2": "Mode hors ligne et sync fiable",
+        "point3": "Options privacy-first (pas de banque imposée)",
+        "point4": "Prix accessible (gratuit pour commencer)",
+        "title": "Nos critères"
+      },
+      "description": "Une liste pratique des meilleures apps de dépenses 2025–2026 : hors ligne, confidentialité, automatisation et prix.",
+      "faq": {
+        "a1": "Celle qui correspond à votre workflow : hors ligne, privacy-first ou IA selon vos priorités.",
+        "a2": "Oui — FlickAI est gratuit pour commencer.",
+        "q1": "Quelle est la meilleure app dépenses en 2026 ?",
+        "q2": "Existe-t-il une app gratuite pour commencer ?",
+        "title": "FAQ"
+      },
+      "heading": "Meilleures apps de suivi des dépenses (2025–2026)",
+      "intro": "Priorité aux besoins réels : capture rapide, fiabilité hors ligne et confidentialité.",
+      "keywords": "meilleure app dépenses, app budget 2026, suivi dépenses hors ligne, suivi dépenses privé, app dépenses IA, gratuit pour commencer",
+      "list": {
+        "item1": "Gratuit pour commencer, scan IA, workflows hors ligne.",
+        "item2": "YNAB — Méthode budget solide, abonnement.",
+        "item3": "PocketGuard — Budget simplifié.",
+        "item4": "Spendee — Portefeuilles partagés.",
+        "item5": "Money Manager — Suivi quotidien léger.",
+        "title": "Top choix"
+      },
+      "title": "Meilleures apps de suivi des dépenses (2025-2026)"
+    },
+    "bestReceiptScanners": {
+      "criteria": {
+        "point1": "Précision OCR (marchand/date/total/articles)",
+        "point2": "Vitesse et ergonomie",
+        "point3": "Capture hors ligne",
+        "point4": "Exports (CSV/Excel)",
+        "title": "Nos critères"
+      },
+      "description": "Comparez les meilleurs scanners de reçus 2025–2026 : OCR, capture hors ligne et export.",
+      "heading": "Meilleures apps scanner de reçus (2025–2026)",
+      "intro": "Pour des notes de frais propres, l’OCR et l’export comptent autant que la capture.",
+      "keywords": "meilleure app scanner reçus, OCR reçus, scanner reçus hors ligne, scanner reçus gratuit, reçus vers Excel, 2026 scanner reçus",
+      "list": {
+        "item1": "Gratuit pour commencer, extraction IA, orienté dépenses.",
+        "item2": "Expensify — Populaire en équipe, abonnement.",
+        "item3": "Zoho Expense — Suite complète.",
+        "item4": "Genius Scan — Excellent scan, moins orienté dépenses.",
+        "item5": "CamScanner — Outil de scan généraliste.",
+        "title": "Top choix"
+      },
+      "title": "Meilleures apps scanner de reçus (2025-2026)"
+    },
+    "expensify": {
+      "description": "Alternatives à Expensify : hors ligne, confidentialité, simplicité et automatisation IA moderne.",
+      "heading": "Meilleures alternatives à Expensify (2025–2026)",
+      "intro": "Un guide pratique pour un workflow de dépenses plus simple et plus confidentiel.",
+      "keywords": "alternatives Expensify, apps comme Expensify, note de frais alternative 2026, suivi dépenses hors ligne, suivi privé, scanner reçus IA",
+      "list": {
+        "item1": "Gratuit pour commencer, scan IA, workflow hors ligne + privacy-first.",
+        "item2": "Zoho Expense — Suite complète.",
+        "item3": "Concur — Plutôt orienté entreprise.",
+        "item4": "QuickBooks — Comptabilité d’abord.",
+        "item5": "Wave — Options abordables.",
+        "title": "Top alternatives"
+      },
+      "title": "Meilleures alternatives à Expensify (2025-2026)",
+      "whatToLookFor": {
+        "point1": "Capture rapide avec OCR fiable",
+        "point2": "Support hors ligne pour les déplacements",
+        "point3": "Tarification claire (gratuit pour commencer)",
+        "title": "À rechercher"
+      }
+    },
+    "index": {
+      "cta": "FlickAI est gratuit pour commencer — conçu pour le hors ligne, la confidentialité et l’automatisation par IA.",
+      "description": "Guides pour comparer les meilleures apps de dépenses et scanners de reçus. Mode hors ligne, confidentialité et automatisation.",
+      "guides": {
+        "title": "Guides"
+      },
+      "heading": "Top alternatives (2025–2026)",
+      "howToChoose": {
+        "point1": "Choisissez le hors ligne si vous voyagez ou voulez de la fiabilité.",
+        "point2": "Choisissez privacy-first si vous évitez la connexion bancaire.",
+        "point3": "Choisissez l’IA si vous voulez moins de saisie manuelle.",
+        "title": "Comment choisir"
+      },
+      "intro": "Vous cherchez une app qui colle à votre façon de travailler ? Commencez ici.",
+      "keywords": "alternatives suivi dépenses, alternatives scanner reçus, meilleure app dépenses 2026, meilleure app reçus, suivi hors ligne, confidentialité dépenses",
+      "title": "Top alternatives : suivi des dépenses & scan de reçus (2025-2026)"
+    },
+    "zoho": {
+      "description": "Alternatives à Zoho Expense pour un suivi plus simple et plus focalisé sur les reçus.",
+      "heading": "Meilleures alternatives à Zoho Expense (2025–2026)",
+      "intro": "Si vous préférez un outil dédié plutôt qu’une grande suite, commencez ici.",
+      "keywords": "alternatives Zoho Expense, apps comme Zoho Expense, suivi dépenses simple, scanner reçus alternative 2026, suivi hors ligne",
+      "list": {
+        "item1": "Gratuit pour commencer, IA, hors ligne.",
+        "item2": "Expensify — Bon pour les équipes.",
+        "item3": "Concur — Suite entreprise.",
+        "item4": "FreshBooks — Facturation d’abord.",
+        "item5": "Spendee — Budget personnel/partagé.",
+        "title": "Top alternatives"
+      },
+      "title": "Meilleures alternatives à Zoho Expense (2025-2026)",
+      "whatToLookFor": {
+        "point1": "UX focalisée pour le suivi quotidien",
+        "point2": "OCR et exports",
+        "point3": "Options hors ligne et privacy-first",
+        "title": "À rechercher"
+      }
+    }
+  },
+  "common": {
+    "alternatives": "Alternatives",
+    "integrations": "Intégrations",
+    "guides": "Guides",
+    "faq": "FAQ",
+    "backToHome": "Retour à l'accueil",
+    "copyright": "© 2025 FlickAI. Tous droits réservés.",
+    "downloadApp": "Télécharger l'application",
+    "features": "Fonctionnalités",
+    "learnMore": "En savoir plus",
+    "testimonials": "Témoignages"
+  },
+  "cookie": {
+    "contact": {
+      "content": "Si vous avez des questions sur notre utilisation des cookies, veuillez nous contacter à : support@flickai.net",
+      "title": "4. Nous contacter"
+    },
+    "description": "Politique des cookies de FlickAI. Comprenez comment nous utilisons les cookies pour améliorer votre expérience.",
+    "disabling": {
+      "content": "Vous pouvez empêcher la configuration des cookies en ajustant les paramètres de votre navigateur (consultez l'Aide de votre navigateur pour savoir comment procéder). Sachez que la désactivation des cookies affectera la fonctionnalité de ce site et de nombreux autres sites Web que vous visitez.",
+      "title": "3. Désactiver les cookies"
+    },
+    "heading": "Politique des cookies",
+    "howWeUse": {
+      "analytics": "Cookies d'analyse : Ceux-ci nous aident à comprendre comment les visiteurs interagissent avec notre site Web.",
+      "essential": "Cookies essentiels : Ceux-ci sont nécessaires au bon fonctionnement du site Web.",
+      "functionality": "Cookies de fonctionnalité : Ceux-ci permettent au site Web de se souvenir des choix que vous faites.",
+      "intro": "Nous utilisons des cookies pour diverses raisons détaillées ci-dessous. Malheureusement, dans la plupart des cas, il n'existe pas d'options standard de l'industrie pour désactiver les cookies sans désactiver complètement les fonctionnalités et les caractéristiques qu'ils ajoutent à ce site.",
+      "title": "2. Comment nous utilisons les cookies"
+    },
+    "lastUpdated": "Dernière mise à jour : 28 novembre 2025",
+    "title": "Politique des cookies - FlickAI | Legal",
+    "whatAre": {
+      "content": "Les cookies sont de petits fichiers texte qui sont placés sur votre ordinateur ou appareil mobile par les sites Web que vous visitez. Ils sont largement utilisés pour faire fonctionner les sites Web, ou pour les faire fonctionner plus efficacement, ainsi que pour fournir des informations aux propriétaires du site.",
+      "title": "1. Que sont les cookies"
+    }
+  },
+  "features": {
+    "aiAssistant": {
+      "description": "Posez des questions sur vos dépenses, obtenez des insights et explorez les workflows conversationnels pour 2026. Gratuit pour commencer.",
+      "faq": {
+        "a1": "Oui — FlickAI est gratuit pour commencer.",
+        "a2": "FlickAI favorise des workflows privacy-first et un stockage sécurisé des reçus.",
+        "a3": "Oui — suivi hors ligne puis synchronisation.",
+        "q1": "FlickAI est-il gratuit pour commencer ?",
+        "q2": "Est-ce confidentiel ?",
+        "q3": "Puis-je l’utiliser hors ligne ?",
+        "title": "FAQ"
+      },
+      "heading": "Assistant financier IA pour vos dépenses",
+      "intro": "En 2026, on ne fera pas que “suivre” ses dépenses — on posera des questions. FlickAI combine capture rapide et insights.",
+      "keywords": "assistant financier IA, assistant dépenses IA, chat dépenses, budget conversationnel, requêtes vocales dépenses, 2026 assistant finance",
+      "questions": {
+        "q1": "« Combien ai-je dépensé en café le mois dernier ? »",
+        "q2": "« Quelles catégories ont le plus augmenté ce trimestre ? »",
+        "q3": "« Montre mes marchands principaux. »",
+        "q4": "« Où puis-je réduire mes dépenses cette semaine ? »",
+        "title": "Exemples"
+      },
+      "related": {
+        "title": "À découvrir aussi"
+      },
+      "title": "Assistant financier IA pour vos dépenses | FlickAI"
+    },
+    "analytics": {
+      "aiInsights": {
+        "example": "\"Vous avez dépensé 20 % de plus pour les repas au restaurant ce mois-ci par rapport au mois dernier. Envisagez de cuisiner à la maison cette semaine pour rester dans votre budget.\"",
+        "intro": "Notre IA ne se contente pas de vous montrer les données ; elle les explique. Obtenez des conseils personnalisés comme :",
+        "title": "Informations générées par l'IA"
+      },
+      "description": "Visualisez les tendances de dépenses et recevez des informations financières personnalisées dans votre langue.",
+      "heading": "Analyse intelligente",
+      "intro": "Comprendre votre argent est la première étape pour le contrôler. FlickAI fournit des informations approfondies sur vos habitudes de dépenses.",
+      "title": "Analyse intelligente - FlickAI",
+      "visualTrends": {
+        "categoryBreakdown": "Répartition par catégorie : Graphiques circulaires montrant les dépenses par catégorie (Nourriture, Transport, Services, etc.).",
+        "intro": "Voyez exactement où va votre argent avec des graphiques et diagrammes interactifs :",
+        "merchantAnalysis": "Analyse des commerçants : Voyez dans quels magasins vous dépensez le plus.",
+        "monthlyTrends": "Tendances mensuelles : Graphiques à barres comparant les dépenses mois par mois.",
+        "title": "Tendances visuelles des dépenses"
+      }
+    },
+    "offlineTracker": {
+      "description": "Suivez vos dépenses hors ligne avec FlickAI : saisie sans internet, puis synchronisation quand vous le souhaitez. Gratuit pour commencer.",
+      "faq": {
+        "a1": "Oui : vous pouvez suivre vos dépenses et scanner des reçus hors ligne, puis synchroniser lorsque vous êtes en ligne.",
+        "a2": "Oui. FlickAI est gratuit pour commencer, avec des options payantes selon vos besoins.",
+        "a3": "Le mode hors ligne favorise des workflows plus confidentiels en limitant la dépendance à une connexion permanente.",
+        "a4": "Voyageurs, utilisateurs soucieux de la confidentialité et toute personne voulant un suivi fiable sans connexion constante.",
+        "q1": "FlickAI fonctionne-t-il sans internet ?",
+        "q2": "Est-ce gratuit pour commencer ?",
+        "q3": "Est-ce plus privé hors ligne ?",
+        "q4": "Pour qui est-ce le plus utile ?",
+        "title": "FAQ"
+      },
+      "heading": "Suivi des dépenses hors ligne (sans internet)",
+      "how": {
+        "step1": "Ajoutez des dépenses et scannez des reçus à tout moment, même hors ligne.",
+        "step2": "Vérifiez les catégories et les totaux sur l’appareil.",
+        "step3": "Synchronisez quand vous êtes de retour en ligne.",
+        "title": "Comment ça marche"
+      },
+      "intro": "En avion, en déplacement ou avec une connexion instable : FlickAI est conçu pour enregistrer vos dépenses hors ligne et synchroniser plus tard.",
+      "keywords": "suivi dépenses hors ligne, application budget sans internet, suivi dépenses sans connexion, note de frais hors ligne, scanner reçus hors ligne, application dépenses privée, 2026 suivi dépenses",
+      "related": {
+        "title": "À découvrir aussi"
+      },
+      "title": "Suivi des dépenses hors ligne – sans internet | FlickAI",
+      "why": {
+        "point1": "Saisissez vos dépenses en voyage sans dépendre du réseau.",
+        "point2": "Continuez à travailler dans le métro, le train ou les zones à faible couverture.",
+        "point3": "Réduisez la dépendance au cloud pour le suivi de base.",
+        "title": "Pourquoi le mode hors ligne compte"
+      }
+    },
+    "onDeviceAI": {
+      "description": "Workflows 2026 : IA plus privée, scan de reçus, usage hors ligne et requêtes conversationnelles sur vos dépenses. Gratuit pour commencer.",
+      "faq": {
+        "a1": "Oui — FlickAI est gratuit pour commencer.",
+        "a2": "Oui. Capture hors ligne puis synchronisation.",
+        "a3": "Oui — FlickAI favorise des workflows privacy-first et un stockage sécurisé des reçus.",
+        "q1": "Est-ce gratuit pour commencer ?",
+        "q2": "Est-ce utilisable hors ligne ?",
+        "q3": "Est-ce orienté confidentialité ?",
+        "title": "FAQ"
+      },
+      "heading": "IA sur l’appareil pour le suivi des dépenses (prêt pour 2026)",
+      "intro": "La recherche évolue vers les assistants et les questions en langage naturel. FlickAI vise des workflows IA plus privés et compatibles hors ligne.",
+      "keywords": "IA sur l'appareil dépenses, IA privée reçus, suivi dépenses IA hors ligne, OCR reçus sur mobile, assistant financier 2026, requêtes conversationnelles dépenses",
+      "related": {
+        "title": "À découvrir aussi"
+      },
+      "title": "IA sur l’appareil pour les dépenses (IA privée) | FlickAI",
+      "voice": {
+        "example1": "« Combien ai-je dépensé en courses le mois dernier ? »",
+        "example2": "« Montre mes marchands principaux ce trimestre. »",
+        "example3": "« Quelles catégories ont le plus augmenté ? »",
+        "title": "Exemples de questions “2026”"
+      },
+      "what": {
+        "point1": "Scanner et organiser des reçus avec extraction IA.",
+        "point2": "Continuer à capturer même avec une connexion instable.",
+        "point3": "Obtenir des réponses type “insights” à partir de vos données (selon disponibilité).",
+        "title": "Concrètement"
+      }
+    },
+    "privacyFirst": {
+      "description": "Un suivi des dépenses axé confidentialité, sans obligation de connecter un compte bancaire. Stockage sécurisé des reçus, workflows hors ligne. Gratuit pour commencer.",
+      "faq": {
+        "a1": "Non. FlickAI n’exige pas de connexion bancaire pour suivre vos dépenses.",
+        "a2": "Non — nous ne vendons pas vos données.",
+        "a3": "Oui. Suivi hors ligne puis synchronisation plus tard.",
+        "a4": "Oui — FlickAI est gratuit pour commencer.",
+        "q1": "Dois-je connecter mon compte bancaire ?",
+        "q2": "Vendez-vous mes données ?",
+        "q3": "Puis-je l’utiliser hors ligne ?",
+        "q4": "Est-ce gratuit pour commencer ?",
+        "title": "FAQ"
+      },
+      "heading": "Suivi des dépenses axé confidentialité (sans connexion bancaire)",
+      "intro": "Si vous préférez garder le contrôle de vos données financières, FlickAI est conçu pour un suivi privacy-first, sans banque obligatoire.",
+      "keywords": "application dépenses confidentialité, suivi dépenses privé, sans synchronisation bancaire, application dépenses sans banque, reçus chiffrés, RGPD, 2026 application dépenses privée",
+      "pillars": {
+        "point1": "Pas de synchronisation bancaire obligatoire.",
+        "point2": "Stockage sécurisé des reçus et bonnes pratiques de sécurité.",
+        "point3": "Workflows hors ligne pour les données sensibles.",
+        "point4": "Gratuit pour commencer, upgrade quand nécessaire.",
+        "title": "Confidentialité par conception"
+      },
+      "related": {
+        "title": "À découvrir aussi"
+      },
+      "title": "Application de dépenses axée confidentialité – sans banque | FlickAI"
+    },
+    "receiptToExcel": {
+      "bestFor": {
+        "point1": "Freelances et indépendants (déductions).",
+        "point2": "Petites équipes qui veulent garder le contrôle dans un tableur.",
+        "point3": "Toute personne qui veut éviter la saisie manuelle.",
+        "title": "Idéal pour"
+      },
+      "description": "Transformez vos reçus en données prêtes pour tableur : scan, vérification, export pour votre comptable. Gratuit pour commencer.",
+      "faq": {
+        "a1": "Vous pouvez exporter en formats tableur (comme CSV) qui s’ouvrent dans Excel.",
+        "a2": "Oui. Capture hors ligne puis synchronisation.",
+        "a3": "Oui — FlickAI est gratuit pour commencer.",
+        "q1": "Puis-je exporter vers Excel ?",
+        "q2": "Fonctionne-t-il hors ligne ?",
+        "q3": "Est-ce gratuit pour commencer ?",
+        "title": "FAQ"
+      },
+      "heading": "Scanner des reçus vers Excel / CSV",
+      "intro": "Si votre workflow est dans Excel, FlickAI aide à passer du papier à des données propres et structurées.",
+      "keywords": "scanner reçus vers Excel, reçu CSV, OCR reçu tableur, extraction données reçu, export notes de frais, 2026 scanner reçus",
+      "related": {
+        "title": "À découvrir aussi"
+      },
+      "steps": {
+        "step1": "Scannez un reçu.",
+        "step2": "Vérifiez marchand, date, total et éléments.",
+        "step3": "Exportez vers un format compatible tableur.",
+        "step4": "Partagez avec votre comptable ou importez dans vos outils.",
+        "title": "Comment ça marche"
+      },
+      "title": "Scanner des reçus vers Excel / CSV | FlickAI"
+    },
+    "scanning": {
+      "description": "Extrayez instantanément le marchand, les articles et les prix des reçus en utilisant une technologie IA avancée.",
+      "heading": "Scan intelligent de reçus",
+      "howItWorks": {
+        "step1": "Ouvrez l'application FlickAI et appuyez sur l'icône de la caméra.",
+        "step2": "Alignez le reçu dans le cadre.",
+        "step3": "Appuyez sur capturer. L'IA traite l'image en quelques secondes.",
+        "step4": "Vérifiez les détails extraits et sauvegardez !",
+        "title": "Comment ça marche"
+      },
+      "intro": "Fini les jours de saisie manuelle de données. Avec FlickAI, vous pouvez numériser les dépenses en secondes simplement en prenant une photo.",
+      "title": "Scan intelligent de reçus - FlickAI",
+      "whatWeExtract": {
+        "dateTime": "Date et heure : Enregistre exactement quand l'achat a eu lieu.",
+        "items": "Articles individuels : Extrait les articles individuels et les prix pour un suivi détaillé.",
+        "merchant": "Nom du marchand : Identifié automatiquement à partir de logos ou de texte.",
+        "title": "Ce que nous extrayons",
+        "total": "Montant total : Capture le total final avec précision."
+      }
+    },
+    "security": {
+      "description": "Vos données sont protégées avec un chiffrement de bout en bout et une authentification sécurisée.",
+      "heading": "Sécurité de niveau bancaire",
+      "intro": "Vos données financières sont sensibles et nous les traitons comme telles. FlickAI emploie des mesures de sécurité de pointe pour garder vos informations en sécurité.",
+      "measures": {
+        "auth": "Authentification sécurisée : Authentification multifacteur et options de connexion biométrique.",
+        "compliance": "Conformité : Conforme au RGPD et suivant les meilleures pratiques de sécurité.",
+        "encryption": "Chiffrement de bout en bout : Toutes les données sont chiffrées à la fois en transit et au repos.",
+        "privacy": "Confidentialité par conception : Nous ne vendons jamais vos données à des tiers.",
+        "title": "Mesures de sécurité"
+      },
+      "title": "Sécurité de niveau bancaire - FlickAI"
+    },
+    "taxReceipts": {
+      "checklist": {
+        "point1": "Scannez et sauvegardez vos reçus au fil de l’eau.",
+        "point2": "Suivez les totaux par catégorie (déplacements, repas, fournitures…).",
+        "point3": "Conservez marchand, date et total de façon fiable.",
+        "point4": "Exportez/partagez au moment de déclarer.",
+        "title": "Checklist “prêt pour les impôts”"
+      },
+      "description": "Préparez la période fiscale : scannez, classez et retrouvez vos dépenses déductibles facilement. Gratuit pour commencer.",
+      "faq": {
+        "a1": "Non. FlickAI aide à organiser reçus et dépenses pour vos workflows fiscaux.",
+        "a2": "Oui — conçu pour aider les indépendants à organiser leurs dépenses déductibles.",
+        "a3": "Oui. Capture hors ligne puis synchronisation.",
+        "a4": "Oui — FlickAI est gratuit pour commencer.",
+        "q1": "Est-ce un service de déclaration d’impôts ?",
+        "q2": "Est-ce utile pour les freelances ?",
+        "q3": "Fonctionne-t-il hors ligne ?",
+        "q4": "Est-ce gratuit pour commencer ?",
+        "title": "FAQ"
+      },
+      "heading": "Scanner des reçus pour les impôts",
+      "intro": "La période fiscale est plus simple quand vos reçus sont organisés et consultables. FlickAI vous aide à garder des preuves propres.",
+      "keywords": "scanner reçus impôts, reçu déductible, suivi dépenses déductibles, organiser reçus fiscalité, notes de frais impôts, 2026 app reçus",
+      "related": {
+        "title": "À découvrir aussi"
+      },
+      "title": "Scanner des reçus pour les impôts (dépenses déductibles) | FlickAI"
+    }
+  },
+  "footer": {
+    "cookiePolicy": "Politique des cookies",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation"
+  },
+  "gdpr": {
+    "contact": {
+      "content": "Pour exercer l'un de vos droits ou pour des questions concernant la conformité au RGPD, veuillez contacter notre Délégué à la Protection des Données à : support@flickai.net",
+      "title": "3. Contacter le DPO"
+    },
+    "description": "Informations sur la Conformité RGPD de FlickAI. Vos droits en vertu du Règlement Général sur la Protection des Données.",
+    "heading": "Conformité RGPD",
+    "lastUpdated": "Dernière mise à jour : 28 novembre 2025",
+    "processing": {
+      "content": "Nous traitons vos données de manière légale, équitable et transparente. Nous ne collectons des données que pour des finalités spécifiées, explicites et légitimes.",
+      "title": "2. Traitement des données"
+    },
+    "rights": {
+      "access": "Le droit d'accéder à vos données personnelles.",
+      "erasure": "Le droit à l'effacement (« droit à l'oubli »).",
+      "intro": "En vertu du Règlement Général sur la Protection des Données (RGPD), vous disposez des droits suivants concernant vos données personnelles :",
+      "object": "Le droit de s'opposer au traitement.",
+      "portability": "Le droit à la portabilité des données.",
+      "rectification": "Le droit de rectification des données inexactes.",
+      "restrict": "Le droit de limiter le traitement.",
+      "title": "1. Vos droits"
+    },
+    "title": "Conformité RGPD - FlickAI | Legal"
+  },
+  "home": {
+    "description": "Simplifiez le suivi des dépenses avec le scan de reçus par IA de FlickAI. Suivez vos finances sans effort, créez des budgets et obtenez des informations financières.",
+    "download": {
+      "appStore": "App Store",
+      "googlePlay": "Google Play",
+      "subtitle": "Rejoignez des milliers d'utilisateurs qui prennent le contrôle de leurs finances avec FlickAI.",
+      "title": "Commencez à suivre aujourd'hui",
+      "waitlistNote": "Cliquez sur « Rejoindre la liste » pour un accès anticipé ! 🚀"
+    },
+    "features": {
+      "analytics": {
+        "description": "Visualisez les tendances de dépenses et recevez des informations financières personnalisées dans votre langue.",
+        "title": "Analyse intelligente"
+      },
+      "offline": {
+        "description": "Fonctionne parfaitement hors ligne. Les modifications se synchronisent automatiquement lorsque vous êtes de nouveau en ligne.",
+        "title": "Hors ligne et synchronisation"
+      },
+      "scanning": {
+        "description": "Extrayez instantanément le marchand, les articles et les prix en utilisant une technologie IA avancée.",
+        "title": "Scan intelligent de reçus"
+      },
+      "security": {
+        "description": "Vos données sont protégées avec un chiffrement de bout en bout et une authentification sécurisée.",
+        "title": "Sécurité de niveau bancaire"
+      },
+      "title": "Pourquoi choisir FlickAI ?"
+    },
+    "hero": {
+      "getStarted": "Commencer gratuitement",
+      "learnMore": "En savoir plus",
+      "subtitle": "Suivez vos finances sans effort avec le scan intelligent de reçus et des informations automatisées. Laissez l'IA gérer la partie ennuyeuse.",
+      "title": "Suivi des dépenses et scan de reçus avec IA"
+    },
+    "keywords": "suivi dépenses, surveillance dépenses, scanner reçus, finance IA, finance AI, app budget, finances personnelles, FlickAI, gestion dépenses, suivi dépenses avec IA, suivi dépenses avec AI, surveillance dépenses avec IA, surveillance dépenses avec AI",
+    "ogDescription": "Simplifiez le suivi des dépenses avec le scan de reçus par IA de FlickAI. Suivez vos finances sans effort.",
+    "ogTitle": "FlickAI - Suivi des Dépenses avec IA",
+    "schemaDescription": "Application de suivi des dépenses et scan de reçus avec IA.",
+    "title": "FlickAI - Suivi des Dépenses avec IA"
+  },
+  "guides": {
+    "index": {
+      "title": "Guides dépenses & scan de reçus | FlickAI",
+      "description": "Guides pratiques pour scanner des reçus, suivre des dépenses hors ligne et exporter pour les impôts. Gratuit pour commencer.",
+      "keywords": "reçu vers excel, reçu vers csv, suivi dépenses hors ligne, checklist reçus impôts, conseils scanner reçus",
+      "heading": "Guides",
+      "intro": "Des guides simples pour scanner des reçus, suivre vos dépenses sans internet et rester prêt pour la période fiscale.",
+      "guides": {
+        "title": "Guides populaires"
+      },
+      "cta": "FlickAI est gratuit pour commencer — conçu pour le scan de reçus et le suivi hors ligne, privacy-first."
+    },
+    "receiptToExcel": {
+      "title": "Transformer des reçus en Excel (CSV) | Guide FlickAI",
+      "description": "Étapes : scanner les reçus, vérifier les données et exporter vers Excel/CSV pour les impôts, la comptabilité ou des rapports.",
+      "keywords": "reçu excel, reçu csv, exporter reçus, scanner reçus excel, export dépenses",
+      "heading": "Reçu vers Excel : du scan au tableur",
+      "snippet": "Passez du papier à Excel/CSV en quelques minutes.",
+      "intro": "Pour un tableur propre, gardez des champs cohérents (marchand, date, total), corrigez l'OCR si besoin, puis exportez au format tableur.",
+      "steps": {
+        "title": "Étapes",
+        "step1": "Scannez les reçus et confirmez marchand/date/total.",
+        "step2": "Corrigez les erreurs OCR (taxes, pourboires, devise, lignes).",
+        "step3": "Catégorisez pour garder de la cohérence.",
+        "step4": "Exportez vers Excel/CSV et partagez si nécessaire."
+      },
+      "pitfalls": {
+        "title": "Pièges courants",
+        "point1": "Devises mélangées en voyage",
+        "point2": "Taxes/TVA manquantes",
+        "point3": "Catégories incohérentes d'un mois à l'autre"
+      },
+      "faq": {
+        "title": "FAQ",
+        "q1": "FlickAI est-il gratuit pour commencer ?",
+        "a1": "Oui — FlickAI est gratuit pour commencer.",
+        "q2": "Est-ce que ça marche hors ligne ?",
+        "a2": "Oui — vous pouvez scanner et suivre hors ligne, puis synchroniser plus tard.",
+        "q3": "Puis-je exporter vers Excel ?",
+        "a3": "Oui — vous pouvez exporter dans des formats compatibles tableur comme le CSV."
+      },
+      "related": {
+        "title": "À voir aussi"
+      }
+    },
+    "offlineExpenseTracking": {
+      "title": "Suivi des dépenses hors ligne : checklist | Guide FlickAI",
+      "description": "Checklist simple pour suivre vos dépenses hors ligne en voyage, en zone à faible signal, ou pour un flux privacy-first.",
+      "keywords": "suivi dépenses hors ligne, dépenses voyage sans internet, application dépenses hors ligne, dépenses privacy-first",
+      "heading": "Suivi des dépenses hors ligne (checklist)",
+      "snippet": "Suivez vos dépenses sans dépendre d'internet.",
+      "intro": "Le hors ligne, c'est la fiabilité : capturez reçus et dépenses immédiatement, puis synchronisez quand vous voulez.",
+      "checklist": {
+        "title": "Checklist",
+        "point1": "Vérifiez que la capture fonctionne sans connexion",
+        "point2": "Standardisez les catégories (voyage, repas, fournitures)",
+        "point3": "Revoyez chaque semaine pour détecter les erreurs",
+        "point4": "Exportez des sauvegardes pour vos archives"
+      },
+      "faq": {
+        "title": "FAQ",
+        "q1": "Pourquoi le mode hors ligne est-il important ?",
+        "a1": "Il évite les reçus perdus et les oublis lorsque la connexion est mauvaise.",
+        "q2": "Est-ce plus privé ?",
+        "a2": "Souvent oui — un flux offline-first réduit le partage inutile et donne plus de contrôle.",
+        "q3": "Quand synchroniser ?",
+        "a3": "Quand c'est pratique et sûr — par exemple sur un Wi‑Fi de confiance."
+      },
+      "related": {
+        "title": "À voir aussi"
+      }
+    },
+    "taxReceiptsChecklist": {
+      "title": "Checklist reçus pour les impôts (indépendants) | Guide FlickAI",
+      "description": "Checklist claire pour des reçus prêts pour les impôts : quoi capturer, comment étiqueter et comment exporter.",
+      "keywords": "checklist reçus impôts, organiser reçus, déductions indépendant, reçus comptable",
+      "heading": "Checklist reçus pour les impôts",
+      "snippet": "Restez organisé pour la période fiscale.",
+      "intro": "Une bonne organisation fait gagner du temps. Utilisez cette checklist pour des reçus complets, recherchables et exportables.",
+      "checklist": {
+        "title": "Checklist",
+        "point1": "Capturer marchand, date, total et taxes/TVA",
+        "point2": "Ajouter catégorie + note (client/projet)",
+        "point3": "Conserver des copies numériques importantes",
+        "point4": "Exporter chaque mois ou trimestre",
+        "point5": "Séparer perso vs pro"
+      },
+      "faq": {
+        "title": "FAQ",
+        "q1": "Quels reçus dois-je garder ?",
+        "a1": "Gardez les reçus liés à votre activité et ce que vous comptez déduire.",
+        "q2": "Combien de temps garder les reçus ?",
+        "a2": "Cela dépend du pays — beaucoup conservent plusieurs années. Demandez à votre comptable.",
+        "q3": "Puis-je exporter pour mon comptable ?",
+        "a3": "Oui — l'export facilite le partage de données organisées et réduit les allers-retours."
+      },
+      "related": {
+        "title": "À voir aussi"
+      }
+    }
+  },
+  "integrations": {
+    "index": {
+      "description": "Intégrez FlickAI à votre workflow : exports, automatisations et partage de reçus/dépenses.",
+      "heading": "Intégrations & workflows",
+      "ideas": {
+        "point1": "Notion : créer un tableau de bord de dépenses.",
+        "point2": "Zapier : déclencher des tâches/notifications depuis des exports.",
+        "point3": "WhatsApp : partager des reçus avec un comptable.",
+        "title": "Workflows populaires"
+      },
+      "intro": "En 2026, on attend des apps qu’elles s’intègrent au quotidien. FlickAI mise sur des données exportables et l’automatisation.",
+      "keywords": "intégrations suivi dépenses, exporter dépenses vers Notion, Zapier scanner reçus, envoyer reçus WhatsApp, automatiser notes de frais, workflow finance 2026",
+      "methods": {
+        "point1": "Exporter vos dépenses (CSV/compatible Excel).",
+        "point2": "Partager reçus et rapports.",
+        "point3": "Automatiser des routines via connecteurs légers.",
+        "title": "Façons courantes d’intégrer"
+      },
+      "title": "Intégrations & workflows (2026) | FlickAI"
+    }
+  },
+  "meta": {
+    "lang": "fr",
+    "langName": "Français",
+    "siteName": "FlickAI",
+    "siteUrl": "https://flickai.net"
+  },
+  "privacy": {
+    "contact": {
+      "content": "Si vous avez des questions sur cette politique de confidentialité ou nos pratiques de confidentialité, veuillez nous contacter à : support@flickai.net",
+      "title": "5. Nous contacter"
+    },
+    "dataCollection": {
+      "contact": "Données de contact : comprend l'adresse e-mail.",
+      "identity": "Données d'identité : comprend le prénom, le nom de famille, le nom d'utilisateur ou un identifiant similaire.",
+      "intro": "Nous pouvons collecter, utiliser, stocker et transférer différents types de données personnelles vous concernant que nous avons regroupés comme suit :",
+      "title": "2. Données que nous collectons",
+      "transaction": "Données de transaction : comprend les détails des paiements vers et depuis vous et d'autres détails des produits et services que vous avez achetés chez nous.",
+      "usage": "Données d'utilisation : comprend des informations sur la façon dont vous utilisez notre site Web et nos applications."
+    },
+    "dataUsage": {
+      "contract": "Lorsque nous devons exécuter le contrat que nous sommes sur le point de conclure ou avons conclu avec vous.",
+      "intro": "Nous n'utiliserons vos données personnelles que lorsque la loi nous le permet. Le plus souvent, nous utiliserons vos données personnelles dans les circonstances suivantes :",
+      "legal": "Lorsque nous devons nous conformer à une obligation légale ou réglementaire.",
+      "legitimate": "Lorsque cela est nécessaire pour nos intérêts légitimes (ou ceux d'un tiers) et que vos intérêts et droits fondamentaux ne prévalent pas sur ces intérêts.",
+      "title": "3. Comment nous utilisons vos données"
+    },
+    "description": "Politique de confidentialité de FlickAI. Découvrez comment nous collectons, utilisons et protégeons vos données.",
+    "heading": "Politique de confidentialité",
+    "introduction": {
+      "content": "FlickAI (« nous », « notre » ou « nos ») respecte votre vie privée et s'engage à protéger vos données personnelles. Cette politique de confidentialité vous informera sur la façon dont nous prenons soin de vos données personnelles lorsque vous visitez notre site Web ou utilisez notre application mobile.",
+      "title": "1. Introduction"
+    },
+    "lastUpdated": "Dernière mise à jour : 28 novembre 2025",
+    "security": {
+      "content": "Nous avons mis en place des mesures de sécurité appropriées pour empêcher que vos données personnelles ne soient perdues accidentellement, utilisées ou consultées de manière non autorisée, modifiées ou divulguées.",
+      "title": "4. Sécurité des données"
+    },
+    "title": "Politique de confidentialité - FlickAI | Legal"
+  },
+  "terms": {
+    "agreement": {
+      "content": "En accédant à notre site Web ou en utilisant notre application mobile, vous acceptez d'être lié par ces Conditions d'utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser nos services.",
+      "title": "1. Accord avec les conditions"
+    },
+    "contact": {
+      "content": "Pour résoudre une plainte concernant le Site ou pour recevoir de plus amples informations concernant l'utilisation du Site, veuillez nous contacter à : support@flickai.net",
+      "title": "5. Nous contacter"
+    },
+    "description": "Conditions d'utilisation de FlickAI. Lisez nos termes et conditions pour utiliser nos services.",
+    "heading": "Conditions d'utilisation",
+    "intellectual": {
+      "content": "Sauf indication contraire, le Site et notre application mobile sont notre propriété et tout le code source, les bases de données, les fonctionnalités, les logiciels, les conceptions de sites Web, l'audio, la vidéo, le texte, les photographies et les graphiques sur le Site (collectivement, le « Contenu ») et les marques commerciales, les marques de service et les logos qui y sont contenus (les « Marques ») sont notre propriété ou sont contrôlés par nous ou nous sont concédés sous licence.",
+      "title": "2. Droits de propriété intellectuelle"
+    },
+    "lastUpdated": "Dernière mise à jour : 28 novembre 2025",
+    "prohibited": {
+      "content": "Vous ne pouvez pas accéder ou utiliser le Site à d'autres fins que celles pour lesquelles nous mettons le Site à disposition. Le Site ne peut pas être utilisé dans le cadre d'efforts commerciaux, sauf ceux qui sont spécifiquement approuvés ou approuvés par nous.",
+      "title": "4. Activités interdites"
+    },
+    "title": "Conditions d'utilisation - FlickAI | Legal",
+    "userRep": {
+      "content": "En utilisant le Site, vous déclarez et garantissez que : (1) toutes les informations d'inscription que vous soumettez seront vraies, exactes, à jour et complètes ; (2) vous maintiendrez l'exactitude de ces informations et mettrez rapidement à jour ces informations d'inscription si nécessaire.",
+      "title": "3. Déclarations de l'utilisateur"
+    }
+  },
+  "useCases": {
+    "freelancers": {
+      "description": "Suivez vos dépenses pro, scannez des reçus et restez prêt pour les impôts. Gratuit pour commencer.",
+      "faq": {
+        "a1": "Oui — FlickAI aide à organiser vos dépenses pour garder une comptabilité claire.",
+        "a2": "Oui — conçu pour organiser les reçus et dépenses déductibles.",
+        "a3": "Oui — FlickAI est gratuit pour commencer.",
+        "q1": "Puis-je séparer pro et perso ?",
+        "q2": "Est-ce utile pour les déductions ?",
+        "q3": "Est-ce gratuit pour commencer ?",
+        "title": "FAQ"
+      },
+      "heading": "Suivi des dépenses pour freelances",
+      "intro": "Les freelances ont besoin d’un suivi simple pour les dépenses pro, les reçus et les déductions.",
+      "keywords": "suivi dépenses freelance, note de frais freelance, suivi dépenses indépendant, reçus déductions, 2026 app dépenses freelance",
+      "pain": {
+        "point1": "Les reçus se perdent ou s’accumulent.",
+        "point2": "Les tableurs prennent du temps et génèrent des erreurs.",
+        "point3": "Sans preuves, la période fiscale devient stressante.",
+        "title": "Problèmes fréquents"
+      },
+      "related": {
+        "title": "À découvrir aussi"
+      },
+      "solution": {
+        "point1": "Scan rapide avec extraction IA.",
+        "point2": "Totaux par catégorie et marchand.",
+        "point3": "Capture hors ligne quand vous êtes en déplacement.",
+        "point4": "Gratuit pour commencer, upgrade si besoin.",
+        "title": "Comment FlickAI aide"
+      },
+      "title": "Suivi des dépenses pour freelances | FlickAI"
+    },
+    "selfEmployedDeductions": {
+      "basics": {
+        "point1": "Reçus (marchand, date, total).",
+        "point2": "Catégorie et notes.",
+        "point3": "Historique consultable et exportable.",
+        "title": "À suivre"
+      },
+      "description": "Suivez les dépenses déductibles et les reçus : scan, catégories, export quand nécessaire. Gratuit pour commencer.",
+      "faq": {
+        "a1": "Non. C’est un workflow de suivi et d’archivage pour rester organisé.",
+        "a2": "Oui — capture hors ligne puis synchronisation.",
+        "a3": "Oui — FlickAI est gratuit pour commencer.",
+        "q1": "Est-ce un conseil fiscal ?",
+        "q2": "Fonctionne-t-il hors ligne ?",
+        "q3": "Est-ce gratuit pour commencer ?",
+        "title": "FAQ"
+      },
+      "heading": "Suivre les déductions fiscales des indépendants",
+      "intro": "Les meilleures déductions sont celles que vous pouvez justifier. Construisez un historique propre toute l’année.",
+      "keywords": "déductions fiscales indépendant, dépenses déductibles, reçus dépenses pro, 2026 suivi dépenses indépendant",
+      "related": {
+        "title": "À découvrir aussi"
+      },
+      "title": "Suivi des déductions fiscales (indépendants) | FlickAI",
+      "workflow": {
+        "step1": "Scannez et sauvegardez vos reçus au fil de l’eau.",
+        "step2": "Vérifiez catégories et totaux chaque mois.",
+        "step3": "Exportez/partagez au moment de déclarer.",
+        "title": "Workflow simple"
+      }
+    }
+  },
+  "faqPage": {
+    "title": "FAQ | FlickAI",
+    "description": "Réponses aux questions fréquentes sur FlickAI : suivi des dépenses privacy-first, sans synchronisation bancaire, mode hors ligne, scan de reçus et exports.",
+    "keywords": "FAQ FlickAI, FAQ suivi dépenses, FAQ scanner reçus, suivi dépenses sans synchronisation bancaire, suivi dépenses hors ligne",
+    "heading": "Foire aux questions",
+    "intro": "Réponses rapides aux questions les plus fréquentes sur FlickAI.",
+    "faq": {
+      "q1": "FlickAI est-il gratuit pour commencer ?",
+      "a1": "Oui — FlickAI est gratuit pour commencer.",
+      "q2": "Existe-t-il un suivi de dépenses sans synchronisation bancaire ?",
+      "a2": "Oui — FlickAI fonctionne sans synchronisation bancaire obligatoire ni liaison de compte.",
+      "q3": "FlickAI fonctionne-t-il hors ligne ?",
+      "a3": "Oui. Vous pouvez suivre vos dépenses et scanner des reçus hors ligne, puis synchroniser plus tard.",
+      "q4": "Puis-je scanner des reçus et extraire totaux/articles ?",
+      "a4": "Oui — FlickAI prend en charge le scan de reçus par IA et l’extraction de champs.",
+      "q5": "Puis-je exporter mes dépenses vers Excel/CSV ?",
+      "a5": "Oui — vous pouvez exporter vos dépenses dans des formats compatibles tableur comme le CSV.",
+      "q6": "Vendez-vous mes données ?",
+      "a6": "Non — nous ne vendons pas vos données."
+    }
+  },
+  "waitlist": {
+    "alreadyJoined": "Vous êtes déjà sur la liste d'attente !",
+    "button": "Rejoindre la liste",
+    "error": "Veuillez entrer une adresse e-mail valide",
+    "floatButton": "Rejoindre la liste",
+    "networkError": "Une erreur s'est produite. Veuillez réessayer.",
+    "placeholder": "Entrez votre e-mail",
+    "subtitle": "Soyez le premier informé du lancement de FlickAI sur iOS !",
+    "success": "Merci ! Nous vous informerons lors du lancement. 🎉",
+    "title": "🚀 Accès Anticipé"
+  }
+}

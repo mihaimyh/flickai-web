@@ -1,0 +1,755 @@
+{
+  "accessibility": {
+    "commitment": {
+      "content": "FlickAI si impegna a garantire l'accessibilità digitale per le persone con disabilità. Miglioriamo continuamente l'esperienza utente per tutti e applichiamo gli standard di accessibilità pertinenti.",
+      "title": "1. Il Nostro Impegno"
+    },
+    "conformance": {
+      "content": "Le Linee Guida per l'Accessibilità dei Contenuti Web (WCAG) definiscono i requisiti per progettisti e sviluppatori per migliorare l'accessibilità per le persone con disabilità. Definiscono tre livelli di conformità: Livello A, Livello AA e Livello AAA. FlickAI è parzialmente conforme alle WCAG 2.1 livello AA.",
+      "title": "2. Stato di Conformità"
+    },
+    "description": "Dichiarazione di Accessibilità per FlickAI. Il nostro impegno per l'accessibilità digitale.",
+    "feedback": {
+      "email": "E-mail: support@flickai.net",
+      "intro": "Accogliamo con favore il tuo feedback sull'accessibilità di FlickAI. Ti preghiamo di farci sapere se incontri barriere di accessibilità su FlickAI:",
+      "title": "3. Feedback"
+    },
+    "heading": "Dichiarazione di Accessibilità",
+    "lastUpdated": "Ultimo aggiornamento: 28 novembre 2025",
+    "title": "Dichiarazione di Accessibilità - FlickAI | Legal"
+  },
+  "alternatives": {
+    "backToHub": "Torna alle alternative",
+    "bestExpenseTrackers": {
+      "criteria": {
+        "point1": "Cattura rapida (scontrini + inserimento)",
+        "point2": "Modalità offline e sync affidabile",
+        "point3": "Opzioni privacy-first (senza banca obbligatoria)",
+        "point4": "Prezzi per provare (gratis per iniziare)",
+        "title": "Criteri"
+      },
+      "description": "Lista pratica delle migliori app spese 2025–2026: offline, privacy, automazione e prezzo.",
+      "faq": {
+        "a1": "Dipende dal tuo workflow: offline per viaggi, privacy-first senza banca, IA per automazione.",
+        "a2": "Sì — FlickAI è gratis per iniziare.",
+        "q1": "Qual è la migliore app spese nel 2026?",
+        "q2": "Esiste un’app gratis per iniziare?",
+        "title": "FAQ"
+      },
+      "heading": "Migliori app tracker spese (2025–2026)",
+      "intro": "Focus su esigenze reali: cattura rapida, affidabilità offline e privacy.",
+      "keywords": "migliore app spese, app budget 2026, tracker spese offline, app spese privata, app spese IA, gratis per iniziare",
+      "list": {
+        "item1": "Gratis per iniziare, scansione IA, workflow offline.",
+        "item2": "YNAB — Metodo budget, abbonamento.",
+        "item3": "PocketGuard — Budget semplificato.",
+        "item4": "Spendee — Portafogli condivisi.",
+        "item5": "Money Manager — Tracciamento quotidiano leggero.",
+        "title": "Scelte top"
+      },
+      "title": "Migliori app tracker spese (2025-2026)"
+    },
+    "bestReceiptScanners": {
+      "criteria": {
+        "point1": "Accuratezza OCR (esercente/data/totale/voci)",
+        "point2": "Velocità e usabilità",
+        "point3": "Cattura offline",
+        "point4": "Export (CSV/Excel)",
+        "title": "Criteri"
+      },
+      "description": "Confronta i migliori scanner scontrini 2025–2026: accuratezza OCR, uso offline ed export.",
+      "heading": "Migliori app scanner scontrini (2025–2026)",
+      "intro": "Per report puliti contano l’OCR e un export semplice.",
+      "keywords": "migliore scanner scontrini, OCR scontrini, scanner scontrini offline, scanner scontrini gratis, scontrini in Excel, 2026 scanner scontrini",
+      "list": {
+        "item1": "Gratis per iniziare, estrazione IA, orientato alle spese.",
+        "item2": "Expensify — Popolare per team, abbonamento.",
+        "item3": "Zoho Expense — Suite completa.",
+        "item4": "Genius Scan — Ottimo scanner, meno orientato alle spese.",
+        "item5": "CamScanner — Strumento di scansione generico.",
+        "title": "Scelte top"
+      },
+      "title": "Migliori app scanner scontrini (2025-2026)"
+    },
+    "expensify": {
+      "description": "Alternative a Expensify con focus su offline, privacy, semplicità e automazione IA.",
+      "heading": "Migliori alternative a Expensify (2025–2026)",
+      "intro": "Guida pratica per un workflow spese più semplice e più privato.",
+      "keywords": "alternative Expensify, app come Expensify, alternativa note spese 2026, tracker spese offline, app spese privata, scanner scontrini IA",
+      "list": {
+        "item1": "Gratis per iniziare, scansione IA, offline + privacy-first.",
+        "item2": "Zoho Expense — Suite completa.",
+        "item3": "Concur — Più orientato enterprise.",
+        "item4": "QuickBooks — Più contabilità.",
+        "item5": "Wave — Opzioni economiche.",
+        "title": "Top alternative"
+      },
+      "title": "Migliori alternative a Expensify (2025-2026)",
+      "whatToLookFor": {
+        "point1": "Cattura rapida con OCR affidabile",
+        "point2": "Supporto offline per viaggi",
+        "point3": "Prezzi chiari (gratis per iniziare aiuta a provare)",
+        "title": "Cosa cercare"
+      }
+    },
+    "index": {
+      "cta": "FlickAI è gratis per iniziare — pensato per offline, privacy e automazione con IA.",
+      "description": "Guide alle migliori app per spese e scanner scontrini. Confronta offline, privacy e automazione.",
+      "guides": {
+        "title": "Guide"
+      },
+      "heading": "Top alternative (2025–2026)",
+      "howToChoose": {
+        "point1": "Scegli offline se viaggi o vuoi affidabilità.",
+        "point2": "Scegli privacy-first se non vuoi collegare la banca.",
+        "point3": "Scegli IA se vuoi meno lavoro manuale.",
+        "title": "Come scegliere"
+      },
+      "intro": "Cerchi un’app che si adatti al tuo workflow? Parti da qui.",
+      "keywords": "alternative tracker spese, alternative scanner scontrini, migliori app spese 2026, migliore scanner scontrini, spese offline, privacy spese",
+      "title": "Top alternative: tracker spese e scanner scontrini (2025-2026)"
+    },
+    "zoho": {
+      "description": "Alternative a Zoho Expense per un tracking spese più semplice e focalizzato sugli scontrini.",
+      "heading": "Migliori alternative a Zoho Expense (2025–2026)",
+      "intro": "Se preferisci uno strumento dedicato invece di una suite grande, parti da qui.",
+      "keywords": "alternative Zoho Expense, app come Zoho Expense, tracker spese semplice, alternativa scanner scontrini 2026, spese offline",
+      "list": {
+        "item1": "Gratis per iniziare, IA, offline.",
+        "item2": "Expensify — Forte per team.",
+        "item3": "Concur — Suite enterprise.",
+        "item4": "FreshBooks — Fatturazione-first.",
+        "item5": "Spendee — Budget personale/condiviso.",
+        "title": "Top alternative"
+      },
+      "title": "Migliori alternative a Zoho Expense (2025-2026)",
+      "whatToLookFor": {
+        "point1": "UX focalizzata sul tracciamento quotidiano",
+        "point2": "OCR ed export",
+        "point3": "Opzioni offline e privacy-first",
+        "title": "Cosa cercare"
+      }
+    }
+  },
+  "common": {
+    "alternatives": "Alternative",
+    "integrations": "Integrazioni",
+    "guides": "Guide",
+    "faq": "FAQ",
+    "backToHome": "Torna alla Home",
+    "copyright": "© 2025 FlickAI. Tutti i diritti riservati.",
+    "downloadApp": "Scarica l'App",
+    "features": "Funzionalità",
+    "learnMore": "Scopri di più",
+    "testimonials": "Testimonianze"
+  },
+  "cookie": {
+    "contact": {
+      "content": "Se hai domande sul nostro utilizzo dei cookie, contattaci all'indirizzo: support@flickai.net",
+      "title": "4. Contattaci"
+    },
+    "description": "Cookie Policy per FlickAI. Comprendi come utilizziamo i cookie per migliorare la tua esperienza.",
+    "disabling": {
+      "content": "Puoi impedire l'impostazione dei cookie modificando le impostazioni del tuo browser (consulta la Guida del tuo browser per sapere come farlo). Tieni presente che la disabilitazione dei cookie influenzerà la funzionalità di questo e di molti altri siti web che visiti.",
+      "title": "3. Disabilitare i Cookie"
+    },
+    "heading": "Cookie Policy",
+    "howWeUse": {
+      "analytics": "Cookie Analitici: Questi ci aiutano a capire come i visitatori interagiscono con il nostro sito web.",
+      "essential": "Cookie Essenziali: Questi sono necessari affinché il sito web funzioni correttamente.",
+      "functionality": "Cookie di Funzionalità: Questi consentono al sito web di ricordare le scelte che fai.",
+      "intro": "Utilizziamo i cookie per una serie di motivi descritti di seguito. Purtroppo, nella maggior parte dei casi non esistono opzioni standard del settore per disabilitare i cookie senza disabilitare completamente le funzionalità e le caratteristiche che aggiungono a questo sito.",
+      "title": "2. Come Utilizziamo i Cookie"
+    },
+    "lastUpdated": "Ultimo aggiornamento: 28 novembre 2025",
+    "title": "Cookie Policy - FlickAI | Legal",
+    "whatAre": {
+      "content": "I cookie sono piccoli file di testo che vengono inseriti nel tuo computer o dispositivo mobile dai siti web che visiti. Sono ampiamente utilizzati per far funzionare i siti web, o farli funzionare in modo più efficiente, nonché per fornire informazioni ai proprietari del sito.",
+      "title": "1. Cosa Sono i Cookie"
+    }
+  },
+  "features": {
+    "aiAssistant": {
+      "description": "Fai domande sulle tue spese, ottieni insights e esplora workflow conversazionali per il 2026. Gratis per iniziare.",
+      "faq": {
+        "a1": "Sì — FlickAI è gratis per iniziare.",
+        "a2": "FlickAI supporta flussi privacy-first e archiviazione scontrini sicura.",
+        "a3": "Sì — registra offline e sincronizza dopo.",
+        "q1": "FlickAI è gratis per iniziare?",
+        "q2": "È privato?",
+        "q3": "Posso usarlo offline?",
+        "title": "FAQ"
+      },
+      "heading": "Assistente finanziario IA per le spese",
+      "intro": "Nel 2026 non ci limiteremo a tracciare: faremo domande. FlickAI unisce cattura rapida e insights.",
+      "keywords": "assistente finanziario IA, assistente spese IA, chat con le spese, budget conversazionale, ricerca vocale spese, 2026 assistente finanza",
+      "questions": {
+        "q1": "“Quanto ho speso in caffè il mese scorso?”",
+        "q2": "“Quali categorie sono aumentate di più questo trimestre?”",
+        "q3": "“Mostrami i miei esercenti principali.”",
+        "q4": "“Dove posso tagliare le spese questa settimana?”",
+        "title": "Domande tipo"
+      },
+      "related": {
+        "title": "Correlati"
+      },
+      "title": "Assistente finanziario IA per le spese | FlickAI"
+    },
+    "analytics": {
+      "aiInsights": {
+        "example": "\"Hai speso il 20% in più per mangiare fuori questo mese rispetto al mese scorso. Considera di cucinare a casa questa settimana per rimanere nel budget.\"",
+        "intro": "La nostra IA non ti mostra solo i dati; li spiega. Ottieni consigli personalizzati come:",
+        "title": "Approfondimenti Generati dall'IA"
+      },
+      "description": "Visualizza le tendenze di spesa e ottieni approfondimenti finanziari personalizzati nella tua lingua.",
+      "heading": "Analisi Intelligente",
+      "intro": "Capire i tuoi soldi è il primo passo per controllarli. FlickAI fornisce approfondimenti dettagliati sulle tue abitudini di spesa.",
+      "title": "Analisi Intelligente - FlickAI",
+      "visualTrends": {
+        "categoryBreakdown": "Ripartizione per Categoria: Grafici a torta che mostrano la spesa per categoria (Cibo, Trasporti, Utenze, ecc.).",
+        "intro": "Vedi esattamente dove vanno i tuoi soldi con grafici e diagrammi interattivi:",
+        "merchantAnalysis": "Analisi Esercenti: Vedi in quali negozi spendi di più.",
+        "monthlyTrends": "Tendenze Mensili: Grafici a barre che confrontano la spesa mese per mese.",
+        "title": "Tendenze Visive di Spesa"
+      }
+    },
+    "offlineTracker": {
+      "description": "Traccia le spese offline con FlickAI: registra senza internet e sincronizza quando torni online. Gratis per iniziare.",
+      "faq": {
+        "a1": "Sì: puoi registrare spese e scansionare scontrini offline, poi sincronizzare quando sei online.",
+        "a2": "Sì. FlickAI è gratis per iniziare, con upgrade opzionali.",
+        "a3": "L’uso offline favorisce flussi più privati riducendo la necessità di una connessione continua.",
+        "a4": "Viaggiatori, utenti attenti alla privacy e chi vuole un tracker affidabile senza connessione costante.",
+        "q1": "FlickAI funziona senza internet?",
+        "q2": "È gratis per iniziare?",
+        "q3": "È più privato usarlo offline?",
+        "q4": "Per chi è ideale?",
+        "title": "FAQ"
+      },
+      "heading": "Tracker spese offline (funziona senza internet)",
+      "how": {
+        "step1": "Aggiungi spese e scansiona scontrini quando vuoi, anche offline.",
+        "step2": "Controlla categorie e totali sul dispositivo.",
+        "step3": "Sincronizza quando torni online.",
+        "title": "Come funziona"
+      },
+      "intro": "In viaggio, in aereo o con poca rete: FlickAI è pensato per registrare le spese anche offline e sincronizzare in seguito.",
+      "keywords": "tracker spese offline, app spese senza internet, budget offline, tracciamento spese senza connessione, scanner scontrini offline, app spese privata, 2026 tracker spese",
+      "related": {
+        "title": "Correlati"
+      },
+      "title": "Tracker spese offline – senza internet | FlickAI",
+      "why": {
+        "point1": "Registra spese di viaggio senza dipendere da roaming o Wi‑Fi.",
+        "point2": "Continua a funzionare in metro, treno o zone con scarso segnale.",
+        "point3": "Riduce la dipendenza dal cloud per il tracciamento di base.",
+        "title": "Perché l’offline conta"
+      }
+    },
+    "onDeviceAI": {
+      "description": "Workflows 2026: IA più privata, scansione scontrini, uso offline e domande conversazionali sulle spese. Gratis per iniziare.",
+      "faq": {
+        "a1": "Sì — FlickAI è gratis per iniziare.",
+        "a2": "Sì. Registra offline e sincronizza dopo.",
+        "a3": "Sì — FlickAI supporta flussi orientati alla privacy e archiviazione scontrini sicura.",
+        "q1": "È gratis per iniziare?",
+        "q2": "Funziona offline?",
+        "q3": "È privacy-first?",
+        "title": "FAQ"
+      },
+      "heading": "IA on-device per il tracciamento spese (pronto per il 2026)",
+      "intro": "La ricerca sta diventando più conversazionale. FlickAI punta a flussi IA più privati e compatibili con l’offline.",
+      "keywords": "IA on-device spese, IA privata scontrini, OCR scontrini sul telefono, tracker spese IA offline, assistente finanziario 2026, query conversazionali spese",
+      "related": {
+        "title": "Correlati"
+      },
+      "title": "IA on-device per le spese (IA privata) | FlickAI",
+      "voice": {
+        "example1": "“Quanto ho speso in spesa alimentare il mese scorso?”",
+        "example2": "“Mostrami i miei esercenti principali questo trimestre.”",
+        "example3": "“Quali categorie sono aumentate di più?”",
+        "title": "Esempi di domande “2026”"
+      },
+      "what": {
+        "point1": "Scansionare e organizzare scontrini con estrazione IA.",
+        "point2": "Continuare a catturare anche con connessione instabile.",
+        "point3": "Ottenere risposte tipo “insights” dai tuoi dati (se disponibili).",
+        "title": "Cosa significa"
+      }
+    },
+    "privacyFirst": {
+      "description": "Tracker spese orientato alla privacy, senza obbligo di collegare conti bancari. Archiviazione scontrini sicura e flussi offline. Gratis per iniziare.",
+      "faq": {
+        "a1": "No. FlickAI funziona senza collegamento bancario obbligatorio.",
+        "a2": "No — non vendiamo i tuoi dati.",
+        "a3": "Sì. Registra offline e sincronizza dopo.",
+        "a4": "Sì — FlickAI è gratis per iniziare.",
+        "q1": "Devo collegare il mio conto bancario?",
+        "q2": "Vendete i miei dati?",
+        "q3": "Posso usarla offline?",
+        "q4": "È gratis per iniziare?",
+        "title": "FAQ"
+      },
+      "heading": "Tracker spese privacy-first (senza collegare la banca)",
+      "intro": "Se preferisci mantenere il controllo dei tuoi dati finanziari, FlickAI è progettato per un tracciamento privacy-first senza banca obbligatoria.",
+      "keywords": "app spese privata, tracker spese privacy, senza sincronizzazione bancaria, senza collegare banca, scontrini cifrati, privacy finanze, 2026 app spese privata",
+      "pillars": {
+        "point1": "Nessun collegamento bancario obbligatorio.",
+        "point2": "Archiviazione scontrini sicura e best practice di sicurezza.",
+        "point3": "Flussi offline per dati sensibili.",
+        "point4": "Gratis per iniziare, upgrade quando serve.",
+        "title": "Privacy by design"
+      },
+      "related": {
+        "title": "Correlati"
+      },
+      "title": "App spese privacy-first – senza banca | FlickAI"
+    },
+    "receiptToExcel": {
+      "bestFor": {
+        "point1": "Freelance e autonomi (deduzioni).",
+        "point2": "Piccoli team che preferiscono Excel/CSV.",
+        "point3": "Chiunque voglia evitare l’inserimento manuale.",
+        "title": "Ideale per"
+      },
+      "description": "Trasforma scontrini in dati per fogli di calcolo: scansiona, verifica ed esporta per il commercialista. Gratis per iniziare.",
+      "faq": {
+        "a1": "Puoi esportare in formati per fogli di calcolo (come CSV) che si aprono in Excel.",
+        "a2": "Sì. Scansiona/registri offline e sincronizzi dopo.",
+        "a3": "Sì — FlickAI è gratis per iniziare.",
+        "q1": "Posso esportare in Excel?",
+        "q2": "Funziona offline?",
+        "q3": "È gratis per iniziare?",
+        "title": "FAQ"
+      },
+      "heading": "Scansiona scontrini in Excel / CSV",
+      "intro": "Se vivi nei fogli di calcolo, FlickAI accelera il passaggio da carta a dati strutturati.",
+      "keywords": "scansiona scontrini Excel, scontrino CSV, OCR scontrini foglio di calcolo, estrazione dati scontrino, export spese, 2026 OCR scontrini",
+      "related": {
+        "title": "Correlati"
+      },
+      "steps": {
+        "step1": "Scansiona uno scontrino.",
+        "step2": "Verifica esercente, data, totale e voci.",
+        "step3": "Esporta in un formato compatibile con Excel.",
+        "step4": "Condividi con il commercialista o importa nel tuo flusso.",
+        "title": "Come funziona"
+      },
+      "title": "Scansiona scontrini in Excel / CSV | FlickAI"
+    },
+    "scanning": {
+      "description": "Estrai istantaneamente esercente, articoli e prezzi dagli scontrini utilizzando una tecnologia IA avanzata.",
+      "heading": "Scansione Intelligente Scontrini",
+      "howItWorks": {
+        "step1": "Apri l'app FlickAI e tocca l'icona della fotocamera.",
+        "step2": "Allinea lo scontrino nel riquadro.",
+        "step3": "Tocca scatta. L'IA elabora l'immagine in pochi secondi.",
+        "step4": "Rivedi i dettagli estratti e salva!",
+        "title": "Come Funziona"
+      },
+      "intro": "I giorni dell'inserimento manuale dei dati sono finiti. Con FlickAI, puoi digitalizzare le spese in pochi secondi semplicemente scattando una foto.",
+      "title": "Scansione Intelligente Scontrini - FlickAI",
+      "whatWeExtract": {
+        "dateTime": "Data e Ora: Registra esattamente quando è avvenuto l'acquisto.",
+        "items": "Singoli Articoli: Estrae singoli articoli e prezzi per un tracciamento dettagliato.",
+        "merchant": "Nome Esercente: Identificato automaticamente da loghi o testo.",
+        "title": "Cosa Estraiamo",
+        "total": "Importo Totale: Cattura il totale finale con precisione."
+      }
+    },
+    "security": {
+      "description": "I tuoi dati sono protetti con crittografia end-to-end e autenticazione sicura.",
+      "heading": "Sicurezza di Livello Bancario",
+      "intro": "I tuoi dati finanziari sono sensibili e li trattiamo come tali. FlickAI impiega misure di sicurezza leader del settore per mantenere le tue informazioni al sicuro.",
+      "measures": {
+        "auth": "Autenticazione Sicura: Autenticazione a più fattori e opzioni di accesso biometrico.",
+        "compliance": "Conformità: Conforme al GDPR e seguendo le migliori pratiche di sicurezza.",
+        "encryption": "Crittografia End-to-End: Tutti i dati sono crittografati sia in transito che a riposo.",
+        "privacy": "Privacy by Design: Non vendiamo mai i tuoi dati a terze parti.",
+        "title": "Misure di Sicurezza"
+      },
+      "title": "Sicurezza di Livello Bancario - FlickAI"
+    },
+    "taxReceipts": {
+      "checklist": {
+        "point1": "Scansiona e salva gli scontrini man mano.",
+        "point2": "Traccia i totali per categoria (viaggi, pasti, forniture…).",
+        "point3": "Conserva esercente, data e totale in modo chiaro.",
+        "point4": "Esporta o condividi quando devi dichiarare.",
+        "title": "Checklist fiscale"
+      },
+      "description": "Organizza scontrini per la stagione fiscale: scansiona, categorizza e rendi ricercabili le spese deducibili. Gratis per iniziare.",
+      "faq": {
+        "a1": "No. FlickAI aiuta a organizzare ricevute e spese per i tuoi flussi fiscali.",
+        "a2": "Sì — progettato per aiutare a gestire ricevute e spese deducibili.",
+        "a3": "Sì. Registra/scansiona offline e sincronizza dopo.",
+        "a4": "Sì — FlickAI è gratis per iniziare.",
+        "q1": "È un servizio di dichiarazione dei redditi?",
+        "q2": "È utile per freelance/autonomi?",
+        "q3": "Funziona offline?",
+        "q4": "È gratis per iniziare?",
+        "title": "FAQ"
+      },
+      "heading": "Scansiona scontrini per le tasse",
+      "intro": "Le tasse diventano più semplici quando i tuoi scontrini sono ordinati e ricercabili. FlickAI aiuta a tenere prove pulite durante l’anno.",
+      "keywords": "scansiona scontrini tasse, scontrini deducibili, spese deducibili, organizzare scontrini fiscali, ricevute per tasse, 2026 app scontrini",
+      "related": {
+        "title": "Correlati"
+      },
+      "title": "Scansiona scontrini per le tasse (spese deducibili) | FlickAI"
+    }
+  },
+  "footer": {
+    "cookiePolicy": "Cookie Policy",
+    "privacyPolicy": "Informativa sulla Privacy",
+    "termsOfService": "Termini di Servizio"
+  },
+  "gdpr": {
+    "contact": {
+      "content": "Per esercitare uno qualsiasi dei tuoi diritti o per domande riguardanti la conformità GDPR, contatta il nostro Responsabile della Protezione dei Dati all'indirizzo: support@flickai.net",
+      "title": "3. Contatta il DPO"
+    },
+    "description": "Informazioni sulla Conformità GDPR per FlickAI. I tuoi diritti ai sensi del Regolamento Generale sulla Protezione dei Dati.",
+    "heading": "Conformità GDPR",
+    "lastUpdated": "Ultimo aggiornamento: 28 novembre 2025",
+    "processing": {
+      "content": "Trattiamo i tuoi dati in modo lecito, corretto e trasparente. Raccogliamo i dati solo per scopi specifici, espliciti e legittimi.",
+      "title": "2. Trattamento dei Dati"
+    },
+    "rights": {
+      "access": "Il diritto di accedere ai tuoi dati personali.",
+      "erasure": "Il diritto alla cancellazione (\"diritto all'oblio\").",
+      "intro": "Ai sensi del Regolamento Generale sulla Protezione dei Dati (GDPR), hai i seguenti diritti riguardanti i tuoi dati personali:",
+      "object": "Il diritto di opporsi al trattamento.",
+      "portability": "Il diritto alla portabilità dei dati.",
+      "rectification": "Il diritto alla rettifica dei dati inesatti.",
+      "restrict": "Il diritto di limitare il trattamento.",
+      "title": "1. I Tuoi Diritti"
+    },
+    "title": "Conformità GDPR - FlickAI | Legal"
+  },
+  "home": {
+    "description": "Semplifica il tracciamento delle spese con la scansione scontrini IA di FlickAI. Monitora le finanze senza sforzo, crea budget e ottieni analisi finanziarie.",
+    "download": {
+      "appStore": "App Store",
+      "googlePlay": "Google Play",
+      "subtitle": "Unisciti a migliaia di utenti che prendono il controllo delle loro finanze con FlickAI.",
+      "title": "Inizia a Tracciare Oggi",
+      "waitlistNote": "Clicca sul pulsante \"Unisciti alla Lista\" per ottenere l'accesso anticipato! 🚀"
+    },
+    "features": {
+      "analytics": {
+        "description": "Visualizza le tendenze di spesa e ottieni approfondimenti finanziari personalizzati nella tua lingua.",
+        "title": "Analisi Intelligente"
+      },
+      "offline": {
+        "description": "Funziona perfettamente offline. Le modifiche si sincronizzano automaticamente quando torni online.",
+        "title": "Offline e Sincronizzazione"
+      },
+      "scanning": {
+        "description": "Estrai istantaneamente esercente, articoli e prezzi utilizzando una tecnologia IA avanzata.",
+        "title": "Scansione Intelligente Scontrini"
+      },
+      "security": {
+        "description": "I tuoi dati sono protetti con crittografia end-to-end e autenticazione sicura.",
+        "title": "Sicurezza di Livello Bancario"
+      },
+      "title": "Perché Scegliere FlickAI?"
+    },
+    "hero": {
+      "getStarted": "Inizia Gratis",
+      "learnMore": "Scopri di Più",
+      "subtitle": "Monitora le tue finanze senza sforzo con la scansione intelligente degli scontrini e approfondimenti automatici. Lascia che l'IA gestisca la parte noiosa.",
+      "title": "Tracciamento Spese e Scansione Scontrini con IA"
+    },
+    "keywords": "tracciamento spese, monitoraggio spese, scanner scontrini, finanza IA, finanza AI, app budget, finanza personale, FlickAI, gestione spese, tracciamento spese IA, tracciamento spese AI, monitoraggio spese IA, monitoraggio spese AI",
+    "ogDescription": "Semplifica il tracciamento delle spese con la scansione scontrini IA di FlickAI. Monitora le finanze senza sforzo.",
+    "ogTitle": "FlickAI - Tracciamento Spese con IA",
+    "schemaDescription": "Applicazione di tracciamento spese e scansione scontrini basata sull'intelligenza artificiale.",
+    "title": "FlickAI - Tracciamento Spese con IA"
+  },
+  "guides": {
+    "index": {
+      "title": "Guide su spese e scansione ricevute | FlickAI",
+      "description": "Guide pratiche per scansionare ricevute, tracciare spese offline ed esportare per le tasse. Gratis per iniziare.",
+      "keywords": "ricevute in excel, ricevute in csv, tracciamento spese offline, checklist ricevute tasse, consigli scanner ricevute",
+      "heading": "Guide",
+      "intro": "Guide semplici per scansionare ricevute, tracciare spese senza internet ed essere pronti per le tasse.",
+      "guides": {
+        "title": "Guide più lette"
+      },
+      "cta": "FlickAI è gratis per iniziare — pensato per scansione ricevute e spese offline, privacy-first."
+    },
+    "receiptToExcel": {
+      "title": "Convertire ricevute in Excel (CSV) | Guida FlickAI",
+      "description": "Passo passo: scansiona ricevute, verifica i dati ed esporta in Excel/CSV per tasse, contabilità o report.",
+      "keywords": "ricevute excel, ricevute csv, esportare ricevute, scanner ricevute excel, esportazione spese",
+      "heading": "Ricevute in Excel: dallo scan al foglio",
+      "snippet": "Trasforma ricevute in Excel/CSV in pochi minuti.",
+      "intro": "Per un foglio ordinato, usa campi coerenti (negozio, data, totale), correggi l'OCR e poi esporta in un formato compatibile.",
+      "steps": {
+        "title": "Passaggi",
+        "step1": "Scansiona le ricevute e conferma negozio/data/totale.",
+        "step2": "Correggi errori OCR (tasse, mance, valuta, righe).",
+        "step3": "Categoria le spese per mantenere coerenza.",
+        "step4": "Esporta in Excel/CSV e condividi se necessario."
+      },
+      "pitfalls": {
+        "title": "Errori comuni",
+        "point1": "Valute miste in viaggio",
+        "point2": "Campi IVA/tasse mancanti",
+        "point3": "Categorie incoerenti mese dopo mese"
+      },
+      "faq": {
+        "title": "FAQ",
+        "q1": "FlickAI è gratis per iniziare?",
+        "a1": "Sì — FlickAI è gratis per iniziare.",
+        "q2": "Funziona offline?",
+        "a2": "Sì — puoi scansionare e tracciare offline e sincronizzare più tardi.",
+        "q3": "Posso esportare in Excel?",
+        "a3": "Sì — puoi esportare in formati compatibili come CSV."
+      },
+      "related": {
+        "title": "Correlati"
+      }
+    },
+    "offlineExpenseTracking": {
+      "title": "Tracciamento spese offline: checklist | Guida FlickAI",
+      "description": "Checklist semplice per tracciare spese offline in viaggio, con poca copertura o per flussi privacy-first.",
+      "keywords": "tracciamento spese offline, spese viaggio senza internet, app spese offline, privacy-first spese",
+      "heading": "Tracciamento spese offline (checklist)",
+      "snippet": "Registra spese senza dipendere da internet.",
+      "intro": "Offline significa affidabilità: cattura ricevute e spese subito, poi sincronizza quando vuoi.",
+      "checklist": {
+        "title": "Checklist",
+        "point1": "Verifica che la cattura funzioni senza connessione",
+        "point2": "Standardizza categorie (viaggi, pasti, forniture)",
+        "point3": "Rivedi ogni settimana per trovare errori",
+        "point4": "Esporta backup per archivi o commercialista"
+      },
+      "faq": {
+        "title": "FAQ",
+        "q1": "Perché conta l'offline?",
+        "a1": "Evita ricevute perse e voci mancanti quando il segnale è scarso.",
+        "q2": "È più privato?",
+        "a2": "Spesso sì — un flusso offline-first riduce condivisioni inutili e dà più controllo.",
+        "q3": "Quando sincronizzare?",
+        "a3": "Quando è comodo e sicuro — ad esempio su Wi‑Fi affidabile."
+      },
+      "related": {
+        "title": "Correlati"
+      }
+    },
+    "taxReceiptsChecklist": {
+      "title": "Checklist ricevute per le tasse (freelance) | Guida FlickAI",
+      "description": "Checklist chiara per ricevute pronte per le tasse: cosa catturare, come etichettare e come esportare.",
+      "keywords": "checklist ricevute tasse, organizzare ricevute, detrazioni freelance, ricevute commercialista",
+      "heading": "Checklist ricevute per le tasse",
+      "snippet": "Organizzati per la stagione fiscale.",
+      "intro": "Una buona organizzazione fa risparmiare ore. Usa questa checklist per ricevute complete, ricercabili ed esportabili.",
+      "checklist": {
+        "title": "Checklist",
+        "point1": "Cattura negozio, data, totale e IVA/tasse",
+        "point2": "Aggiungi categoria e nota (cliente/progetto)",
+        "point3": "Conserva copie digitali importanti",
+        "point4": "Esporta mensilmente o trimestralmente",
+        "point5": "Separa spese personali e di lavoro"
+      },
+      "faq": {
+        "title": "FAQ",
+        "q1": "Quali ricevute devo conservare?",
+        "a1": "Conserva ricevute per acquisti legati al lavoro e tutto ciò che vuoi detrarre.",
+        "q2": "Per quanto tempo conservarle?",
+        "a2": "Dipende dal paese — spesso si tengono per diversi anni. Chiedi al commercialista.",
+        "q3": "Posso esportare per il commercialista?",
+        "a3": "Sì — l'export facilita la condivisione di dati organizzati e riduce richieste."
+      },
+      "related": {
+        "title": "Correlati"
+      }
+    }
+  },
+  "integrations": {
+    "index": {
+      "description": "Integra FlickAI nel tuo workflow: export, automazioni e condivisione di scontrini/spese.",
+      "heading": "Integrazioni e workflow",
+      "ideas": {
+        "point1": "Notion: creare una dashboard spese.",
+        "point2": "Zapier: creare task/notifiche dagli export.",
+        "point3": "WhatsApp: condividere scontrini con commercialista o partner.",
+        "title": "Workflow popolari"
+      },
+      "intro": "Nel 2026 ci si aspetta che le app si integrino nei flussi. FlickAI punta su dati portabili ed export per automazioni.",
+      "keywords": "integrazioni tracker spese, esportare spese su Notion, Zapier scanner scontrini, inviare scontrini WhatsApp, automatizzare note spese, workflow finanza 2026",
+      "methods": {
+        "point1": "Esporta le spese (CSV/compatibile Excel).",
+        "point2": "Condividi scontrini e report.",
+        "point3": "Automatizza routine con connettori leggeri.",
+        "title": "Modi comuni per integrare"
+      },
+      "title": "Integrazioni e workflow (2026) | FlickAI"
+    }
+  },
+  "meta": {
+    "lang": "it",
+    "langName": "Italiano",
+    "siteName": "FlickAI",
+    "siteUrl": "https://flickai.net"
+  },
+  "privacy": {
+    "contact": {
+      "content": "Se hai domande su questa informativa sulla privacy o sulle nostre pratiche sulla privacy, contattaci all'indirizzo: support@flickai.net",
+      "title": "5. Contattaci"
+    },
+    "dataCollection": {
+      "contact": "Dati di Contatto: include indirizzo email.",
+      "identity": "Dati Identificativi: include nome, cognome, nome utente o identificativo simile.",
+      "intro": "Potremmo raccogliere, utilizzare, archiviare e trasferire diversi tipi di dati personali su di te che abbiamo raggruppato come segue:",
+      "title": "2. Dati che Raccogliamo",
+      "transaction": "Dati di Transazione: include dettagli sui pagamenti da e verso di te e altri dettagli di prodotti e servizi che hai acquistato da noi.",
+      "usage": "Dati di Utilizzo: include informazioni su come utilizzi il nostro sito web e le nostre applicazioni."
+    },
+    "dataUsage": {
+      "contract": "Quando dobbiamo eseguire il contratto che stiamo per stipulare o abbiamo stipulato con te.",
+      "intro": "Utilizzeremo i tuoi dati personali solo quando la legge ce lo consente. Più comunemente, utilizzeremo i tuoi dati personali nelle seguenti circostanze:",
+      "legal": "Quando dobbiamo rispettare un obbligo legale o normativo.",
+      "legitimate": "Quando è necessario per i nostri interessi legittimi (o quelli di una terza parte) e i tuoi interessi e diritti fondamentali non prevalgono su tali interessi.",
+      "title": "3. Come Utilizziamo i Tuoi Dati"
+    },
+    "description": "Informativa sulla Privacy per FlickAI. Scopri come raccogliamo, utilizziamo e proteggiamo i tuoi dati.",
+    "heading": "Informativa sulla Privacy",
+    "introduction": {
+      "content": "FlickAI (\"noi\", \"nostro\" o \"ci\") rispetta la tua privacy e si impegna a proteggere i tuoi dati personali. Questa informativa sulla privacy ti informerà su come ci prendiamo cura dei tuoi dati personali quando visiti il nostro sito web o utilizzi la nostra applicazione mobile.",
+      "title": "1. Introduzione"
+    },
+    "lastUpdated": "Ultimo aggiornamento: 28 novembre 2025",
+    "security": {
+      "content": "Abbiamo messo in atto misure di sicurezza appropriate per impedire che i tuoi dati personali vengano persi accidentalmente, utilizzati o consultati in modo non autorizzato, alterati o divulgati.",
+      "title": "4. Sicurezza dei Dati"
+    },
+    "title": "Informativa sulla Privacy - FlickAI | Legal"
+  },
+  "terms": {
+    "agreement": {
+      "content": "Accedendo al nostro sito web o utilizzando la nostra applicazione mobile, accetti di essere vincolato da questi Termini di Servizio. Se non accetti questi termini, ti preghiamo di non utilizzare i nostri servizi.",
+      "title": "1. Accettazione dei Termini"
+    },
+    "contact": {
+      "content": "Per risolvere un reclamo riguardante il Sito o per ricevere ulteriori informazioni sull'utilizzo del Sito, contattaci all'indirizzo: support@flickai.net",
+      "title": "5. Contattaci"
+    },
+    "description": "Termini di Servizio per FlickAI. Leggi i nostri termini e condizioni per l'utilizzo dei nostri servizi.",
+    "heading": "Termini di Servizio",
+    "intellectual": {
+      "content": "Salvo diversa indicazione, il Sito e la nostra applicazione mobile sono di nostra proprietà esclusiva e tutto il codice sorgente, i database, le funzionalità, il software, i design del sito web, l'audio, il video, il testo, le fotografie e la grafica sul Sito (collettivamente, il \"Contenuto\") e i marchi, i marchi di servizio e i loghi in essi contenuti (i \"Marchi\") sono di nostra proprietà o controllati da noi o concessi in licenza a noi.",
+      "title": "2. Diritti di Proprietà Intellettuale"
+    },
+    "lastUpdated": "Ultimo aggiornamento: 28 novembre 2025",
+    "prohibited": {
+      "content": "Non puoi accedere o utilizzare il Sito per scopi diversi da quelli per cui rendiamo disponibile il Sito. Il Sito non può essere utilizzato in relazione a iniziative commerciali, ad eccezione di quelle specificamente approvate o sostenute da noi.",
+      "title": "4. Attività Proibite"
+    },
+    "title": "Termini di Servizio - FlickAI | Legal",
+    "userRep": {
+      "content": "Utilizzando il Sito, dichiari e garantisci che: (1) tutte le informazioni di registrazione inviate saranno vere, accurate, attuali e complete; (2) manterrai l'accuratezza di tali informazioni e aggiornerai prontamente tali informazioni di registrazione se necessario.",
+      "title": "3. Dichiarazioni dell'Utente"
+    }
+  },
+  "useCases": {
+    "freelancers": {
+      "description": "Traccia spese professionali, scansiona scontrini e resta pronto per le tasse come freelance. Gratis per iniziare.",
+      "faq": {
+        "a1": "Sì — FlickAI aiuta a organizzare le spese per mantenere registri chiari.",
+        "a2": "Sì — progettato per organizzare scontrini e spese deducibili.",
+        "a3": "Sì — FlickAI è gratis per iniziare.",
+        "q1": "Posso separare spese personali e di lavoro?",
+        "q2": "È utile per le deduzioni?",
+        "q3": "È gratis per iniziare?",
+        "title": "FAQ"
+      },
+      "heading": "Tracker spese per freelance",
+      "intro": "I freelance hanno bisogno di un modo semplice per gestire spese, scontrini e deduzioni.",
+      "keywords": "tracker spese freelance, spese freelance, scontrini freelance, deduzioni freelance, 2026 app spese freelance",
+      "pain": {
+        "point1": "Gli scontrini si perdono o si accumulano.",
+        "point2": "I fogli di calcolo richiedono tempo e sono soggetti a errori.",
+        "point3": "Senza prove, la stagione fiscale diventa stressante.",
+        "title": "Problemi comuni"
+      },
+      "related": {
+        "title": "Correlati"
+      },
+      "solution": {
+        "point1": "Scansione rapida con estrazione IA.",
+        "point2": "Totali per categoria ed esercente.",
+        "point3": "Uso offline quando sei in giro.",
+        "point4": "Gratis per iniziare, upgrade quando serve.",
+        "title": "Come aiuta FlickAI"
+      },
+      "title": "Tracker spese per freelance | FlickAI"
+    },
+    "selfEmployedDeductions": {
+      "basics": {
+        "point1": "Scontrini (esercente, data, totale).",
+        "point2": "Categoria e note.",
+        "point3": "Storico ricercabile ed esportabile.",
+        "title": "Cosa tracciare"
+      },
+      "description": "Traccia spese deducibili e scontrini: scansiona, categorizza ed esporta quando serve. Gratis per iniziare.",
+      "faq": {
+        "a1": "No. È un workflow di tracciamento e archiviazione per restare organizzato.",
+        "a2": "Sì — registra offline e sincronizza dopo.",
+        "a3": "Sì — FlickAI è gratis per iniziare.",
+        "q1": "È consulenza fiscale?",
+        "q2": "Funziona offline?",
+        "q3": "È gratis per iniziare?",
+        "title": "FAQ"
+      },
+      "heading": "Tracciare le deduzioni fiscali degli autonomi",
+      "intro": "Le migliori deduzioni sono quelle supportate da ricevute. Costruisci un archivio ordinato durante l’anno.",
+      "keywords": "deduzioni fiscali autonomi, spese deducibili, scontrini spese lavoro, 2026 tracker spese autonomi",
+      "related": {
+        "title": "Correlati"
+      },
+      "title": "Deduzioni fiscali per autonomi: tracker spese | FlickAI",
+      "workflow": {
+        "step1": "Scansiona e salva gli scontrini man mano.",
+        "step2": "Rivedi categorie e totali ogni mese.",
+        "step3": "Esporta o condividi al momento delle tasse.",
+        "title": "Un flusso semplice"
+      }
+    }
+  },
+  "faqPage": {
+    "title": "FAQ | FlickAI",
+    "description": "Risposte alle domande comuni su FlickAI: tracciamento spese privacy-first, senza sincronizzazione bancaria, modalità offline, scansione scontrini ed export.",
+    "keywords": "FAQ FlickAI, FAQ tracker spese, FAQ scanner scontrini, tracker spese senza sincronizzazione bancaria, tracker spese offline",
+    "heading": "Domande frequenti",
+    "intro": "Risposte rapide alle domande più comuni su FlickAI.",
+    "faq": {
+      "q1": "FlickAI è gratis per iniziare?",
+      "a1": "Sì — FlickAI è gratis per iniziare.",
+      "q2": "Esiste un tracker spese senza sincronizzazione bancaria?",
+      "a2": "Sì — FlickAI funziona senza sincronizzazione bancaria obbligatoria o collegamento del conto.",
+      "q3": "FlickAI funziona offline?",
+      "a3": "Sì. Puoi tracciare spese e scansionare scontrini offline, poi sincronizzare in seguito.",
+      "q4": "Posso scansionare scontrini ed estrarre totali/articoli?",
+      "a4": "Sì — FlickAI supporta la scansione scontrini con IA e l’estrazione dei campi.",
+      "q5": "Posso esportare le spese in Excel/CSV?",
+      "a5": "Sì — puoi esportare i dati in formati compatibili con i fogli di calcolo, come CSV.",
+      "q6": "Vendete i miei dati?",
+      "a6": "No — non vendiamo i tuoi dati."
+    }
+  },
+  "waitlist": {
+    "alreadyJoined": "Sei già nella lista d'attesa!",
+    "button": "Iscriviti alla Lista d'Attesa",
+    "error": "Inserisci un indirizzo email valido",
+    "floatButton": "Unisciti alla Lista",
+    "networkError": "Qualcosa è andato storto. Riprova.",
+    "placeholder": "Inserisci la tua email",
+    "subtitle": "Sii il primo a sapere quando FlickAI verrà lanciata su iOS!",
+    "success": "Grazie! Ti avviseremo al momento del lancio. 🎉",
+    "title": "🚀 Ottieni l'Accesso Anticipato"
+  }
+}
