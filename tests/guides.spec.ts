@@ -42,7 +42,9 @@ test.describe('Guide Pages', () => {
       if (count === 0) {
         const mainText = await mainContent.first().textContent();
         expect(mainText).toBeTruthy();
-        expect(mainText.length).toBeGreaterThan(10);
+        if (mainText) {
+          expect(mainText.length).toBeGreaterThan(10);
+        }
       } else {
         // If guide links exist, at least one should be visible
         expect(count).toBeGreaterThan(0);
@@ -51,7 +53,9 @@ test.describe('Guide Pages', () => {
       // If no main tag, check for any content on page
       const bodyText = await page.locator('body').textContent();
       expect(bodyText).toBeTruthy();
-      expect(bodyText.length).toBeGreaterThan(10);
+      if (bodyText) {
+        expect(bodyText.length).toBeGreaterThan(10);
+      }
     }
   });
 
