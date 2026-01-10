@@ -1,0 +1,35 @@
+---
+import { getCollection } from 'astro:content';
+import BlogLayout from '../../../layouts/BlogLayout.astro';
+
+export async function getStaticPaths() {
+  const guides = await getCollection('guides');
+  
+  return guides.map((guide) => {
+    // Astro creates slugs like "best-receipt-scanning-appses" from "best-receipt-scanning-apps.es.md"
+    // Remove the language suffix without the dot
+    const cleanSlug = guide.slug.replace(/(ar|de|es|fr|hi|id|it|ro|zh)$/, '');
+    
+    return {
+      params: { 
+        lang: guide.data.lang,
+        slug: cleanSlug
+      },
+      props: { guide },
+    };
+  });
+}
+
+const { guide } = Astro.props;
+const { Content } = await guide.render();
+---
+
+<BlogLayout 
+  title={guide.data.title}
+  description={guide.data.description}
+  keywords={guide.data.keywords}
+  lang={guide.data.lang}
+  publishDate={guide.data.publishDate}
+>
+  <Content />
+</BlogLayout>

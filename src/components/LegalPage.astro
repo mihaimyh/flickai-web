@@ -1,0 +1,15 @@
+---
+interface Props {
+  pageKey: 'privacy' | 'terms' | 'cookie' | 'gdpr' | 'accessibility' | 'faqPage';
+  translations: any;
+  lang: string;
+  langPrefix: string;
+}
+
+const { pageKey, translations, lang, langPrefix } = Astro.props;
+const pageData = translations[pageKey] || {};
+const pageUrl = `https://flickai.net${langPrefix}/${pageKey === 'faqPage' ? 'faq.html' : pageKey === 'privacy' ? 'privacy-policy.html' : pageKey === 'terms' ? 'terms-of-service.html' : pageKey === 'cookie' ? 'cookie-policy.html' : pageKey === 'gdpr' ? 'gdpr-compliance.html' : 'accessibility.html'}`;
+
+// This component will be used by legal pages to render content
+// For now, each page will handle its own rendering for flexibility
+---

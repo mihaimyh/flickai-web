@@ -1,0 +1,51 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getTranslations, getLangPrefix } from '../../utils/i18n';
+import '../../styles/global.css';
+
+const translations = getTranslations('en');
+const alternatives = translations.alternatives || {};
+const indexPage = alternatives.index || {};
+const common = translations.common || {};
+const langPrefix = '';
+---
+
+<BaseLayout
+  title={indexPage.title || 'Alternatives - FlickAI'}
+  description={indexPage.description || ''}
+  keywords={indexPage.keywords || ''}
+  lang="en"
+  translations={translations}
+>
+  <main class="container section">
+    <h1 class="section-title">{indexPage.heading || 'Alternatives'}</h1>
+    <div class="legal-content">
+      {indexPage.intro && <p class="mb-4">{indexPage.intro}</p>}
+
+      {indexPage.guides && indexPage.guides.title && (
+        <>
+          <h2 class="mb-4">{indexPage.guides.title}</h2>
+          <ul class="mb-4" style="padding-left: 1.5rem;">
+            <li><a href={`${langPrefix}/alternatives/best-expense-tracker-apps.html`}>{alternatives.bestExpenseTrackers?.heading || 'Best Expense Tracker Apps'}</a></li>
+            <li><a href={`${langPrefix}/alternatives/best-receipt-scanner-apps.html`}>{alternatives.bestReceiptScanners?.heading || 'Best Receipt Scanner Apps'}</a></li>
+            <li><a href={`${langPrefix}/alternatives/expensify-alternatives.html`}>{alternatives.expensify?.heading || 'Expensify Alternatives'}</a></li>
+            <li><a href={`${langPrefix}/alternatives/zoho-expense-alternatives.html`}>{alternatives.zoho?.heading || 'Zoho Expense Alternatives'}</a></li>
+          </ul>
+        </>
+      )}
+
+      {indexPage.howToChoose && indexPage.howToChoose.title && (
+        <>
+          <h2 class="mb-4">{indexPage.howToChoose.title}</h2>
+          <ul class="mb-4" style="padding-left: 1.5rem;">
+            {indexPage.howToChoose.point1 && <li>{indexPage.howToChoose.point1}</li>}
+            {indexPage.howToChoose.point2 && <li>{indexPage.howToChoose.point2}</li>}
+            {indexPage.howToChoose.point3 && <li>{indexPage.howToChoose.point3}</li>}
+          </ul>
+        </>
+      )}
+
+      {indexPage.cta && <p class="mb-4">{indexPage.cta}</p>}
+    </div>
+  </main>
+</BaseLayout>

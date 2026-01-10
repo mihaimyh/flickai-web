@@ -1,0 +1,84 @@
+---
+interface Props {
+  translations?: {
+    common?: {
+      features?: string;
+      alternatives?: string;
+      integrations?: string;
+      guides?: string;
+      backToHome?: string;
+    };
+  };
+  lang?: string;
+  langPrefix?: string;
+}
+
+const {
+  translations = {},
+  lang = 'en',
+  langPrefix = ''
+} = Astro.props;
+
+const common = translations.common || {};
+const featuresLink = langPrefix ? `${langPrefix}/#features` : '/#features';
+const alternativesLink = langPrefix ? `${langPrefix}/alternatives/` : '/alternatives/';
+const integrationsLink = langPrefix ? `${langPrefix}/integrations/` : '/integrations/';
+const guidesLink = langPrefix ? `${langPrefix}/guides/` : '/guides/';
+const homeLink = langPrefix || '/';
+---
+
+<header class="header">
+  <div class="container header-content">
+    <a href={homeLink} class="logo">
+      <span class="logo-text">FlickAI</span>
+    </a>
+    
+    <!-- Desktop Navigation -->
+    <nav class="nav">
+      <a href={featuresLink}>{common.features || 'Features'}</a>
+      <a href={alternativesLink}>{common.alternatives || 'Alternatives'}</a>
+      <a href={integrationsLink}>{common.integrations || 'Integrations'}</a>
+      <a href={guidesLink}>{common.guides || 'Guides'}</a>
+      <a href={homeLink} class="btn btn-primary">{common.backToHome || 'Back to Home'}</a>
+    </nav>
+    
+    <!-- Mobile Hamburger Button -->
+    <button id="hamburger" class="hamburger md:hidden" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  
+  <!-- Mobile Menu Overlay -->
+  <div id="mobile-menu" class="mobile-menu">
+    <nav class="mobile-nav">
+      <a href={featuresLink}>{common.features || 'Features'}</a>
+      <a href={alternativesLink}>{common.alternatives || 'Alternatives'}</a>
+      <a href={integrationsLink}>{common.integrations || 'Integrations'}</a>
+      <a href={guidesLink}>{common.guides || 'Guides'}</a>
+      <a href={homeLink} class="btn btn-primary">{common.backToHome || 'Back to Home'}</a>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobile-menu');
+  
+  hamburger?.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    mobileMenu?.classList.toggle('active');
+    document.body.classList.toggle('menu-open');
+  });
+  
+  // Close menu when clicking a link
+  const mobileLinks = mobileMenu?.querySelectorAll('a');
+  mobileLinks?.forEach(link => {
+    link.addEventListener('click', () => {
+      hamburger?.classList.remove('active');
+      mobileMenu?.classList.remove('active');
+      document.body.classList.remove('menu-open');
+    });
+  });
+</script>

@@ -1,0 +1,110 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getTranslations, getLangPrefix, getLocaleFromParams } from '../../utils/i18n';
+import type { SupportedLocale } from '../../i18n-config';
+import '../../styles/global.css';
+
+export async function getStaticPaths() {
+  const locales: SupportedLocale[] = ['ar', 'de', 'es', 'fr', 'hi', 'id', 'it', 'ro', 'zh'];
+  
+  return locales.map((lang) => ({
+    params: { lang },
+  }));
+}
+
+const { lang } = Astro.params;
+const locale = getLocaleFromParams({ lang });
+const translations = getTranslations(locale);
+const home = translations.home || {};
+const common = translations.common || {};
+const langPrefix = getLangPrefix(locale);
+---
+
+<BaseLayout
+  title={home.title || 'FlickAI - AI-Powered Expense Tracking'}
+  description={home.description || 'Simplify expense tracking with FlickAI\'s AI-powered receipt scanning. Track finances effortlessly.'}
+  keywords={home.keywords || 'expense tracker, receipt scanner, AI finance, budget app, personal finance'}
+  ogTitle={home.ogTitle || home.title}
+  ogDescription={home.ogDescription || home.description}
+  lang={locale}
+  translations={translations}
+>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text fade-in">
+        <h1>{home.hero?.title || 'AI-Powered Expense Tracking & Receipt Scanning'}</h1>
+        <p>{home.hero?.subtitle || 'Effortlessly track your finances with intelligent receipt scanning and automated insights. Let AI handle the boring stuff.'}</p>
+        <div class="hero-buttons">
+          <a href="#download" class="btn btn-primary">{home.hero?.getStarted || 'Free to start'}</a>
+          <a href="#features" class="btn btn-secondary">{home.hero?.learnMore || 'Learn More'}</a>
+        </div>
+      </div>
+      <div class="hero-image fade-in">
+        <!-- Hero image is handled via CSS background on the section -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="section features">
+    <div class="container">
+      <h2 class="section-title text-center fade-in">{home.features?.title || 'Why Choose FlickAI?'}</h2>
+      <div class="features-grid">
+        <a href={`${langPrefix}/features/receipt-scanning.html`} class="feature-card fade-in">
+          <div class="feature-icon">📸</div>
+          <h3>{home.features?.scanning?.title || 'Smart Receipt Scanning'}</h3>
+          <p>
+            {home.features?.scanning?.description || 'Instantly extract merchant, items, and prices using advanced AI technology.'} <strong>{common.learnMore || 'Learn more'} →</strong>
+          </p>
+        </a>
+        <a href={`${langPrefix}/features/analytics.html`} class="feature-card fade-in">
+          <div class="feature-icon">📊</div>
+          <h3>{home.features?.analytics?.title || 'Intelligent Analytics'}</h3>
+          <p>
+            {home.features?.analytics?.description || 'Visualize spending trends and get personalized financial insights in your language.'} <strong>{common.learnMore || 'Learn more'} →</strong>
+          </p>
+        </a>
+        <a href={`${langPrefix}/features/security.html`} class="feature-card fade-in">
+          <div class="feature-icon">🔒</div>
+          <h3>{home.features?.security?.title || 'Bank-Level Security'}</h3>
+          <p>
+            {home.features?.security?.description || 'Your data is protected with end-to-end encryption and secure authentication.'} <strong>{common.learnMore || 'Learn more'} →</strong>
+          </p>
+        </a>
+        <a href={`${langPrefix}/features/offline-expense-tracker.html`} class="feature-card fade-in">
+          <div class="feature-icon">☁️</div>
+          <h3>{home.features?.offline?.title || 'Offline & Sync'}</h3>
+          <p>
+            {home.features?.offline?.description || 'Works perfectly offline. Changes sync automatically when you\'re back online.'} <strong>{common.learnMore || 'Learn more'} →</strong>
+          </p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download Section -->
+  <section id="download" class="section download">
+    <div class="container text-center">
+      <h2 class="fade-in">{home.download?.title || 'Start Tracking Today'}</h2>
+      <p class="fade-in mb-8">{home.download?.subtitle || 'Join thousands of users taking control of their finances with FlickAI.'}</p>
+      <div class="download-buttons fade-in">
+        <a href="https://play.google.com/store/apps/details?id=com.snapspendai" class="store-button google-play" target="_blank" rel="noopener noreferrer">
+          <svg class="store-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+            <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.84L14.5,12.81L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.5,12.92 20.16,13.19L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.16L16.81,8.88L14.5,11.19L6.05,2.16Z" />
+          </svg>
+          {home.download?.googlePlay || 'Google Play'}
+        </a>
+        <div class="store-button app-store disabled" style="cursor: default;">
+          <svg class="store-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+            <path d="M18.71,19.5C17.88,20.74 17,21.95 15.66,21.97C14.32,22 13.89,21.18 12.37,21.18C10.84,21.18 10.37,21.95 9.1,22C7.79,22.05 6.8,20.68 5.96,19.47C4.25,17 2.94,12.45 4.7,9.39C5.57,7.87 7.13,6.91 8.82,6.88C10.1,6.86 11.32,7.75 12.11,7.75C12.89,7.75 14.37,6.68 15.92,6.84C16.57,6.87 18.39,7.1 19.56,8.82C19.47,8.88 17.39,10.1 17.41,12.63C17.44,15.65 20.06,16.66 20.09,16.67C20.06,16.74 19.67,18.11 18.71,19.5M13,3.5C13.73,2.67 14.94,2.04 15.94,2C16.07,3.17 15.6,4.35 14.9,5.19C14.21,6.04 13.07,6.7 11.95,6.61C11.8,5.37 12.36,4.26 13,3.5Z" />
+          </svg>
+          {home.download?.appStore || 'App Store'}
+        </div>
+      </div>
+      <p class="fade-in" style="margin-top: 2rem; color: var(--text-muted); font-size: 0.95rem;">
+        {home.download?.waitlistNote || 'Click the "Join Waitlist" button to get early access! 🚀'}
+      </p>
+    </div>
+  </section>
+</BaseLayout>

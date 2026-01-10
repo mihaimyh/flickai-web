@@ -1,0 +1,67 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getTranslations } from '../utils/i18n';
+import { buildPageSchema } from '../utils/schema';
+
+const translations = getTranslations('en');
+const cookie = translations.cookie || {};
+const pageUrl = 'https://flickai.net/cookie-policy.html';
+const breadcrumbs = [
+  { name: 'FlickAI', url: 'https://flickai.net/' },
+  { name: cookie.heading || 'Cookie Policy', url: pageUrl }
+];
+const schema = buildPageSchema(pageUrl, cookie.title || 'Cookie Policy', cookie.description || '', 'en', breadcrumbs);
+---
+
+<BaseLayout
+  title={cookie.title || 'Cookie Policy - FlickAI | Legal'}
+  description={cookie.description || ''}
+  keywords={translations.home?.keywords || ''}
+  lang="en"
+  translations={translations}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+    <meta name="robots" content="noindex, follow" />
+  </Fragment>
+
+  <main class="container section">
+    <h1 class="section-title">{cookie.heading || 'Cookie Policy'}</h1>
+    <div class="legal-content">
+      {cookie.lastUpdated && <p class="mb-4">{cookie.lastUpdated}</p>}
+
+      {cookie.whatAre && cookie.whatAre.title && (
+        <>
+          <h2 class="mb-4">{cookie.whatAre.title}</h2>
+          {cookie.whatAre.content && <p class="mb-4">{cookie.whatAre.content}</p>}
+        </>
+      )}
+
+      {cookie.howWeUse && cookie.howWeUse.title && (
+        <>
+          <h2 class="mb-4">{cookie.howWeUse.title}</h2>
+          {cookie.howWeUse.intro && <p class="mb-4">{cookie.howWeUse.intro}</p>}
+          <ul class="mb-4" style="padding-left: 1.5rem;">
+            {cookie.howWeUse.essential && <li>{cookie.howWeUse.essential}</li>}
+            {cookie.howWeUse.functionality && <li>{cookie.howWeUse.functionality}</li>}
+            {cookie.howWeUse.analytics && <li>{cookie.howWeUse.analytics}</li>}
+          </ul>
+        </>
+      )}
+
+      {cookie.disabling && cookie.disabling.title && (
+        <>
+          <h2 class="mb-4">{cookie.disabling.title}</h2>
+          {cookie.disabling.content && <p class="mb-4">{cookie.disabling.content}</p>}
+        </>
+      )}
+
+      {cookie.contact && cookie.contact.title && (
+        <>
+          <h2 class="mb-4">{cookie.contact.title}</h2>
+          {cookie.contact.content && <p class="mb-4">{cookie.contact.content}</p>}
+        </>
+      )}
+    </div>
+  </main>
+</BaseLayout>

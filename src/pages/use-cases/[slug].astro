@@ -1,0 +1,109 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getTranslations, getLangPrefix } from '../../utils/i18n';
+import { getUseCaseKey, isValidUseCaseSlug, getUseCaseSlugs } from '../../utils/use-cases';
+
+export async function getStaticPaths() {
+  const slugs = getUseCaseSlugs();
+  
+  return slugs.map((slug) => ({
+    params: { slug },
+  }));
+}
+
+const { slug } = Astro.params;
+
+if (!slug || !isValidUseCaseSlug(slug)) {
+  return Astro.redirect('/404');
+}
+
+const useCaseKey = getUseCaseKey(slug)!;
+const translations = getTranslations('en');
+const useCases = translations.useCases || {};
+const useCase = useCases[useCaseKey] || {};
+const langPrefix = '';
+---
+
+<BaseLayout
+  title={useCase.title || `Use Case - ${slug}`}
+  description={useCase.description || ''}
+  keywords={useCase.keywords || ''}
+  lang="en"
+  translations={translations}
+>
+  <main class="container section">
+    <h1 class="section-title">{useCase.heading || useCase.title || 'Use Case'}</h1>
+    <div class="legal-content">
+      {useCase.intro && <p class="mb-4">{useCase.intro}</p>}
+
+      {useCase.pain && useCase.pain.title && (
+        <>
+          <h2 class="mb-4">{useCase.pain.title}</h2>
+          <ul class="mb-4" style="padding-left: 1.5rem;">
+            {useCase.pain.point1 && <li>{useCase.pain.point1}</li>}
+            {useCase.pain.point2 && <li>{useCase.pain.point2}</li>}
+            {useCase.pain.point3 && <li>{useCase.pain.point3}</li>}
+          </ul>
+        </>
+      )}
+
+      {useCase.solution && useCase.solution.title && (
+        <>
+          <h2 class="mb-4">{useCase.solution.title}</h2>
+          <ul class="mb-4" style="padding-left: 1.5rem;">
+            {useCase.solution.point1 && <li>{useCase.solution.point1}</li>}
+            {useCase.solution.point2 && <li>{useCase.solution.point2}</li>}
+            {useCase.solution.point3 && <li>{useCase.solution.point3}</li>}
+            {useCase.solution.point4 && <li>{useCase.solution.point4}</li>}
+          </ul>
+        </>
+      )}
+
+      {useCase.basics && useCase.basics.title && (
+        <>
+          <h2 class="mb-4">{useCase.basics.title}</h2>
+          <ul class="mb-4" style="padding-left: 1.5rem;">
+            {useCase.basics.point1 && <li>{useCase.basics.point1}</li>}
+            {useCase.basics.point2 && <li>{useCase.basics.point2}</li>}
+            {useCase.basics.point3 && <li>{useCase.basics.point3}</li>}
+          </ul>
+        </>
+      )}
+
+      {useCase.workflow && useCase.workflow.title && (
+        <>
+          <h2 class="mb-4">{useCase.workflow.title}</h2>
+          <ol class="mb-4" style="padding-left: 1.5rem;">
+            {useCase.workflow.step1 && <li>{useCase.workflow.step1}</li>}
+            {useCase.workflow.step2 && <li>{useCase.workflow.step2}</li>}
+            {useCase.workflow.step3 && <li>{useCase.workflow.step3}</li>}
+            {useCase.workflow.step4 && <li>{useCase.workflow.step4}</li>}
+          </ol>
+        </>
+      )}
+
+      {useCase.faq && useCase.faq.title && (
+        <>
+          <h2 class="mb-4">{useCase.faq.title}</h2>
+          <div class="mb-4">
+            {useCase.faq.q1 && (
+              <p class="mb-4"><strong>{useCase.faq.q1}</strong><br/>{useCase.faq.a1 || ''}</p>
+            )}
+            {useCase.faq.q2 && (
+              <p class="mb-4"><strong>{useCase.faq.q2}</strong><br/>{useCase.faq.a2 || ''}</p>
+            )}
+            {useCase.faq.q3 && (
+              <p class="mb-4"><strong>{useCase.faq.q3}</strong><br/>{useCase.faq.a3 || ''}</p>
+            )}
+          </div>
+        </>
+      )}
+
+      {useCase.related && useCase.related.title && (
+        <>
+          <h2 class="mb-4">{useCase.related.title}</h2>
+        </>
+      )}
+    </div>
+  </main>
+</BaseLayout>

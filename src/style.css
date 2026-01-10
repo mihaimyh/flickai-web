@@ -75,11 +75,78 @@
   }
 
   .nav {
-    @apply hidden md:flex gap-6 lg:gap-10 items-center flex-nowrap whitespace-nowrap overflow-x-auto;
+    @apply hidden md:flex gap-6 lg:gap-10 items-center flex-nowrap whitespace-nowrap;
   }
 
   .nav a:not(.btn) {
     @apply font-medium text-text-muted transition-colors hover:text-primary text-[0.95rem] dark:text-dark-muted;
+  }
+
+  /* Hamburger Menu Button */
+  .hamburger {
+    @apply flex flex-col gap-1.5 p-2 cursor-pointer bg-transparent border-none relative z-[60];
+  }
+
+  .hamburger span {
+    @apply block w-6 h-0.5 bg-text-main transition-all duration-300 dark:bg-dark-text;
+  }
+
+  .hamburger.active span:nth-child(1) {
+    @apply rotate-45 translate-y-2;
+  }
+
+  .hamburger.active span:nth-child(2) {
+    @apply opacity-0;
+  }
+
+  .hamburger.active span:nth-child(3) {
+    @apply -rotate-45 -translate-y-2;
+  }
+
+  /* Mobile Menu Overlay */
+  .mobile-menu {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff !important;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    z-index: 40;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .mobile-menu {
+      background-color: #111827 !important;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .mobile-menu {
+      display: none;
+    }
+  }
+
+  .mobile-menu.active {
+    @apply translate-x-0;
+  }
+
+  .mobile-nav {
+    @apply flex flex-col gap-6 p-8 pt-12;
+  }
+
+  .mobile-nav a:not(.btn) {
+    @apply font-medium text-xl text-text-main transition-colors hover:text-primary dark:text-dark-text;
+  }
+
+  .mobile-nav .btn {
+    @apply w-full justify-center mt-4;
+  }
+
+  /* Prevent body scroll when menu is open */
+  body.menu-open {
+    @apply overflow-hidden;
   }
 
   .hero {

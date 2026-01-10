@@ -1,0 +1,75 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getTranslations, getLangPrefix, getLocaleFromParams } from '../../utils/i18n';
+import { buildPageSchema } from '../../utils/schema';
+import type { SupportedLocale } from '../../i18n-config';
+
+export async function getStaticPaths() {
+  const locales: SupportedLocale[] = ['ar', 'de', 'es', 'fr', 'hi', 'id', 'it', 'ro', 'zh'];
+  
+  return locales.map((lang) => ({
+    params: { lang },
+  }));
+}
+
+const { lang } = Astro.params;
+const locale = getLocaleFromParams({ lang });
+const translations = getTranslations(locale);
+const gdpr = translations.gdpr || {};
+const langPrefix = getLangPrefix(locale);
+const pageUrl = `https://flickai.net${langPrefix}/gdpr-compliance.html`;
+const breadcrumbs = [
+  { name: 'FlickAI', url: 'https://flickai.net/' },
+  { name: gdpr.heading || 'GDPR Compliance', url: pageUrl }
+];
+const schema = buildPageSchema(pageUrl, gdpr.title || 'GDPR Compliance', gdpr.description || '', locale, breadcrumbs);
+---
+
+<BaseLayout
+  title={gdpr.title || 'GDPR Compliance - FlickAI | Legal'}
+  description={gdpr.description || ''}
+  keywords={translations.home?.keywords || ''}
+  lang={locale}
+  translations={translations}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+    <meta name="robots" content="noindex, follow" />
+  </Fragment>
+
+  <main class="container section">
+    <h1 class="section-title">{gdpr.heading || 'GDPR Compliance'}</h1>
+    <div class="legal-content">
+      {gdpr.lastUpdated && <p class="mb-4">{gdpr.lastUpdated}</p>}
+
+      {gdpr.rights && gdpr.rights.title && (
+        <>
+          <h2 class="mb-4">{gdpr.rights.title}</h2>
+          {gdpr.rights.intro && <p class="mb-4">{gdpr.rights.intro}</p>}
+          <ul class="mb-4" style="padding-left: 1.5rem;">
+            {gdpr.rights.access && <li>{gdpr.rights.access}</li>}
+            {gdpr.rights.rectification && <li>{gdpr.rights.rectification}</li>}
+            {gdpr.rights.erasure && <li>{gdpr.rights.erasure}</li>}
+            {gdpr.rights.restrict && <li>{gdpr.rights.restrict}</li>}
+            {gdpr.rights.portability && <li>{gdpr.rights.portability}</li>}
+            {gdpr.rights.object && <li>{gdpr.rights.object}</li>}
+          </ul>
+        </>
+      )}
+
+      {gdpr.processing && gdpr.processing.title && (
+        <>
+          <h2 class="mb-4">{gdpr.processing.title}</h2>
+          {gdpr.processing.content && <p class="mb-4">{gdpr.processing.content}</p>}
+        </>
+      )}
+
+      {gdpr.contact && gdpr.contact.title && (
+        <>
+          <h2 class="mb-4">{gdpr.contact.title}</h2>
+          {gdpr.contact.content && <p class="mb-4">{gdpr.contact.content}</p>}
+        </>
+      )}
+    </div>
+  </main>
+</BaseLayout>

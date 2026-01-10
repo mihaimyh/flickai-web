@@ -1,0 +1,43 @@
+---
+interface Props {
+  translations?: {
+    common?: {
+      guides?: string;
+      alternatives?: string;
+      copyright?: string;
+    };
+    footer?: {
+      privacyPolicy?: string;
+      termsOfService?: string;
+      cookiePolicy?: string;
+    };
+  };
+  langPrefix?: string;
+}
+
+const {
+  translations = {},
+  langPrefix = ''
+} = Astro.props;
+
+const common = translations.common || {};
+const footer = translations.footer || {};
+const guidesLink = langPrefix ? `${langPrefix}/guides/` : '/guides/';
+const alternativesLink = langPrefix ? `${langPrefix}/alternatives/` : '/alternatives/';
+const privacyLink = langPrefix ? `${langPrefix}/privacy-policy.html` : '/privacy-policy.html';
+const termsLink = langPrefix ? `${langPrefix}/terms-of-service.html` : '/terms-of-service.html';
+const cookieLink = langPrefix ? `${langPrefix}/cookie-policy.html` : '/cookie-policy.html';
+---
+
+<footer class="footer">
+  <div class="container footer-content">
+    <div class="footer-links">
+      <a href={guidesLink}>{common.guides || 'Guides'}</a>
+      <a href={alternativesLink}>{common.alternatives || 'Alternatives'}</a>
+      <a href={privacyLink}>{footer.privacyPolicy || 'Privacy Policy'}</a>
+      <a href={termsLink}>{footer.termsOfService || 'Terms of Service'}</a>
+      <a href={cookieLink}>{footer.cookiePolicy || 'Cookie Policy'}</a>
+    </div>
+    <p class="copyright">{common.copyright || '© 2025 FlickAI. All rights reserved.'}</p>
+  </div>
+</footer>

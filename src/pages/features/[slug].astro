@@ -1,0 +1,263 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getTranslations, getLangPrefix } from '../../utils/i18n';
+import { getFeatureKey, isValidFeatureSlug, getFeatureSlugs } from '../../utils/features';
+import type { SupportedLocale } from '../../i18n-config';
+
+export async function getStaticPaths() {
+  const slugs = getFeatureSlugs();
+  
+  return slugs.map((slug) => ({
+    params: { slug },
+  }));
+}
+
+const { slug } = Astro.params;
+
+if (!slug || !isValidFeatureSlug(slug)) {
+  return Astro.redirect('/404');
+}
+
+const featureKey = getFeatureKey(slug)!;
+const translations = getTranslations('en');
+const features = translations.features || {};
+const feature = features[featureKey] || {};
+const common = translations.common || {};
+const langPrefix = '';
+---
+
+<BaseLayout
+  title={feature.title || `Feature - ${slug}`}
+  description={feature.description || ''}
+  keywords={feature.keywords || translations.home?.keywords || ''}
+  lang="en"
+  translations={translations}
+>
+  <main class="container section">
+    <div class="feature-detail">
+      <div class="feature-text fade-in">
+        <h1 class="section-title">{feature.heading || feature.title || 'Feature'}</h1>
+        {feature.intro && <p class="mb-4">{feature.intro}</p>}
+
+        {feature.howItWorks && (
+          <>
+            <h2 class="mb-4">{feature.howItWorks.title}</h2>
+            {feature.howItWorks.step1 && (
+              <ol class="mb-4" style="padding-left: 1.5rem;">
+                {feature.howItWorks.step1 && <li>{feature.howItWorks.step1}</li>}
+                {feature.howItWorks.step2 && <li>{feature.howItWorks.step2}</li>}
+                {feature.howItWorks.step3 && <li>{feature.howItWorks.step3}</li>}
+                {feature.howItWorks.step4 && <li>{feature.howItWorks.step4}</li>}
+              </ol>
+            )}
+          </>
+        )}
+
+        {feature.whatWeExtract && (
+          <>
+            <h2 class="mb-4">{feature.whatWeExtract.title}</h2>
+            <ul class="mb-4" style="padding-left: 1.5rem;">
+              {feature.whatWeExtract.merchant && <li><strong>{feature.whatWeExtract.merchant}</strong></li>}
+              {feature.whatWeExtract.dateTime && <li><strong>{feature.whatWeExtract.dateTime}</strong></li>}
+              {feature.whatWeExtract.total && <li><strong>{feature.whatWeExtract.total}</strong></li>}
+              {feature.whatWeExtract.items && <li><strong>{feature.whatWeExtract.items}</strong></li>}
+            </ul>
+          </>
+        )}
+
+        {feature.visualTrends && (
+          <>
+            <h2 class="mb-4">{feature.visualTrends.title}</h2>
+            {feature.visualTrends.intro && <p class="mb-4">{feature.visualTrends.intro}</p>}
+            <ul class="mb-4" style="padding-left: 1.5rem;">
+              {feature.visualTrends.categoryBreakdown && <li><strong>{feature.visualTrends.categoryBreakdown}</strong></li>}
+              {feature.visualTrends.monthlyTrends && <li><strong>{feature.visualTrends.monthlyTrends}</strong></li>}
+              {feature.visualTrends.merchantAnalysis && <li><strong>{feature.visualTrends.merchantAnalysis}</strong></li>}
+            </ul>
+          </>
+        )}
+
+        {feature.aiInsights && (
+          <>
+            <h2 class="mb-4">{feature.aiInsights.title}</h2>
+            {feature.aiInsights.intro && <p class="mb-4">{feature.aiInsights.intro}</p>}
+            {feature.aiInsights.example && (
+              <blockquote style="border-left: 4px solid var(--primary); padding-left: 1rem; font-style: italic; color: var(--text-muted); margin-bottom: 1rem;">
+                {feature.aiInsights.example}
+              </blockquote>
+            )}
+          </>
+        )}
+
+        {feature.measures && (
+          <>
+            <h2 class="mb-4">{feature.measures.title}</h2>
+            <ul class="mb-4" style="padding-left: 1.5rem;">
+              {feature.measures.encryption && <li><strong>{feature.measures.encryption}</strong></li>}
+              {feature.measures.auth && <li><strong>{feature.measures.auth}</strong></li>}
+              {feature.measures.privacy && <li><strong>{feature.measures.privacy}</strong></li>}
+              {feature.measures.compliance && <li><strong>{feature.measures.compliance}</strong></li>}
+            </ul>
+          </>
+        )}
+
+        {feature.steps && (
+          <>
+            <h2 class="mb-4">{feature.steps.title}</h2>
+            <ol class="mb-4" style="padding-left: 1.5rem;">
+              {feature.steps.step1 && <li>{feature.steps.step1}</li>}
+              {feature.steps.step2 && <li>{feature.steps.step2}</li>}
+              {feature.steps.step3 && <li>{feature.steps.step3}</li>}
+              {feature.steps.step4 && <li>{feature.steps.step4}</li>}
+            </ol>
+          </>
+        )}
+
+        {feature.how && (
+          <>
+            <h2 class="mb-4">{feature.how.title}</h2>
+            <ol class="mb-4" style="padding-left: 1.5rem;">
+              {feature.how.step1 && <li>{feature.how.step1}</li>}
+              {feature.how.step2 && <li>{feature.how.step2}</li>}
+              {feature.how.step3 && <li>{feature.how.step3}</li>}
+            </ol>
+          </>
+        )}
+
+        {feature.why && (
+          <>
+            <h2 class="mb-4">{feature.why.title}</h2>
+            <ul class="mb-4" style="padding-left: 1.5rem;">
+              {feature.why.point1 && <li>{feature.why.point1}</li>}
+              {feature.why.point2 && <li>{feature.why.point2}</li>}
+              {feature.why.point3 && <li>{feature.why.point3}</li>}
+            </ul>
+          </>
+        )}
+
+        {feature.what && (
+          <>
+            <h2 class="mb-4">{feature.what.title}</h2>
+            <ul class="mb-4" style="padding-left: 1.5rem;">
+              {feature.what.point1 && <li>{feature.what.point1}</li>}
+              {feature.what.point2 && <li>{feature.what.point2}</li>}
+              {feature.what.point3 && <li>{feature.what.point3}</li>}
+            </ul>
+          </>
+        )}
+
+        {feature.voice && (
+          <>
+            <h2 class="mb-4">{feature.voice.title}</h2>
+            <ul class="mb-4" style="padding-left: 1.5rem;">
+              {feature.voice.example1 && <li>"{feature.voice.example1}"</li>}
+              {feature.voice.example2 && <li>"{feature.voice.example2}"</li>}
+              {feature.voice.example3 && <li>"{feature.voice.example3}"</li>}
+            </ul>
+          </>
+        )}
+
+        {feature.questions && (
+          <>
+            <h2 class="mb-4">{feature.questions.title}</h2>
+            <ul class="mb-4" style="padding-left: 1.5rem;">
+              {feature.questions.q1 && <li>"{feature.questions.q1}"</li>}
+              {feature.questions.q2 && <li>"{feature.questions.q2}"</li>}
+              {feature.questions.q3 && <li>"{feature.questions.q3}"</li>}
+              {feature.questions.q4 && <li>"{feature.questions.q4}"</li>}
+            </ul>
+          </>
+        )}
+
+        {feature.checklist && (
+          <>
+            <h2 class="mb-4">{feature.checklist.title}</h2>
+            <ul class="mb-4" style="padding-left: 1.5rem;">
+              {feature.checklist.point1 && <li>{feature.checklist.point1}</li>}
+              {feature.checklist.point2 && <li>{feature.checklist.point2}</li>}
+              {feature.checklist.point3 && <li>{feature.checklist.point3}</li>}
+              {feature.checklist.point4 && <li>{feature.checklist.point4}</li>}
+            </ul>
+          </>
+        )}
+
+        {feature.bestFor && (
+          <>
+            <h2 class="mb-4">{feature.bestFor.title}</h2>
+            <ul class="mb-4" style="padding-left: 1.5rem;">
+              {feature.bestFor.point1 && <li>{feature.bestFor.point1}</li>}
+              {feature.bestFor.point2 && <li>{feature.bestFor.point2}</li>}
+              {feature.bestFor.point3 && <li>{feature.bestFor.point3}</li>}
+            </ul>
+          </>
+        )}
+
+        {feature.pitfalls && (
+          <>
+            <h2 class="mb-4">{feature.pitfalls.title}</h2>
+            <ul class="mb-4" style="padding-left: 1.5rem;">
+              {feature.pitfalls.point1 && <li>{feature.pitfalls.point1}</li>}
+              {feature.pitfalls.point2 && <li>{feature.pitfalls.point2}</li>}
+              {feature.pitfalls.point3 && <li>{feature.pitfalls.point3}</li>}
+            </ul>
+          </>
+        )}
+
+        {feature.faq && (
+          <>
+            <h2 class="mb-4">{feature.faq.title}</h2>
+            <dl class="mb-4" style="padding-left: 1.5rem;">
+              {feature.faq.q1 && (
+                <>
+                  <dt style="font-weight: bold; margin-top: 1rem;"><strong>{feature.faq.q1}</strong></dt>
+                  {feature.faq.a1 && <dd style="margin-left: 1rem; margin-bottom: 0.5rem;">{feature.faq.a1}</dd>}
+                </>
+              )}
+              {feature.faq.q2 && (
+                <>
+                  <dt style="font-weight: bold; margin-top: 1rem;"><strong>{feature.faq.q2}</strong></dt>
+                  {feature.faq.a2 && <dd style="margin-left: 1rem; margin-bottom: 0.5rem;">{feature.faq.a2}</dd>}
+                </>
+              )}
+              {feature.faq.q3 && (
+                <>
+                  <dt style="font-weight: bold; margin-top: 1rem;"><strong>{feature.faq.q3}</strong></dt>
+                  {feature.faq.a3 && <dd style="margin-left: 1rem; margin-bottom: 0.5rem;">{feature.faq.a3}</dd>}
+                </>
+              )}
+              {feature.faq.q4 && (
+                <>
+                  <dt style="font-weight: bold; margin-top: 1rem;"><strong>{feature.faq.q4}</strong></dt>
+                  {feature.faq.a4 && <dd style="margin-left: 1rem; margin-bottom: 0.5rem;">{feature.faq.a4}</dd>}
+                </>
+              )}
+              {feature.faq.q5 && (
+                <>
+                  <dt style="font-weight: bold; margin-top: 1rem;"><strong>{feature.faq.q5}</strong></dt>
+                  {feature.faq.a5 && <dd style="margin-left: 1rem; margin-bottom: 0.5rem;">{feature.faq.a5}</dd>}
+                </>
+              )}
+            </dl>
+          </>
+        )}
+
+        {feature.related && feature.related.title && (
+          <>
+            <h2 class="mb-4">{feature.related.title}</h2>
+            {/* Related links can be added per feature as needed */}
+          </>
+        )}
+      </div>
+      <div class="feature-image fade-in">
+        <img 
+          src={`/images/feature-${slug}.png`} 
+          alt={feature.description || `Feature: ${feature.heading || slug}`}
+          width="800" 
+          height="600" 
+          loading="lazy"
+          style="border-radius: 1rem; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);"
+        />
+      </div>
+    </div>
+  </main>
+</BaseLayout>

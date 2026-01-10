@@ -1,0 +1,44 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const guides = await getCollection('guides');
+---
+
+<BaseLayout
+  title="Expense Tracking & Receipt Scanning Guides | FlickAI"
+  description="Practical how-to guides for receipt scanning, offline expense tracking, and tax-ready exports. Free to start."
+  keywords="receipt to excel, export receipts to csv, offline expense tracking, tax receipt checklist, receipt scanner tips"
+>
+  <div class="container section">
+    <h1 class="section-title">Guides</h1>
+    <div class="legal-content">
+      <p class="mb-4">Simple, practical guides to help you scan receipts, track expenses offline, and stay tax-ready.</p>
+
+      <h2 class="mb-4">Popular guides</h2>
+      <ul class="mb-4" style="padding-left: 1.5rem;">
+        {guides.map((guide) => {
+          // Remove language suffix from slug (no dot in Astro's generated slugs)
+          const cleanSlug = guide.slug.replace(/(ar|de|es|fr|hi|id|it|ro|zh)$/, '');
+          const url = guide.data.lang === 'en' 
+            ? `/guides/${cleanSlug}`
+            : `/${guide.data.lang}/guides/${cleanSlug}`;
+          
+          return (
+            <li>
+              <a href={url}>{guide.data.title}</a>
+              {guide.data.lang !== 'en' && <span class="text-sm text-gray-500"> ({guide.data.lang})</span>}
+              — {guide.data.description}
+            </li>
+          );
+        })}
+      </ul>
+
+      <p class="mb-4">FlickAI is free to start — built for offline, privacy-first receipt scanning and expense tracking.</p>
+      <p>
+        <a href="/alternatives/">Top Alternatives (2025–2026)</a>
+        · <a href="/integrations/">Integrations & Workflows</a>
+      </p>
+    </div>
+  </div>
+</BaseLayout>

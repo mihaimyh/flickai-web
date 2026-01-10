@@ -1,0 +1,56 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getTranslations } from '../utils/i18n';
+import { buildPageSchema } from '../utils/schema';
+
+const translations = getTranslations('en');
+const accessibility = translations.accessibility || {};
+const pageUrl = 'https://flickai.net/accessibility.html';
+const breadcrumbs = [
+  { name: 'FlickAI', url: 'https://flickai.net/' },
+  { name: accessibility.heading || 'Accessibility Statement', url: pageUrl }
+];
+const schema = buildPageSchema(pageUrl, accessibility.title || 'Accessibility Statement', accessibility.description || '', 'en', breadcrumbs);
+---
+
+<BaseLayout
+  title={accessibility.title || 'Accessibility Statement - FlickAI | Legal'}
+  description={accessibility.description || ''}
+  keywords={translations.home?.keywords || ''}
+  lang="en"
+  translations={translations}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+    <meta name="robots" content="noindex, follow" />
+  </Fragment>
+
+  <main class="container section">
+    <h1 class="section-title">{accessibility.heading || 'Accessibility Statement'}</h1>
+    <div class="legal-content">
+      {accessibility.lastUpdated && <p class="mb-4">{accessibility.lastUpdated}</p>}
+
+      {accessibility.commitment && accessibility.commitment.title && (
+        <>
+          <h2 class="mb-4">{accessibility.commitment.title}</h2>
+          {accessibility.commitment.content && <p class="mb-4">{accessibility.commitment.content}</p>}
+        </>
+      )}
+
+      {accessibility.conformance && accessibility.conformance.title && (
+        <>
+          <h2 class="mb-4">{accessibility.conformance.title}</h2>
+          {accessibility.conformance.content && <p class="mb-4">{accessibility.conformance.content}</p>}
+        </>
+      )}
+
+      {accessibility.feedback && accessibility.feedback.title && (
+        <>
+          <h2 class="mb-4">{accessibility.feedback.title}</h2>
+          {accessibility.feedback.intro && <p class="mb-4">{accessibility.feedback.intro}</p>}
+          {accessibility.feedback.email && <p class="mb-4">{accessibility.feedback.email}</p>}
+        </>
+      )}
+    </div>
+  </main>
+</BaseLayout>

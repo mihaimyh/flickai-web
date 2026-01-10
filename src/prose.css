@@ -1,0 +1,135 @@
+/* Add Tailwind Typography-like prose styles */
+@layer components {
+  .prose {
+    @apply text-text-main;
+    font-size: 1.125rem;
+    line-height: 1.75;
+    max-width: 65ch;
+  }
+
+  .prose p {
+    @apply mb-6;
+  }
+
+  .prose h1 {
+    @apply text-4xl md:text-5xl font-bold mb-6 mt-12 text-text-main;
+    font-family: "Outfit", sans-serif;
+  }
+
+  .prose h2 {
+    @apply text-3xl md:text-4xl font-bold mb-5 mt-10 text-text-main;
+    font-family: "Outfit", sans-serif;
+  }
+
+  .prose h3 {
+    @apply text-2xl md:text-3xl font-bold mb-4 mt-8 text-text-main;
+    font-family: "Outfit", sans-serif;
+  }
+
+  .prose h4 {
+    @apply text-xl font-semibold mb-3 mt-6 text-text-main;
+  }
+
+  .prose ul,
+  .prose ol {
+    @apply mb-6 pl-6;
+  }
+
+  .prose ul {
+    @apply list-disc;
+  }
+
+  .prose ol {
+    @apply list-decimal;
+  }
+
+  .prose li {
+    @apply mb-2;
+  }
+
+  .prose li > p {
+    @apply mb-2;
+  }
+
+  .prose a {
+    @apply text-primary font-semibold underline decoration-primary/40 underline-offset-4 transition-all duration-200;
+  }
+
+  .prose a:hover {
+    @apply text-primary-light decoration-primary;
+  }
+
+  .prose strong {
+    @apply font-bold text-text-main;
+  }
+
+  .prose em {
+    @apply italic;
+  }
+
+  .prose blockquote {
+    @apply border-l-4 border-primary pl-6 py-4 my-6 italic text-text-muted bg-surface/50 rounded-r-lg;
+  }
+
+  .prose img {
+    @apply rounded-xl my-8 w-full shadow-lg;
+  }
+
+  .prose table {
+    @apply w-full border-collapse my-8 text-base;
+  }
+
+  .prose thead {
+    @apply bg-surface border-b-2 border-primary;
+  }
+
+  .prose th {
+    @apply px-4 py-3 text-left font-semibold text-text-main;
+  }
+
+  .prose td {
+    @apply px-4 py-3 border-b border-border-color;
+  }
+
+  .prose tr:hover {
+    @apply bg-surface/50;
+  }
+
+  .prose code {
+    @apply bg-surface px-2 py-1 rounded text-sm font-mono text-primary;
+  }
+
+  .prose pre {
+    @apply bg-surface p-4 rounded-lg overflow-x-auto my-6;
+  }
+
+  .prose pre code {
+    @apply bg-transparent p-0;
+  }
+
+  .prose iframe {
+    @apply w-full rounded-xl my-8 shadow-xl;
+    aspect-ratio: 16 / 9;
+  }
+
+  .prose-lg {
+    font-size: 1.25rem;
+    line-height: 1.8;
+  }
+
+  .prose-lg p {
+    @apply mb-7;
+  }
+
+  .prose-lg h1 {
+    @apply text-5xl md:text-6xl mb-8;
+  }
+
+  .prose-lg h2 {
+    @apply text-4xl md:text-5xl mb-6;
+  }
+
+  .prose-lg h3 {
+    @apply text-3xl md:text-4xl mb-5;
+  }
+}

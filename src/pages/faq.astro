@@ -1,0 +1,54 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getTranslations, getLangPrefix } from '../utils/i18n';
+import { buildPageSchema, extractFAQItems } from '../utils/schema';
+
+const translations = getTranslations('en');
+const faqPage = translations.faqPage || {};
+const langPrefix = '';
+const pageUrl = 'https://flickai.net/faq.html';
+const faqItems = extractFAQItems(faqPage.faq);
+const schema = buildPageSchema(pageUrl, faqPage.title || 'FAQ', faqPage.description || '', 'en', undefined, faqItems);
+---
+
+<BaseLayout
+  title={faqPage.title || 'FAQ | FlickAI'}
+  description={faqPage.description || ''}
+  keywords={faqPage.keywords || ''}
+  lang="en"
+  translations={translations}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  </Fragment>
+
+  <main class="container section">
+    <h1 class="section-title">{faqPage.heading || 'Frequently Asked Questions'}</h1>
+    {faqPage.intro && <p class="mb-4">{faqPage.intro}</p>}
+
+    <div class="legal-content">
+      {faqPage.faq && (
+        <>
+          {faqPage.faq.q1 && (
+            <p class="mb-4"><strong>{faqPage.faq.q1}</strong><br/>{faqPage.faq.a1 || ''}</p>
+          )}
+          {faqPage.faq.q2 && (
+            <p class="mb-4"><strong>{faqPage.faq.q2}</strong><br/>{faqPage.faq.a2 || ''}</p>
+          )}
+          {faqPage.faq.q3 && (
+            <p class="mb-4"><strong>{faqPage.faq.q3}</strong><br/>{faqPage.faq.a3 || ''}</p>
+          )}
+          {faqPage.faq.q4 && (
+            <p class="mb-4"><strong>{faqPage.faq.q4}</strong><br/>{faqPage.faq.a4 || ''}</p>
+          )}
+          {faqPage.faq.q5 && (
+            <p class="mb-4"><strong>{faqPage.faq.q5}</strong><br/>{faqPage.faq.a5 || ''}</p>
+          )}
+          {faqPage.faq.q6 && (
+            <p class="mb-4"><strong>{faqPage.faq.q6}</strong><br/>{faqPage.faq.a6 || ''}</p>
+          )}
+        </>
+      )}
+    </div>
+  </main>
+</BaseLayout>

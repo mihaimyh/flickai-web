@@ -1,0 +1,104 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getTranslations, getLangPrefix, getLocaleFromParams } from '../../../utils/i18n';
+import { getAlternativeKey, isValidAlternativeSlug, getAlternativeSlugs } from '../../../utils/alternatives';
+import type { SupportedLocale } from '../../../i18n-config';
+
+export async function getStaticPaths() {
+  const slugs = getAlternativeSlugs();
+  const locales: SupportedLocale[] = ['ar', 'de', 'es', 'fr', 'hi', 'id', 'it', 'ro', 'zh'];
+  
+  const paths = [];
+  for (const slug of slugs) {
+    for (const locale of locales) {
+      paths.push({
+        params: { lang: locale, slug },
+      });
+    }
+  }
+  
+  return paths;
+}
+
+const { lang, slug } = Astro.params;
+
+if (!slug || !isValidAlternativeSlug(slug)) {
+  return Astro.redirect('/404');
+}
+
+const locale = getLocaleFromParams({ lang });
+const alternativeKey = getAlternativeKey(slug)!;
+const translations = getTranslations(locale);
+const alternatives = translations.alternatives || {};
+const alternative = alternatives[alternativeKey] || {};
+const common = translations.common || {};
+const meta = translations.meta || {};
+const langPrefix = getLangPrefix(locale);
+---
+
+<BaseLayout
+  title={alternative.title || `Alternative - ${slug}`}
+  description={alternative.description || ''}
+  keywords={alternative.keywords || ''}
+  lang={locale}
+  translations={translations}
+>
+  <main class="container section">
+    <h1 class="section-title">{alternative.heading || alternative.title || 'Alternative'}</h1>
+    <div class="legal-content">
+      {alternative.intro && <p class="mb-4">{alternative.intro}</p>}
+
+      {alternative.criteria && alternative.criteria.title && (
+        <>
+          <h2 class="mb-4">{alternative.criteria.title}</h2>
+          <ul class="mb-4" style="padding-left: 1.5rem;">
+            {alternative.criteria.point1 && <li>{alternative.criteria.point1}</li>}
+            {alternative.criteria.point2 && <li>{alternative.criteria.point2}</li>}
+            {alternative.criteria.point3 && <li>{alternative.criteria.point3}</li>}
+            {alternative.criteria.point4 && <li>{alternative.criteria.point4}</li>}
+          </ul>
+        </>
+      )}
+
+      {alternative.whatToLookFor && alternative.whatToLookFor.title && (
+        <>
+          <h2 class="mb-4">{alternative.whatToLookFor.title}</h2>
+          <ul class="mb-4" style="padding-left: 1.5rem;">
+            {alternative.whatToLookFor.point1 && <li>{alternative.whatToLookFor.point1}</li>}
+            {alternative.whatToLookFor.point2 && <li>{alternative.whatToLookFor.point2}</li>}
+            {alternative.whatToLookFor.point3 && <li>{alternative.whatToLookFor.point3}</li>}
+          </ul>
+        </>
+      )}
+
+      {alternative.list && alternative.list.title && (
+        <>
+          <h2 class="mb-4">{alternative.list.title}</h2>
+          <ol class="mb-4" style="padding-left: 1.5rem;">
+            <li><strong>{meta.siteName || 'FlickAI'}</strong> — {alternative.list.item1 || ''}</li>
+            {alternative.list.item2 && <li>{alternative.list.item2}</li>}
+            {alternative.list.item3 && <li>{alternative.list.item3}</li>}
+            {alternative.list.item4 && <li>{alternative.list.item4}</li>}
+            {alternative.list.item5 && <li>{alternative.list.item5}</li>}
+          </ol>
+        </>
+      )}
+
+      {alternative.faq && alternative.faq.title && (
+        <>
+          <h2 class="mb-4">{alternative.faq.title}</h2>
+          <div class="mb-4">
+            {alternative.faq.q1 && (
+              <p class="mb-4"><strong>{alternative.faq.q1}</strong><br/>{alternative.faq.a1 || ''}</p>
+            )}
+            {alternative.faq.q2 && (
+              <p class="mb-4"><strong>{alternative.faq.q2}</strong><br/>{alternative.faq.a2 || ''}</p>
+            )}
+          </div>
+        </>
+      )}
+
+      <p class="mb-4"><a href={`${langPrefix}/alternatives/`}>{alternatives.backToHub || 'Back to Alternatives'}</a></p>
+    </div>
+  </main>
+</BaseLayout>
