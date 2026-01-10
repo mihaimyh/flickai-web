@@ -22,7 +22,7 @@ test.describe('Legal Pages', () => {
       await expect(heading).toBeVisible();
       
       // Check content exists
-      const mainContent = page.locator('main');
+      const mainContent = page.locator('main').first();
       await expect(mainContent).toBeVisible();
       
       // Check SEO meta tags

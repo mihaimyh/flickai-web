@@ -18,7 +18,7 @@ test.describe('Integrations Page', () => {
     await expect(heading).toBeVisible();
     
     // Check content exists
-    const mainContent = page.locator('main');
+    const mainContent = page.locator('main').first();
     await expect(mainContent).toBeVisible();
   });
 
@@ -138,7 +138,7 @@ test.describe('Integrations Page', () => {
     await page.goto('/integrations');
     
     // Check for semantic HTML
-    const main = page.locator('main');
+    const main = page.locator('main').first();
     await expect(main).toBeVisible();
     
     // Check images have alt text

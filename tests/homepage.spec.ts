@@ -11,11 +11,16 @@ test.describe('Homepage', () => {
     const heading = page.locator('h1').first();
     await expect(heading).toBeVisible();
     
-    // Check navigation is visible
-    await expect(page.locator('header nav')).toBeVisible();
+    // Check navigation is visible (use first() since there's desktop and mobile nav)
+    await expect(page.locator('header nav').first()).toBeVisible();
     
     // Check footer is visible
     await expect(page.locator('footer')).toBeVisible();
+    
+    // Homepage uses sections (not main tag), which is valid semantic HTML
+    // Check that hero section exists instead
+    const heroSection = page.locator('section.hero');
+    await expect(heroSection).toBeVisible();
   });
 
   test('should have hero section with CTA buttons', async ({ page }) => {

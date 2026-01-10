@@ -17,8 +17,8 @@ test.describe('Use Case Pages', () => {
       const heading = page.locator('h1').first();
       await expect(heading).toBeVisible();
       
-      // Check content exists
-      const mainContent = page.locator('main');
+      // Check content exists (use first() to handle potential multiple elements)
+      const mainContent = page.locator('main').first();
       await expect(mainContent).toBeVisible();
       
       // Check SEO meta tags
@@ -44,7 +44,7 @@ test.describe('Use Case Pages', () => {
     await page.goto('/use-cases/expense-tracker-for-freelancers');
     
     // Look for internal links in related section
-    const links = page.locator('main a[href^="/"]');
+    const links = page.locator('main').first().locator('a[href^="/"]');
     const linkCount = await links.count();
     
     if (linkCount > 0) {

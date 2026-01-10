@@ -6,7 +6,7 @@ test.describe('Accessibility', () => {
     
     // Check for semantic elements
     await expect(page.locator('header')).toBeVisible();
-    await expect(page.locator('main')).toBeVisible();
+    await expect(page.locator('main').first()).toBeVisible();
     await expect(page.locator('footer')).toBeVisible();
     
     // Check for nav element

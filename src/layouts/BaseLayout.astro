@@ -36,6 +36,9 @@ const langPrefix = getLangPrefix(locale);
 const locales = SUPPORTED_LOCALES;
 const currentPath = Astro.url.pathname;
 const baseUrl = 'https://flickai.net';
+
+// Auto-generate canonical URL if not provided
+const finalCanonicalUrl = canonicalUrl || `${baseUrl}${currentPath === '/' ? '/' : currentPath}`;
 ---
 
 <!DOCTYPE html>
@@ -55,7 +58,7 @@ const baseUrl = 'https://flickai.net';
     <meta name="robots" content="index, follow" />
     <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     
-    {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+    <link rel="canonical" href={finalCanonicalUrl} />
     <link rel="sitemap" type="application/xml" title="Sitemap" href={`${baseUrl}/sitemap.xml`} />
     
     <!-- Hreflang Tags -->
@@ -93,9 +96,7 @@ const baseUrl = 'https://flickai.net';
     <div id="app">
       <Header translations={translations} lang={locale} langPrefix={langPrefix} />
       
-      <main>
-        <slot />
-      </main>
+      <slot />
       
       <Footer translations={translations} langPrefix={langPrefix} />
     </div>
