@@ -11,7 +11,11 @@ This directory contains end-to-end tests for the FlickAI website built with Play
 - `alternatives.spec.ts` - Tests for alternatives pages (4 alternatives)
 - `use-cases.spec.ts` - Tests for use case pages (2 use cases)
 - `legal-pages.spec.ts` - Tests for legal pages (privacy, terms, cookies, etc.)
-- `seo.spec.ts` - Tests for SEO elements (meta tags, structured data, hreflang, etc.)
+- `integrations.spec.ts` - Tests for integrations/index page
+- `seo.spec.ts` - **Comprehensive SEO testing** (meta tags, structured data, hreflang across all pages/languages)
+- `structured-data.spec.ts` - **Comprehensive structured data testing** (Organization, WebSite, WebPage, FAQPage, BreadcrumbList, SoftwareApplication)
+- `comprehensive-routes.spec.ts` - **Comprehensive route testing** (all routes across all languages, 404s, redirects)
+- `performance.spec.ts` - **Performance testing** (Core Web Vitals, load times, optimization)
 - `accessibility.spec.ts` - Tests for accessibility (semantic HTML, ARIA, keyboard navigation)
 
 ## Running Tests
@@ -152,16 +156,68 @@ page.on('console', msg => console.log('Browser console:', msg.text()));
 
 ## Test Coverage
 
+### Comprehensive Test Coverage
+
 Current test coverage includes:
+
+#### Route Testing
 - ✅ Homepage (all sections)
-- ✅ All 10 language variants
+- ✅ All 10 language variants (homepage + key routes)
 - ✅ All 9 feature pages
-- ✅ All 4 guide pages
-- ✅ All 4 alternative pages
+- ✅ All 4 guide pages (including index)
+- ✅ All 4 alternative pages (including index)
 - ✅ All 2 use case pages
 - ✅ All 6 legal pages
-- ✅ SEO elements (meta tags, structured data, hreflang)
-- ✅ Accessibility (semantic HTML, ARIA, keyboard navigation)
+- ✅ Integrations page
+- ✅ All routes across all languages
+- ✅ 404 error handling
+- ✅ Redirects and canonical URLs
+
+#### SEO Testing
+- ✅ Meta tags (title, description) across all page types
+- ✅ Open Graph tags on all pages
+- ✅ Twitter Card tags
+- ✅ Canonical URLs on all pages
+- ✅ Hreflang tags for all 10 languages
+- ✅ Proper heading hierarchy (H1, H2 structure)
+- ✅ Alt text on images
+- ✅ Robots meta tags
+- ✅ SEO elements across all languages
+- ✅ Social sharing meta tags
+- ✅ Sitemap references
+
+#### Structured Data Testing
+- ✅ Organization schema
+- ✅ WebSite schema
+- ✅ WebPage schema (all pages)
+- ✅ FAQPage schema (FAQ pages)
+- ✅ BreadcrumbList schema (guide pages)
+- ✅ SoftwareApplication schema (homepage)
+- ✅ Valid JSON-LD format
+- ✅ Correct @context
+- ✅ Structured data across all languages
+
+#### Performance Testing
+- ✅ Page load time (< 3 seconds)
+- ✅ Core Web Vitals (DOM Content Loaded, Load Complete, First Byte)
+- ✅ Image optimization (lazy loading, formats)
+- ✅ JavaScript bundle size monitoring
+- ✅ CSS loading efficiency
+- ✅ Caching headers
+- ✅ Layout shift prevention
+- ✅ Critical resource loading order
+
+#### Accessibility Testing
+- ✅ Semantic HTML structure
+- ✅ Accessible navigation
+- ✅ Proper heading hierarchy
+- ✅ Accessible form elements
+- ✅ Proper link accessibility
+- ✅ Skip links and focus management
+- ✅ Keyboard navigation
+- ✅ ARIA labels where needed
+- ✅ Language attributes
+- ✅ RTL support for Arabic
 
 ## Best Practices
 
