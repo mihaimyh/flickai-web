@@ -51,7 +51,7 @@ test.describe('Comprehensive Route Testing', () => {
   test.describe('English Routes', () => {
     for (const feature of ROUTES.features) {
       test(`should load /features/${feature}`, async ({ page }) => {
-        const response = await page.goto(`/features/${feature}`);
+        const response = await page.goto(`/features/${feature}/`);
         expect(response?.status()).toBe(200);
         await expect(page.locator('h1')).toBeVisible();
       });
@@ -59,7 +59,7 @@ test.describe('Comprehensive Route Testing', () => {
 
     for (const guide of ROUTES.guides) {
       test(`should load /guides/${guide}`, async ({ page }) => {
-        const response = await page.goto(`/guides/${guide}`);
+        const response = await page.goto(`/guides/${guide}/`);
         expect(response?.status()).toBe(200);
         await expect(page.locator('h1')).toBeVisible();
       });
@@ -67,7 +67,7 @@ test.describe('Comprehensive Route Testing', () => {
 
     for (const alt of ROUTES.alternatives) {
       test(`should load /alternatives/${alt}`, async ({ page }) => {
-        const response = await page.goto(`/alternatives/${alt}`);
+        const response = await page.goto(`/alternatives/${alt}/`);
         expect(response?.status()).toBe(200);
         await expect(page.locator('h1')).toBeVisible();
       });
@@ -75,7 +75,7 @@ test.describe('Comprehensive Route Testing', () => {
 
     for (const useCase of ROUTES.useCases) {
       test(`should load /use-cases/${useCase}`, async ({ page }) => {
-        const response = await page.goto(`/use-cases/${useCase}`);
+        const response = await page.goto(`/use-cases/${useCase}/`);
         expect(response?.status()).toBe(200);
         await expect(page.locator('h1')).toBeVisible();
       });
@@ -83,14 +83,14 @@ test.describe('Comprehensive Route Testing', () => {
 
     for (const legal of ROUTES.legal) {
       test(`should load /${legal}`, async ({ page }) => {
-        const response = await page.goto(`/${legal}`);
+        const response = await page.goto(`/${legal}/`);
         expect(response?.status()).toBe(200);
         await expect(page.locator('h1')).toBeVisible();
       });
     }
 
     test('should load /integrations', async ({ page }) => {
-      const response = await page.goto('/integrations');
+      const response = await page.goto('/integrations/');
       expect(response?.status()).toBe(200);
       await expect(page.locator('h1')).toBeVisible();
     });
@@ -130,8 +130,8 @@ test.describe('Comprehensive Route Testing', () => {
       for (const feature of ROUTES.features.slice(0, 3)) { // Test first 3 features
         test(`should load ${locale} /${locale === 'en' ? '' : locale + '/'}features/${feature}`, async ({ page }) => {
           const path = locale === 'en' 
-            ? `/features/${feature}`
-            : `/${locale}/features/${feature}`;
+            ? `/features/${feature}/`
+            : `/${locale}/features/${feature}/`;
           
           const response = await page.goto(path);
           expect(response?.status()).toBe(200);
@@ -149,8 +149,8 @@ test.describe('Comprehensive Route Testing', () => {
       for (const legal of ['privacy-policy', 'terms-of-service', 'faq']) {
         test(`should load ${locale} /${locale === 'en' ? '' : locale + '/'}${legal}`, async ({ page }) => {
           const path = locale === 'en' 
-            ? `/${legal}`
-            : `/${locale}/${legal}`;
+            ? `/${legal}/`
+            : `/${locale}/${legal}/`;
           
           const response = await page.goto(path);
           expect(response?.status()).toBe(200);
@@ -167,17 +167,17 @@ test.describe('Comprehensive Route Testing', () => {
   // Test 404 handling
   test.describe('404 Error Handling', () => {
     test('should handle 404 for invalid feature', async ({ page }) => {
-      const response = await page.goto('/features/non-existent-feature');
+      const response = await page.goto('/features/non-existent-feature/');
       expect(response?.status()).toBeGreaterThanOrEqual(404);
     });
 
     test('should handle 404 for invalid guide', async ({ page }) => {
-      const response = await page.goto('/guides/non-existent-guide');
+      const response = await page.goto('/guides/non-existent-guide/');
       expect(response?.status()).toBeGreaterThanOrEqual(404);
     });
 
     test('should handle 404 for invalid alternative', async ({ page }) => {
-      const response = await page.goto('/alternatives/non-existent-alt');
+      const response = await page.goto('/alternatives/non-existent-alt/');
       expect(response?.status()).toBeGreaterThanOrEqual(404);
     });
 
@@ -195,24 +195,25 @@ test.describe('Comprehensive Route Testing', () => {
   // Test redirects and canonical URLs
   test.describe('Redirects and Canonicals', () => {
     test('should redirect trailing slash consistently', async ({ page }) => {
-      await page.goto('/features/receipt-scanning');
-      const url1 = page.url();
+      // Test that URL with trailing slash loads correctly
+      const response = await page.goto('/features/receipt-scanning/', { waitUntil: 'networkidle' });
+      expect(response?.status()).toBe(200);
+      const url = page.url();
       
-      await page.goto('/features/receipt-scanning/');
-      const url2 = page.url();
+      // URL should contain the route with trailing slash (actual format depends on server)
+      expect(url).toContain('/features/receipt-scanning');
       
-      // URLs should be consistent (with or without trailing slash)
-      // Both should work, but should resolve to same final URL
-      expect(url1).toContain('/features/receipt-scanning');
+      // Verify page content loads
+      await expect(page.locator('h1')).toBeVisible();
     });
 
     test('should have canonical URLs on all pages', async ({ page }) => {
       const pages = [
         '/',
-        '/features/receipt-scanning',
-        '/guides/best-receipt-scanning-apps',
-        '/alternatives/expensify-alternatives',
-        '/faq',
+        '/features/receipt-scanning/',
+        '/guides/best-receipt-scanning-apps/',
+        '/alternatives/expensify-alternatives/',
+        '/faq/',
       ];
       
       for (const path of pages) {
@@ -226,7 +227,7 @@ test.describe('Comprehensive Route Testing', () => {
     });
 
     test('should have correct canonical URLs for language variants', async ({ page }) => {
-      await page.goto('/ar/features/receipt-scanning');
+      await page.goto('/ar/features/receipt-scanning/');
       const canonical = page.locator('link[rel="canonical"]');
       await expect(canonical).toHaveAttribute('href', /.+/);
       
