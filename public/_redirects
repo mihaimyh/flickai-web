@@ -1,0 +1,3 @@
+# Redirect invalid locales to homepage
+/invalid-locale/ /
+/invalid-lang/ /

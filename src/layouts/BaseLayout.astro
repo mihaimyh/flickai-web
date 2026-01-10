@@ -11,6 +11,8 @@ interface Props {
   title: string;
   description: string;
   keywords?: string;
+  ogTitle?: string;
+  ogDescription?: string;
   ogImage?: string;
   ogType?: string;
   canonicalUrl?: string;
@@ -22,12 +24,18 @@ const {
   title,
   description,
   keywords,
+  ogTitle,
+  ogDescription,
   ogImage = 'https://flickai.net/images/social-preview.jpg',
   ogType = 'website',
   canonicalUrl,
   lang = 'en',
   translations: providedTranslations
 } = Astro.props;
+
+// Use ogTitle/ogDescription if provided, otherwise fall back to title/description
+const finalOgTitle = ogTitle || title;
+const finalOgDescription = ogDescription || description;
 
 // Load translations if not provided (synchronous now)
 const translations = providedTranslations || getTranslations(lang);
@@ -75,15 +83,15 @@ const finalCanonicalUrl = canonicalUrl || `${baseUrl}${currentPath === '/' ? '/'
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content={ogType} />
     <meta property="og:url" content={`${baseUrl}${currentPath}`} />
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
+    <meta property="og:title" content={finalOgTitle} />
+    <meta property="og:description" content={finalOgDescription} />
     <meta property="og:image" content={ogImage} />
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content={`${baseUrl}${currentPath}`} />
-    <meta property="twitter:title" content={title} />
-    <meta property="twitter:description" content={description} />
+    <meta property="twitter:title" content={finalOgTitle} />
+    <meta property="twitter:description" content={finalOgDescription} />
     <meta property="twitter:image" content={ogImage} />
     
     <!-- Fonts -->

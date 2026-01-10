@@ -184,12 +184,14 @@ test.describe('SEO Elements', () => {
       expect(h2Count).toBeGreaterThan(0);
       
       // Verify heading hierarchy (h2 should come after h1, not before)
-      const h1Position = await h1.first().evaluate((el) => {
+      // Since we've verified there's only one h1, we can use it directly
+      const h1Position = await h1.evaluate((el) => {
         const rect = el.getBoundingClientRect();
         return rect.top;
       });
       
       if (h2Count > 0) {
+        // Check first h2 (legitimate use of .first() for collection)
         const firstH2Position = await h2s.first().evaluate((el) => {
           const rect = el.getBoundingClientRect();
           return rect.top;

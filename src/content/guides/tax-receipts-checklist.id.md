@@ -6,7 +6,7 @@ lang: "id"
 publishDate: 2026-01-08T00:00:00.000Z
 ---
 
-# Checklist struk untuk pajak
+## Checklist struk untuk pajak
 
 Lebih rapi saat musim pajak.
 

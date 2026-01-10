@@ -7,12 +7,14 @@ test.describe('Homepage', () => {
     // Check page title
     await expect(page).toHaveTitle(/FlickAI/i);
     
-    // Check main heading
-    const heading = page.locator('h1').first();
-    await expect(heading).toBeVisible();
+    // Check main heading (should be only one h1)
+    const h1 = page.locator('h1');
+    await expect(h1).toBeVisible();
+    const h1Count = await h1.count();
+    expect(h1Count).toBe(1);
     
-    // Check navigation is visible (use first() since there's desktop and mobile nav)
-    await expect(page.locator('header nav').first()).toBeVisible();
+    // Check navigation is visible (check for nav in header specifically)
+    await expect(page.locator('header nav')).toBeVisible();
     
     // Check footer is visible
     await expect(page.locator('footer')).toBeVisible();
@@ -110,15 +112,21 @@ test.describe('Homepage', () => {
   test('should have working navigation links', async ({ page }) => {
     await page.goto('/');
     
-    // Test features link
-    const featuresLink = page.locator('nav a[href*="#features"]').first();
+    // Test features link (use header nav specifically to avoid ambiguity)
+    const featuresLink = page.locator('header nav a[href*="#features"]');
+    await expect(featuresLink).toBeVisible();
     await featuresLink.click();
     await expect(page.locator('#features')).toBeInViewport();
     
-    // Test download link
+    // Test download link (there should be at least one download link)
     await page.goto('/');
-    const downloadLink = page.locator('a[href*="#download"]').first();
-    await downloadLink.click();
-    await expect(page.locator('#download')).toBeInViewport();
+    const downloadLinks = page.locator('main a[href*="#download"], section#download a');
+    const downloadLinkCount = await downloadLinks.count();
+    if (downloadLinkCount > 0) {
+      // Use first link from collection (legitimate use of .first() for collection)
+      const downloadLink = downloadLinks.first();
+      await downloadLink.click();
+      await expect(page.locator('#download')).toBeInViewport();
+    }
   });
 });

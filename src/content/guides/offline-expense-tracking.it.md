@@ -6,7 +6,7 @@ lang: "it"
 publishDate: 2026-01-08T00:00:00.000Z
 ---
 
-# Tracciamento spese offline (checklist)
+## Tracciamento spese offline (checklist)
 
 Registra spese senza dipendere da internet.
 

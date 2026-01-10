@@ -6,7 +6,7 @@ lang: "it"
 publishDate: 2026-01-08T00:00:00.000Z
 ---
 
-# Ricevute in Excel: dallo scan al foglio
+## Ricevute in Excel: dallo scan al foglio
 
 Trasforma ricevute in Excel/CSV in pochi minuti.
 

@@ -6,7 +6,7 @@ lang: "es"
 publishDate: 2026-01-08T00:00:00.000Z
 ---
 
-# Recibo a Excel: del escaneo a la hoja
+## Recibo a Excel: del escaneo a la hoja
 
 Convierte recibos en Excel/CSV en minutos.
 

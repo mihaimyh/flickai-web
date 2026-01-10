@@ -6,7 +6,7 @@ lang: "de"
 publishDate: 2026-01-08T00:00:00.000Z
 ---
 
-# Beleg zu Excel: vom Scan zur Tabelle
+## Beleg zu Excel: vom Scan zur Tabelle
 
 Belege in Minuten in Excel/CSV bringen.
 

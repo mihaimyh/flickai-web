@@ -6,7 +6,7 @@ lang: "ro"
 publishDate: 2026-01-08T00:00:00.000Z
 ---
 
-# Checklist chitanțe pentru taxe
+## Checklist chitanțe pentru taxe
 
 Fii organizat pentru sezonul fiscal.
 

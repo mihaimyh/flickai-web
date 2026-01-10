@@ -6,7 +6,7 @@ lang: "en"
 publishDate: 2026-01-08T00:00:00.000Z
 ---
 
-# Receipt to Excel: from scan to spreadsheet
+## Receipt to Excel: from scan to spreadsheet
 
 Turn paper receipts into Excel/CSV in minutes.
 

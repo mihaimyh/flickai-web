@@ -6,7 +6,7 @@ lang: "ro"
 publishDate: 2026-01-08T00:00:00.000Z
 ---
 
-# Chitanță în Excel: de la scanare la tabel
+## Chitanță în Excel: de la scanare la tabel
 
 Transformă chitanțe în Excel/CSV în câteva minute.
 

@@ -6,7 +6,7 @@ lang: "id"
 publishDate: 2026-01-08T00:00:00.000Z
 ---
 
-# Pelacakan pengeluaran offline (checklist)
+## Pelacakan pengeluaran offline (checklist)
 
 Catat pengeluaran tanpa bergantung internet.
 

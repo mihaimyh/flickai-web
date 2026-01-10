@@ -11,10 +11,15 @@ test.describe('Alternatives Pages', () => {
   test('should load alternatives index page', async ({ page }) => {
     await page.goto('/alternatives/');
     
-    await expect(page).toHaveTitle(/FlickAI/i);
+    // Wait for page to load and check title contains FlickAI
+    await page.waitForLoadState('networkidle');
+    const title = await page.title();
+    expect(title).toContain('FlickAI');
     
-    const heading = page.locator('h1').first();
+    const heading = page.locator('h1');
     await expect(heading).toBeVisible();
+    const h1Count = await heading.count();
+    expect(h1Count).toBe(1);
     
     // Check for alternative links
     const altLinks = page.locator('main a[href*="/alternatives/"]');
@@ -29,13 +34,17 @@ test.describe('Alternatives Pages', () => {
       // Check page loads successfully
       await expect(page).toHaveTitle(/FlickAI/i);
       
-      // Check main heading exists
-      const heading = page.locator('h1').first();
+      // Check main heading exists (should be only one h1)
+      const heading = page.locator('h1');
       await expect(heading).toBeVisible();
+      const h1Count = await heading.count();
+      expect(h1Count).toBe(1);
       
-      // Check content exists
-      const mainContent = page.locator('main').first();
+      // Check content exists (should be only one main)
+      const mainContent = page.locator('main');
       await expect(mainContent).toBeVisible();
+      const mainCount = await mainContent.count();
+      expect(mainCount).toBe(1);
       
       // Check SEO meta tags
       const metaDescription = page.locator('meta[name="description"]');

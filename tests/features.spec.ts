@@ -20,13 +20,17 @@ test.describe('Feature Pages', () => {
       // Check page loads successfully
       await expect(page).toHaveTitle(/FlickAI/i);
       
-      // Check main heading exists
-      const heading = page.locator('h1').first();
+      // Check main heading exists (should be only one h1)
+      const heading = page.locator('h1');
       await expect(heading).toBeVisible();
+      const h1Count = await heading.count();
+      expect(h1Count).toBe(1);
       
-      // Check feature content exists
-      const mainContent = page.locator('main').first();
+      // Check feature content exists (should be only one main)
+      const mainContent = page.locator('main');
       await expect(mainContent).toBeVisible();
+      const mainCount = await mainContent.count();
+      expect(mainCount).toBe(1);
       
       // Check SEO meta tags
       const metaDescription = page.locator('meta[name="description"]');

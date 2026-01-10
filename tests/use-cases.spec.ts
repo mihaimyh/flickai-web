@@ -13,13 +13,17 @@ test.describe('Use Case Pages', () => {
       // Check page loads successfully
       await expect(page).toHaveTitle(/FlickAI/i);
       
-      // Check main heading exists
-      const heading = page.locator('h1').first();
+      // Check main heading exists (should be only one h1)
+      const heading = page.locator('h1');
       await expect(heading).toBeVisible();
+      const h1Count = await heading.count();
+      expect(h1Count).toBe(1);
       
-      // Check content exists (use first() to handle potential multiple elements)
-      const mainContent = page.locator('main').first();
+      // Check content exists (should be only one main)
+      const mainContent = page.locator('main');
       await expect(mainContent).toBeVisible();
+      const mainCount = await mainContent.count();
+      expect(mainCount).toBe(1);
       
       // Check SEO meta tags
       const metaDescription = page.locator('meta[name="description"]');
@@ -43,8 +47,12 @@ test.describe('Use Case Pages', () => {
   test('should have working related links', async ({ page }) => {
     await page.goto('/use-cases/expense-tracker-for-freelancers');
     
-    // Look for internal links in related section
-    const links = page.locator('main').first().locator('a[href^="/"]');
+    // Look for internal links in related section (should be only one main)
+    const main = page.locator('main');
+    const mainCount = await main.count();
+    expect(mainCount).toBe(1);
+    
+    const links = main.locator('a[href^="/"]');
     const linkCount = await links.count();
     
     if (linkCount > 0) {

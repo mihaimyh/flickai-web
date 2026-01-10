@@ -6,7 +6,7 @@ lang: "es"
 publishDate: 2026-01-08T00:00:00.000Z
 ---
 
-# Seguimiento de gastos offline (checklist)
+## Seguimiento de gastos offline (checklist)
 
 Registra gastos sin depender de internet.
 

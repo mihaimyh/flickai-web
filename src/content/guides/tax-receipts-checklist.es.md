@@ -6,7 +6,7 @@ lang: "es"
 publishDate: 2026-01-08T00:00:00.000Z
 ---
 
-# Checklist de recibos para impuestos
+## Checklist de recibos para impuestos
 
 Organízate para la campaña fiscal.
 

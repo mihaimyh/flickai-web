@@ -27,7 +27,7 @@ const langPrefix = '';
 ---
 
 <BaseLayout
-  title={alternative.title || `Alternative - ${slug}`}
+  title={alternative.title || `${slug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())} - FlickAI`}
   description={alternative.description || ''}
   keywords={alternative.keywords || ''}
   lang="en"

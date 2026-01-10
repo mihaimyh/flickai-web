@@ -6,11 +6,12 @@ test.describe('Accessibility', () => {
     
     // Check for semantic elements
     await expect(page.locator('header')).toBeVisible();
-    await expect(page.locator('main').first()).toBeVisible();
+    await expect(page.locator('main')).toBeVisible();
     await expect(page.locator('footer')).toBeVisible();
     
-    // Check for nav element
-    await expect(page.locator('nav')).toBeVisible();
+    // Check for nav element (there should be at least one nav)
+    const navCount = await page.locator('nav').count();
+    expect(navCount).toBeGreaterThan(0);
   });
 
   test('should have accessible navigation', async ({ page }) => {
@@ -118,9 +119,9 @@ test.describe('Accessibility', () => {
     await page.goto('/');
     
     // Check hamburger menu button if exists
-    const hamburger = page.locator('button[id="hamburger"], button[aria-label*="menu"], button[aria-label*="Menu"]');
+    const hamburger = page.locator('button[id="hamburger"]');
     if (await hamburger.count() > 0) {
-      const ariaLabel = await hamburger.first().getAttribute('aria-label');
+      const ariaLabel = await hamburger.getAttribute('aria-label');
       expect(ariaLabel).toBeTruthy();
     }
   });

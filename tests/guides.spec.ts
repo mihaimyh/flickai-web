@@ -13,8 +13,10 @@ test.describe('Guide Pages', () => {
     
     await expect(page).toHaveTitle(/FlickAI/i);
     
-    const heading = page.locator('h1').first();
+    const heading = page.locator('h1');
     await expect(heading).toBeVisible();
+    const h1Count = await heading.count();
+    expect(h1Count).toBe(1);
     
     // Check for guide links
     const guideLinks = page.locator('main a[href*="/guides/"]');
@@ -29,13 +31,17 @@ test.describe('Guide Pages', () => {
       // Check page loads successfully
       await expect(page).toHaveTitle(/FlickAI/i);
       
-      // Check main heading exists
-      const heading = page.locator('article h1, main h1').first();
+      // Check main heading exists (should be only one h1)
+      const heading = page.locator('h1');
       await expect(heading).toBeVisible();
+      const h1Count = await heading.count();
+      expect(h1Count).toBe(1);
       
-      // Check article content exists
-      const article = page.locator('article, main').first();
-      await expect(article).toBeVisible();
+      // Check main content exists (should be only one main)
+      const main = page.locator('main');
+      await expect(main).toBeVisible();
+      const mainCount = await main.count();
+      expect(mainCount).toBe(1);
       
       // Check for publish date
       const publishDate = page.locator('time, [datetime]');

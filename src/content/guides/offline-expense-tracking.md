@@ -6,7 +6,7 @@ lang: "en"
 publishDate: 2026-01-08T00:00:00.000Z
 ---
 
-# Offline expense tracking (checklist)
+## Offline expense tracking (checklist)
 
 Track spending reliably without internet.
 

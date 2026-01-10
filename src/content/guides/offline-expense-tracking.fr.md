@@ -6,7 +6,7 @@ lang: "fr"
 publishDate: 2026-01-08T00:00:00.000Z
 ---
 
-# Suivi des dépenses hors ligne (checklist)
+## Suivi des dépenses hors ligne (checklist)
 
 Suivez vos dépenses sans dépendre d'internet.
 

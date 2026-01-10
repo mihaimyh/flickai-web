@@ -13,13 +13,17 @@ test.describe('Integrations Page', () => {
     // Check page loads successfully
     await expect(page).toHaveTitle(/FlickAI/i);
     
-    // Check main heading exists
-    const heading = page.locator('h1').first();
+    // Check main heading exists (should be only one h1)
+    const heading = page.locator('h1');
     await expect(heading).toBeVisible();
+    const h1Count = await heading.count();
+    expect(h1Count).toBe(1);
     
-    // Check content exists
-    const mainContent = page.locator('main').first();
+    // Check content exists (should be only one main)
+    const mainContent = page.locator('main');
     await expect(mainContent).toBeVisible();
+    const mainCount = await mainContent.count();
+    expect(mainCount).toBe(1);
   });
 
   test('should have proper meta tags', async ({ page }) => {
@@ -107,9 +111,11 @@ test.describe('Integrations Page', () => {
       const htmlLang = await page.locator('html').getAttribute('lang');
       expect(htmlLang).toBe(locale);
       
-      // Check content exists
-      const heading = page.locator('h1').first();
+      // Check content exists (should be only one h1)
+      const heading = page.locator('h1');
       await expect(heading).toBeVisible();
+      const h1Count = await heading.count();
+      expect(h1Count).toBe(1);
     }
   });
 
@@ -137,9 +143,11 @@ test.describe('Integrations Page', () => {
   test('should be accessible', async ({ page }) => {
     await page.goto('/integrations');
     
-    // Check for semantic HTML
-    const main = page.locator('main').first();
+    // Check for semantic HTML (should be only one main)
+    const main = page.locator('main');
     await expect(main).toBeVisible();
+    const mainCount = await main.count();
+    expect(mainCount).toBe(1);
     
     // Check images have alt text
     const images = page.locator('main img');

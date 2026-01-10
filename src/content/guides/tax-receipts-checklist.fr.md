@@ -6,7 +6,7 @@ lang: "fr"
 publishDate: 2026-01-08T00:00:00.000Z
 ---
 
-# Checklist reçus pour les impôts
+## Checklist reçus pour les impôts
 
 Restez organisé pour la période fiscale.
 

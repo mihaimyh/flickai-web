@@ -6,7 +6,7 @@ lang: "it"
 publishDate: 2026-01-08T00:00:00.000Z
 ---
 
-# Checklist ricevute per le tasse
+## Checklist ricevute per le tasse
 
 Organizzati per la stagione fiscale.
 

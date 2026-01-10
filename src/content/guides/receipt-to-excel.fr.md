@@ -6,7 +6,7 @@ lang: "fr"
 publishDate: 2026-01-08T00:00:00.000Z
 ---
 
-# Reçu vers Excel : du scan au tableur
+## Reçu vers Excel : du scan au tableur
 
 Passez du papier à Excel/CSV en quelques minutes.
 

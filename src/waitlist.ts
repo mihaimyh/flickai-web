@@ -199,7 +199,8 @@ export async function createWaitlistModal(): Promise<void> {
     <h3 class="text-3xl font-bold mb-2 text-text-main dark:text-dark-text text-center font-display">${messages.title}</h3>
     <p class="text-text-muted dark:text-dark-muted mb-8 text-center text-base leading-relaxed">${messages.subtitle}</p>
     <form class="flex flex-col gap-4">
-      <input type="email" class="w-full p-4 border-2 border-border-color dark:border-dark-border rounded-xl text-base font-body bg-background dark:bg-dark-background text-text-main dark:text-dark-text transition-all focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10" placeholder="${messages.placeholder}" required>
+      <label for="waitlist-email-input" class="sr-only">${messages.placeholder}</label>
+      <input id="waitlist-email-input" type="email" aria-label="${messages.placeholder}" class="w-full p-4 border-2 border-border-color dark:border-dark-border rounded-xl text-base font-body bg-background dark:bg-dark-background text-text-main dark:text-dark-text transition-all focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10" placeholder="${messages.placeholder}" required>
       <button type="submit" class="w-full p-4 bg-primary text-white border-none rounded-xl font-semibold text-lg cursor-pointer transition-all hover:bg-primary-dark hover:-translate-y-px hover:shadow-lg disabled:opacity-60 disabled:cursor-not-allowed">${messages.button}</button>
       <div class="hidden w-full p-4 rounded-xl text-sm text-center font-medium"></div>
     </form>

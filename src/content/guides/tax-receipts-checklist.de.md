@@ -6,7 +6,7 @@ lang: "de"
 publishDate: 2026-01-08T00:00:00.000Z
 ---
 
-# Steuerbelege-Checkliste
+## Steuerbelege-Checkliste
 
 Organisiert in die Steuer-Saison.
 

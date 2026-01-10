@@ -6,7 +6,7 @@ lang: "en"
 publishDate: 2026-01-08T00:00:00.000Z
 ---
 
-# Tax receipts checklist
+## Tax receipts checklist
 
 Stay organized for tax season.
 

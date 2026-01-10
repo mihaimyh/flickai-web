@@ -6,7 +6,7 @@ lang: "zh"
 publishDate: 2026-01-08T00:00:00.000Z
 ---
 
-# 收据到 Excel：从扫描到表格
+## 收据到 Excel：从扫描到表格
 
 几分钟把纸质收据变成 Excel/CSV。
 

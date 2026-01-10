@@ -6,7 +6,7 @@ lang: "id"
 publishDate: 2026-01-08T00:00:00.000Z
 ---
 
-# Struk ke Excel: dari scan ke spreadsheet
+## Struk ke Excel: dari scan ke spreadsheet
 
 Ubah struk jadi Excel/CSV dalam hitungan menit.
 
