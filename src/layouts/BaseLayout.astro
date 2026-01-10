@@ -3,6 +3,7 @@ import '../styles/global.css';
 import '../style.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import StickyCTA from '../components/StickyCTA.astro';
 import ClientScripts from '../components/ClientScripts.astro';
 import { getTranslations, getLangPrefix, type TranslationData } from '../utils/i18n';
 import { SUPPORTED_LOCALES, type SupportedLocale } from '../i18n-config';
@@ -149,6 +150,9 @@ const finalCanonicalUrl = canonicalUrl || `${baseUrl}${currentPath === '/' ? '/'
       
       <Footer translations={translations} langPrefix={langPrefix} />
     </div>
+    
+    <!-- Sticky CTA for mobile (appears after scrolling past hero) -->
+    <StickyCTA translations={translations} />
     
     <!-- Client-side script for animations and interactivity -->
     <script is:inline>

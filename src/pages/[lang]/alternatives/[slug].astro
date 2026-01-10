@@ -1,104 +1,57 @@
 ---
-import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import BlogLayout from '../../../layouts/BlogLayout.astro';
 import { getTranslations, getLangPrefix, getLocaleFromParams } from '../../../utils/i18n';
-import { getAlternativeKey, isValidAlternativeSlug, getAlternativeSlugs } from '../../../utils/alternatives';
-import type { SupportedLocale } from '../../../i18n-config';
+import { isValidAlternativeSlug } from '../../../utils/alternatives';
 
 export async function getStaticPaths() {
-  const slugs = getAlternativeSlugs();
-  const locales: SupportedLocale[] = ['ar', 'de', 'es', 'fr', 'hi', 'id', 'it', 'ro', 'zh'];
+  const alternatives = await getCollection('alternatives');
   
-  const paths = [];
-  for (const slug of slugs) {
-    for (const locale of locales) {
-      paths.push({
-        params: { lang: locale, slug },
-      });
-    }
-  }
-  
-  return paths;
+  return alternatives.map((alternative) => {
+    // Astro creates slugs like "expensify-alternatives-es" from "expensify-alternatives.es.md"
+    // For English files (expensify-alternatives.md), slug is "expensify-alternatives"
+    // Remove the language suffix (e.g., "-es", "-de") to get the base slug
+    const cleanSlug = alternative.slug.replace(/-(ar|de|es|fr|hi|id|it|ro|zh)$/, '');
+    
+    return {
+      params: { 
+        lang: alternative.data.lang,
+        slug: cleanSlug
+      },
+      props: { alternative },
+    };
+  });
 }
 
+const { alternative } = Astro.props;
 const { lang, slug } = Astro.params;
 
+// Validate slug is a valid alternative slug
 if (!slug || !isValidAlternativeSlug(slug)) {
   return Astro.redirect('/404');
 }
 
-const locale = getLocaleFromParams({ lang });
-const alternativeKey = getAlternativeKey(slug)!;
+const locale = getLocaleFromParams({ lang: alternative.data.lang });
 const translations = getTranslations(locale);
 const alternatives = translations.alternatives || {};
-const alternative = alternatives[alternativeKey] || {};
-const common = translations.common || {};
-const meta = translations.meta || {};
 const langPrefix = getLangPrefix(locale);
+const { Content } = await alternative.render();
 ---
 
-<BaseLayout
-  title={alternative.title || `Alternative - ${slug}`}
-  description={alternative.description || ''}
-  keywords={alternative.keywords || ''}
-  lang={locale}
-  translations={translations}
+<BlogLayout 
+  title={alternative.data.title}
+  description={alternative.data.description}
+  keywords={alternative.data.keywords}
+  lang={alternative.data.lang}
+  publishDate={alternative.data.publishDate}
 >
-  <main class="container section">
-    <h1 class="section-title">{alternative.heading || alternative.title || 'Alternative'}</h1>
-    <div class="legal-content">
-      {alternative.intro && <p class="mb-4">{alternative.intro}</p>}
-
-      {alternative.criteria && alternative.criteria.title && (
-        <>
-          <h2 class="mb-4">{alternative.criteria.title}</h2>
-          <ul class="mb-4" style="padding-left: 1.5rem;">
-            {alternative.criteria.point1 && <li>{alternative.criteria.point1}</li>}
-            {alternative.criteria.point2 && <li>{alternative.criteria.point2}</li>}
-            {alternative.criteria.point3 && <li>{alternative.criteria.point3}</li>}
-            {alternative.criteria.point4 && <li>{alternative.criteria.point4}</li>}
-          </ul>
-        </>
-      )}
-
-      {alternative.whatToLookFor && alternative.whatToLookFor.title && (
-        <>
-          <h2 class="mb-4">{alternative.whatToLookFor.title}</h2>
-          <ul class="mb-4" style="padding-left: 1.5rem;">
-            {alternative.whatToLookFor.point1 && <li>{alternative.whatToLookFor.point1}</li>}
-            {alternative.whatToLookFor.point2 && <li>{alternative.whatToLookFor.point2}</li>}
-            {alternative.whatToLookFor.point3 && <li>{alternative.whatToLookFor.point3}</li>}
-          </ul>
-        </>
-      )}
-
-      {alternative.list && alternative.list.title && (
-        <>
-          <h2 class="mb-4">{alternative.list.title}</h2>
-          <ol class="mb-4" style="padding-left: 1.5rem;">
-            <li><strong>{meta.siteName || 'FlickAI'}</strong> — {alternative.list.item1 || ''}</li>
-            {alternative.list.item2 && <li>{alternative.list.item2}</li>}
-            {alternative.list.item3 && <li>{alternative.list.item3}</li>}
-            {alternative.list.item4 && <li>{alternative.list.item4}</li>}
-            {alternative.list.item5 && <li>{alternative.list.item5}</li>}
-          </ol>
-        </>
-      )}
-
-      {alternative.faq && alternative.faq.title && (
-        <>
-          <h2 class="mb-4">{alternative.faq.title}</h2>
-          <div class="mb-4">
-            {alternative.faq.q1 && (
-              <p class="mb-4"><strong>{alternative.faq.q1}</strong><br/>{alternative.faq.a1 || ''}</p>
-            )}
-            {alternative.faq.q2 && (
-              <p class="mb-4"><strong>{alternative.faq.q2}</strong><br/>{alternative.faq.a2 || ''}</p>
-            )}
-          </div>
-        </>
-      )}
-
-      <p class="mb-4"><a href={`${langPrefix}/alternatives/`}>{alternatives.backToHub || 'Back to Alternatives'}</a></p>
-    </div>
-  </main>
-</BaseLayout>
+  <Content />
+  
+  <div class="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
+    <p class="text-center">
+      <a href={`${langPrefix}/alternatives/`} class="text-primary hover:text-primary-dark font-semibold">
+        ← {alternatives.backToHub || 'Back to Alternatives'}
+      </a>
+    </p>
+  </div>
+</BlogLayout>

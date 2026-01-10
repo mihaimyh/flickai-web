@@ -1,11 +1,13 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Testimonial from '../components/Testimonial.astro';
 import { getTranslations, getTranslationKey } from '../utils/i18n';
 import '../styles/global.css';
 
 const translations = getTranslations('en');
 const home = translations.home || {};
 const common = translations.common || {};
+const testimonials = translations.testimonials || {};
 const langPrefix = '';
 ---
 
@@ -35,6 +37,9 @@ const langPrefix = '';
       </div>
     </div>
   </section>
+
+  <!-- Testimonials Section -->
+  <Testimonial testimonials={testimonials} />
 
   <!-- Features Section -->
   <section id="features" class="section features">

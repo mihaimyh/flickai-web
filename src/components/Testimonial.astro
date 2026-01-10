@@ -1,0 +1,162 @@
+---
+interface TestimonialItem {
+  name: string;
+  role: string;
+  text: string;
+  rating: number;
+}
+
+interface Props {
+  testimonials?: {
+    title?: string;
+    subtitle?: string;
+    items?: TestimonialItem[];
+  };
+}
+
+const { testimonials = {} } = Astro.props;
+const items = testimonials.items || [];
+---
+
+{items.length > 0 && (
+  <section class="testimonials-section section">
+    <div class="container">
+      {testimonials.title && (
+        <h2 class="section-title text-center fade-in">{testimonials.title}</h2>
+      )}
+      {testimonials.subtitle && (
+        <p class="text-center text-text-muted mb-12 max-w-2xl mx-auto fade-in dark:text-dark-muted">
+          {testimonials.subtitle}
+        </p>
+      )}
+      <div class="testimonials-grid">
+        {items.map((testimonial) => (
+          <div class="testimonial-card fade-in">
+            <div class="testimonial-rating">
+              {Array.from({ length: testimonial.rating }).map(() => (
+                <span class="star">⭐</span>
+              ))}
+            </div>
+            <p class="testimonial-text">"{testimonial.text}"</p>
+            <div class="testimonial-author">
+              <strong class="testimonial-name">{testimonial.name}</strong>
+              <span class="testimonial-role">{testimonial.role}</span>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+)}
+
+<style>
+  .testimonials-section {
+    background: var(--surface);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .testimonials-section {
+      background: var(--dark-surface);
+    }
+  }
+
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  @media (min-width: 768px) {
+    .testimonials-grid {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+  }
+
+  .testimonial-card {
+    background: var(--background);
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid var(--border-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .testimonial-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .testimonial-card {
+      background: var(--dark-background);
+      border-color: var(--dark-border);
+    }
+
+    .testimonial-card:hover {
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  .testimonial-rating {
+    display: flex;
+    gap: 0.25rem;
+    margin-bottom: 1rem;
+  }
+
+  .testimonial-rating .star {
+    font-size: 1.25rem;
+    line-height: 1;
+  }
+
+  .testimonial-text {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--text-main);
+    margin-bottom: 1.5rem;
+    font-style: italic;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .testimonial-text {
+      color: var(--dark-text);
+    }
+  }
+
+  .testimonial-author {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .testimonial-author {
+      border-top-color: var(--dark-border);
+    }
+  }
+
+  .testimonial-name {
+    font-size: 1rem;
+    color: var(--text-main);
+    font-weight: 600;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .testimonial-name {
+      color: var(--dark-text);
+    }
+  }
+
+  .testimonial-role {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .testimonial-role {
+      color: var(--dark-muted);
+    }
+  }
+</style>

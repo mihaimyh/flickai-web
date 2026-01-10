@@ -143,6 +143,30 @@
     "learnMore": "Saber más",
     "testimonials": "Testimonios"
   },
+  "testimonials": {
+    "title": "Lo que dicen nuestros usuarios",
+    "subtitle": "Únete a miles de usuarios satisfechos que confían en FlickAI para el seguimiento de gastos",
+    "items": [
+      {
+        "name": "María G.",
+        "role": "Diseñadora Gráfica Freelance",
+        "text": "El modo offline de FlickAI me salvó durante un viaje de cliente cuando no tenía Wi-Fi. La precisión del OCR es impresionante y el nivel gratuito es realmente útil. He ahorrado horas en el seguimiento de gastos.",
+        "rating": 5
+      },
+      {
+        "name": "Carlos R.",
+        "role": "Consultor",
+        "text": "Como alguien que viaja frecuentemente, la funcionalidad offline es esencial. FlickAI funciona perfectamente en aviones y en ubicaciones remotas. El enfoque de privacidad también me da tranquilidad con gastos sensibles del cliente.",
+        "rating": 5
+      },
+      {
+        "name": "Ana L.",
+        "role": "Propietaria de Pequeña Empresa",
+        "text": "Cambiamos de Expensify a FlickAI y no hemos mirado atrás. El nivel gratuito fue perfecto para probar, y el precio es mucho más razonable para nuestro pequeño equipo. La precisión del escaneo de recibos coincide con lo que teníamos antes.",
+        "rating": 5
+      }
+    ]
+  },
   "cookie": {
     "contact": {
       "content": "Si tiene alguna pregunta sobre nuestro uso de cookies, contáctenos en: support@flickai.net",

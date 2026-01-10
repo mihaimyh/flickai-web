@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Testimonial from '../../components/Testimonial.astro';
 import { getTranslations, getLangPrefix, getLocaleFromParams } from '../../utils/i18n';
 import type { SupportedLocale } from '../../i18n-config';
 import '../../styles/global.css';
@@ -17,6 +18,7 @@ const locale = getLocaleFromParams({ lang });
 const translations = getTranslations(locale);
 const home = translations.home || {};
 const common = translations.common || {};
+const testimonials = translations.testimonials || {};
 const langPrefix = getLangPrefix(locale);
 ---
 
@@ -46,6 +48,9 @@ const langPrefix = getLangPrefix(locale);
       </div>
     </div>
   </section>
+
+  <!-- Testimonials Section -->
+  <Testimonial testimonials={testimonials} />
 
   <!-- Features Section -->
   <section id="features" class="section features">

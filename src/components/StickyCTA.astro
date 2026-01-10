@@ -1,0 +1,181 @@
+---
+interface Props {
+  translations?: {
+    common?: {
+      downloadApp?: string;
+    };
+    home?: {
+      hero?: {
+        getStarted?: string;
+      };
+      download?: {
+        subtitle?: string;
+      };
+    };
+  };
+}
+
+const {
+  translations = {}
+} = Astro.props;
+
+const common = translations.common || {};
+const home = translations.home || {};
+const downloadText = common.downloadApp || home.hero?.getStarted || 'Download App';
+const valueProp = (home as any)?.download?.subtitle || 'Free to start. No credit card required.';
+---
+
+<div id="sticky-cta" class="sticky-cta" style="display: none;">
+  <div class="sticky-cta-content">
+    <div class="sticky-cta-text">
+      <span class="sticky-cta-label">{downloadText}</span>
+      <span class="sticky-cta-value">{valueProp}</span>
+    </div>
+    <a href="#download" class="btn btn-primary sticky-cta-button">{downloadText}</a>
+  </div>
+</div>
+
+<script>
+  // Show sticky CTA after scrolling past hero section
+  function initStickyCTA() {
+    const stickyCTA = document.getElementById('sticky-cta');
+    if (!stickyCTA) return;
+
+    // Find hero section
+    const heroSection = document.querySelector('.hero');
+    if (!heroSection) return;
+
+    // Create intersection observer to detect when hero section leaves viewport
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        // When hero section is no longer visible (scrolled past)
+        if (!entry.isIntersecting) {
+          stickyCTA.style.display = 'flex';
+          // Add slide-up animation
+          setTimeout(() => {
+            stickyCTA.classList.add('sticky-cta-visible');
+          }, 10);
+        } else {
+          // When hero section is visible again (scrolled back to top)
+          stickyCTA.classList.remove('sticky-cta-visible');
+          setTimeout(() => {
+            stickyCTA.style.display = 'none';
+          }, 300); // Wait for animation to complete
+        }
+      });
+    }, {
+      threshold: 0, // Trigger when hero completely leaves viewport
+      rootMargin: '0px'
+    });
+
+    observer.observe(heroSection);
+
+    // Smooth scroll to download section when clicking CTA
+    const ctaButton = stickyCTA.querySelector('.sticky-cta-button');
+    if (ctaButton) {
+      ctaButton.addEventListener('click', (e) => {
+        const downloadSection = document.querySelector('#download');
+        if (downloadSection) {
+          e.preventDefault();
+          downloadSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    }
+  }
+
+  // Initialize when DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initStickyCTA);
+  } else {
+    initStickyCTA();
+  }
+</script>
+
+<style>
+  .sticky-cta {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 40;
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(12px);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(100%);
+    transition: transform 0.3s ease-out;
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sticky-cta-visible {
+    transform: translateY(0);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .sticky-cta {
+      background: rgba(17, 24, 39, 0.98);
+      border-top-color: rgba(255, 255, 255, 0.1);
+    }
+  }
+
+  .sticky-cta-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .sticky-cta-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    flex: 1;
+  }
+
+  .sticky-cta-label {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--text-main);
+  }
+
+  .sticky-cta-value {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .sticky-cta-label {
+      color: var(--dark-text);
+    }
+    .sticky-cta-value {
+      color: var(--dark-muted);
+    }
+  }
+
+  .sticky-cta-button {
+    white-space: nowrap;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.95rem;
+  }
+
+  /* Hide on desktop (md and up) where header CTA is visible */
+  @media (min-width: 768px) {
+    .sticky-cta {
+      display: none !important;
+    }
+  }
+
+  /* Ensure it doesn't interfere with mobile menu */
+  @media (max-width: 767px) {
+    .sticky-cta {
+      /* Mobile menu has z-index 40, so we keep same level but ensure CTA is above content */
+    }
+  }
+</style>
